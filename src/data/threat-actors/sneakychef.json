@@ -1,0 +1,13 @@
+{
+  "id": "sneakychef",
+  "name": "SneakyChef",
+  "aliases": [],
+  "countryId": "china",
+  "orgId": "mss",
+  "opTypes": ["Cyber"],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "China-nexus actor conducting cyber espionage against government and critical infrastructure targets using spearphishing campaigns and the StealthyChef malware family.",
+  "confidence": "medium",
+  "sources": []
+}

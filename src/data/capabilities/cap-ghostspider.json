@@ -1,0 +1,8 @@
+{
+  "id": "cap-ghostspider",
+  "name": "GhostSpider",
+  "type": "backdoor",
+  "description": "Modular backdoor used by Salt Typhoon. Supports plugin loading, tunneling, and C2 over custom protocols. Deployed on compromised edge devices.",
+  "mitreAttackIds": ["T1071", "T1572", "T1055"],
+  "actorIds": ["salt-typhoon"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pla-ssf",
+  "name": "PLA Strategic Support Force",
+  "countryId": "china",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["volt-typhoon"],
+  "description": "PLA branch responsible for space, cyber, psychological, and electronic warfare operations."
+}

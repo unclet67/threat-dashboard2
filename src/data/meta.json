@@ -1,0 +1,9 @@
+{
+  "recentAdditions": [
+    { "type": "actor", "id": "volt-typhoon", "name": "Volt Typhoon", "addedAt": "2026-05-15" },
+    { "type": "actor", "id": "salt-typhoon", "name": "Salt Typhoon", "addedAt": "2026-05-15" },
+    { "type": "actor", "id": "apt41", "name": "APT41", "addedAt": "2026-05-15" },
+    { "type": "actor", "id": "apt31", "name": "APT31", "addedAt": "2026-05-15" },
+    { "type": "actor", "id": "unc5221", "name": "UNC5221", "addedAt": "2026-05-15" }
+  ]
+}

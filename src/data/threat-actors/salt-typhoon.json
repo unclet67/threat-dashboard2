@@ -1,0 +1,13 @@
+{
+  "id": "salt-typhoon",
+  "name": "Salt Typhoon",
+  "aliases": ["FamousSparrow", "GhostEmperor"],
+  "countryId": "china",
+  "orgId": "mss",
+  "opTypes": ["Cyber"],
+  "operationIds": ["op-cn-002"],
+  "capabilityIds": ["cap-ghostspider", "cap-demodex"],
+  "description": "MSS-affiliated actor specializing in compromising telecommunications providers and network edge devices. Known for GhostSpider backdoor and Demodex rootkit.",
+  "confidence": "high",
+  "sources": []
+}

@@ -1,1 +1,6 @@
-{ "id": "china", "name": "China", "aliases": [], "orgIds": [] }
+{
+  "id": "china",
+  "name": "China",
+  "aliases": ["PRC", "People's Republic of China"],
+  "orgIds": ["mss", "pla-ssf"]
+}

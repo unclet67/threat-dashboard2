@@ -1,0 +1,9 @@
+{
+  "id": "mss-jinan",
+  "name": "MSS Jinan Bureau",
+  "countryId": "china",
+  "parentOrgId": "mss",
+  "childOrgIds": [],
+  "actorIds": ["apt31"],
+  "description": "Shandong State Security Bureau, MSS regional office linked to APT31 operations targeting government and political entities."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "apt31",
+  "name": "APT31",
+  "aliases": ["Zirconium", "Hurricane Panda", "BRONZE VINEWOOD"],
+  "countryId": "china",
+  "orgId": "mss-jinan",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": ["op-cn-003"],
+  "capabilityIds": ["cap-sogu", "cap-luckybird"],
+  "description": "MSS Jinan Bureau-linked actor targeting government, political, and defense organizations globally. Uses tracking pixels, spearphishing, and a custom malware family including SOGU and LUCKYBIRD.",
+  "confidence": "high",
+  "sources": ["https://www.justice.gov/opa/pr/us-charges-seven-hackers-associated-chinese-government"]
+}

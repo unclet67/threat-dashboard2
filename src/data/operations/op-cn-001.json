@@ -1,0 +1,21 @@
+{
+  "id": "op-cn-001",
+  "name": "US Critical Infrastructure Pre-positioning",
+  "adversaryId": "volt-typhoon",
+  "capabilityId": null,
+  "infrastructure": {
+    "description": "Compromised SOHO routers and VPS nodes used as multi-hop proxy network to blend traffic with legitimate sources",
+    "indicators": ["soho-routers", "vps-clusters"]
+  },
+  "victim": {
+    "sector": "Critical Infrastructure",
+    "region": "United States",
+    "description": "Communications, energy, transportation, and water sectors"
+  },
+  "opType": "Cyber",
+  "killChainPhase": "Installation / Persistence",
+  "timeframe": "2021-2023",
+  "confidence": "high",
+  "description": "Long-term pre-positioning campaign in US critical infrastructure using living-off-the-land techniques. Goal assessed as preparation for disruptive attacks in a future conflict scenario.",
+  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a"]
+}

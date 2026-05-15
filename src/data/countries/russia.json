@@ -1,0 +1,6 @@
+{
+  "id": "russia",
+  "name": "Russia",
+  "aliases": ["Russian Federation"],
+  "orgIds": ["gru", "svr", "fsb"]
+}

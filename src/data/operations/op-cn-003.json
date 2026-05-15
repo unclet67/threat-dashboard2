@@ -1,0 +1,21 @@
+{
+  "id": "op-cn-003",
+  "name": "EU Parliamentary Targeting",
+  "adversaryId": "apt31",
+  "capabilityId": "cap-sogu",
+  "infrastructure": {
+    "description": "Compromised home routers used as proxy network; C2 via cloud services (Dropbox, GitHub)",
+    "indicators": ["compromised-routers", "cloud-c2"]
+  },
+  "victim": {
+    "sector": "Government",
+    "region": "Europe",
+    "description": "EU Parliament members, staff, and affiliated political organizations"
+  },
+  "opType": "Cyber",
+  "killChainPhase": "Actions on Objectives",
+  "timeframe": "2023-2024",
+  "confidence": "high",
+  "description": "Cyber espionage campaign targeting European political institutions using spearphishing with tracking pixels and SOGU backdoor deployment.",
+  "sources": []
+}

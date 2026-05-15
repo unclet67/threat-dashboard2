@@ -1,0 +1,8 @@
+{
+  "id": "cap-spawn",
+  "name": "SPAWN Ecosystem",
+  "type": "implant-suite",
+  "description": "Suite of malware deployed by UNC5221 on Ivanti devices: SPAWNANT (installer), SPAWNMOLE (tunneler), SPAWNSNAIL (SSH backdoor), SPAWNSLOTH (log wiper).",
+  "mitreAttackIds": ["T1190", "T1572", "T1070.002"],
+  "actorIds": ["unc5221"]
+}

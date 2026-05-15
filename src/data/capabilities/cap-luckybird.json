@@ -1,0 +1,8 @@
+{
+  "id": "cap-luckybird",
+  "name": "LUCKYBIRD",
+  "type": "dropper",
+  "description": "Dropper malware used by APT31 to deploy secondary payloads including SOGU. Uses DLL sideloading for execution.",
+  "mitreAttackIds": ["T1574.002", "T1027"],
+  "actorIds": ["apt31"]
+}

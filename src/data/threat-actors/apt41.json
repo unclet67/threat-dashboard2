@@ -1,0 +1,13 @@
+{
+  "id": "apt41",
+  "name": "APT41",
+  "aliases": ["Double Dragon", "BARIUM", "Winnti Group"],
+  "countryId": "china",
+  "orgId": "mss",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "Prolific MSS-affiliated actor conducting both state-sponsored espionage and financially motivated cybercrime. Known for supply chain compromises and a large custom malware arsenal.",
+  "confidence": "high",
+  "sources": []
+}

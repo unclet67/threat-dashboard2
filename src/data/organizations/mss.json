@@ -1,0 +1,9 @@
+{
+  "id": "mss",
+  "name": "Ministry of State Security",
+  "countryId": "china",
+  "parentOrgId": null,
+  "childOrgIds": ["mss-jinan"],
+  "actorIds": ["salt-typhoon", "apt41", "unc5221", "sneakychef"],
+  "description": "China's primary civilian intelligence agency, responsible for foreign intelligence collection and domestic counterintelligence."
+}

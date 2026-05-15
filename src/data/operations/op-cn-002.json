@@ -1,0 +1,21 @@
+{
+  "id": "op-cn-002",
+  "name": "Telecom Provider Compromise",
+  "adversaryId": "salt-typhoon",
+  "capabilityId": "cap-ghostspider",
+  "infrastructure": {
+    "description": "Compromised edge devices (Ivanti, Fortinet, Cisco) used as initial access; tunnels established via GhostSpider",
+    "indicators": ["edge-devices", "telecom-backbones"]
+  },
+  "victim": {
+    "sector": "Telecommunications",
+    "region": "United States",
+    "description": "Multiple US telecommunications providers, including networks carrying lawful intercept data"
+  },
+  "opType": "Cyber",
+  "killChainPhase": "Actions on Objectives",
+  "timeframe": "2024",
+  "confidence": "high",
+  "description": "Campaign targeting US telecom infrastructure to access lawful intercept systems and private communications of high-value targets including government officials.",
+  "sources": []
+}

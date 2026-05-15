@@ -1,0 +1,8 @@
+{
+  "id": "cap-sogu",
+  "name": "SOGU",
+  "type": "backdoor",
+  "description": "Modular backdoor used by APT31. Supports command execution, file transfer, keylogging, and screen capture. Communicates via HTTP/HTTPS.",
+  "mitreAttackIds": ["T1059.003", "T1071.001", "T1056.001"],
+  "actorIds": ["apt31"]
+}
