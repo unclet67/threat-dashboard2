@@ -1,0 +1,71 @@
+<h2>Architecture Approaches</h2>
+<p class="subtitle">Three ways to structure this app. Pick the one that fits your team's setup best.</p>
+
+<div class="options">
+
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Full-stack Monorepo — React + Express + SQLite <span style="font-size:11px;color:#3b82f6;font-weight:600;">(Recommended)</span></h3>
+      <p style="margin-bottom:8px;">React SPA frontend · Express REST API backend · SQLite database · All running together on one machine</p>
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:#64748b;font-family:monospace;">
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Browser → React UI</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Express API :3001</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">SQLite .db file</span>
+      </div>
+      <div style="margin-top:6px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:#64748b;font-family:monospace;">
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Express API</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Claude API</span>
+        <span style="color:#475569;">+</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">MITRE ATT&CK</span>
+      </div>
+      <div class="pros-cons" style="margin-top:10px;">
+        <div class="pros"><h4>Pros</h4><ul><li>Proper relational data model</li><li>API key stays on server (secure)</li><li>One instance shared by whole team</li><li>Everything in JS/TS</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Two processes to run (Vite + Express)</li><li>Slightly more setup</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Static SPA + JSON Files</h3>
+      <p style="margin-bottom:8px;">Pure React SPA · Knowledge base stored as structured JSON files · Claude API called directly from browser</p>
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:#64748b;font-family:monospace;">
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Browser → React UI</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">JSON data files</span>
+        <span style="color:#475569;">+</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Claude API (direct)</span>
+      </div>
+      <div class="pros-cons" style="margin-top:10px;">
+        <div class="pros"><h4>Pros</h4><ul><li>No backend to run or maintain</li><li>Data is git-friendly (plain files)</li><li>Simplest possible setup</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>API key exposed in browser</li><li>Complex relationships get messy in JSON</li><li>No real querying across actors/events</li><li>Concurrent team edits cause conflicts</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>React + PocketBase</h3>
+      <p style="margin-bottom:8px;">React SPA frontend · PocketBase as backend (single binary, no config) · Built-in admin UI for managing data</p>
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:11px;color:#64748b;font-family:monospace;">
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">Browser → React UI</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">PocketBase :8090</span>
+        <span>→</span>
+        <span style="background:#0f172a;border:1px solid #1e293b;padding:2px 8px;border-radius:4px;">SQLite (built-in)</span>
+      </div>
+      <div style="margin-top:6px;font-size:11px;color:#64748b;">+ Small Node sidecar for Claude API proxy</div>
+      <div class="pros-cons" style="margin-top:10px;">
+        <div class="pros"><h4>Pros</h4><ul><li>Free admin dashboard for data entry</li><li>Real-time subscriptions built in</li><li>Single binary, minimal setup</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Go binary dependency</li><li>Still needs Node sidecar for Claude</li><li>Mixed ecosystem (Go + JS)</li><li>Less control over API design</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+</div>

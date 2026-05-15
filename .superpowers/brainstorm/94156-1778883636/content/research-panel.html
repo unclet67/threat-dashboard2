@@ -1,0 +1,116 @@
+<h2>AI Research Panel — Design</h2>
+<p class="subtitle">How should the Claude-powered research interface work? Two approaches.</p>
+
+<div class="split">
+
+  <div class="mockup" data-choice="a" onclick="toggleSelect(this)" style="cursor:pointer;border:2px solid transparent;border-radius:6px;transition:border-color 0.2s;" onmouseenter="this.style.borderColor='#3b82f6'" onmouseleave="if(!this.classList.contains('selected'))this.style.borderColor='transparent'">
+    <div class="mockup-header">A — Chat Interface</div>
+    <div class="mockup-body" style="background:#080f1a;padding:12px;display:flex;flex-direction:column;gap:8px;min-height:320px;">
+
+      <!-- context bar -->
+      <div style="display:flex;gap:6px;align-items:center;">
+        <span style="font-size:8px;color:#475569;font-family:monospace;">CONTEXT:</span>
+        <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">🇨🇳 China</span>
+        <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">APT31</span>
+        <span style="font-size:8px;color:#334155;margin-left:auto;">+ Add context</span>
+      </div>
+
+      <!-- chat messages -->
+      <div style="flex:1;display:flex;flex-direction:column;gap:8px;overflow:hidden;">
+
+        <div style="display:flex;justify-content:flex-end;">
+          <div style="background:#1e3a5f;color:#e2e8f0;font-size:9px;padding:6px 10px;border-radius:8px 8px 2px 8px;max-width:80%;">
+            Research recent APT31 IO campaigns targeting Western elections
+          </div>
+        </div>
+
+        <div style="display:flex;gap:6px;">
+          <div style="width:18px;height:18px;background:#1e293b;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:8px;">⚗</div>
+          <div style="background:#0f172a;border:1px solid #1e293b;color:#94a3b8;font-size:9px;padding:8px 10px;border-radius:2px 8px 8px 8px;flex:1;">
+            <div style="margin-bottom:6px;color:#e2e8f0;">APT31 (Zirconium/Hurricane Panda) has conducted IO operations targeting Western election infrastructure since at least 2020...</div>
+            <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;padding-top:6px;border-top:1px solid #1e293b;">
+              <span style="font-size:7px;background:#1e293b;color:#3b82f6;padding:2px 6px;border-radius:3px;">📎 Mandiant 2024</span>
+              <span style="font-size:7px;background:#1e293b;color:#3b82f6;padding:2px 6px;border-radius:3px;">📎 DOJ Indictment</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- save to KB prompt -->
+        <div style="background:#0d1f0d;border:1px solid #166534;border-radius:4px;padding:6px 8px;display:flex;align-items:center;gap:8px;">
+          <span style="font-size:8px;color:#86efac;">💾 Save findings to knowledge base?</span>
+          <span style="font-size:8px;background:#166534;color:#86efac;padding:2px 8px;border-radius:3px;margin-left:auto;">Add Operation</span>
+          <span style="font-size:8px;background:#166534;color:#86efac;padding:2px 8px;border-radius:3px;">Update Actor</span>
+        </div>
+
+      </div>
+
+      <!-- input -->
+      <div style="display:flex;gap:6px;align-items:center;background:#0f172a;border:1px solid #1e293b;border-radius:6px;padding:6px 8px;">
+        <input style="flex:1;background:transparent;border:none;outline:none;font-size:9px;color:#94a3b8;font-family:monospace;" placeholder="Ask about IW activity, threat actors, operations...">
+        <span style="font-size:8px;background:#1e3a5f;color:#93c5fd;padding:3px 8px;border-radius:4px;cursor:pointer;">Send</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup" data-choice="b" onclick="toggleSelect(this)" style="cursor:pointer;border:2px solid transparent;border-radius:6px;transition:border-color 0.2s;" onmouseenter="this.style.borderColor='#3b82f6'" onmouseleave="if(!this.classList.contains('selected'))this.style.borderColor='transparent'">
+    <div class="mockup-header">B — Structured Research Form</div>
+    <div class="mockup-body" style="background:#080f1a;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:320px;">
+
+      <!-- form fields -->
+      <div>
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">RESEARCH TOPIC</div>
+        <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:6px 8px;font-size:9px;color:#64748b;">APT31 Information Operations — 2024</div>
+      </div>
+
+      <div style="display:flex;gap:8px;">
+        <div style="flex:1;">
+          <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">COUNTRY</div>
+          <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:5px 8px;font-size:9px;color:#94a3b8;">🇨🇳 China</div>
+        </div>
+        <div style="flex:1;">
+          <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">TYPE</div>
+          <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:5px 8px;font-size:9px;color:#94a3b8;">IO + Cyber</div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">OUTPUT FIELDS</div>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">
+          <span style="font-size:8px;background:#1e3a5f;color:#93c5fd;padding:2px 8px;border-radius:3px;">✓ Diamond Model</span>
+          <span style="font-size:8px;background:#1e3a5f;color:#93c5fd;padding:2px 8px;border-radius:3px;">✓ TTPs</span>
+          <span style="font-size:8px;background:#1e293b;color:#64748b;padding:2px 8px;border-radius:3px;">Kill Chain</span>
+          <span style="font-size:8px;background:#1e293b;color:#64748b;padding:2px 8px;border-radius:3px;">Timeline</span>
+        </div>
+      </div>
+
+      <!-- structured result -->
+      <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:8px;flex:1;">
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:6px;">RESEARCH OUTPUT</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+          <div style="background:#0d1f0d;border:1px solid #166534;border-radius:3px;padding:4px;">
+            <div style="font-size:7px;color:#475569;margin-bottom:2px;">ADVERSARY</div>
+            <div style="font-size:9px;color:#86efac;">APT31</div>
+          </div>
+          <div style="background:#0d1f0d;border:1px solid #166534;border-radius:3px;padding:4px;">
+            <div style="font-size:7px;color:#475569;margin-bottom:2px;">CAPABILITY</div>
+            <div style="font-size:9px;color:#86efac;">Spearphish + SOGU</div>
+          </div>
+          <div style="background:#0d1f0d;border:1px solid #166534;border-radius:3px;padding:4px;">
+            <div style="font-size:7px;color:#475569;margin-bottom:2px;">INFRA</div>
+            <div style="font-size:9px;color:#86efac;">SOHO proxies</div>
+          </div>
+          <div style="background:#0d1f0d;border:1px solid #166534;border-radius:3px;padding:4px;">
+            <div style="font-size:7px;color:#475569;margin-bottom:2px;">VICTIM</div>
+            <div style="font-size:9px;color:#86efac;">EU Parliament</div>
+          </div>
+        </div>
+        <div style="margin-top:6px;text-align:center;">
+          <span style="font-size:8px;background:#166534;color:#86efac;padding:3px 12px;border-radius:4px;">Save to Knowledge Base →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:12px;font-size:11px;">Click a mockup to select it</p>

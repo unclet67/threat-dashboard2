@@ -1,0 +1,138 @@
+<h2>App Layout</h2>
+<p class="subtitle">How should the main navigation and page structure be organized?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;padding:12px;min-height:200px;">
+      <div class="mockup" style="margin:0;">
+        <div class="mockup-header" style="font-size:10px;">Layout A — Top Nav + Country Tabs</div>
+        <div class="mockup-body" style="padding:0;">
+          <!-- top nav -->
+          <div style="background:#0f172a;border-bottom:1px solid #1e293b;padding:6px 10px;display:flex;align-items:center;gap:12px;">
+            <span style="color:#3b82f6;font-size:10px;font-weight:700;font-family:monospace;">IW RESEARCH</span>
+            <div style="display:flex;gap:8px;margin-left:auto;">
+              <span style="font-size:9px;color:#64748b;font-family:monospace;cursor:pointer;">RESEARCH</span>
+              <span style="font-size:9px;color:#64748b;font-family:monospace;cursor:pointer;">ANALYTICS</span>
+            </div>
+          </div>
+          <!-- country tabs -->
+          <div style="display:flex;border-bottom:1px solid #1e293b;">
+            <div style="padding:5px 10px;font-size:9px;color:#e2e8f0;border-bottom:2px solid #3b82f6;font-family:monospace;">🇨🇳 CHINA</div>
+            <div style="padding:5px 10px;font-size:9px;color:#64748b;font-family:monospace;">🇷🇺 RUSSIA</div>
+            <div style="padding:5px 10px;font-size:9px;color:#64748b;font-family:monospace;">🇮🇷 IRAN</div>
+            <div style="padding:5px 10px;font-size:9px;color:#64748b;font-family:monospace;">🇰🇵 DPRK</div>
+          </div>
+          <!-- content -->
+          <div style="display:flex;gap:0;min-height:110px;">
+            <div style="width:38%;border-right:1px solid #1e293b;padding:8px;">
+              <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">ORG HIERARCHY</div>
+              <div style="font-size:9px;color:#94a3b8;padding:2px 0;">▾ MSS</div>
+              <div style="font-size:9px;color:#94a3b8;padding:2px 0 2px 10px;">▾ Jinan Bureau</div>
+              <div style="font-size:9px;color:#3b82f6;padding:2px 0 2px 20px;">• APT31</div>
+              <div style="font-size:9px;color:#94a3b8;padding:2px 0 2px 10px;">• Shanghai Bureau</div>
+              <div style="font-size:9px;color:#94a3b8;padding:2px 0;">▾ PLA SSF</div>
+              <div style="font-size:9px;color:#94a3b8;padding:2px 0 2px 10px;">• Unit 61398</div>
+            </div>
+            <div style="flex:1;padding:8px;">
+              <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">APT31 — THREAT ACTOR</div>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:8px;background:#1e3a5f;color:#93c5fd;padding:2px 6px;border-radius:3px;">Cyber Espionage</span>
+                <span style="font-size:8px;background:#1e3a5f;color:#93c5fd;padding:2px 6px;border-radius:3px;">IO</span>
+              </div>
+              <div style="margin-top:6px;font-size:8px;color:#64748b;">12 operations · 8 capabilities · High confidence</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Top Nav + Country Tabs</h3>
+      <p>Country is the primary lens. Tabs switch between China/Russia/Iran/DPRK. Left panel shows org tree, right shows actor/operation detail. Research and Analytics in top nav.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;padding:12px;min-height:200px;">
+      <div class="mockup" style="margin:0;">
+        <div class="mockup-header" style="font-size:10px;">Layout B — Sidebar Nav</div>
+        <div class="mockup-body" style="padding:0;display:flex;min-height:140px;">
+          <!-- sidebar -->
+          <div style="width:90px;background:#080f1a;border-right:1px solid #1e293b;padding:8px 6px;display:flex;flex-direction:column;gap:2px;">
+            <div style="font-size:8px;color:#3b82f6;font-weight:700;font-family:monospace;margin-bottom:6px;padding:2px;">IW</div>
+            <div style="font-size:8px;color:#475569;font-family:monospace;padding:4px 6px;text-transform:uppercase;letter-spacing:0.5px;">Countries</div>
+            <div style="font-size:9px;color:#e2e8f0;padding:4px 6px;background:#1e293b;border-radius:3px;">🇨🇳 China</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">🇷🇺 Russia</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">🇮🇷 Iran</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">🇰🇵 DPRK</div>
+            <div style="font-size:8px;color:#475569;font-family:monospace;padding:4px 6px;text-transform:uppercase;letter-spacing:0.5px;margin-top:4px;">Tools</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">⚗ Research</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">📊 Analytics</div>
+            <div style="font-size:9px;color:#64748b;padding:4px 6px;">🔍 Search</div>
+          </div>
+          <!-- main content -->
+          <div style="flex:1;display:flex;flex-direction:column;">
+            <div style="padding:8px;border-bottom:1px solid #1e293b;">
+              <div style="font-size:10px;color:#e2e8f0;font-family:monospace;">China — MSS → Jinan Bureau → APT31</div>
+            </div>
+            <div style="padding:8px;flex:1;">
+              <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:6px;">DIAMOND MODEL — OPERATION #7</div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+                <div style="background:#1e293b;border-radius:3px;padding:4px;font-size:8px;color:#94a3b8;">Adversary: APT31</div>
+                <div style="background:#1e293b;border-radius:3px;padding:4px;font-size:8px;color:#94a3b8;">Capability: SOGU</div>
+                <div style="background:#1e293b;border-radius:3px;padding:4px;font-size:8px;color:#94a3b8;">Infra: Compromised routers</div>
+                <div style="background:#1e293b;border-radius:3px;padding:4px;font-size:8px;color:#94a3b8;">Victim: EU Parliament</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Persistent Sidebar</h3>
+      <p>Sidebar always visible with country links + tools. Breadcrumb trail shows current drill-down path. Main area shows all content. More screen real estate for detail views.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0f172a;padding:12px;min-height:200px;">
+      <div class="mockup" style="margin:0;">
+        <div class="mockup-header" style="font-size:10px;">Layout C — Dashboard Home + Drill-Down</div>
+        <div class="mockup-body" style="padding:8px;">
+          <!-- dashboard grid -->
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:6px;">
+            <div style="background:#1e293b;border-radius:4px;padding:6px;text-align:center;">
+              <div style="font-size:16px;">🇨🇳</div>
+              <div style="font-size:9px;color:#94a3b8;font-family:monospace;">CHINA</div>
+              <div style="font-size:8px;color:#3b82f6;">14 actors · 38 ops</div>
+            </div>
+            <div style="background:#1e293b;border-radius:4px;padding:6px;text-align:center;">
+              <div style="font-size:16px;">🇷🇺</div>
+              <div style="font-size:9px;color:#94a3b8;font-family:monospace;">RUSSIA</div>
+              <div style="font-size:8px;color:#3b82f6;">11 actors · 29 ops</div>
+            </div>
+            <div style="background:#1e293b;border-radius:4px;padding:6px;text-align:center;">
+              <div style="font-size:16px;">🇮🇷</div>
+              <div style="font-size:9px;color:#94a3b8;font-family:monospace;">IRAN</div>
+              <div style="font-size:8px;color:#3b82f6;">8 actors · 22 ops</div>
+            </div>
+            <div style="background:#1e293b;border-radius:4px;padding:6px;text-align:center;">
+              <div style="font-size:16px;">🇰🇵</div>
+              <div style="font-size:9px;color:#94a3b8;font-family:monospace;">DPRK</div>
+              <div style="font-size:8px;color:#3b82f6;">6 actors · 18 ops</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:6px;">
+            <div style="flex:1;background:#1e293b;border-radius:4px;padding:5px;font-size:8px;color:#64748b;font-family:monospace;">⚗ AI RESEARCH</div>
+            <div style="flex:1;background:#1e293b;border-radius:4px;padding:5px;font-size:8px;color:#64748b;font-family:monospace;">📊 ANALYTICS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Dashboard Home + Drill-Down</h3>
+      <p>Landing page shows all 4 countries as cards with stats. Click into a country to drill down. No persistent sidebar — breadcrumb navigation. Feels more like an intelligence portal.</p>
+    </div>
+  </div>
+
+</div>

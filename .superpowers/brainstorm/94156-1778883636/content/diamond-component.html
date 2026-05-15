@@ -1,0 +1,139 @@
+<h2>Diamond Model — Component Design</h2>
+<p class="subtitle">How the Diamond Model appears on an operation detail page. Both the diagram and aggregated data are shown.</p>
+
+<div class="split">
+
+  <div class="mockup">
+    <div class="mockup-header">Operation Detail — Diamond Diagram</div>
+    <div class="mockup-body" style="background:#080f1a;padding:16px;">
+
+      <!-- operation header -->
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:10px;background:#1e3a5f;color:#93c5fd;padding:3px 8px;border-radius:4px;font-family:monospace;">CYBER</span>
+        <span style="font-size:10px;background:#1a2e1a;color:#86efac;padding:3px 8px;border-radius:4px;font-family:monospace;">HIGH CONFIDENCE</span>
+        <span style="font-size:10px;color:#475569;font-family:monospace;margin-left:auto;">2024-Q3</span>
+      </div>
+
+      <!-- diamond SVG -->
+      <div style="display:flex;justify-content:center;margin-bottom:12px;">
+        <svg viewBox="0 0 280 240" width="280" height="240">
+          <!-- axis lines -->
+          <line x1="140" y1="30" x2="140" y2="210" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+          <line x1="30" y1="120" x2="250" y2="120" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+
+          <!-- axis labels -->
+          <text x="140" y="225" text-anchor="middle" fill="#334155" font-size="8" font-family="monospace">SOCIAL-POLITICAL AXIS</text>
+          <text x="18" y="123" text-anchor="middle" fill="#334155" font-size="7" font-family="monospace" transform="rotate(-90,18,120)">TECHNOLOGY</text>
+
+          <!-- diamond outline -->
+          <polygon points="140,32 248,120 140,208 32,120" fill="none" stroke="#1e40af" stroke-width="1.5" opacity="0.6"/>
+
+          <!-- fill gradient -->
+          <polygon points="140,32 248,120 140,208 32,120" fill="#1e3a5f" opacity="0.15"/>
+
+          <!-- ADVERSARY node (top) -->
+          <circle cx="140" cy="32" r="26" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+          <text x="140" y="27" text-anchor="middle" fill="#64748b" font-size="7" font-family="monospace">ADVERSARY</text>
+          <text x="140" y="38" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold" font-family="monospace">APT31</text>
+
+          <!-- CAPABILITY node (right) -->
+          <circle cx="248" cy="120" r="26" fill="#0f172a" stroke="#8b5cf6" stroke-width="2"/>
+          <text x="248" y="115" text-anchor="middle" fill="#64748b" font-size="7" font-family="monospace">CAPABILITY</text>
+          <text x="248" y="126" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold" font-family="monospace">SOGU</text>
+
+          <!-- VICTIM node (bottom) -->
+          <circle cx="140" cy="208" r="26" fill="#0f172a" stroke="#ef4444" stroke-width="2"/>
+          <text x="140" y="203" text-anchor="middle" fill="#64748b" font-size="7" font-family="monospace">VICTIM</text>
+          <text x="140" y="214" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="bold" font-family="monospace">EU Govt</text>
+
+          <!-- INFRASTRUCTURE node (left) -->
+          <circle cx="32" cy="120" r="26" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+          <text x="32" y="115" text-anchor="middle" fill="#64748b" font-size="7" font-family="monospace">INFRA</text>
+          <text x="32" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="bold" font-family="monospace">SOHO Net</text>
+
+          <!-- connection lines -->
+          <line x1="140" y1="58" x2="222" y2="100" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
+          <line x1="222" y1="140" x2="140" y2="182" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
+          <line x1="58" y1="100" x2="140" y2="58" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
+          <line x1="58" y1="140" x2="140" y2="182" stroke="#3b82f6" stroke-width="1" opacity="0.4"/>
+        </svg>
+      </div>
+
+      <!-- meta row -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+        <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:6px;">
+          <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:2px;">OP TYPE</div>
+          <div style="font-size:10px;color:#93c5fd;">Cyberspace — Espionage</div>
+        </div>
+        <div style="background:#0f172a;border:1px solid #1e293b;border-radius:4px;padding:6px;">
+          <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:2px;">KILL CHAIN PHASE</div>
+          <div style="font-size:10px;color:#93c5fd;">Actions on Objectives</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">Threat Actor — Aggregated Views</div>
+    <div class="mockup-body" style="background:#080f1a;padding:16px;">
+
+      <div style="font-size:10px;color:#475569;font-family:monospace;margin-bottom:8px;">APT31 — 12 OPERATIONS</div>
+
+      <!-- op type split -->
+      <div style="margin-bottom:12px;">
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:4px;">OPERATION TYPE SPLIT</div>
+        <div style="display:flex;height:14px;border-radius:4px;overflow:hidden;gap:1px;">
+          <div style="flex:7;background:#1e40af;"></div>
+          <div style="flex:3;background:#7c3aed;"></div>
+          <div style="flex:2;background:#065f46;"></div>
+        </div>
+        <div style="display:flex;gap:10px;margin-top:4px;">
+          <span style="font-size:8px;color:#64748b;">■ Cyber (7)</span>
+          <span style="font-size:8px;color:#64748b;">■ IO (3)</span>
+          <span style="font-size:8px;color:#64748b;">■ Both (2)</span>
+        </div>
+      </div>
+
+      <!-- top capabilities -->
+      <div style="margin-bottom:12px;">
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:6px;">TOP CAPABILITIES</div>
+        <div style="display:flex;flex-direction:column;gap:4px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <div style="font-size:9px;color:#94a3b8;width:70px;flex-shrink:0;">SOGU</div>
+            <div style="flex:1;height:8px;background:#1e293b;border-radius:2px;">
+              <div style="height:100%;width:75%;background:#3b82f6;border-radius:2px;"></div>
+            </div>
+            <div style="font-size:8px;color:#475569;">9</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;">
+            <div style="font-size:9px;color:#94a3b8;width:70px;flex-shrink:0;">LUCKYBIRD</div>
+            <div style="flex:1;height:8px;background:#1e293b;border-radius:2px;">
+              <div style="height:100%;width:50%;background:#3b82f6;border-radius:2px;"></div>
+            </div>
+            <div style="font-size:8px;color:#475569;">6</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:6px;">
+            <div style="font-size:9px;color:#94a3b8;width:70px;flex-shrink:0;">Cobalt Strike</div>
+            <div style="flex:1;height:8px;background:#1e293b;border-radius:2px;">
+              <div style="height:100%;width:33%;background:#3b82f6;border-radius:2px;"></div>
+            </div>
+            <div style="font-size:8px;color:#475569;">4</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- victim sectors -->
+      <div>
+        <div style="font-size:8px;color:#475569;font-family:monospace;margin-bottom:6px;">TOP VICTIM SECTORS</div>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">
+          <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">Government (5)</span>
+          <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">Defense (3)</span>
+          <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">Energy (2)</span>
+          <span style="font-size:8px;background:#1e293b;color:#94a3b8;padding:2px 8px;border-radius:10px;">Finance (2)</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
