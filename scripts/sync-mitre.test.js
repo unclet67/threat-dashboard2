@@ -1,6 +1,14 @@
 // @vitest-environment node
 import { describe, it, expect } from 'vitest'
-import { slugify, extractRelationships, mapGroup, mapSoftware } from './sync-mitre.js'
+import {
+  slugify,
+  extractRelationships,
+  mapGroup,
+  mapSoftware,
+  mergeActor,
+  mergeCapability,
+  makeCountryStub,
+} from './sync-mitre.js'
 
 describe('slugify', () => {
   it('lowercases and replaces non-alphanumeric with hyphens', () => {
@@ -185,5 +193,170 @@ describe('mapSoftware', () => {
   it('truncates description to 300 chars', () => {
     const cap = mapSoftware({ ...malware, description: 'x'.repeat(400) }, {}, groupsUsing)
     expect(cap.description.length).toBe(300)
+  })
+})
+
+describe('mergeActor', () => {
+  const existing = {
+    id: 'apt28',
+    name: 'APT28',
+    aliases: ['Fancy Bear'],
+    countryId: 'russia',
+    orgId: 'gru',
+    opTypes: ['Cyber'],
+    operationIds: ['op-ru-001'],
+    capabilityIds: ['cap-xagent'],
+    description: 'Hand-written description.',
+    confidence: 'high',
+    sources: ['https://existing.example.com'],
+  }
+  const incoming = {
+    id: 'apt28',
+    name: 'APT28',
+    aliases: ['STRONTIUM', 'Sofacy'],
+    countryId: 'russia',
+    orgId: null,
+    opTypes: [],
+    operationIds: [],
+    capabilityIds: ['cap-x-agent', 'cap-xagent'],
+    description: 'MITRE description.',
+    confidence: 'medium',
+    sources: ['https://attack.mitre.org/groups/G0007/'],
+  }
+
+  it('union-merges aliases without duplicates', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.aliases).toContain('Fancy Bear')
+    expect(merged.aliases).toContain('STRONTIUM')
+    expect(merged.aliases).toContain('Sofacy')
+  })
+
+  it('union-merges capabilityIds and deduplicates', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.capabilityIds).toContain('cap-xagent')
+    expect(merged.capabilityIds).toContain('cap-x-agent')
+    expect(merged.capabilityIds.filter(id => id === 'cap-xagent').length).toBe(1)
+  })
+
+  it('union-merges sources', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.sources).toContain('https://existing.example.com')
+    expect(merged.sources).toContain('https://attack.mitre.org/groups/G0007/')
+  })
+
+  it('preserves orgId from existing', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.orgId).toBe('gru')
+  })
+
+  it('preserves opTypes from existing when non-empty', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.opTypes).toEqual(['Cyber'])
+  })
+
+  it('preserves operationIds from existing', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.operationIds).toEqual(['op-ru-001'])
+  })
+
+  it('preserves confidence from existing', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.confidence).toBe('high')
+  })
+
+  it('preserves existing description when non-empty', () => {
+    const merged = mergeActor(existing, incoming)
+    expect(merged.description).toBe('Hand-written description.')
+  })
+
+  it('uses incoming description when existing is empty', () => {
+    const merged = mergeActor({ ...existing, description: '' }, incoming)
+    expect(merged.description).toBe('MITRE description.')
+  })
+
+  it('preserves existing countryId when set', () => {
+    const merged = mergeActor(existing, { ...incoming, countryId: 'china' })
+    expect(merged.countryId).toBe('russia')
+  })
+})
+
+describe('mergeCapability', () => {
+  const existing = {
+    id: 'cap-xagent',
+    name: 'X-Agent',
+    type: 'implant',
+    description: 'Existing description.',
+    mitreAttackIds: ['T1055'],
+    actorIds: ['apt28'],
+  }
+  const incoming = {
+    id: 'cap-x-agent',
+    name: 'X-Agent',
+    type: 'implant',
+    description: 'MITRE description.',
+    mitreAttackIds: ['T1059', 'T1055'],
+    actorIds: ['apt28', 'sandworm'],
+  }
+
+  it('always preserves existing id', () => {
+    const merged = mergeCapability(existing, incoming)
+    expect(merged.id).toBe('cap-xagent')
+  })
+
+  it('union-merges mitreAttackIds without duplicates', () => {
+    const merged = mergeCapability(existing, incoming)
+    expect(merged.mitreAttackIds).toContain('T1055')
+    expect(merged.mitreAttackIds).toContain('T1059')
+    expect(merged.mitreAttackIds.filter(id => id === 'T1055').length).toBe(1)
+  })
+
+  it('union-merges actorIds', () => {
+    const merged = mergeCapability(existing, incoming)
+    expect(merged.actorIds).toContain('apt28')
+    expect(merged.actorIds).toContain('sandworm')
+  })
+
+  it('preserves existing description when non-empty', () => {
+    const merged = mergeCapability(existing, incoming)
+    expect(merged.description).toBe('Existing description.')
+  })
+
+  it('uses incoming description when existing is empty', () => {
+    const merged = mergeCapability({ ...existing, description: '' }, incoming)
+    expect(merged.description).toBe('MITRE description.')
+  })
+
+  it('preserves existing type when set', () => {
+    const merged = mergeCapability(existing, { ...incoming, type: 'tool' })
+    expect(merged.type).toBe('implant')
+  })
+})
+
+describe('makeCountryStub', () => {
+  it('capitalizes a single-word slug', () => {
+    expect(makeCountryStub('vietnam')).toEqual({
+      id: 'vietnam',
+      name: 'Vietnam',
+      aliases: [],
+      orgIds: [],
+    })
+  })
+
+  it('capitalizes each word in a hyphenated slug', () => {
+    expect(makeCountryStub('north-korea')).toEqual({
+      id: 'north-korea',
+      name: 'North Korea',
+      aliases: [],
+      orgIds: [],
+    })
+  })
+
+  it('handles multiple hyphens', () => {
+    expect(makeCountryStub('saudi-arabia')).toEqual({
+      id: 'saudi-arabia',
+      name: 'Saudi Arabia',
+      aliases: [],
+      orgIds: [],
+    })
   })
 })

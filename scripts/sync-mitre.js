@@ -69,3 +69,37 @@ export function mapSoftware(mitreSoftware, softwareToTechniques, groupsUsing) {
     actorIds: [...new Set(groupsUsing.map(g => slugify(g.name)))],
   }
 }
+
+export function mergeActor(existing, incoming) {
+  return {
+    ...incoming,
+    orgId: existing.orgId ?? incoming.orgId,
+    opTypes: existing.opTypes?.length ? existing.opTypes : incoming.opTypes,
+    operationIds: existing.operationIds ?? incoming.operationIds,
+    confidence: existing.confidence ?? incoming.confidence,
+    description: existing.description || incoming.description,
+    countryId: existing.countryId ?? incoming.countryId,
+    aliases: [...new Set([...(existing.aliases || []), ...(incoming.aliases || [])])],
+    capabilityIds: [...new Set([...(existing.capabilityIds || []), ...(incoming.capabilityIds || [])])],
+    sources: [...new Set([...(existing.sources || []), ...(incoming.sources || [])])],
+  }
+}
+
+export function mergeCapability(existing, incoming) {
+  return {
+    ...incoming,
+    id: existing.id,
+    type: existing.type || incoming.type,
+    description: existing.description || incoming.description,
+    mitreAttackIds: [...new Set([...(existing.mitreAttackIds || []), ...(incoming.mitreAttackIds || [])])],
+    actorIds: [...new Set([...(existing.actorIds || []), ...(incoming.actorIds || [])])],
+  }
+}
+
+export function makeCountryStub(countryId) {
+  const name = countryId
+    .split('-')
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ')
+  return { id: countryId, name, aliases: [], orgIds: [] }
+}
