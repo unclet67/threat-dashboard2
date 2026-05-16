@@ -1,0 +1,18 @@
+{
+  "id": "cap-mopsled",
+  "name": "MOPSLED",
+  "type": "implant",
+  "description": "[MOPSLED](https://attack.mitre.org/software/S1221) is a shellcode-based modular backdoor that has been used by China-nexus cyber espionage actors including [UNC3886](https://attack.mitre.org/groups/G1048) and [APT41](https://attack.mitre.org/groups/G0096).(Citation: Google Cloud Mandiant UNC3886 202",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1027.013",
+    "T1140",
+    "T1102",
+    "T1102.001",
+    "T1095"
+  ],
+  "actorIds": [
+    "unc3886",
+    "apt41"
+  ]
+}

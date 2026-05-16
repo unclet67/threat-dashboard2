@@ -1,0 +1,31 @@
+{
+  "id": "cap-rustywater",
+  "name": "RustyWater",
+  "type": "implant",
+  "description": "[RustyWater](https://attack.mitre.org/software/S9037) is a Rust-based implant used by [MuddyWater](https://attack.mitre.org/groups/G0069). Historically, [MuddyWater](https://attack.mitre.org/groups/G0069) has used PowerShell-based tools and [RustyWater](https://attack.mitre.org/software/S9037) refle",
+  "mitreAttackIds": [
+    "T1684.001",
+    "T1033",
+    "T1027.013",
+    "T1082",
+    "T1071.001",
+    "T1132.001",
+    "T1566.001",
+    "T1106",
+    "T1573.001",
+    "T1055.002",
+    "T1547.001",
+    "T1678",
+    "T1087.002",
+    "T1027",
+    "T1622",
+    "T1518.001",
+    "T1559.001",
+    "T1140",
+    "T1036.005",
+    "T1204.002"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

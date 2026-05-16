@@ -1,0 +1,35 @@
+{
+  "id": "gallium",
+  "name": "GALLIUM",
+  "aliases": [
+    "GALLIUM",
+    "Granite Typhoon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-ipconfig",
+    "cap-ping",
+    "cap-cmd",
+    "cap-china-chopper",
+    "cap-poisonivy",
+    "cap-at",
+    "cap-plugx",
+    "cap-pingpull",
+    "cap-blackmould",
+    "cap-mimikatz",
+    "cap-net",
+    "cap-reg",
+    "cap-psexec",
+    "cap-htran",
+    "cap-nbtscan",
+    "cap-windows-credential-editor"
+  ],
+  "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0093"
+  ]
+}

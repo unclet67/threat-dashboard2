@@ -1,0 +1,17 @@
+{
+  "id": "rocke",
+  "name": "Rocke",
+  "aliases": [
+    "Rocke"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[Rocke](https://attack.mitre.org/groups/G0106) is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name [Rocke](https://attack.mitre.org/groups/G0106) comes from the email ad",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0106"
+  ]
+}

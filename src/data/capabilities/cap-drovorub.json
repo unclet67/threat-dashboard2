@@ -1,0 +1,23 @@
+{
+  "id": "cap-drovorub",
+  "name": "Drovorub",
+  "type": "implant",
+  "description": "[Drovorub](https://attack.mitre.org/software/S0502) is a Linux malware toolset comprised of an agent, client, server, and kernel modules, that has been used by [APT28](https://attack.mitre.org/groups/G0007).(Citation: NSA/FBI Drovorub August 2020)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1005",
+    "T1027",
+    "T1070.004",
+    "T1547.006",
+    "T1095",
+    "T1014",
+    "T1090.001",
+    "T1059.004",
+    "T1140",
+    "T1041",
+    "T1105"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cap-netsh",
+  "name": "netsh",
+  "type": "tool",
+  "description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
+  "mitreAttackIds": [
+    "T1686",
+    "T1546.007",
+    "T1090",
+    "T1518.001"
+  ],
+  "actorIds": [
+    "dragonfly",
+    "lazarus-group",
+    "volt-typhoon",
+    "magic-hound",
+    "apt32",
+    "naikon",
+    "carbanak"
+  ]
+}

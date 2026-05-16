@@ -1,0 +1,15 @@
+{
+  "id": "cap-callme",
+  "name": "CallMe",
+  "type": "implant",
+  "description": "[CallMe](https://attack.mitre.org/software/S0077) is a Trojan designed to run on Apple OSX. It is based on a publicly available tool called Tiny SHell. (Citation: Scarlet Mimic Jan 2016)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1573.001",
+    "T1059.004",
+    "T1041"
+  ],
+  "actorIds": [
+    "scarlet-mimic"
+  ]
+}

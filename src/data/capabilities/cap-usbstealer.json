@@ -1,0 +1,25 @@
+{
+  "id": "cap-usbstealer",
+  "name": "USBStealer",
+  "type": "implant",
+  "description": "[USBStealer](https://attack.mitre.org/software/S0136) is malware that has been used by [APT28](https://attack.mitre.org/groups/G0007) since at least 2005 to extract information from air-gapped networks. It does not have the capability to communicate over the Internet and has been used in conjunction",
+  "mitreAttackIds": [
+    "T1025",
+    "T1027.013",
+    "T1083",
+    "T1052.001",
+    "T1070.006",
+    "T1547.001",
+    "T1119",
+    "T1036.005",
+    "T1020",
+    "T1092",
+    "T1091",
+    "T1070.004",
+    "T1120",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

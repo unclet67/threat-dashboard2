@@ -1,0 +1,26 @@
+{
+  "id": "cap-inc-ransomware",
+  "name": "INC Ransomware",
+  "type": "implant",
+  "description": "[INC Ransomware](https://attack.mitre.org/software/S1139) is a ransomware strain that has been used by the [INC Ransom](https://attack.mitre.org/groups/G1032) group since at least 2023 against multiple industry sectors worldwide. [INC Ransomware](https://attack.mitre.org/software/S1139) can employ p",
+  "mitreAttackIds": [
+    "T1120",
+    "T1570",
+    "T1566",
+    "T1106",
+    "T1652",
+    "T1490",
+    "T1047",
+    "T1680",
+    "T1135",
+    "T1486",
+    "T1140",
+    "T1083",
+    "T1057",
+    "T1489",
+    "T1491.001"
+  ],
+  "actorIds": [
+    "inc-ransom"
+  ]
+}

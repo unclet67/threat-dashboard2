@@ -1,0 +1,21 @@
+{
+  "id": "cap-spark",
+  "name": "Spark",
+  "type": "implant",
+  "description": "\n[Spark](https://attack.mitre.org/software/S0543) is a Windows backdoor and has been in use since as early as 2017.(Citation: Unit42 Molerat Mar 2020) ",
+  "mitreAttackIds": [
+    "T1027.002",
+    "T1614.001",
+    "T1059.003",
+    "T1132.001",
+    "T1082",
+    "T1497.002",
+    "T1033",
+    "T1140",
+    "T1041",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "molerats"
+  ]
+}

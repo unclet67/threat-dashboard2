@@ -1,0 +1,16 @@
+{
+  "id": "cap-crossrat",
+  "name": "CrossRAT",
+  "type": "implant",
+  "description": "[CrossRAT](https://attack.mitre.org/software/S0235) is a cross platform RAT.",
+  "mitreAttackIds": [
+    "T1113",
+    "T1543.001",
+    "T1083",
+    "T1547.001",
+    "T1547.013"
+  ],
+  "actorIds": [
+    "dark-caracal"
+  ]
+}

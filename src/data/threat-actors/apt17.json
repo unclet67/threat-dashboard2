@@ -1,0 +1,20 @@
+{
+  "id": "apt17",
+  "name": "APT17",
+  "aliases": [
+    "APT17",
+    "Deputy Dog"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-blackcoffee"
+  ],
+  "description": "[APT17](https://attack.mitre.org/groups/G0025) is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0025"
+  ]
+}

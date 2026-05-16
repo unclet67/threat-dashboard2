@@ -1,0 +1,20 @@
+{
+  "id": "apt42",
+  "name": "APT42",
+  "aliases": [
+    "APT42"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nicecurl",
+    "cap-tamecat"
+  ],
+  "description": "[APT42](https://attack.mitre.org/groups/G1044) is an Iranian-sponsored threat group that conducts cyber espionage and surveillance.(Citation: Mandiant APT42-charms) The group primarily focuses on targets in the Middle East region, but has targeted a variety of industries and countries since at least",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1044"
+  ]
+}

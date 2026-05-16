@@ -1,0 +1,20 @@
+{
+  "id": "cap-exbyte",
+  "name": "Exbyte",
+  "type": "implant",
+  "description": "[Exbyte](https://attack.mitre.org/software/S1179) is an exfiltration tool written in Go that is uniquely associated with [BlackByte](https://attack.mitre.org/groups/G1043) operations. Observed since 2022, [Exbyte](https://attack.mitre.org/software/S1179) transfers collected files to online file shar",
+  "mitreAttackIds": [
+    "T1106",
+    "T1480",
+    "T1069.001",
+    "T1140",
+    "T1083",
+    "T1518.001",
+    "T1070.004",
+    "T1497.001",
+    "T1567"
+  ],
+  "actorIds": [
+    "blackbyte"
+  ]
+}

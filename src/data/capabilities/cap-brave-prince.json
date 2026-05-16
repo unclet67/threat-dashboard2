@@ -1,0 +1,18 @@
+{
+  "id": "cap-brave-prince",
+  "name": "Brave Prince",
+  "type": "implant",
+  "description": "[Brave Prince](https://attack.mitre.org/software/S0252) is a Korean-language implant that was first observed in the wild in December 2017. It contains similar code and behavior to [Gold Dragon](https://attack.mitre.org/software/S0249), and was seen along with [Gold Dragon](https://attack.mitre.org/s",
+  "mitreAttackIds": [
+    "T1082",
+    "T1048.003",
+    "T1057",
+    "T1685",
+    "T1083",
+    "T1012",
+    "T1016"
+  ],
+  "actorIds": [
+    "kimsuky"
+  ]
+}

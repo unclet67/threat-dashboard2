@@ -1,0 +1,33 @@
+{
+  "id": "cap-kwampirs",
+  "name": "Kwampirs",
+  "type": "implant",
+  "description": "[Kwampirs](https://attack.mitre.org/software/S0236) is a backdoor Trojan used by [Orangeworm](https://attack.mitre.org/groups/G0071). [Kwampirs](https://attack.mitre.org/software/S0236) has been found on machines which had software installed for the use and control of high-tech imaging devices such ",
+  "mitreAttackIds": [
+    "T1069.002",
+    "T1087.001",
+    "T1135",
+    "T1140",
+    "T1007",
+    "T1083",
+    "T1027.013",
+    "T1543.003",
+    "T1033",
+    "T1018",
+    "T1021.002",
+    "T1027.001",
+    "T1105",
+    "T1082",
+    "T1036.004",
+    "T1218.011",
+    "T1057",
+    "T1049",
+    "T1016",
+    "T1201",
+    "T1008",
+    "T1069.001"
+  ],
+  "actorIds": [
+    "orangeworm"
+  ]
+}

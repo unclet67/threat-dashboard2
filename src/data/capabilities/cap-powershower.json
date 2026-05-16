@@ -1,0 +1,25 @@
+{
+  "id": "cap-powershower",
+  "name": "PowerShower",
+  "type": "implant",
+  "description": "[PowerShower](https://attack.mitre.org/software/S0441) is a PowerShell backdoor used by [Inception](https://attack.mitre.org/groups/G0100) for initial reconnaissance and to download and execute second stage payloads.(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas August 2",
+  "mitreAttackIds": [
+    "T1082",
+    "T1070.004",
+    "T1057",
+    "T1059.001",
+    "T1547.001",
+    "T1041",
+    "T1132.001",
+    "T1071.001",
+    "T1112",
+    "T1016",
+    "T1033",
+    "T1564.003",
+    "T1560.001",
+    "T1059.005"
+  ],
+  "actorIds": [
+    "inception"
+  ]
+}

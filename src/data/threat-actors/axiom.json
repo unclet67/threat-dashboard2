@@ -1,0 +1,27 @@
+{
+  "id": "axiom",
+  "name": "Axiom",
+  "aliases": [
+    "Axiom",
+    "Group 72"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-zxshell",
+    "cap-gh0st-rat",
+    "cap-zox",
+    "cap-plugx",
+    "cap-hikit",
+    "cap-poisonivy",
+    "cap-derusbi",
+    "cap-hydraq"
+  ],
+  "description": "[Axiom](https://attack.mitre.org/groups/G0001) is a suspected Chinese cyber espionage group that has targeted the aerospace, defense, government, manufacturing, and media sectors since at least 2008. Some reporting suggests a degree of overlap between [Axiom](https://attack.mitre.org/groups/G0001) a",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0001"
+  ]
+}

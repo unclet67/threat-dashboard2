@@ -1,0 +1,36 @@
+{
+  "id": "cap-aadinternals",
+  "name": "AADInternals",
+  "type": "tool",
+  "description": "[AADInternals](https://attack.mitre.org/software/S0677) is a PowerShell-based framework for administering, enumerating, and exploiting Azure Active Directory. The tool is publicly available on GitHub.(Citation: AADInternals Github)(Citation: AADInternals Documentation)",
+  "mitreAttackIds": [
+    "T1526",
+    "T1649",
+    "T1556.007",
+    "T1098.005",
+    "T1598.003",
+    "T1552.001",
+    "T1484.002",
+    "T1566.002",
+    "T1069.003",
+    "T1136.003",
+    "T1606.002",
+    "T1590.001",
+    "T1589.002",
+    "T1558.002",
+    "T1552.004",
+    "T1528",
+    "T1087.004",
+    "T1003.004",
+    "T1556.006",
+    "T1651",
+    "T1530",
+    "T1059.001",
+    "T1112",
+    "T1048"
+  ],
+  "actorIds": [
+    "apt29",
+    "storm-0501"
+  ]
+}

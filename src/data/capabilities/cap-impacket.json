@@ -1,0 +1,39 @@
+{
+  "id": "cap-impacket",
+  "name": "Impacket",
+  "type": "tool",
+  "description": "[Impacket](https://attack.mitre.org/software/S0357) is an open source collection of modules written in Python for programmatically constructing and manipulating network protocols. [Impacket](https://attack.mitre.org/software/S0357) contains several tools for remote service execution, Kerberos manipu",
+  "mitreAttackIds": [
+    "T1557.001",
+    "T1040",
+    "T1558.003",
+    "T1558.005",
+    "T1003.003",
+    "T1569.002",
+    "T1003.001",
+    "T1047",
+    "T1003.002",
+    "T1570",
+    "T1003.004"
+  ],
+  "actorIds": [
+    "velvet-ant",
+    "dragonfly",
+    "sandworm-team",
+    "ember-bear",
+    "cinnamon-tempest",
+    "volt-typhoon",
+    "magic-hound",
+    "apt29",
+    "hafnium",
+    "storm-1811",
+    "mustang-panda",
+    "menupass",
+    "storm-0501",
+    "apt41",
+    "fin13",
+    "fin8",
+    "threat-group-3390",
+    "lotus-blossom"
+  ]
+}

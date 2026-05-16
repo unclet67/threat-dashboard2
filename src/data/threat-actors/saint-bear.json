@@ -1,0 +1,24 @@
+{
+  "id": "saint-bear",
+  "name": "Saint Bear",
+  "aliases": [
+    "Saint Bear",
+    "Storm-0587",
+    "TA471",
+    "UAC-0056",
+    "Lorec53"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-outsteel",
+    "cap-saint-bot"
+  ],
+  "description": "[Saint Bear](https://attack.mitre.org/groups/G1031) is a Russian-nexus threat actor active since early 2021, primarily targeting entities in Ukraine and Georgia. The group is notable for a specific remote access tool, [Saint Bot](https://attack.mitre.org/software/S1018), and information stealer, [Ou",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1031"
+  ]
+}

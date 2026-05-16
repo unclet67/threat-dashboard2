@@ -1,0 +1,33 @@
+{
+  "id": "naikon",
+  "name": "Naikon",
+  "aliases": [
+    "Naikon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-ftp",
+    "cap-net",
+    "cap-ping",
+    "cap-netsh",
+    "cap-winmm",
+    "cap-systeminfo",
+    "cap-rainyday",
+    "cap-nebulae",
+    "cap-rarstone",
+    "cap-hdoor",
+    "cap-sys10",
+    "cap-sslmm",
+    "cap-psexec",
+    "cap-tasklist",
+    "cap-aria-body"
+  ],
+  "description": "[Naikon](https://attack.mitre.org/groups/G0019) is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).(Citation: CameraShy) Active sinc",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0019"
+  ]
+}

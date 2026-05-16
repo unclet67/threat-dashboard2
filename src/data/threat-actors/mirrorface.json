@@ -1,0 +1,35 @@
+{
+  "id": "mirrorface",
+  "name": "MirrorFace",
+  "aliases": [
+    "MirrorFace",
+    "Earth Kasha"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-net",
+    "cap-cobalt-strike",
+    "cap-mirrorstealer",
+    "cap-uppercut",
+    "cap-nltest",
+    "cap-bitsadmin",
+    "cap-tasklist",
+    "cap-ipconfig",
+    "cap-lodeinfo",
+    "cap-roaminghouse",
+    "cap-downiissa",
+    "cap-nbtstat",
+    "cap-hiddenface",
+    "cap-ping",
+    "cap-wevtutil",
+    "cap-noopldr"
+  ],
+  "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) is a People's Republic of China (PRC)-aligned cyberespionage actor believed to be a subgroup under the [menuPass](https://attack.mitre.org/groups/G0045) umbrella based on targeting, tools, and infrastructure overlaps. [MirrorFace](https://attack.mi",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1054"
+  ]
+}

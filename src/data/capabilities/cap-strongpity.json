@@ -1,0 +1,37 @@
+{
+  "id": "cap-strongpity",
+  "name": "StrongPity",
+  "type": "implant",
+  "description": "[StrongPity](https://attack.mitre.org/software/S0491) is an information stealing malware used by [PROMETHIUM](https://attack.mitre.org/groups/G0056).(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)",
+  "mitreAttackIds": [
+    "T1020",
+    "T1564.003",
+    "T1571",
+    "T1016",
+    "T1041",
+    "T1560.003",
+    "T1036.004",
+    "T1027.013",
+    "T1204.002",
+    "T1071.001",
+    "T1070.004",
+    "T1518.001",
+    "T1083",
+    "T1119",
+    "T1059.001",
+    "T1543.003",
+    "T1573.002",
+    "T1680",
+    "T1685",
+    "T1090.003",
+    "T1105",
+    "T1547.001",
+    "T1057",
+    "T1569.002",
+    "T1553.002",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "promethium"
+  ]
+}

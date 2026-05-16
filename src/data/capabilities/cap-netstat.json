@@ -1,0 +1,22 @@
+{
+  "id": "cap-netstat",
+  "name": "netstat",
+  "type": "tool",
+  "description": "[netstat](https://attack.mitre.org/software/S0104) is an operating system utility that displays active TCP connections, listening ports, and network statistics. (Citation: TechNet Netstat)",
+  "mitreAttackIds": [
+    "T1049"
+  ],
+  "actorIds": [
+    "oilrig",
+    "admin-338",
+    "turla",
+    "hexane",
+    "ke3chang",
+    "volt-typhoon",
+    "apt5",
+    "toddycat",
+    "apt41",
+    "threat-group-3390",
+    "orangeworm"
+  ]
+}

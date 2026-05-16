@@ -1,0 +1,25 @@
+{
+  "id": "cap-backspace",
+  "name": "BACKSPACE",
+  "type": "implant",
+  "description": "[BACKSPACE](https://attack.mitre.org/software/S0031) is a backdoor used by [APT30](https://attack.mitre.org/groups/G0013) that dates back to at least 2005. (Citation: FireEye APT30)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1112",
+    "T1059.003",
+    "T1012",
+    "T1071.001",
+    "T1057",
+    "T1132.002",
+    "T1090.001",
+    "T1547.001",
+    "T1041",
+    "T1083",
+    "T1104",
+    "T1547.009",
+    "T1686"
+  ],
+  "actorIds": [
+    "apt30"
+  ]
+}

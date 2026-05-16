@@ -1,0 +1,31 @@
+{
+  "id": "cap-applejeus",
+  "name": "AppleJeus",
+  "type": "implant",
+  "description": "[AppleJeus](https://attack.mitre.org/software/S0584) is a family of downloaders initially discovered in 2018 embedded within trojanized cryptocurrency applications. [AppleJeus](https://attack.mitre.org/software/S0584) has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032), targeting",
+  "mitreAttackIds": [
+    "T1140",
+    "T1070.004",
+    "T1546.016",
+    "T1041",
+    "T1566.002",
+    "T1543.003",
+    "T1564.001",
+    "T1569.001",
+    "T1071.001",
+    "T1553.002",
+    "T1059.004",
+    "T1082",
+    "T1218.007",
+    "T1053.005",
+    "T1548.002",
+    "T1204.002",
+    "T1027",
+    "T1497.003",
+    "T1543.004",
+    "T1204.001"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

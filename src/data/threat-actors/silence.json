@@ -1,0 +1,22 @@
+{
+  "id": "silence",
+  "name": "Silence",
+  "aliases": [
+    "Silence",
+    "Whisper Spider"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-empire",
+    "cap-winexe",
+    "cap-sdelete"
+  ],
+  "description": "[Silence](https://attack.mitre.org/groups/G0091) is a financially motivated threat actor targeting financial institutions in different countries. The group was first seen in June 2016. Their main targets reside in Russia, Ukraine, Belarus, Azerbaijan, Poland and Kazakhstan. They compromised various ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0091"
+  ]
+}

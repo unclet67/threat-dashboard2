@@ -1,0 +1,19 @@
+{
+  "id": "cap-ironnetinjector",
+  "name": "IronNetInjector",
+  "type": "tool",
+  "description": "[IronNetInjector](https://attack.mitre.org/software/S0581) is a [Turla](https://attack.mitre.org/groups/G0010) toolchain that utilizes scripts from the open-source IronPython implementation of Python with a .NET injector to drop one or more payloads including [ComRAT](https://attack.mitre.org/softwa",
+  "mitreAttackIds": [
+    "T1059.006",
+    "T1057",
+    "T1055",
+    "T1036.004",
+    "T1053.005",
+    "T1140",
+    "T1055.001",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cap-gomir",
+  "name": "Gomir",
+  "type": "implant",
+  "description": "Gomir is a Linux backdoor variant of the Go-based malware [GoBear](https://attack.mitre.org/software/S1197), uniquely assoicated with [Kimsuky](https://attack.mitre.org/groups/G0094) operations.(Citation: Symantec Troll Stealer 2024)",
+  "mitreAttackIds": [
+    "T1573",
+    "T1543.002",
+    "T1018",
+    "T1132.001",
+    "T1053.003",
+    "T1059.004",
+    "T1071.001",
+    "T1090.001",
+    "T1083",
+    "T1016",
+    "T1082",
+    "T1069.001",
+    "T1070.004",
+    "T1573.002"
+  ],
+  "actorIds": [
+    "kimsuky"
+  ]
+}

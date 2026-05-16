@@ -1,0 +1,16 @@
+{
+  "id": "cap-miragefox",
+  "name": "MirageFox",
+  "type": "implant",
+  "description": "[MirageFox](https://attack.mitre.org/software/S0280) is a remote access tool used against Windows systems. It appears to be an upgraded version of a tool known as Mirage, which is a RAT believed to originate in 2012. (Citation: APT15 Intezer June 2018)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1574.001",
+    "T1059.003",
+    "T1033",
+    "T1140"
+  ],
+  "actorIds": [
+    "ke3chang"
+  ]
+}

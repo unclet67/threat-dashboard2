@@ -1,0 +1,15 @@
+{
+  "id": "cap-snugride",
+  "name": "SNUGRIDE",
+  "type": "implant",
+  "description": "[SNUGRIDE](https://attack.mitre.org/software/S0159) is a backdoor that has been used by [menuPass](https://attack.mitre.org/groups/G0045) as first stage malware. (Citation: FireEye APT10 April 2017)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1547.001",
+    "T1059.003",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "menupass"
+  ]
+}

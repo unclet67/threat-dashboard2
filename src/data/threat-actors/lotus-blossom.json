@@ -1,0 +1,33 @@
+{
+  "id": "lotus-blossom",
+  "name": "Lotus Blossom",
+  "aliases": [
+    "Lotus Blossom",
+    "DRAGONFISH",
+    "Spring Dragon",
+    "RADIUM",
+    "Raspberry Typhoon",
+    "Bilbug",
+    "Thrip"
+  ],
+  "countryId": "china",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-adfind",
+    "cap-ping",
+    "cap-impacket",
+    "cap-emissary",
+    "cap-elise",
+    "cap-hannotog",
+    "cap-nbtscan",
+    "cap-sagerunex",
+    "cap-certutil"
+  ],
+  "description": "[Lotus Blossom](https://attack.mitre.org/groups/G0030) is a long-standing threat group largely targeting various entities in Asia since at least 2009. In addition to government and related targets, [Lotus Blossom](https://attack.mitre.org/groups/G0030) has also targeted entities such as digital cert",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0030"
+  ]
+}

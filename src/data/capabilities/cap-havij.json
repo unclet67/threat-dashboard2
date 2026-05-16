@@ -1,0 +1,12 @@
+{
+  "id": "cap-havij",
+  "name": "Havij",
+  "type": "tool",
+  "description": "[Havij](https://attack.mitre.org/software/S0224) is an automatic SQL Injection tool distributed by the Iranian ITSecTeam security company. Havij has been used by penetration testers and adversaries. (Citation: Check Point Havij Analysis)",
+  "mitreAttackIds": [
+    "T1190"
+  ],
+  "actorIds": [
+    "ajax-security-team"
+  ]
+}

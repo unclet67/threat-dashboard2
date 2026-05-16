@@ -1,0 +1,20 @@
+{
+  "id": "dragonok",
+  "name": "DragonOK",
+  "aliases": [
+    "DragonOK"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-poisonivy",
+    "cap-plugx"
+  ],
+  "description": "[DragonOK](https://attack.mitre.org/groups/G0017) is a threat group that has targeted Japanese organizations with phishing emails. Due to overlapping TTPs, including similar custom tools, [DragonOK](https://attack.mitre.org/groups/G0017) is thought to have a direct or indirect relationship with the ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0017"
+  ]
+}

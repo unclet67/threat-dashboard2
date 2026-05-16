@@ -1,0 +1,23 @@
+{
+  "id": "cap-cspy-downloader",
+  "name": "CSPY Downloader",
+  "type": "tool",
+  "description": "[CSPY Downloader](https://attack.mitre.org/software/S0527) is a tool designed to evade analysis and download additional payloads used by [Kimsuky](https://attack.mitre.org/groups/G0094).(Citation: Cybereason Kimsuky November 2020)",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1112",
+    "T1053.005",
+    "T1553.002",
+    "T1105",
+    "T1036.004",
+    "T1071.001",
+    "T1204.002",
+    "T1548.002",
+    "T1497.001",
+    "T1027.002",
+    "T1070"
+  ],
+  "actorIds": [
+    "kimsuky"
+  ]
+}

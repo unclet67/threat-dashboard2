@@ -1,0 +1,19 @@
+{
+  "id": "cap-griffon",
+  "name": "GRIFFON",
+  "type": "implant",
+  "description": "[GRIFFON](https://attack.mitre.org/software/S0417) is a JavaScript backdoor used by [FIN7](https://attack.mitre.org/groups/G0046). (Citation: SecureList Griffon May 2019)",
+  "mitreAttackIds": [
+    "T1113",
+    "T1069.002",
+    "T1124",
+    "T1059.007",
+    "T1082",
+    "T1547.001",
+    "T1053.005",
+    "T1059.001"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

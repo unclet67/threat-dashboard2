@@ -1,0 +1,25 @@
+{
+  "id": "cap-olympic-destroyer",
+  "name": "Olympic Destroyer",
+  "type": "implant",
+  "description": "[Olympic Destroyer](https://attack.mitre.org/software/S0365) is malware that was used by [Sandworm Team](https://attack.mitre.org/groups/G0034) against the 2018 Winter Olympics, held in Pyeongchang, South Korea. The main purpose of the malware was to render infected computer systems inoperable. The ",
+  "mitreAttackIds": [
+    "T1016",
+    "T1555.003",
+    "T1489",
+    "T1529",
+    "T1685.005",
+    "T1485",
+    "T1570",
+    "T1047",
+    "T1018",
+    "T1135",
+    "T1569.002",
+    "T1021.002",
+    "T1490",
+    "T1003.001"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cap-pcshare",
+  "name": "PcShare",
+  "type": "tool",
+  "description": "[PcShare](https://attack.mitre.org/software/S1050) is an open source remote access tool that has been modified and used by Chinese threat actors, most notably during the FunnyDream campaign since late 2018.(Citation: Bitdefender FunnyDream Campaign November 2020)(Citation: GitHub PcShare 2014)",
+  "mitreAttackIds": [
+    "T1036.005",
+    "T1071.001",
+    "T1057",
+    "T1113",
+    "T1016",
+    "T1027.015",
+    "T1059.003",
+    "T1027.013",
+    "T1546.015",
+    "T1056.001",
+    "T1005",
+    "T1218.011",
+    "T1140",
+    "T1012",
+    "T1070.004",
+    "T1041",
+    "T1036.001",
+    "T1112",
+    "T1106",
+    "T1055",
+    "T1125"
+  ],
+  "actorIds": [
+    "apt5"
+  ]
+}

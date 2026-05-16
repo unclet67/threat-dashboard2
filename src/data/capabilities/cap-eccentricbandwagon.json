@@ -1,0 +1,18 @@
+{
+  "id": "cap-eccentricbandwagon",
+  "name": "ECCENTRICBANDWAGON",
+  "type": "implant",
+  "description": "[ECCENTRICBANDWAGON](https://attack.mitre.org/software/S0593) is a remote access Trojan (RAT) used by North Korean cyber actors that was first identified in August 2020. It is a reconnaissance tool--with keylogging and screen capture functionality--used for information gathering on compromised syste",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1027",
+    "T1059.003",
+    "T1113",
+    "T1056.001",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "lazarus-group",
+    "apt38"
+  ]
+}

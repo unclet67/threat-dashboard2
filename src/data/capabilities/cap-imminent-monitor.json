@@ -1,0 +1,28 @@
+{
+  "id": "cap-imminent-monitor",
+  "name": "Imminent Monitor",
+  "type": "tool",
+  "description": "[Imminent Monitor](https://attack.mitre.org/software/S0434) was a commodity remote access tool (RAT) offered for sale from 2012 until 2019, when an operation was conducted to take down the Imminent Monitor infrastructure. Various cracked versions and variations of this RAT are still in circulation.(",
+  "mitreAttackIds": [
+    "T1106",
+    "T1555.003",
+    "T1140",
+    "T1056.001",
+    "T1070.004",
+    "T1021.001",
+    "T1057",
+    "T1059",
+    "T1125",
+    "T1685",
+    "T1564.001",
+    "T1496.001",
+    "T1041",
+    "T1123",
+    "T1027",
+    "T1083"
+  ],
+  "actorIds": [
+    "apt-c-36",
+    "ta2541"
+  ]
+}

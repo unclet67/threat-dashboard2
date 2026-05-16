@@ -1,0 +1,25 @@
+{
+  "id": "ta551",
+  "name": "TA551",
+  "aliases": [
+    "TA551",
+    "GOLD CABIN",
+    "Shathak"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-qakbot",
+    "cap-icedid",
+    "cap-valak",
+    "cap-sliver",
+    "cap-ursnif"
+  ],
+  "description": "[TA551](https://attack.mitre.org/groups/G0127) is a financially-motivated threat group that has been active since at least 2018. (Citation: Secureworks GOLD CABIN) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. (Ci",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0127"
+  ]
+}

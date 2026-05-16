@@ -1,0 +1,36 @@
+{
+  "id": "cap-blackenergy",
+  "name": "BlackEnergy",
+  "type": "implant",
+  "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) is a malware toolkit that has been used by both criminal and APT actors. It dates back to at least 2007 and was originally designed to create botnets for use in conducting Distributed Denial of Service (DDoS) attacks, but its use has evolved to ",
+  "mitreAttackIds": [
+    "T1548.002",
+    "T1047",
+    "T1555.003",
+    "T1070",
+    "T1113",
+    "T1055.001",
+    "T1685.005",
+    "T1553.006",
+    "T1057",
+    "T1083",
+    "T1046",
+    "T1021.002",
+    "T1049",
+    "T1120",
+    "T1547.009",
+    "T1552.001",
+    "T1056.001",
+    "T1543.003",
+    "T1547.001",
+    "T1485",
+    "T1574.010",
+    "T1016",
+    "T1082",
+    "T1008",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cap-powerless",
+  "name": "PowerLess",
+  "type": "implant",
+  "description": "[PowerLess](https://attack.mitre.org/software/S1012) is a PowerShell-based modular backdoor that has been used by [Magic Hound](https://attack.mitre.org/groups/G0059) since at least 2022.(Citation: Cybereason PowerLess February 2022)",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1217",
+    "T1105",
+    "T1005",
+    "T1573",
+    "T1074.001",
+    "T1560",
+    "T1059.001",
+    "T1140"
+  ],
+  "actorIds": [
+    "magic-hound"
+  ]
+}

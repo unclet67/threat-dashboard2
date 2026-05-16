@@ -1,0 +1,18 @@
+{
+  "id": "cap-ftp",
+  "name": "ftp",
+  "type": "tool",
+  "description": "[ftp](https://attack.mitre.org/software/S0095) is a utility commonly available with operating systems to transfer information over the File Transfer Protocol (FTP). Adversaries can use it to transfer other tools onto a system or to exfiltrate data.(Citation: Microsoft FTP)(Citation: Linux FTP)",
+  "mitreAttackIds": [
+    "T1570",
+    "T1048.003",
+    "T1105"
+  ],
+  "actorIds": [
+    "oilrig",
+    "apt39",
+    "apt41",
+    "naikon",
+    "apt33"
+  ]
+}

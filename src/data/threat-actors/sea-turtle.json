@@ -1,0 +1,23 @@
+{
+  "id": "sea-turtle",
+  "name": "Sea Turtle",
+  "aliases": [
+    "Sea Turtle",
+    "Teal Kurma",
+    "Marbled Dust",
+    "Cosmic Wolf",
+    "SILICON"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-snappytcp"
+  ],
+  "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) is a Türkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. [Sea Turtle](https://attack.mitre.org/groups/G1041) is notable for targe",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1041"
+  ]
+}

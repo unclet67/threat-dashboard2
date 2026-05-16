@@ -1,0 +1,14 @@
+{
+  "id": "cap-mailsniper",
+  "name": "MailSniper",
+  "type": "tool",
+  "description": "MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used by a non-administrative user to search their own email, or by an Exchange administrator to se",
+  "mitreAttackIds": [
+    "T1114.002",
+    "T1110.003",
+    "T1087.003"
+  ],
+  "actorIds": [
+    "leafminer"
+  ]
+}

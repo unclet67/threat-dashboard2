@@ -1,0 +1,14 @@
+{
+  "id": "cap-dealerschoice",
+  "name": "DealersChoice",
+  "type": "implant",
+  "description": "[DealersChoice](https://attack.mitre.org/software/S0243) is a Flash exploitation framework used by [APT28](https://attack.mitre.org/groups/G0007). (Citation: Sofacy DealersChoice)",
+  "mitreAttackIds": [
+    "T1059.003",
+    "T1203",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

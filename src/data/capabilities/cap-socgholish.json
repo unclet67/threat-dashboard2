@@ -1,0 +1,30 @@
+{
+  "id": "cap-socgholish",
+  "name": "SocGholish",
+  "type": "implant",
+  "description": "[SocGholish](https://attack.mitre.org/software/S1124) is a JavaScript-based loader malware that has been used since at least 2017. It has been observed in use against multiple sectors globally for initial access, primarily through drive-by-downloads masquerading as software updates. SocGholish is op",
+  "mitreAttackIds": [
+    "T1082",
+    "T1614",
+    "T1047",
+    "T1105",
+    "T1027.013",
+    "T1482",
+    "T1059.007",
+    "T1036.005",
+    "T1566.002",
+    "T1033",
+    "T1189",
+    "T1204.001",
+    "T1518",
+    "T1057",
+    "T1074.001",
+    "T1048.003",
+    "T1102",
+    "T1016",
+    "T1027.015"
+  ],
+  "actorIds": [
+    "mustard-tempest"
+  ]
+}

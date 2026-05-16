@@ -1,0 +1,16 @@
+{
+  "id": "cap-boostwrite",
+  "name": "BOOSTWRITE",
+  "type": "implant",
+  "description": "[BOOSTWRITE](https://attack.mitre.org/software/S0415) is a loader crafted to be launched via abuse of the DLL search order of applications used by [FIN7](https://attack.mitre.org/groups/G0046).(Citation: FireEye FIN7 Oct 2019)",
+  "mitreAttackIds": [
+    "T1140",
+    "T1027.013",
+    "T1553.002",
+    "T1129",
+    "T1574.001"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

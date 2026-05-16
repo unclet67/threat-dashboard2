@@ -1,0 +1,16 @@
+{
+  "id": "cap-dsquery",
+  "name": "dsquery",
+  "type": "tool",
+  "description": "[dsquery](https://attack.mitre.org/software/S0105) is a command-line utility that can be used to query Active Directory for information from a system within a domain. (Citation: TechNet Dsquery) It is typically installed only on Windows Server versions but can be installed on non-server variants thr",
+  "mitreAttackIds": [
+    "T1087.002",
+    "T1482",
+    "T1069.002",
+    "T1082"
+  ],
+  "actorIds": [
+    "apt41",
+    "fin8"
+  ]
+}

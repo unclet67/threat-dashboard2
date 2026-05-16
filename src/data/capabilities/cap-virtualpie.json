@@ -1,0 +1,17 @@
+{
+  "id": "cap-virtualpie",
+  "name": "VIRTUALPIE",
+  "type": "implant",
+  "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) is a lightweight backdoor written in Python that spawns an IPv6 listener on a VMware ESXi server and features command line execution, file transfer,  and reverse shell capabilities. [VIRTUALPIE](https://attack.mitre.org/software/S1218) has been i",
+  "mitreAttackIds": [
+    "T1059.006",
+    "T1573.001",
+    "T1571",
+    "T1570",
+    "T1505.006",
+    "T1059.012"
+  ],
+  "actorIds": [
+    "unc3886"
+  ]
+}

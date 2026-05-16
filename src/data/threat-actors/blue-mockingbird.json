@@ -1,0 +1,20 @@
+{
+  "id": "blue-mockingbird",
+  "name": "Blue Mockingbird",
+  "aliases": [
+    "Blue Mockingbird"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-frp",
+    "cap-mimikatz"
+  ],
+  "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.(Citation: RedCanary Mockingbi",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0108"
+  ]
+}

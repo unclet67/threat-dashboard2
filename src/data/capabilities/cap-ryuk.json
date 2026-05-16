@@ -1,0 +1,34 @@
+{
+  "id": "cap-ryuk",
+  "name": "Ryuk",
+  "type": "implant",
+  "description": "[Ryuk](https://attack.mitre.org/software/S0446) is a ransomware designed to target enterprise environments that has been used in attacks since at least 2018. [Ryuk](https://attack.mitre.org/software/S0446) shares code similarities with Hermes ransomware.(Citation: CrowdStrike Ryuk January 2019)(Cita",
+  "mitreAttackIds": [
+    "T1027",
+    "T1106",
+    "T1057",
+    "T1021.002",
+    "T1083",
+    "T1490",
+    "T1614.001",
+    "T1078.002",
+    "T1059.003",
+    "T1036.005",
+    "T1489",
+    "T1222.001",
+    "T1685",
+    "T1053.005",
+    "T1680",
+    "T1205",
+    "T1486",
+    "T1055",
+    "T1036",
+    "T1547.001",
+    "T1016",
+    "T1134"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "fin6"
+  ]
+}

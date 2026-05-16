@@ -1,0 +1,24 @@
+{
+  "id": "aquatic-panda",
+  "name": "Aquatic Panda",
+  "aliases": [
+    "Aquatic Panda"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-wevtutil",
+    "cap-winnti-for-windows",
+    "cap-njrat",
+    "cap-cobalt-strike",
+    "cap-shadowpad",
+    "cap-winnti-for-linux"
+  ],
+  "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) is a suspected China-based threat group with a dual mission of intelligence collection and industrial espionage. Active since at least May 2020, [Aquatic Panda](https://attack.mitre.org/groups/G0143) has primarily targeted entities in the teleco",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0143"
+  ]
+}

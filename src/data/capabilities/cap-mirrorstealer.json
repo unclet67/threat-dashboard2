@@ -1,0 +1,15 @@
+{
+  "id": "cap-mirrorstealer",
+  "name": "MirrorStealer",
+  "type": "implant",
+  "description": "[MirrorStealer](https://attack.mitre.org/software/S9022) is a credential stealer that has been used by [MirrorFace](https://attack.mitre.org/groups/G1054) since at least 2022 to steal credentials from various applications, including browsers and email clients. [MirrorStealer](https://attack.mitre.or",
+  "mitreAttackIds": [
+    "T1555",
+    "T1552.006",
+    "T1074.001",
+    "T1555.003"
+  ],
+  "actorIds": [
+    "mirrorface"
+  ]
+}

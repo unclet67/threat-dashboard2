@@ -1,0 +1,17 @@
+{
+  "id": "cap-gsecdump",
+  "name": "gsecdump",
+  "type": "tool",
+  "description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
+  "mitreAttackIds": [
+    "T1003.002",
+    "T1003.004"
+  ],
+  "actorIds": [
+    "bronze-butler",
+    "threat-group-3390",
+    "tonto-team",
+    "apt1",
+    "pittytiger"
+  ]
+}

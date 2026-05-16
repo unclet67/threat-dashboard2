@@ -1,0 +1,15 @@
+{
+  "id": "cap-karae",
+  "name": "KARAE",
+  "type": "implant",
+  "description": "[KARAE](https://attack.mitre.org/software/S0215) is a backdoor typically used by [APT37](https://attack.mitre.org/groups/G0067) as first-stage malware. (Citation: FireEye APT37 Feb 2018)",
+  "mitreAttackIds": [
+    "T1189",
+    "T1105",
+    "T1082",
+    "T1102.002"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

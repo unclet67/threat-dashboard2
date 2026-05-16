@@ -1,0 +1,23 @@
+{
+  "id": "inception",
+  "name": "Inception",
+  "aliases": [
+    "Inception",
+    "Inception Framework",
+    "Cloud Atlas"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-powershower",
+    "cap-vbshower",
+    "cap-lazagne"
+  ],
+  "description": "[Inception](https://attack.mitre.org/groups/G0100) is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.(",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0100"
+  ]
+}

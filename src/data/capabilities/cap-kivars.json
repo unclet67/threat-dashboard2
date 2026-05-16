@@ -1,0 +1,18 @@
+{
+  "id": "cap-kivars",
+  "name": "Kivars",
+  "type": "implant",
+  "description": "[Kivars](https://attack.mitre.org/software/S0437) is a modular remote access tool (RAT), derived from the Bifrost RAT, that was used by [BlackTech](https://attack.mitre.org/groups/G0098) in a 2010 campaign.(Citation: TrendMicro BlackTech June 2017)",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1083",
+    "T1056.001",
+    "T1564.003",
+    "T1113",
+    "T1105",
+    "T1021"
+  ],
+  "actorIds": [
+    "blacktech"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cap-mgbot",
+  "name": "MgBot",
+  "type": "implant",
+  "description": "[MgBot](https://attack.mitre.org/software/S1146) is a modular malware framework exclusively associated with [Daggerfly](https://attack.mitre.org/groups/G1034) operations since at least 2012. [MgBot](https://attack.mitre.org/software/S1146) was developed in C++ and features a module design with multi",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1033",
+    "T1087.002",
+    "T1003",
+    "T1555",
+    "T1087.001",
+    "T1213.006",
+    "T1555.003",
+    "T1005",
+    "T1025",
+    "T1482",
+    "T1115",
+    "T1539",
+    "T1018",
+    "T1057",
+    "T1046",
+    "T1123"
+  ],
+  "actorIds": [
+    "daggerfly"
+  ]
+}

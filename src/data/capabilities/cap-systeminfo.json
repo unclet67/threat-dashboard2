@@ -1,0 +1,21 @@
+{
+  "id": "cap-systeminfo",
+  "name": "Systeminfo",
+  "type": "tool",
+  "description": "[Systeminfo](https://attack.mitre.org/software/S0096) is a Windows utility that can be used to gather detailed information about a computer. (Citation: TechNet Systeminfo)",
+  "mitreAttackIds": [
+    "T1082"
+  ],
+  "actorIds": [
+    "oilrig",
+    "admin-338",
+    "turla",
+    "ke3chang",
+    "volt-typhoon",
+    "magic-hound",
+    "apt29",
+    "threat-group-3390",
+    "naikon",
+    "orangeworm"
+  ]
+}

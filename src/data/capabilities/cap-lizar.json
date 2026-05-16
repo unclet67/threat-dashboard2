@@ -1,0 +1,39 @@
+{
+  "id": "cap-lizar",
+  "name": "Lizar",
+  "type": "implant",
+  "description": "[Lizar](https://attack.mitre.org/software/S0681) is a modular remote access tool written using the .NET Framework that shares structural similarities to [Carbanak](https://attack.mitre.org/software/S0030). It has likely been used by [FIN7](https://attack.mitre.org/groups/G0046) since at least Februa",
+  "mitreAttackIds": [
+    "T1055",
+    "T1059.003",
+    "T1217",
+    "T1059.006",
+    "T1055.001",
+    "T1095",
+    "T1106",
+    "T1027",
+    "T1003.001",
+    "T1555.004",
+    "T1113",
+    "T1033",
+    "T1140",
+    "T1059.001",
+    "T1055.002",
+    "T1105",
+    "T1087.003",
+    "T1082",
+    "T1518.001",
+    "T1555.003",
+    "T1573",
+    "T1620",
+    "T1588.002",
+    "T1016",
+    "T1057",
+    "T1132.002",
+    "T1560",
+    "T1049"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "molerats",
+  "name": "Molerats",
+  "aliases": [
+    "Molerats",
+    "Operation Molerats",
+    "Gaza Cybergang"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-molenet",
+    "cap-spark",
+    "cap-dustysky",
+    "cap-dropbook",
+    "cap-sharpstage",
+    "cap-poisonivy"
+  ],
+  "description": "[Molerats](https://attack.mitre.org/groups/G0021) is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation: Kaspersky Mole",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0021"
+  ]
+}

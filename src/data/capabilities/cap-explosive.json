@@ -1,0 +1,23 @@
+{
+  "id": "cap-explosive",
+  "name": "Explosive",
+  "type": "implant",
+  "description": "[Explosive](https://attack.mitre.org/software/S0569) is a custom-made remote access tool used by the group [Volatile Cedar](https://attack.mitre.org/groups/G0123). It was first identified in the wild in 2015.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
+  "mitreAttackIds": [
+    "T1016",
+    "T1112",
+    "T1025",
+    "T1056.001",
+    "T1033",
+    "T1573.001",
+    "T1105",
+    "T1071.001",
+    "T1106",
+    "T1115",
+    "T1082",
+    "T1564.001"
+  ],
+  "actorIds": [
+    "volatile-cedar"
+  ]
+}

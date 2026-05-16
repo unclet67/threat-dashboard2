@@ -1,0 +1,17 @@
+{
+  "id": "cap-final1stspy",
+  "name": "Final1stspy",
+  "type": "implant",
+  "description": "[Final1stspy](https://attack.mitre.org/software/S0355) is a dropper family that has been used to deliver [DOGCALL](https://attack.mitre.org/software/S0213).(Citation: Unit 42 Nokki Oct 2018)",
+  "mitreAttackIds": [
+    "T1547.001",
+    "T1140",
+    "T1027",
+    "T1057",
+    "T1082",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

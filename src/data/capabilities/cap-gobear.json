@@ -1,0 +1,14 @@
+{
+  "id": "cap-gobear",
+  "name": "GoBear",
+  "type": "implant",
+  "description": "[GoBear](https://attack.mitre.org/software/S1197) is a Go-based backdoor that abuses legitimate, stolen certificates for defense evasion purposes. [GoBear](https://attack.mitre.org/software/S1197) is exclusively linked to [Kimsuky](https://attack.mitre.org/groups/G0094) operations.(Citation: S2W Tro",
+  "mitreAttackIds": [
+    "T1090",
+    "T1036.005",
+    "T1553.002"
+  ],
+  "actorIds": [
+    "kimsuky"
+  ]
+}

@@ -1,13 +1,63 @@
 {
   "id": "turla",
   "name": "Turla",
-  "aliases": ["Venomous Bear", "WATERBUG", "Snake", "Uroburos", "FSB Center 16"],
+  "aliases": [
+    "Venomous Bear",
+    "WATERBUG",
+    "Snake",
+    "Uroburos",
+    "FSB Center 16",
+    "Turla",
+    "IRON HUNTER",
+    "Group 88",
+    "Waterbug",
+    "WhiteBear",
+    "Krypton",
+    "Secret Blizzard",
+    "BELUGASTURGEON"
+  ],
   "countryId": "russia",
   "orgId": "fsb",
-  "opTypes": ["Cyber"],
+  "opTypes": [
+    "Cyber"
+  ],
   "operationIds": [],
-  "capabilityIds": ["cap-carbon"],
+  "capabilityIds": [
+    "cap-carbon",
+    "cap-psexec",
+    "cap-nbtstat",
+    "cap-comrat",
+    "cap-netstat",
+    "cap-certutil",
+    "cap-empire",
+    "cap-mosquito",
+    "cap-kopiluwak",
+    "cap-ironnetinjector",
+    "cap-lunarweb",
+    "cap-arp",
+    "cap-crutch",
+    "cap-uroburos",
+    "cap-powerstallion",
+    "cap-gazer",
+    "cap-kazuar",
+    "cap-systeminfo",
+    "cap-lightneuron",
+    "cap-mimikatz",
+    "cap-tasklist",
+    "cap-lunarmail",
+    "cap-net",
+    "cap-reg",
+    "cap-hyperstack",
+    "cap-epic",
+    "cap-nbtscan",
+    "cap-tinyturla",
+    "cap-penquin",
+    "cap-lunarloader"
+  ],
   "description": "Long-running FSB-linked espionage actor dating to at least 2004. Uses sophisticated implants routed through compromised satellite links and hijacked infrastructure. Targets governments, embassies, and defense contractors across Europe, Middle East, and Central Asia.",
   "confidence": "high",
-  "sources": ["https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims"]
+  "sources": [
+    "https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims",
+    "https://attack.mitre.org/groups/G0010"
+  ]
 }

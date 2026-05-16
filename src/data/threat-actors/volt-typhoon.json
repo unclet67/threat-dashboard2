@@ -1,13 +1,47 @@
 {
   "id": "volt-typhoon",
   "name": "Volt Typhoon",
-  "aliases": ["BRONZE SILHOUETTE", "Vanguard Panda"],
+  "aliases": [
+    "BRONZE SILHOUETTE",
+    "Vanguard Panda",
+    "Volt Typhoon",
+    "DEV-0391",
+    "UNC3236",
+    "Voltzite",
+    "Insidious Taurus",
+    "DazedToad"
+  ],
   "countryId": "china",
   "orgId": "pla-ssf",
-  "opTypes": ["Cyber"],
-  "operationIds": ["op-cn-001"],
-  "capabilityIds": [],
+  "opTypes": [
+    "Cyber"
+  ],
+  "operationIds": [
+    "op-cn-001"
+  ],
+  "capabilityIds": [
+    "cap-netsh",
+    "cap-psexec",
+    "cap-ipconfig",
+    "cap-wevtutil",
+    "cap-versamem",
+    "cap-tasklist",
+    "cap-mimikatz",
+    "cap-ping",
+    "cap-impacket",
+    "cap-systeminfo",
+    "cap-netstat",
+    "cap-nltest",
+    "cap-certutil",
+    "cap-reg",
+    "cap-frp",
+    "cap-cmd",
+    "cap-net"
+  ],
   "description": "PLA-affiliated actor focused on pre-positioning in US critical infrastructure. Relies heavily on living-off-the-land techniques and compromised SOHO devices to blend into legitimate traffic.",
   "confidence": "high",
-  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a"]
+  "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a",
+    "https://attack.mitre.org/groups/G1017"
+  ]
 }

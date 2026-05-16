@@ -1,0 +1,29 @@
+{
+  "id": "cap-goopy",
+  "name": "Goopy",
+  "type": "implant",
+  "description": "[Goopy](https://attack.mitre.org/software/S0477) is a Windows backdoor and Trojan used by [APT32](https://attack.mitre.org/groups/G0050) and shares several similarities to another backdoor used by the group ([Denis](https://attack.mitre.org/software/S0354)). [Goopy](https://attack.mitre.org/software",
+  "mitreAttackIds": [
+    "T1071.004",
+    "T1059.005",
+    "T1027.016",
+    "T1685",
+    "T1059.003",
+    "T1033",
+    "T1071.001",
+    "T1057",
+    "T1070.008",
+    "T1005",
+    "T1106",
+    "T1071.003",
+    "T1140",
+    "T1574.001",
+    "T1041",
+    "T1036.005",
+    "T1053.005",
+    "T1027.001"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

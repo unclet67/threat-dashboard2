@@ -1,0 +1,17 @@
+{
+  "id": "cap-teardrop",
+  "name": "TEARDROP",
+  "type": "implant",
+  "description": "[TEARDROP](https://attack.mitre.org/software/S0560) is a memory-only dropper that was discovered on some victim machines during investigations related to the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024). It was likely used by [APT29](https://attack.mitre.org/groups/G0016) since ",
+  "mitreAttackIds": [
+    "T1012",
+    "T1027",
+    "T1112",
+    "T1543.003",
+    "T1036.005",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

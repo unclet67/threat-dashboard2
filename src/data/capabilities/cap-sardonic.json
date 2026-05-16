@@ -1,0 +1,36 @@
+{
+  "id": "cap-sardonic",
+  "name": "Sardonic",
+  "type": "implant",
+  "description": "[Sardonic](https://attack.mitre.org/software/S1085) is a backdoor written in C and C++ that is known to be used by [FIN8](https://attack.mitre.org/groups/G0061), as early as August 2021 to target a financial institution in the United States. [Sardonic](https://attack.mitre.org/software/S1085) has a ",
+  "mitreAttackIds": [
+    "T1047",
+    "T1027.010",
+    "T1082",
+    "T1016",
+    "T1573.001",
+    "T1546.003",
+    "T1105",
+    "T1135",
+    "T1140",
+    "T1005",
+    "T1059.003",
+    "T1680",
+    "T1571",
+    "T1057",
+    "T1007",
+    "T1106",
+    "T1132.001",
+    "T1070",
+    "T1620",
+    "T1573.002",
+    "T1027",
+    "T1059.001",
+    "T1049",
+    "T1055.004",
+    "T1095"
+  ],
+  "actorIds": [
+    "fin8"
+  ]
+}

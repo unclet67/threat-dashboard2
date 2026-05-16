@@ -1,0 +1,23 @@
+{
+  "id": "star-blizzard",
+  "name": "Star Blizzard",
+  "aliases": [
+    "Star Blizzard",
+    "SEABORGIUM",
+    "Callisto Group",
+    "TA446",
+    "COLDRIVER"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-spica"
+  ],
+  "description": "[Star Blizzard](https://attack.mitre.org/groups/G1033) is a cyber espionage and influence group originating in Russia that has been active since at least 2019. [Star Blizzard](https://attack.mitre.org/groups/G1033) campaigns align closely with Russian state interests and have included persistent phi",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1033"
+  ]
+}

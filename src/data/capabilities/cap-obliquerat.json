@@ -1,0 +1,25 @@
+{
+  "id": "cap-obliquerat",
+  "name": "ObliqueRAT",
+  "type": "implant",
+  "description": "[ObliqueRAT](https://attack.mitre.org/software/S0644) is a remote access trojan, similar to [Crimson](https://attack.mitre.org/software/S0115), that has been in use by [Transparent Tribe](https://attack.mitre.org/groups/G0134) since at least 2020.(Citation: Talos Oblique RAT March 2021)(Citation: Ta",
+  "mitreAttackIds": [
+    "T1113",
+    "T1120",
+    "T1547.001",
+    "T1030",
+    "T1204.001",
+    "T1082",
+    "T1083",
+    "T1027.003",
+    "T1497.001",
+    "T1025",
+    "T1074.001",
+    "T1057",
+    "T1033",
+    "T1125"
+  ],
+  "actorIds": [
+    "transparent-tribe"
+  ]
+}

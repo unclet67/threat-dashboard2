@@ -1,0 +1,25 @@
+{
+  "id": "cap-rclone",
+  "name": "Rclone",
+  "type": "tool",
+  "description": "[Rclone](https://attack.mitre.org/software/S1040) is a command line program for syncing files with cloud storage services such as Dropbox, Google Drive, Amazon S3, and MEGA. [Rclone](https://attack.mitre.org/software/S1040) has been used in a number of ransomware campaigns, including those associate",
+  "mitreAttackIds": [
+    "T1567.002",
+    "T1083",
+    "T1030",
+    "T1560.001",
+    "T1048.002",
+    "T1048.003"
+  ],
+  "actorIds": [
+    "medusa-group",
+    "wirte",
+    "ember-bear",
+    "cinnamon-tempest",
+    "muddywater",
+    "akira",
+    "storm-0501",
+    "inc-ransom",
+    "scattered-spider"
+  ]
+}

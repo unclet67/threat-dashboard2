@@ -1,0 +1,23 @@
+{
+  "id": "fin13",
+  "name": "FIN13",
+  "aliases": [
+    "FIN13",
+    "Elephant Beetle"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-impacket",
+    "cap-mimikatz",
+    "cap-empire",
+    "cap-certutil"
+  ],
+  "description": "[FIN13](https://attack.mitre.org/groups/G1016) is a financially motivated cyber threat group that has targeted the financial, retail, and hospitality industries in Mexico and Latin America, as early as 2016. [FIN13](https://attack.mitre.org/groups/G1016) achieves its objectives by stealing intellect",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1016"
+  ]
+}

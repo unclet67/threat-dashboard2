@@ -1,0 +1,23 @@
+{
+  "id": "cap-regeorg",
+  "name": "reGeorg",
+  "type": "implant",
+  "description": "[reGeorg](https://attack.mitre.org/software/S1187) is an open-source web shell written in Python that can be used as a proxy to bypass firewall rules and tunnel data in and out of targeted networks.(Citation: Fortinet reGeorg MAR 2019)(Citation: GitHub reGeorg 2016)",
+  "mitreAttackIds": [
+    "T1059.006",
+    "T1572",
+    "T1021.001",
+    "T1105",
+    "T1021.004",
+    "T1071.001",
+    "T1090",
+    "T1021.002",
+    "T1505.003",
+    "T1095"
+  ],
+  "actorIds": [
+    "ember-bear",
+    "apt28",
+    "apt29"
+  ]
+}

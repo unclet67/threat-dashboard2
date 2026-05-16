@@ -1,0 +1,22 @@
+{
+  "id": "cap-sharpdisco",
+  "name": "SharpDisco",
+  "type": "implant",
+  "description": "[SharpDisco](https://attack.mitre.org/software/S1089) is a dropper developed in C# that has been used by [MoustachedBouncer](https://attack.mitre.org/groups/G1019) since at least 2020 to load malicious plugins.(Citation: MoustachedBouncer ESET August 2023)",
+  "mitreAttackIds": [
+    "T1053.005",
+    "T1564.003",
+    "T1005",
+    "T1041",
+    "T1071.002",
+    "T1680",
+    "T1059.003",
+    "T1106",
+    "T1120",
+    "T1105",
+    "T1083"
+  ],
+  "actorIds": [
+    "moustachedbouncer"
+  ]
+}

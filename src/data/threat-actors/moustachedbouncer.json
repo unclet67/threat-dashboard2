@@ -1,0 +1,21 @@
+{
+  "id": "moustachedbouncer",
+  "name": "MoustachedBouncer",
+  "aliases": [
+    "MoustachedBouncer"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nightclub",
+    "cap-disco",
+    "cap-sharpdisco"
+  ],
+  "description": "[MoustachedBouncer](https://attack.mitre.org/groups/G1019) is a cyberespionage group that has been active since at least 2014 targeting foreign embassies in Belarus.(Citation: MoustachedBouncer ESET August 2023)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1019"
+  ]
+}

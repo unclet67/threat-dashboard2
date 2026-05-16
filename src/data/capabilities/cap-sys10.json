@@ -1,0 +1,17 @@
+{
+  "id": "cap-sys10",
+  "name": "Sys10",
+  "type": "implant",
+  "description": "[Sys10](https://attack.mitre.org/software/S0060) is a backdoor that was used throughout 2013 by [Naikon](https://attack.mitre.org/groups/G0019). (Citation: Baumgartner Naikon 2015)",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1069.001",
+    "T1082",
+    "T1016",
+    "T1071.001",
+    "T1033"
+  ],
+  "actorIds": [
+    "naikon"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cap-catchamas",
+  "name": "Catchamas",
+  "type": "implant",
+  "description": "[Catchamas](https://attack.mitre.org/software/S0261) is a Windows Trojan that steals information from compromised systems. (Citation: Symantec Catchamas April 2018)",
+  "mitreAttackIds": [
+    "T1112",
+    "T1056.001",
+    "T1543.003",
+    "T1016",
+    "T1115",
+    "T1074.001",
+    "T1036.004",
+    "T1010",
+    "T1113"
+  ],
+  "actorIds": [
+    "thrip"
+  ]
+}

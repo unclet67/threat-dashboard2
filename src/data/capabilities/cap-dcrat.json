@@ -1,0 +1,15 @@
+{
+  "id": "cap-dcrat",
+  "name": "DCRAT",
+  "type": "tool",
+  "description": "[DCRAT](https://attack.mitre.org/software/S9017) is a variant of the open-source [AsyncRAT](https://attack.mitre.org/software/S1087) developed in C# with additional capabilities such as patching Microsoft’s Antimalware Scan Interface (AMSI).(Citation: Zscaler BlindEagle DEC 2025)",
+  "mitreAttackIds": [
+    "T1573.002",
+    "T1056.001",
+    "T1027.013",
+    "T1685"
+  ],
+  "actorIds": [
+    "apt-c-36"
+  ]
+}

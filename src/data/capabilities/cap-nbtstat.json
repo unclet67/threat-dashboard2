@@ -1,0 +1,14 @@
+{
+  "id": "cap-nbtstat",
+  "name": "nbtstat",
+  "type": "tool",
+  "description": "[nbtstat](https://attack.mitre.org/software/S0102) is a utility used to troubleshoot NetBIOS name resolution. (Citation: TechNet Nbtstat)",
+  "mitreAttackIds": [
+    "T1016",
+    "T1049"
+  ],
+  "actorIds": [
+    "turla",
+    "mirrorface"
+  ]
+}

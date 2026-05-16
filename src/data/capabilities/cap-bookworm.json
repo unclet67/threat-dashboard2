@@ -1,0 +1,28 @@
+{
+  "id": "cap-bookworm",
+  "name": "BOOKWORM",
+  "type": "implant",
+  "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) is a modular trojan known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2015.  [BOOKWORM](https://attack.mitre.org/software/S1226) was later updated in late 2021 and the fall of 2022 to",
+  "mitreAttackIds": [
+    "T1033",
+    "T1553.002",
+    "T1071.001",
+    "T1112",
+    "T1543.003",
+    "T1564.003",
+    "T1140",
+    "T1574.001",
+    "T1036.004",
+    "T1056.001",
+    "T1106",
+    "T1573.001",
+    "T1027.013",
+    "T1027",
+    "T1070.006",
+    "T1001.003",
+    "T1115"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

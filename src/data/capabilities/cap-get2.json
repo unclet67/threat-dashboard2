@@ -1,0 +1,17 @@
+{
+  "id": "cap-get2",
+  "name": "Get2",
+  "type": "implant",
+  "description": "[Get2](https://attack.mitre.org/software/S0460) is a downloader written in C++ that has been used by [TA505](https://attack.mitre.org/groups/G0092) to deliver [FlawedGrace](https://attack.mitre.org/software/S0383), [FlawedAmmyy](https://attack.mitre.org/software/S0381), Snatch and [SDBbot](https://a",
+  "mitreAttackIds": [
+    "T1055.001",
+    "T1057",
+    "T1082",
+    "T1059",
+    "T1033",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "ta505"
+  ]
+}

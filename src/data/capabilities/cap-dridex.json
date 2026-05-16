@@ -1,0 +1,27 @@
+{
+  "id": "cap-dridex",
+  "name": "Dridex",
+  "type": "implant",
+  "description": "[Dridex](https://attack.mitre.org/software/S0384) is a prolific banking Trojan that first appeared in 2014. By December 2019, the US Treasury estimated [Dridex](https://attack.mitre.org/software/S0384) had infected computers in hundreds of banks and financial institutions in over 40 countries, leadi",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1574.001",
+    "T1219",
+    "T1106",
+    "T1053.005",
+    "T1185",
+    "T1518",
+    "T1071.001",
+    "T1218.010",
+    "T1573.002",
+    "T1027",
+    "T1090",
+    "T1082",
+    "T1090.003",
+    "T1204.002"
+  ],
+  "actorIds": [
+    "indrik-spider",
+    "ta505"
+  ]
+}

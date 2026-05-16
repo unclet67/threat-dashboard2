@@ -1,0 +1,18 @@
+{
+  "id": "cap-downpaper",
+  "name": "DownPaper",
+  "type": "implant",
+  "description": "[DownPaper](https://attack.mitre.org/software/S0186) is a backdoor Trojan; its main functionality is to download and run second stage malware. (Citation: ClearSky Charming Kitten Dec 2017)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1012",
+    "T1033",
+    "T1547.001",
+    "T1071.001",
+    "T1059.001",
+    "T1059.003"
+  ],
+  "actorIds": [
+    "magic-hound"
+  ]
+}

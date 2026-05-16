@@ -1,0 +1,28 @@
+{
+  "id": "cap-clop",
+  "name": "Clop",
+  "type": "implant",
+  "description": "[Clop](https://attack.mitre.org/software/S0611) is a ransomware family that was first observed in February 2019 and has been used against retail, transportation and logistics, education, manufacturing, engineering, automotive, energy, financial, aerospace, telecommunications, professional and legal ",
+  "mitreAttackIds": [
+    "T1518.001",
+    "T1489",
+    "T1140",
+    "T1106",
+    "T1497.003",
+    "T1027.002",
+    "T1614.001",
+    "T1083",
+    "T1057",
+    "T1059.003",
+    "T1553.002",
+    "T1112",
+    "T1135",
+    "T1490",
+    "T1486",
+    "T1685",
+    "T1218.007"
+  ],
+  "actorIds": [
+    "ta505"
+  ]
+}

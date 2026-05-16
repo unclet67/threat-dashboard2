@@ -1,0 +1,25 @@
+{
+  "id": "cap-cozycar",
+  "name": "CozyCar",
+  "type": "implant",
+  "description": "[CozyCar](https://attack.mitre.org/software/S0046) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2010 to 2015. It is a modular malware platform, and its backdoor component can be instructed to download and execute a variety of modules with different functionality. (",
+  "mitreAttackIds": [
+    "T1059.003",
+    "T1082",
+    "T1071.001",
+    "T1102.002",
+    "T1547.001",
+    "T1518.001",
+    "T1218.011",
+    "T1003.001",
+    "T1497",
+    "T1027.013",
+    "T1003.002",
+    "T1036.003",
+    "T1053.005",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

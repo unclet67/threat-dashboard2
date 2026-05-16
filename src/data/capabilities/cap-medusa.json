@@ -1,0 +1,15 @@
+{
+  "id": "cap-medusa",
+  "name": "MEDUSA",
+  "type": "implant",
+  "description": "[MEDUSA](https://attack.mitre.org/software/S1220) is an open-source rootkit that is capable of dynamic linker hijacking, command execution, and logging credentials.(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "mitreAttackIds": [
+    "T1563.001",
+    "T1027.013",
+    "T1014",
+    "T1574.006"
+  ],
+  "actorIds": [
+    "unc3886"
+  ]
+}

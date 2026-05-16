@@ -1,0 +1,21 @@
+{
+  "id": "cap-winnti-for-linux",
+  "name": "Winnti for Linux",
+  "type": "implant",
+  "description": "[Winnti for Linux](https://attack.mitre.org/software/S0430) is a trojan, seen since at least 2015, designed specifically for targeting Linux systems. Reporting indicates the winnti malware family is shared across a number of actors including [Winnti Group](https://attack.mitre.org/groups/G0044). The",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1095",
+    "T1140",
+    "T1573.001",
+    "T1205",
+    "T1027.013",
+    "T1105",
+    "T1014"
+  ],
+  "actorIds": [
+    "aquatic-panda",
+    "earth-lusca",
+    "apt41"
+  ]
+}

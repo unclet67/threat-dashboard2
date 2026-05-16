@@ -1,0 +1,19 @@
+{
+  "id": "malteiro",
+  "name": "Malteiro",
+  "aliases": [
+    "Malteiro"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mispadu"
+  ],
+  "description": "[Malteiro](https://attack.mitre.org/groups/G1026) is a financially motivated criminal group that is likely based in Brazil and has been active since at least November 2019. The group operates and distributes the [Mispadu](https://attack.mitre.org/software/S1122)  banking trojan via a Malware-as-a-Se",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1026"
+  ]
+}

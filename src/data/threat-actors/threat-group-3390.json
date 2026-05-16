@@ -1,0 +1,50 @@
+{
+  "id": "threat-group-3390",
+  "name": "Threat Group-3390",
+  "aliases": [
+    "Threat Group-3390",
+    "Earth Smilodon",
+    "TG-3390",
+    "Emissary Panda",
+    "BRONZE UNION",
+    "APT27",
+    "Iron Tiger",
+    "LuckyMouse",
+    "Linen Typhoon"
+  ],
+  "countryId": "china",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-net",
+    "cap-systeminfo",
+    "cap-gsecdump",
+    "cap-plugx",
+    "cap-aspxspy",
+    "cap-cobalt-strike",
+    "cap-mimikatz",
+    "cap-impacket",
+    "cap-gh0st-rat",
+    "cap-certutil",
+    "cap-china-chopper",
+    "cap-httpbrowser",
+    "cap-tasklist",
+    "cap-netstat",
+    "cap-sysupdate",
+    "cap-hyperbro",
+    "cap-zxshell",
+    "cap-rcsession",
+    "cap-ipconfig",
+    "cap-clambling",
+    "cap-pwdump",
+    "cap-nbtscan",
+    "cap-pandora",
+    "cap-windows-credential-editor"
+  ],
+  "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, tech",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0027"
+  ]
+}

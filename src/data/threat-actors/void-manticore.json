@@ -1,0 +1,24 @@
+{
+  "id": "void-manticore",
+  "name": "VOID MANTICORE",
+  "aliases": [
+    "VOID MANTICORE",
+    "COBALT MYSTIQUE",
+    "Handala Hack",
+    "Homeland Justice",
+    "Karma",
+    "Karmabelow80",
+    "BANISHED KITTEN",
+    "Red Sandstorm"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) is a threat group assessed to operate on behalf of Iran’s Ministry of Intelligence and Security (MOIS).(Citation: Check Point VOID MANTICORE Handala Hack March 2026) Active since at least mid-2022, VOID MANTICORE has targeted government entitie",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1055"
+  ]
+}

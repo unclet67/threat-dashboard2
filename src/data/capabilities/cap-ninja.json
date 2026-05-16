@@ -1,0 +1,39 @@
+{
+  "id": "cap-ninja",
+  "name": "Ninja",
+  "type": "implant",
+  "description": "[Ninja](https://attack.mitre.org/software/S1100) is a malware developed in C++ that has been used by [ToddyCat](https://attack.mitre.org/groups/G1022) to penetrate networks and control remote systems since at least 2020.  [Ninja](https://attack.mitre.org/software/S1100) is possibly part of a post ex",
+  "mitreAttackIds": [
+    "T1027.013",
+    "T1095",
+    "T1036.005",
+    "T1016",
+    "T1566.003",
+    "T1204.002",
+    "T1083",
+    "T1106",
+    "T1573.001",
+    "T1029",
+    "T1574.001",
+    "T1082",
+    "T1140",
+    "T1001",
+    "T1090.003",
+    "T1480.001",
+    "T1090.001",
+    "T1680",
+    "T1218.011",
+    "T1055",
+    "T1543.003",
+    "T1057",
+    "T1001.003",
+    "T1071.001",
+    "T1027.015",
+    "T1070.006",
+    "T1559",
+    "T1132.002"
+  ],
+  "actorIds": [
+    "toddycat"
+  ]
+}

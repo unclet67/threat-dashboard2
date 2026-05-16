@@ -1,0 +1,15 @@
+{
+  "id": "cap-ddkong",
+  "name": "DDKONG",
+  "type": "implant",
+  "description": "[DDKONG](https://attack.mitre.org/software/S0255) is a malware sample that was part of a campaign by [Rancor](https://attack.mitre.org/groups/G0075). [DDKONG](https://attack.mitre.org/software/S0255) was first seen used in February 2017. (Citation: Rancor Unit42 June 2018)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1140",
+    "T1218.011",
+    "T1083"
+  ],
+  "actorIds": [
+    "rancor"
+  ]
+}

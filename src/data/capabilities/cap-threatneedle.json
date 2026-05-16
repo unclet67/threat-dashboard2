@@ -1,0 +1,25 @@
+{
+  "id": "cap-threatneedle",
+  "name": "ThreatNeedle",
+  "type": "implant",
+  "description": "[ThreatNeedle](https://attack.mitre.org/software/S0665) is a backdoor that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032) since at least 2019 to target cryptocurrency, defense, and mobile gaming organizations.  It is considered to be an advanced cluster of [Lazarus Group](ht",
+  "mitreAttackIds": [
+    "T1547.001",
+    "T1204.002",
+    "T1543.003",
+    "T1105",
+    "T1082",
+    "T1083",
+    "T1027.015",
+    "T1005",
+    "T1027.013",
+    "T1027.011",
+    "T1112",
+    "T1140",
+    "T1566.001",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

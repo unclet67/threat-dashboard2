@@ -1,0 +1,32 @@
+{
+  "id": "apt39",
+  "name": "APT39",
+  "aliases": [
+    "APT39",
+    "ITG07",
+    "Chafer",
+    "Remix Kitten"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nbtscan",
+    "cap-mechaflounder",
+    "cap-remexi",
+    "cap-crackmapexec",
+    "cap-pwdump",
+    "cap-mimikatz",
+    "cap-windows-credential-editor",
+    "cap-cadelspy",
+    "cap-psexec",
+    "cap-aspxspy",
+    "cap-ftp"
+  ],
+  "description": "[APT39](https://attack.mitre.org/groups/G0087) is one of several names for cyber espionage activity conducted by the Iranian Ministry of Intelligence and Security (MOIS) through the front company Rana Intelligence Computing since at least 2014. [APT39](https://attack.mitre.org/groups/G0087) has prim",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0087"
+  ]
+}

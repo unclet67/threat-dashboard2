@@ -1,0 +1,21 @@
+{
+  "id": "cap-xagentosx",
+  "name": "XAgentOSX",
+  "type": "implant",
+  "description": "[XAgentOSX](https://attack.mitre.org/software/S0161) is a trojan that has been used by [APT28](https://attack.mitre.org/groups/G0007)  on OS X and appears to be a port of their standard [CHOPSTICK](https://attack.mitre.org/software/S0023) or XAgent trojan. (Citation: XAgentOSX 2017)",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1033",
+    "T1083",
+    "T1071.002",
+    "T1555.003",
+    "T1057",
+    "T1113",
+    "T1082",
+    "T1070.004",
+    "T1106"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

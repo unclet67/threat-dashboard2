@@ -1,0 +1,17 @@
+{
+  "id": "cap-caminho",
+  "name": "Caminho",
+  "type": "implant",
+  "description": "[Caminho](https://attack.mitre.org/software/S9016) is a downloader that has been used by threat actors since at least 2025 to deliver various strains of malware such as XWorm.(Citation: Zscaler BlindEagle DEC 2025)",
+  "mitreAttackIds": [
+    "T1140",
+    "T1055.012",
+    "T1027.001",
+    "T1027.013",
+    "T1105",
+    "T1106"
+  ],
+  "actorIds": [
+    "apt-c-36"
+  ]
+}

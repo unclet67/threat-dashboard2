@@ -1,0 +1,31 @@
+{
+  "id": "patchwork",
+  "name": "Patchwork",
+  "aliases": [
+    "Patchwork",
+    "Hangover Group",
+    "Dropping Elephant",
+    "Chinastrats",
+    "MONSOON",
+    "Operation Hangover"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-ndiskmonitor",
+    "cap-quasarrat",
+    "cap-backconfig",
+    "cap-tinytyphon",
+    "cap-autoit-backdoor",
+    "cap-powersploit",
+    "cap-badnews",
+    "cap-unknown-logger"
+  ],
+  "description": "[Patchwork](https://attack.mitre.org/groups/G0040) is a cyber espionage group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity. [Patchwork](https://attack.mitre.org/groups/G",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0040"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cap-hammertoss",
+  "name": "HAMMERTOSS",
+  "type": "implant",
+  "description": "[HAMMERTOSS](https://attack.mitre.org/software/S0037) is a backdoor that was used by [APT29](https://attack.mitre.org/groups/G0016) in 2015. (Citation: FireEye APT29) (Citation: F-Secure The Dukes)",
+  "mitreAttackIds": [
+    "T1567.002",
+    "T1001.002",
+    "T1564.003",
+    "T1573.001",
+    "T1071.001",
+    "T1059.001",
+    "T1102.003"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

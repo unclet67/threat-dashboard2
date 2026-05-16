@@ -1,0 +1,23 @@
+{
+  "id": "andariel",
+  "name": "Andariel",
+  "aliases": [
+    "Andariel",
+    "Silent Chollima",
+    "PLUTONIUM",
+    "Onyx Sleet"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-rifdoor",
+    "cap-gh0st-rat"
+  ],
+  "description": "[Andariel](https://attack.mitre.org/groups/G0138) is a North Korean state-sponsored threat group that has been active since at least 2009. [Andariel](https://attack.mitre.org/groups/G0138) has primarily focused its operations--which have included destructive attacks--against South Korean government ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0138"
+  ]
+}

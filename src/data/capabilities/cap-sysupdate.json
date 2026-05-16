@@ -1,0 +1,42 @@
+{
+  "id": "cap-sysupdate",
+  "name": "SysUpdate",
+  "type": "implant",
+  "description": "[SysUpdate](https://attack.mitre.org/software/S0663) is a backdoor written in C++ that has been used by [Threat Group-3390](https://attack.mitre.org/groups/G0027) since at least 2020.(Citation: Trend Micro Iron Tiger April 2021)",
+  "mitreAttackIds": [
+    "T1071.004",
+    "T1573.001",
+    "T1007",
+    "T1140",
+    "T1680",
+    "T1132.001",
+    "T1033",
+    "T1057",
+    "T1553.002",
+    "T1005",
+    "T1027.011",
+    "T1083",
+    "T1016.001",
+    "T1105",
+    "T1036.004",
+    "T1041",
+    "T1027.013",
+    "T1082",
+    "T1113",
+    "T1543.002",
+    "T1070.004",
+    "T1112",
+    "T1564.001",
+    "T1574.001",
+    "T1547.001",
+    "T1016",
+    "T1027.002",
+    "T1106",
+    "T1569.002",
+    "T1047",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "threat-group-3390"
+  ]
+}

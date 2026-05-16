@@ -1,0 +1,19 @@
+{
+  "id": "cap-creepydrive",
+  "name": "CreepyDrive",
+  "type": "implant",
+  "description": "[CreepyDrive](https://attack.mitre.org/software/S1023) is a custom implant has been used by [POLONIUM](https://attack.mitre.org/groups/G1005) since at least early 2022 for C2 with and exfiltration to actor-controlled OneDrive accounts.(Citation: Microsoft POLONIUM June 2022)\n\n[POLONIUM](https://atta",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1567.002",
+    "T1102.002",
+    "T1550.001",
+    "T1083",
+    "T1105",
+    "T1059.001",
+    "T1005"
+  ],
+  "actorIds": [
+    "polonium"
+  ]
+}

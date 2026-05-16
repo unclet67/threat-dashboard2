@@ -1,0 +1,15 @@
+{
+  "id": "cap-rarstone",
+  "name": "RARSTONE",
+  "type": "implant",
+  "description": "[RARSTONE](https://attack.mitre.org/software/S0055) is malware used by the [Naikon](https://attack.mitre.org/groups/G0019) group that has some characteristics similar to [PlugX](https://attack.mitre.org/software/S0013). (Citation: Aquino RARSTONE)",
+  "mitreAttackIds": [
+    "T1055.001",
+    "T1095",
+    "T1083",
+    "T1105"
+  ],
+  "actorIds": [
+    "naikon"
+  ]
+}

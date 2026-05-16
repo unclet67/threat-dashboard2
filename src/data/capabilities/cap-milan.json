@@ -1,0 +1,31 @@
+{
+  "id": "cap-milan",
+  "name": "Milan",
+  "type": "implant",
+  "description": "[Milan](https://attack.mitre.org/software/S1015) is a backdoor implant based on [DanBot](https://attack.mitre.org/software/S1014) that was written in Visual C++ and .NET. [Milan](https://attack.mitre.org/software/S1015) has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least ",
+  "mitreAttackIds": [
+    "T1053.005",
+    "T1074.001",
+    "T1071.004",
+    "T1082",
+    "T1016",
+    "T1033",
+    "T1027.013",
+    "T1105",
+    "T1559.001",
+    "T1071.001",
+    "T1012",
+    "T1036",
+    "T1572",
+    "T1059.003",
+    "T1106",
+    "T1005",
+    "T1087.001",
+    "T1568.002",
+    "T1070.004",
+    "T1036.007"
+  ],
+  "actorIds": [
+    "hexane"
+  ]
+}

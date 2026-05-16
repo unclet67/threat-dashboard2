@@ -1,0 +1,18 @@
+{
+  "id": "cap-tor",
+  "name": "Tor",
+  "type": "tool",
+  "description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183",
+  "mitreAttackIds": [
+    "T1573.002",
+    "T1090.003"
+  ],
+  "actorIds": [
+    "apt28",
+    "apt29",
+    "leviathan",
+    "inc-ransom",
+    "scattered-spider",
+    "water-galura"
+  ]
+}

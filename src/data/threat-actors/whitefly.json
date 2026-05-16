@@ -1,0 +1,19 @@
+{
+  "id": "whitefly",
+  "name": "Whitefly",
+  "aliases": [
+    "Whitefly"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz"
+  ],
+  "description": "[Whitefly](https://attack.mitre.org/groups/G0107) is a cyber espionage group that has been operating since at least 2017. The group has targeted organizations based mostly in Singapore across a wide variety of sectors, and is primarily interested in stealing large amounts of sensitive information. T",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0107"
+  ]
+}

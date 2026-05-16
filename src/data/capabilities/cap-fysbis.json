@@ -1,0 +1,23 @@
+{
+  "id": "cap-fysbis",
+  "name": "Fysbis",
+  "type": "implant",
+  "description": "[Fysbis](https://attack.mitre.org/software/S0410) is a Linux-based backdoor used by [APT28](https://attack.mitre.org/groups/G0007) that dates back to at least 2014.(Citation: Fysbis Palo Alto Analysis)",
+  "mitreAttackIds": [
+    "T1132.001",
+    "T1083",
+    "T1056.001",
+    "T1036.004",
+    "T1057",
+    "T1027.013",
+    "T1070.004",
+    "T1082",
+    "T1543.002",
+    "T1036.005",
+    "T1547.013",
+    "T1059.004"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "leviathan",
+  "name": "Leviathan",
+  "aliases": [
+    "Leviathan",
+    "MUDCARP",
+    "Kryptonite Panda",
+    "Gadolinium",
+    "BRONZE MOHAWK",
+    "TEMP.Jumper",
+    "APT40",
+    "TEMP.Periscope",
+    "Gingham Typhoon"
+  ],
+  "countryId": "china",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-windows-credential-editor",
+    "cap-bitsadmin",
+    "cap-homefry",
+    "cap-derusbi",
+    "cap-at",
+    "cap-blackcoffee",
+    "cap-badflick",
+    "cap-empire",
+    "cap-gh0st-rat",
+    "cap-net",
+    "cap-powersploit",
+    "cap-murkytop",
+    "cap-nanhaishu",
+    "cap-orz",
+    "cap-cobalt-strike",
+    "cap-china-chopper",
+    "cap-tor"
+  ],
+  "description": "[Leviathan](https://attack.mitre.org/groups/G0065) is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0065"
+  ]
+}

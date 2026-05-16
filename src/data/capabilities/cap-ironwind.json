@@ -1,0 +1,20 @@
+{
+  "id": "cap-ironwind",
+  "name": "IronWind",
+  "type": "implant",
+  "description": "[IronWind](https://attack.mitre.org/software/S9029) is a custom loader malware that has been in use since at least 2023 by actors including [WIRTE](https://attack.mitre.org/groups/G0090) to target entities in the Middle East.(Citation: Check Point Wirte NOV 2024)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1071.001",
+    "T1033",
+    "T1574.001",
+    "T1027.010",
+    "T1140",
+    "T1059.003",
+    "T1518",
+    "T1070"
+  ],
+  "actorIds": [
+    "wirte"
+  ]
+}

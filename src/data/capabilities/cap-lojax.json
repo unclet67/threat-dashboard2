@@ -1,0 +1,16 @@
+{
+  "id": "cap-lojax",
+  "name": "LoJax",
+  "type": "implant",
+  "description": "[LoJax](https://attack.mitre.org/software/S0397) is a UEFI rootkit used by [APT28](https://attack.mitre.org/groups/G0007) to persist remote access software on targeted systems.(Citation: ESET LoJax Sept 2018)",
+  "mitreAttackIds": [
+    "T1112",
+    "T1564.004",
+    "T1547.001",
+    "T1542.001",
+    "T1014"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

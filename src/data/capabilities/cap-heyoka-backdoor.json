@@ -1,0 +1,26 @@
+{
+  "id": "cap-heyoka-backdoor",
+  "name": "Heyoka Backdoor",
+  "type": "implant",
+  "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) is a custom backdoor--based on the Heyoka open source exfiltration tool--that  has been used by [Aoqin Dragon](https://attack.mitre.org/groups/G1007) since at least 2013.(Citation: SentinelOne Aoqin Dragon June 2022)(Citation: Sourceforge He",
+  "mitreAttackIds": [
+    "T1055.001",
+    "T1070.004",
+    "T1572",
+    "T1140",
+    "T1071.004",
+    "T1680",
+    "T1007",
+    "T1057",
+    "T1218.011",
+    "T1083",
+    "T1547.001",
+    "T1027.013",
+    "T1120",
+    "T1036.004",
+    "T1204.002"
+  ],
+  "actorIds": [
+    "aoqin-dragon"
+  ]
+}

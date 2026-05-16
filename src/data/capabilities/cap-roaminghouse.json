@@ -1,0 +1,22 @@
+{
+  "id": "cap-roaminghouse",
+  "name": "ROAMINGHOUSE",
+  "type": "implant",
+  "description": "[ROAMINGHOUSE](https://attack.mitre.org/software/S9026) is a dropper malware used by [MirrorFace](https://attack.mitre.org/groups/G1054) to extract and execute embedded payloads including [UPPERCUT](https://attack.mitre.org/software/S0275) components.(Citation: Trend Micro Earth Kasha Updates APR 20",
+  "mitreAttackIds": [
+    "T1140",
+    "T1137.001",
+    "T1566.002",
+    "T1204.002",
+    "T1204.001",
+    "T1497.002",
+    "T1480",
+    "T1027.013",
+    "T1518.001",
+    "T1047",
+    "T1574.001"
+  ],
+  "actorIds": [
+    "mirrorface"
+  ]
+}

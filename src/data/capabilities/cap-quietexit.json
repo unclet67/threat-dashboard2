@@ -1,0 +1,16 @@
+{
+  "id": "cap-quietexit",
+  "name": "QUIETEXIT",
+  "type": "implant",
+  "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) is a novel backdoor, based on the open-source Dropbear SSH client-server software, that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021. [APT29](https://attack.mitre.org/groups/G0016) has deployed [QUIETEXIT](ht",
+  "mitreAttackIds": [
+    "T1090.002",
+    "T1008",
+    "T1095",
+    "T1071",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

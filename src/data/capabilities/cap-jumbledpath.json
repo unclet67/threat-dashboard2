@@ -1,0 +1,17 @@
+{
+  "id": "cap-jumbledpath",
+  "name": "JumbledPath",
+  "type": "implant",
+  "description": "[JumbledPath](https://attack.mitre.org/software/S1206) is a custom-built utility written in GO that has been used by [Salt Typhoon](https://attack.mitre.org/groups/G1045) since at least 2024 for packet capture on remote Cisco devices. [JumbledPath](https://attack.mitre.org/software/S1206) is compile",
+  "mitreAttackIds": [
+    "T1040",
+    "T1685",
+    "T1104",
+    "T1665",
+    "T1560",
+    "T1685.006"
+  ],
+  "actorIds": [
+    "salt-typhoon"
+  ]
+}

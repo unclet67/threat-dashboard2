@@ -1,0 +1,47 @@
+{
+  "id": "muddywater",
+  "name": "MuddyWater",
+  "aliases": [
+    "MuddyWater",
+    "Earth Vetala",
+    "MERCURY",
+    "Static Kitten",
+    "Seedworm",
+    "TEMP.Zagros",
+    "Mango Sandstorm",
+    "TA450",
+    "MuddyKrill"
+  ],
+  "countryId": "iran",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-muddyviper",
+    "cap-starwhale",
+    "cap-lp-notes",
+    "cap-powerstats",
+    "cap-rclone",
+    "cap-out1",
+    "cap-tsundere-botnet",
+    "cap-powersploit",
+    "cap-small-sieve",
+    "cap-fooder",
+    "cap-mori",
+    "cap-mimikatz",
+    "cap-lazagne",
+    "cap-powgoop",
+    "cap-crackmapexec",
+    "cap-connectwise",
+    "cap-sharpstats",
+    "cap-empire",
+    "cap-rustywater",
+    "cap-remoteutilities",
+    "cap-koadic"
+  ],
+  "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) is a cyber espionage group assessed to be a subordinate element within Iran's Ministry of Intelligence and Security (MOIS).(Citation: CYBERCOM Iranian Intel Cyber January 2022) Since at least 2017, [MuddyWater](https://attack.mitre.org/groups/G0069",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0069"
+  ]
+}

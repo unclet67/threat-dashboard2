@@ -1,0 +1,26 @@
+{
+  "id": "hafnium",
+  "name": "HAFNIUM",
+  "aliases": [
+    "HAFNIUM",
+    "Operation Exchange Marauder",
+    "Silk Typhoon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-tarrask",
+    "cap-aspxspy",
+    "cap-impacket",
+    "cap-psexec",
+    "cap-covenant",
+    "cap-china-chopper"
+  ],
+  "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. [HAFNIUM](https://attack.mitre.org/groups/G0125) primarily targets entities in the US across a number of industry sectors, inclu",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0125"
+  ]
+}

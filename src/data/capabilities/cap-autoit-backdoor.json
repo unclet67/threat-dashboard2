@@ -1,0 +1,16 @@
+{
+  "id": "cap-autoit-backdoor",
+  "name": "AutoIt backdoor",
+  "type": "implant",
+  "description": "[AutoIt backdoor](https://attack.mitre.org/software/S0129) is malware that has been used by the actors responsible for the MONSOON campaign. The actors frequently used it in weaponized .pps files exploiting CVE-2014-6352. (Citation: Forcepoint Monsoon) This malware makes use of the legitimate script",
+  "mitreAttackIds": [
+    "T1083",
+    "T1548.002",
+    "T1132.001",
+    "T1059.001"
+  ],
+  "actorIds": [
+    "patchwork",
+    "apt33"
+  ]
+}

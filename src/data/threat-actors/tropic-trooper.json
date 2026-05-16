@@ -1,0 +1,26 @@
+{
+  "id": "tropic-trooper",
+  "name": "Tropic Trooper",
+  "aliases": [
+    "Tropic Trooper",
+    "Pirate Panda",
+    "KeyBoy"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-usbferry",
+    "cap-shadowpad",
+    "cap-poisonivy",
+    "cap-bitsadmin",
+    "cap-yahoyah",
+    "cap-keyboy"
+  ],
+  "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) is an unaffiliated threat group that has led targeted campaigns against targets in Taiwan, the Philippines, and Hong Kong. [Tropic Trooper](https://attack.mitre.org/groups/G0081) focuses on targeting government, healthcare, transportation, and ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0081"
+  ]
+}

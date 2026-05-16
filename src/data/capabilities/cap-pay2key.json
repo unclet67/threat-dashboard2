@@ -1,0 +1,19 @@
+{
+  "id": "cap-pay2key",
+  "name": "Pay2Key",
+  "type": "implant",
+  "description": "[Pay2Key](https://attack.mitre.org/software/S0556) is a ransomware written in C++ that has been used by [Fox Kitten](https://attack.mitre.org/groups/G0117) since at least July 2020 including campaigns against Israeli companies. [Pay2Key](https://attack.mitre.org/software/S0556) has been incorporated",
+  "mitreAttackIds": [
+    "T1090.001",
+    "T1573.002",
+    "T1489",
+    "T1070.004",
+    "T1095",
+    "T1082",
+    "T1486",
+    "T1016"
+  ],
+  "actorIds": [
+    "fox-kitten"
+  ]
+}

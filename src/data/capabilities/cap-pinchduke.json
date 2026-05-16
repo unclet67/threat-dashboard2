@@ -1,0 +1,18 @@
+{
+  "id": "cap-pinchduke",
+  "name": "PinchDuke",
+  "type": "implant",
+  "description": "[PinchDuke](https://attack.mitre.org/software/S0048) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2008 to 2010. (Citation: F-Secure The Dukes)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1003",
+    "T1071.001",
+    "T1082",
+    "T1555",
+    "T1555.003",
+    "T1005"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

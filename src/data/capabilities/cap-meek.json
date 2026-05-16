@@ -1,0 +1,12 @@
+{
+  "id": "cap-meek",
+  "name": "meek",
+  "type": "tool",
+  "description": "[meek](https://attack.mitre.org/software/S0175) is an open-source Tor plugin that tunnels Tor traffic through HTTPS connections.",
+  "mitreAttackIds": [
+    "T1090.004"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

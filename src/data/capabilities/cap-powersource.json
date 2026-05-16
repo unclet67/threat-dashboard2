@@ -1,0 +1,17 @@
+{
+  "id": "cap-powersource",
+  "name": "POWERSOURCE",
+  "type": "implant",
+  "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) is a PowerShell backdoor that is a heavily obfuscated and modified version of the publicly available tool DNS_TXT_Pwnage. It was observed in February 2017 in spearphishing campaigns against personnel involved with United States Securities and Ex",
+  "mitreAttackIds": [
+    "T1059.001",
+    "T1012",
+    "T1547.001",
+    "T1564.004",
+    "T1071.004",
+    "T1105"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

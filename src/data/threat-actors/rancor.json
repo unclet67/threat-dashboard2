@@ -1,0 +1,22 @@
+{
+  "id": "rancor",
+  "name": "Rancor",
+  "aliases": [
+    "Rancor"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-reg",
+    "cap-ddkong",
+    "cap-plaintee",
+    "cap-certutil"
+  ],
+  "description": "[Rancor](https://attack.mitre.org/groups/G0075) is a threat group that has led targeted campaigns against the South East Asia region. [Rancor](https://attack.mitre.org/groups/G0075) uses politically-motivated lures to entice victims to open malicious documents. (Citation: Rancor Unit42 June 2018)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0075"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cap-kapeka",
+  "name": "Kapeka",
+  "type": "implant",
+  "description": "Kapeka is a backdoor written in C++ used against victims in Eastern Europe since at least mid-2022. Kapeka has technical overlaps with [Exaramel for Windows](https://attack.mitre.org/software/S0343) and [Prestige](https://attack.mitre.org/software/S1058) malware variants, both of which are linked to",
+  "mitreAttackIds": [
+    "T1218.011",
+    "T1036.008",
+    "T1082",
+    "T1059.003",
+    "T1112",
+    "T1053.005",
+    "T1071.001",
+    "T1070.009",
+    "T1132.001",
+    "T1012",
+    "T1140",
+    "T1090",
+    "T1106",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

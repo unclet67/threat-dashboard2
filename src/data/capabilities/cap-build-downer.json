@@ -1,0 +1,19 @@
+{
+  "id": "cap-build-downer",
+  "name": "build_downer",
+  "type": "implant",
+  "description": "[build_downer](https://attack.mitre.org/software/S0471) is a downloader that has been used by [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) since at least 2019.(Citation: Trend Micro Tick November 2019)",
+  "mitreAttackIds": [
+    "T1106",
+    "T1036.004",
+    "T1547.001",
+    "T1027.003",
+    "T1124",
+    "T1518.001",
+    "T1680",
+    "T1105"
+  ],
+  "actorIds": [
+    "bronze-butler"
+  ]
+}

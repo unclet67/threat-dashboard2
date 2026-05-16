@@ -1,0 +1,22 @@
+{
+  "id": "cap-heartcrypt",
+  "name": "HeartCrypt",
+  "type": "implant",
+  "description": "[HeartCrypt](https://attack.mitre.org/software/S9018) is a packer-as-a-service (PaaS) used to protect malware that has been available since at least 2024. [HeartCrypt](https://attack.mitre.org/software/S9018) has been used to pack a variety of malware including [Lumma Stealer](https://attack.mitre.o",
+  "mitreAttackIds": [
+    "T1055.004",
+    "T1036.008",
+    "T1055.012",
+    "T1497.001",
+    "T1140",
+    "T1027.002",
+    "T1027.013",
+    "T1547.001",
+    "T1059.003",
+    "T1106",
+    "T1027.001"
+  ],
+  "actorIds": [
+    "apt-c-36"
+  ]
+}

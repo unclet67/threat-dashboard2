@@ -1,0 +1,25 @@
+{
+  "id": "cap-ipconfig",
+  "name": "ipconfig",
+  "type": "tool",
+  "description": "[ipconfig](https://attack.mitre.org/software/S0100) is a Windows utility that can be used to find information about a system's TCP/IP, DNS, DHCP, and adapter configuration. (Citation: TechNet Ipconfig)",
+  "mitreAttackIds": [
+    "T1016"
+  ],
+  "actorIds": [
+    "oilrig",
+    "admin-338",
+    "hexane",
+    "ke3chang",
+    "volt-typhoon",
+    "magic-hound",
+    "apt29",
+    "apt32",
+    "mirrorface",
+    "apt41",
+    "gallium",
+    "threat-group-3390",
+    "apt1",
+    "orangeworm"
+  ]
+}

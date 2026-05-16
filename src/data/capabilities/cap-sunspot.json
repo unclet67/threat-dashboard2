@@ -1,0 +1,23 @@
+{
+  "id": "cap-sunspot",
+  "name": "SUNSPOT",
+  "type": "implant",
+  "description": "[SUNSPOT](https://attack.mitre.org/software/S0562) is an implant that injected the [SUNBURST](https://attack.mitre.org/software/S0559) backdoor into the SolarWinds Orion software update framework. It was used by [APT29](https://attack.mitre.org/groups/G0016) since at least February 2020.(Citation: C",
+  "mitreAttackIds": [
+    "T1057",
+    "T1134",
+    "T1070.004",
+    "T1027",
+    "T1565.001",
+    "T1083",
+    "T1480",
+    "T1195.002",
+    "T1106",
+    "T1480.002",
+    "T1140",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

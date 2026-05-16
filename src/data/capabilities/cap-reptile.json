@@ -1,0 +1,22 @@
+{
+  "id": "cap-reptile",
+  "name": "REPTILE",
+  "type": "implant",
+  "description": "[REPTILE](https://attack.mitre.org/software/S1219) is an open-source Linux rootkit with multiple components that provides backdoor access and functionality.(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "mitreAttackIds": [
+    "T1543.004",
+    "T1573.002",
+    "T1205.001",
+    "T1546.017",
+    "T1564.001",
+    "T1140",
+    "T1205",
+    "T1059.004",
+    "T1014",
+    "T1095",
+    "T1547.006"
+  ],
+  "actorIds": [
+    "unc3886"
+  ]
+}

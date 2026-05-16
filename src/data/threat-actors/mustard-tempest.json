@@ -1,0 +1,24 @@
+{
+  "id": "mustard-tempest",
+  "name": "Mustard Tempest",
+  "aliases": [
+    "Mustard Tempest",
+    "DEV-0206",
+    "TA569",
+    "GOLD PRELUDE",
+    "UNC1543"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-socgholish",
+    "cap-cobalt-strike"
+  ],
+  "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) is an initial access broker that has operated the [SocGholish](https://attack.mitre.org/software/S1124) distribution network since at least 2017. [Mustard Tempest](https://attack.mitre.org/groups/G1020) has partnered with [Indrik Spider](https",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1020"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cap-frp",
+  "name": "FRP",
+  "type": "tool",
+  "description": "[FRP](https://attack.mitre.org/software/S1144), which stands for Fast Reverse Proxy, is an openly available tool that is capable of exposing a server located behind a firewall or Network Address Translation (NAT) to the Internet. [FRP](https://attack.mitre.org/software/S1144) can support multiple pr",
+  "mitreAttackIds": [
+    "T1095",
+    "T1059.007",
+    "T1090",
+    "T1572",
+    "T1573.002",
+    "T1046",
+    "T1049",
+    "T1090.003",
+    "T1573.001",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "volt-typhoon",
+    "magic-hound",
+    "blue-mockingbird"
+  ]
+}

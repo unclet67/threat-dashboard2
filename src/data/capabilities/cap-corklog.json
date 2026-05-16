@@ -1,0 +1,19 @@
+{
+  "id": "cap-corklog",
+  "name": "CorKLOG",
+  "type": "implant",
+  "description": "[CorKLOG](https://attack.mitre.org/software/S1235) is a keylogger known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2024. [CorKLOG](https://attack.mitre.org/software/S1235) is delivered through a RAR archive (e.g., src.rar), which cont",
+  "mitreAttackIds": [
+    "T1553.002",
+    "T1056.001",
+    "T1140",
+    "T1543.003",
+    "T1027.013",
+    "T1574.001",
+    "T1053.005",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

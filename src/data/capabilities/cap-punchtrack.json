@@ -1,0 +1,14 @@
+{
+  "id": "cap-punchtrack",
+  "name": "PUNCHTRACK",
+  "type": "implant",
+  "description": "[PUNCHTRACK](https://attack.mitre.org/software/S0197) is non-persistent point of sale (POS) system malware utilized by [FIN8](https://attack.mitre.org/groups/G0061) to scrape payment card data. (Citation: FireEye Fin8 May 2016) (Citation: FireEye Know Your Enemy FIN8 Aug 2016)",
+  "mitreAttackIds": [
+    "T1005",
+    "T1027",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "fin8"
+  ]
+}

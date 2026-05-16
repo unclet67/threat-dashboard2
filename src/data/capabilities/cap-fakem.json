@@ -1,0 +1,15 @@
+{
+  "id": "cap-fakem",
+  "name": "FakeM",
+  "type": "implant",
+  "description": "[FakeM](https://attack.mitre.org/software/S0076) is a shellcode-based Windows backdoor that has been used by [Scarlet Mimic](https://attack.mitre.org/groups/G0029). (Citation: Scarlet Mimic Jan 2016)",
+  "mitreAttackIds": [
+    "T1095",
+    "T1573.001",
+    "T1056.001",
+    "T1001.003"
+  ],
+  "actorIds": [
+    "scarlet-mimic"
+  ]
+}

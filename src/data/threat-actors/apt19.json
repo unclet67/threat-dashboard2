@@ -1,0 +1,24 @@
+{
+  "id": "apt19",
+  "name": "APT19",
+  "aliases": [
+    "APT19",
+    "Codoso",
+    "C0d0so0",
+    "Codoso Team",
+    "Sunshop Group"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-cobalt-strike",
+    "cap-empire"
+  ],
+  "description": "[APT19](https://attack.mitre.org/groups/G0073) is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target s",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0073"
+  ]
+}

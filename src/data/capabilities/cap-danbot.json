@@ -1,0 +1,25 @@
+{
+  "id": "cap-danbot",
+  "name": "DanBot",
+  "type": "implant",
+  "description": "[DanBot](https://attack.mitre.org/software/S1014) is a first-stage remote access Trojan written in C# that has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least 2018.(Citation: SecureWorks August 2019)",
+  "mitreAttackIds": [
+    "T1053.005",
+    "T1036.005",
+    "T1021.005",
+    "T1027.013",
+    "T1070.004",
+    "T1204.002",
+    "T1071.004",
+    "T1005",
+    "T1105",
+    "T1566.001",
+    "T1071.001",
+    "T1059.005",
+    "T1059.003",
+    "T1140"
+  ],
+  "actorIds": [
+    "hexane"
+  ]
+}

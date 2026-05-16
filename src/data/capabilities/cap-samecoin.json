@@ -1,0 +1,20 @@
+{
+  "id": "cap-samecoin",
+  "name": "SameCoin",
+  "type": "implant",
+  "description": "[SameCoin](https://attack.mitre.org/software/S9030) is a multi-platform wiper with Windows and Android versions that has been used by [WIRTE](https://attack.mitre.org/groups/G0090) to target entities in the Middle East including in Israel.(Citation: Check Point Wirte NOV 2024)",
+  "mitreAttackIds": [
+    "T1534",
+    "T1485",
+    "T1491.001",
+    "T1614",
+    "T1570",
+    "T1679",
+    "T1083",
+    "T1036.005",
+    "T1053.005"
+  ],
+  "actorIds": [
+    "wirte"
+  ]
+}

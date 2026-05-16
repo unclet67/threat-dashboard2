@@ -1,0 +1,16 @@
+{
+  "id": "cap-nicecurl",
+  "name": "NICECURL",
+  "type": "implant",
+  "description": "[NICECURL](https://attack.mitre.org/software/S1192) is a VBScript-based backdoor used by [APT42](https://attack.mitre.org/groups/G1044) to download additional modules.(Citation: Mandiant APT42-untangling)",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1059",
+    "T1573.002",
+    "T1105",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt42"
+  ]
+}

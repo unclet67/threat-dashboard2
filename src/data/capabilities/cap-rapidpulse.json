@@ -1,0 +1,15 @@
+{
+  "id": "cap-rapidpulse",
+  "name": "RAPIDPULSE",
+  "type": "implant",
+  "description": "[RAPIDPULSE](https://attack.mitre.org/software/S1113) is a web shell that exists as a modification to a legitimate Pulse Secure file that has been used by [APT5](https://attack.mitre.org/groups/G1023) since at least 2021.(Citation: Mandiant Pulse Secure Update May 2021)",
+  "mitreAttackIds": [
+    "T1140",
+    "T1005",
+    "T1505.003",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "apt5"
+  ]
+}

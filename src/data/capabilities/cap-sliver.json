@@ -1,0 +1,36 @@
+{
+  "id": "cap-sliver",
+  "name": "Sliver",
+  "type": "tool",
+  "description": "[Sliver](https://attack.mitre.org/software/S0633) is an open source, cross-platform, red team command and control (C2) framework written in Golang. [Sliver](https://attack.mitre.org/software/S0633) includes its own package manager, \"armory,\" for staging and downloading additional tools and payloads ",
+  "mitreAttackIds": [
+    "T1027",
+    "T1055",
+    "T1083",
+    "T1027.004",
+    "T1001.002",
+    "T1134",
+    "T1059.001",
+    "T1071.004",
+    "T1027.013",
+    "T1573.002",
+    "T1090.001",
+    "T1016",
+    "T1113",
+    "T1071.001",
+    "T1105",
+    "T1573.001",
+    "T1071",
+    "T1558.001",
+    "T1041",
+    "T1548.002",
+    "T1132.001",
+    "T1003.001",
+    "T1049"
+  ],
+  "actorIds": [
+    "cinnamon-tempest",
+    "apt29",
+    "ta551"
+  ]
+}

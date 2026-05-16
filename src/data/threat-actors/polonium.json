@@ -1,0 +1,21 @@
+{
+  "id": "polonium",
+  "name": "POLONIUM",
+  "aliases": [
+    "POLONIUM",
+    "Plaid Rain"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-creepydrive",
+    "cap-creepysnail"
+  ],
+  "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) is a Lebanon-based group that has primarily targeted Israeli organizations, including critical manufacturing, information technology, and defense industry companies, since at least February 2022. Security researchers assess [POLONIUM](https://attack.",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1005"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cap-rotajakiro",
+  "name": "RotaJakiro",
+  "type": "implant",
+  "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) is a 64-bit Linux backdoor used by [APT32](https://attack.mitre.org/groups/G0050). First seen in 2018, it uses a plugin architecture to extend capabilities. [RotaJakiro](https://attack.mitre.org/software/S1078) can determine it's permission level",
+  "mitreAttackIds": [
+    "T1140",
+    "T1546.004",
+    "T1106",
+    "T1132.001",
+    "T1037",
+    "T1082",
+    "T1543.002",
+    "T1129",
+    "T1571",
+    "T1095",
+    "T1036.005",
+    "T1559",
+    "T1057",
+    "T1119",
+    "T1547.013",
+    "T1041",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

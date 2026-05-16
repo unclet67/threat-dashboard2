@@ -1,0 +1,23 @@
+{
+  "id": "apt30",
+  "name": "APT30",
+  "aliases": [
+    "APT30"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-shipshape",
+    "cap-backspace",
+    "cap-flashflood",
+    "cap-neteagle",
+    "cap-spaceship"
+  ],
+  "description": "[APT30](https://attack.mitre.org/groups/G0013) is a threat group suspected to be associated with the Chinese government. While [Naikon](https://attack.mitre.org/groups/G0019) shares some characteristics with [APT30](https://attack.mitre.org/groups/G0013), the two groups do not appear to be exact mat",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0013"
+  ]
+}

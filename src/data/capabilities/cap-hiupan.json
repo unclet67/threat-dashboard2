@@ -1,0 +1,20 @@
+{
+  "id": "cap-hiupan",
+  "name": "HIUPAN",
+  "type": "implant",
+  "description": "[HIUPAN](https://attack.mitre.org/software/S1230) (aka U2DiskWatch) is a is a worm that propagates through removable drives known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2024. (Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADE",
+  "mitreAttackIds": [
+    "T1091",
+    "T1112",
+    "T1057",
+    "T1678",
+    "T1547.001",
+    "T1204.002",
+    "T1564.001",
+    "T1574.001",
+    "T1120"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

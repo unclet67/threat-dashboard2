@@ -1,0 +1,27 @@
+{
+  "id": "wirte",
+  "name": "WIRTE",
+  "aliases": [
+    "WIRTE",
+    "Ashen Lepus"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-litepower",
+    "cap-samecoin",
+    "cap-ferocious",
+    "cap-empire",
+    "cap-ironwind",
+    "cap-rclone",
+    "cap-havoc",
+    "cap-ashtag"
+  ],
+  "description": "[WIRTE](https://attack.mitre.org/groups/G0090) is a cyberespionage actor, believed to be a subgroup of the Hamas-affiliated Gaza Cybergang, that has been active since at least August 2018. [WIRTE](https://attack.mitre.org/groups/G0090) has targeted diplomatic, financial, military, legal, and technol",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0090"
+  ]
+}

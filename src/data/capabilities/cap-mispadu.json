@@ -1,0 +1,37 @@
+{
+  "id": "cap-mispadu",
+  "name": "Mispadu",
+  "type": "implant",
+  "description": "[Mispadu](https://attack.mitre.org/software/S1122) is a banking trojan written in Delphi that was first observed in 2019 and uses a Malware-as-a-Service (MaaS) business model.(Citation: ESET Security Mispadu Facebook Ads 2019)(Citation: SCILabs Malteiro 2021) This malware is operated, managed, and s",
+  "mitreAttackIds": [
+    "T1140",
+    "T1555.003",
+    "T1113",
+    "T1218.007",
+    "T1614.001",
+    "T1176.001",
+    "T1217",
+    "T1566.002",
+    "T1082",
+    "T1204.002",
+    "T1106",
+    "T1218.011",
+    "T1056.001",
+    "T1547.001",
+    "T1027.013",
+    "T1055",
+    "T1518.001",
+    "T1056.002",
+    "T1057",
+    "T1497.001",
+    "T1083",
+    "T1041",
+    "T1573.002",
+    "T1115",
+    "T1555",
+    "T1059.005"
+  ],
+  "actorIds": [
+    "malteiro"
+  ]
+}

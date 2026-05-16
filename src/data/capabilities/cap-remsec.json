@@ -1,0 +1,41 @@
+{
+  "id": "cap-remsec",
+  "name": "Remsec",
+  "type": "implant",
+  "description": "[Remsec](https://attack.mitre.org/software/S0125) is a modular backdoor that has been used by [Strider](https://attack.mitre.org/groups/G0041) and appears to have been designed primarily for espionage purposes. Many of its modules are written in Lua. (Citation: Symantec Strider Blog)",
+  "mitreAttackIds": [
+    "T1055.001",
+    "T1068",
+    "T1052.001",
+    "T1083",
+    "T1686.003",
+    "T1048.003",
+    "T1049",
+    "T1070.004",
+    "T1056.001",
+    "T1057",
+    "T1027.013",
+    "T1556.002",
+    "T1036.005",
+    "T1095",
+    "T1018",
+    "T1071.003",
+    "T1059.011",
+    "T1105",
+    "T1003.002",
+    "T1025",
+    "T1053.005",
+    "T1082",
+    "T1087.001",
+    "T1016",
+    "T1033",
+    "T1652",
+    "T1071.001",
+    "T1046",
+    "T1518.001",
+    "T1071.004"
+  ],
+  "actorIds": [
+    "strider"
+  ]
+}

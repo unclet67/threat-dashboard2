@@ -1,0 +1,25 @@
+{
+  "id": "cap-nbtscan",
+  "name": "NBTscan",
+  "type": "tool",
+  "description": "[NBTscan](https://attack.mitre.org/software/S0590) is an open source tool that has been used by state groups to conduct internal reconnaissance within a compromised network.(Citation: Debian nbtscan Nov 2019)(Citation: SecTools nbtscan June 2003)(Citation: Symantec Waterbug Jun 2019)(Citation: FireE",
+  "mitreAttackIds": [
+    "T1033",
+    "T1016",
+    "T1040",
+    "T1046",
+    "T1018"
+  ],
+  "actorIds": [
+    "earth-lusca",
+    "turla",
+    "apt39",
+    "backdoordiplomacy",
+    "mustang-panda",
+    "gallium",
+    "threat-group-3390",
+    "tonto-team",
+    "agrius",
+    "lotus-blossom"
+  ]
+}

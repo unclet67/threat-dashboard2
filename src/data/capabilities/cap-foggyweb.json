@@ -1,0 +1,32 @@
+{
+  "id": "cap-foggyweb",
+  "name": "FoggyWeb",
+  "type": "implant",
+  "description": "[FoggyWeb](https://attack.mitre.org/software/S0661) is a passive and highly-targeted backdoor capable of remotely exfiltrating sensitive information from a compromised Active Directory Federated Services (AD FS) server. It has been used by [APT29](https://attack.mitre.org/groups/G0016) since at leas",
+  "mitreAttackIds": [
+    "T1140",
+    "T1560.003",
+    "T1041",
+    "T1027.004",
+    "T1005",
+    "T1027.013",
+    "T1071.001",
+    "T1552.004",
+    "T1036",
+    "T1057",
+    "T1550",
+    "T1106",
+    "T1129",
+    "T1040",
+    "T1560.002",
+    "T1105",
+    "T1574.001",
+    "T1036.005",
+    "T1083",
+    "T1620",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

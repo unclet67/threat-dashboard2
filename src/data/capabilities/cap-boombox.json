@@ -1,0 +1,27 @@
+{
+  "id": "cap-boombox",
+  "name": "BoomBox",
+  "type": "implant",
+  "description": "[BoomBox](https://attack.mitre.org/software/S0635) is a downloader responsible for executing next stage components that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021.(Citation: MSTIC Nobelium Toolset May 2021)",
+  "mitreAttackIds": [
+    "T1218.011",
+    "T1105",
+    "T1140",
+    "T1102",
+    "T1087.002",
+    "T1071.001",
+    "T1204.002",
+    "T1082",
+    "T1083",
+    "T1036",
+    "T1480",
+    "T1547.001",
+    "T1033",
+    "T1567.002",
+    "T1087.003",
+    "T1027"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

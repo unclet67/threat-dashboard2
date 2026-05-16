@@ -1,0 +1,21 @@
+{
+  "id": "sidewinder",
+  "name": "Sidewinder",
+  "aliases": [
+    "Sidewinder",
+    "T-APT-04",
+    "Rattlesnake"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-koadic"
+  ],
+  "description": "[Sidewinder](https://attack.mitre.org/groups/G0121) is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan.(Citatio",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0121"
+  ]
+}

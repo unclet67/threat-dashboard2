@@ -1,0 +1,20 @@
+{
+  "id": "cap-starproxy",
+  "name": "StarProxy",
+  "type": "implant",
+  "description": "[StarProxy](https://attack.mitre.org/software/S1227) is custom malware used by [Mustang Panda](https://attack.mitre.org/groups/G0129) as a post-compromise tool, to enable proxying of traffic between the infected machine and other machines on the same network. (Citation: Zscaler)",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1574.001",
+    "T1059",
+    "T1001.003",
+    "T1106",
+    "T1124",
+    "T1090.001",
+    "T1095",
+    "T1140"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

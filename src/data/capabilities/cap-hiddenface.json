@@ -1,0 +1,36 @@
+{
+  "id": "cap-hiddenface",
+  "name": "HiddenFace",
+  "type": "implant",
+  "description": "[HiddenFace](https://attack.mitre.org/software/S9023) is a modular backdoor developed and used exclusively by [MirrorFace](https://attack.mitre.org/groups/G1054) since at least 2021. [HiddenFace](https://attack.mitre.org/software/S9023) can communicate both actively and passively and has been used a",
+  "mitreAttackIds": [
+    "T1053.005",
+    "T1571",
+    "T1573.002",
+    "T1090.001",
+    "T1027.013",
+    "T1480.002",
+    "T1095",
+    "T1497.003",
+    "T1008",
+    "T1033",
+    "T1005",
+    "T1105",
+    "T1027.007",
+    "T1518.001",
+    "T1070.006",
+    "T1568.002",
+    "T1082",
+    "T1057",
+    "T1055",
+    "T1573.001",
+    "T1572",
+    "T1140",
+    "T1112",
+    "T1480",
+    "T1686.003"
+  ],
+  "actorIds": [
+    "mirrorface"
+  ]
+}

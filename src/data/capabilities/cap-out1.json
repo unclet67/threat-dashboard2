@@ -1,0 +1,16 @@
+{
+  "id": "cap-out1",
+  "name": "Out1",
+  "type": "tool",
+  "description": "[Out1](https://attack.mitre.org/software/S0594) is a remote access tool written in python and used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021.(Citation: Trend Micro Muddy Water March 2021)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1027",
+    "T1059.003",
+    "T1005",
+    "T1114.001"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

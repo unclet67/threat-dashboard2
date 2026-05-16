@@ -1,0 +1,28 @@
+{
+  "id": "tonto-team",
+  "name": "Tonto Team",
+  "aliases": [
+    "Tonto Team",
+    "Earth Akhlut",
+    "BRONZE HUNTLEY",
+    "CactusPete",
+    "Karma Panda"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-bisonal",
+    "cap-shadowpad",
+    "cap-lazagne",
+    "cap-nbtscan",
+    "cap-gsecdump"
+  ],
+  "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern Europe",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0131"
+  ]
+}

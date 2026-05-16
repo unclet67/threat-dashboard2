@@ -1,0 +1,13 @@
+{
+  "id": "cap-calendar",
+  "name": "CALENDAR",
+  "type": "implant",
+  "description": "[CALENDAR](https://attack.mitre.org/software/S0025) is malware used by [APT1](https://attack.mitre.org/groups/G0006) that mimics legitimate Gmail Calendar traffic. (Citation: Mandiant APT1)",
+  "mitreAttackIds": [
+    "T1059.003",
+    "T1102.002"
+  ],
+  "actorIds": [
+    "apt1"
+  ]
+}

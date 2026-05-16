@@ -1,0 +1,39 @@
+{
+  "id": "cap-metamain",
+  "name": "metaMain",
+  "type": "implant",
+  "description": "[metaMain](https://attack.mitre.org/software/S1059) is a backdoor used by [Metador](https://attack.mitre.org/groups/G1013) to maintain long-term access to compromised machines; it has also been used to decrypt [Mafalda](https://attack.mitre.org/software/S1060) into memory.(Citation: SentinelLabs Met",
+  "mitreAttackIds": [
+    "T1033",
+    "T1027.013",
+    "T1057",
+    "T1074.001",
+    "T1095",
+    "T1546.003",
+    "T1620",
+    "T1112",
+    "T1140",
+    "T1560.003",
+    "T1056",
+    "T1106",
+    "T1113",
+    "T1071.001",
+    "T1497.003",
+    "T1005",
+    "T1083",
+    "T1041",
+    "T1090.001",
+    "T1574.001",
+    "T1105",
+    "T1070.004",
+    "T1056.001",
+    "T1573.001",
+    "T1070.006",
+    "T1055",
+    "T1205.001",
+    "T1082"
+  ],
+  "actorIds": [
+    "metador"
+  ]
+}

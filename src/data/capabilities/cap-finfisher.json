@@ -1,0 +1,33 @@
+{
+  "id": "cap-finfisher",
+  "name": "FinFisher",
+  "type": "implant",
+  "description": "[FinFisher](https://attack.mitre.org/software/S0182) is a government-grade commercial surveillance spyware reportedly sold exclusively to government agencies for use in targeted and lawful criminal investigations. It is heavily obfuscated and uses multiple anti-analysis techniques. It has other vari",
+  "mitreAttackIds": [
+    "T1134.001",
+    "T1113",
+    "T1547.001",
+    "T1685.005",
+    "T1497.001",
+    "T1574.001",
+    "T1056.004",
+    "T1027.002",
+    "T1055.001",
+    "T1548.002",
+    "T1083",
+    "T1542.003",
+    "T1012",
+    "T1543.003",
+    "T1027.016",
+    "T1036.005",
+    "T1140",
+    "T1057",
+    "T1518.001",
+    "T1082",
+    "T1027",
+    "T1574.013"
+  ],
+  "actorIds": [
+    "dark-caracal"
+  ]
+}

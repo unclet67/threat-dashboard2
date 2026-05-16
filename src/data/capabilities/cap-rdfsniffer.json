@@ -1,0 +1,14 @@
+{
+  "id": "cap-rdfsniffer",
+  "name": "RDFSNIFFER",
+  "type": "implant",
+  "description": "[RDFSNIFFER](https://attack.mitre.org/software/S0416) is a module loaded by [BOOSTWRITE](https://attack.mitre.org/software/S0415) which allows an attacker to monitor and tamper with legitimate connections made via an application designed to provide visibility and system management capabilities to re",
+  "mitreAttackIds": [
+    "T1056.004",
+    "T1070.004",
+    "T1106"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

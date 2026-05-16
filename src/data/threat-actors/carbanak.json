@@ -1,0 +1,23 @@
+{
+  "id": "carbanak",
+  "name": "Carbanak",
+  "aliases": [
+    "Carbanak",
+    "Anunak"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-carbanak",
+    "cap-mimikatz",
+    "cap-psexec",
+    "cap-netsh"
+  ],
+  "description": "[Carbanak](https://attack.mitre.org/groups/G0008) is a cybercriminal group that has used [Carbanak](https://attack.mitre.org/software/S0030) malware to target financial institutions since at least 2013. [Carbanak](https://attack.mitre.org/groups/G0008) may be linked to groups tracked separately as [",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0008"
+  ]
+}

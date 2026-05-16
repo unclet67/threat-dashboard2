@@ -1,0 +1,13 @@
+{
+  "id": "cap-route",
+  "name": "route",
+  "type": "tool",
+  "description": "[route](https://attack.mitre.org/software/S0103) can be used to find or change information within the local system IP routing table. (Citation: TechNet Route)",
+  "mitreAttackIds": [
+    "T1016"
+  ],
+  "actorIds": [
+    "lazarus-group",
+    "orangeworm"
+  ]
+}

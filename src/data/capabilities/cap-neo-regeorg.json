@@ -1,0 +1,19 @@
+{
+  "id": "cap-neo-regeorg",
+  "name": "Neo-reGeorg",
+  "type": "implant",
+  "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) is an open-source web shell designed as a restructuring of [reGeorg](https://attack.mitre.org/software/S1187) with improved usability, security, and fixes for exising [reGeorg](https://attack.mitre.org/software/S1187) bugs.(Citation: GitHub Neo-",
+  "mitreAttackIds": [
+    "T1572",
+    "T1105",
+    "T1095",
+    "T1071.001",
+    "T1090",
+    "T1059.006",
+    "T1132.002",
+    "T1505.003"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

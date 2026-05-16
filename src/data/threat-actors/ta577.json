@@ -1,0 +1,21 @@
+{
+  "id": "ta577",
+  "name": "TA577",
+  "aliases": [
+    "TA577"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-pikabot",
+    "cap-qakbot",
+    "cap-latrodectus"
+  ],
+  "description": "[TA577](https://attack.mitre.org/groups/G1037) is an initial access broker (IAB) that has distributed [QakBot](https://attack.mitre.org/software/S0650) and [Pikabot](https://attack.mitre.org/software/S1145), and was among the first observed groups distributing [Latrodectus](https://attack.mitre.org/",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1037"
+  ]
+}

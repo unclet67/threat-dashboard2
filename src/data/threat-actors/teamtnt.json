@@ -1,0 +1,22 @@
+{
+  "id": "teamtnt",
+  "name": "TeamTNT",
+  "aliases": [
+    "TeamTNT"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-peirates",
+    "cap-mimipenguin",
+    "cap-lazagne",
+    "cap-hildegard"
+  ],
+  "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) is a threat group that has primarily targeted cloud and containerized environments. The group as been active since at least October 2019 and has mainly focused its efforts on leveraging cloud and container resources to deploy cryptocurrency miners in ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0139"
+  ]
+}

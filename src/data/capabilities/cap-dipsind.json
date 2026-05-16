@@ -1,0 +1,18 @@
+{
+  "id": "cap-dipsind",
+  "name": "Dipsind",
+  "type": "implant",
+  "description": "[Dipsind](https://attack.mitre.org/software/S0200) is a malware family of backdoors that appear to be used exclusively by [PLATINUM](https://attack.mitre.org/groups/G0068). (Citation: Microsoft PLATINUM April 2016)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1573.001",
+    "T1547.004",
+    "T1029",
+    "T1059.003",
+    "T1132.001",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "platinum"
+  ]
+}

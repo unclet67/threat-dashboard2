@@ -1,0 +1,17 @@
+{
+  "id": "redcurl",
+  "name": "RedCurl",
+  "aliases": [
+    "RedCurl"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[RedCurl](https://attack.mitre.org/groups/G1039) is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1039"
+  ]
+}

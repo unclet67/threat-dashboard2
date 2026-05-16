@@ -1,0 +1,20 @@
+{
+  "id": "nomadic-octopus",
+  "name": "Nomadic Octopus",
+  "aliases": [
+    "Nomadic Octopus",
+    "DustSquad"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-octopus"
+  ],
+  "description": "\n[Nomadic Octopus](https://attack.mitre.org/groups/G0133) is a Russian-speaking cyber espionage threat group that has primarily targeted Central Asia, including local governments, diplomatic missions, and individuals, since at least 2014. [Nomadic Octopus](https://attack.mitre.org/groups/G0133) has ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0133"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cap-pooraim",
+  "name": "POORAIM",
+  "type": "implant",
+  "description": "[POORAIM](https://attack.mitre.org/software/S0216) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067) in campaigns since at least 2014. (Citation: FireEye APT37 Feb 2018)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1113",
+    "T1102.002",
+    "T1057",
+    "T1082",
+    "T1189"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

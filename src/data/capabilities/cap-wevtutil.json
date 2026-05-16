@@ -1,0 +1,19 @@
+{
+  "id": "cap-wevtutil",
+  "name": "Wevtutil",
+  "type": "tool",
+  "description": "[Wevtutil](https://attack.mitre.org/software/S0645) is a Windows command-line utility that enables administrators to retrieve information about event logs and publishers.(Citation: Wevtutil Microsoft Documentation)",
+  "mitreAttackIds": [
+    "T1685.001",
+    "T1005",
+    "T1685.005"
+  ],
+  "actorIds": [
+    "aquatic-panda",
+    "play",
+    "apt28",
+    "volt-typhoon",
+    "mustang-panda",
+    "mirrorface"
+  ]
+}

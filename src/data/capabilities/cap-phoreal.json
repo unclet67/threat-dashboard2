@@ -1,0 +1,14 @@
+{
+  "id": "cap-phoreal",
+  "name": "PHOREAL",
+  "type": "implant",
+  "description": "[PHOREAL](https://attack.mitre.org/software/S0158) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050). (Citation: FireEye APT32 May 2017)",
+  "mitreAttackIds": [
+    "T1112",
+    "T1059.003",
+    "T1095"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

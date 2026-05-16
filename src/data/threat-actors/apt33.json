@@ -1,13 +1,45 @@
 {
   "id": "apt33",
   "name": "APT33",
-  "aliases": ["Elfin", "Refined Kitten", "HOLMIUM", "Magnallium"],
+  "aliases": [
+    "Elfin",
+    "Refined Kitten",
+    "HOLMIUM",
+    "Magnallium",
+    "APT33",
+    "Peach Sandstorm"
+  ],
   "countryId": "iran",
   "orgId": "irgc",
-  "opTypes": ["Cyber"],
-  "operationIds": ["op-ir-001"],
-  "capabilityIds": ["cap-shamoon"],
+  "opTypes": [
+    "Cyber"
+  ],
+  "operationIds": [
+    "op-ir-001"
+  ],
+  "capabilityIds": [
+    "cap-shamoon",
+    "cap-powersploit",
+    "cap-autoit-backdoor",
+    "cap-poshc2",
+    "cap-ruler",
+    "cap-mimikatz",
+    "cap-nanocore",
+    "cap-deadwood",
+    "cap-stonedrill",
+    "cap-powerton",
+    "cap-lazagne",
+    "cap-turnedup",
+    "cap-netwire",
+    "cap-net",
+    "cap-pupy",
+    "cap-empire",
+    "cap-ftp"
+  ],
   "description": "IRGC-linked actor targeting aviation, energy, and petrochemical sectors primarily in Saudi Arabia, South Korea, and the US since at least 2013. Known for destructive Shamoon wiper attacks and spearphishing via fake job postings.",
   "confidence": "high",
-  "sources": ["https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html"]
+  "sources": [
+    "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+    "https://attack.mitre.org/groups/G0064"
+  ]
 }

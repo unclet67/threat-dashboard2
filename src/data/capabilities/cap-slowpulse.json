@@ -1,0 +1,17 @@
+{
+  "id": "cap-slowpulse",
+  "name": "SLOWPULSE",
+  "type": "implant",
+  "description": "[SLOWPULSE](https://attack.mitre.org/software/S1104) is a malware that was used by [APT5](https://attack.mitre.org/groups/G1023) as early as 2020 including against U.S. Defense Industrial Base (DIB) companies. [SLOWPULSE](https://attack.mitre.org/software/S1104) has several variants and can modify l",
+  "mitreAttackIds": [
+    "T1556.004",
+    "T1111",
+    "T1556.006",
+    "T1074.001",
+    "T1554",
+    "T1027"
+  ],
+  "actorIds": [
+    "apt5"
+  ]
+}

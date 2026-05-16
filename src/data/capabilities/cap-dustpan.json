@@ -1,0 +1,17 @@
+{
+  "id": "cap-dustpan",
+  "name": "DUSTPAN",
+  "type": "implant",
+  "description": "[DUSTPAN](https://attack.mitre.org/software/S1158) is an in-memory dropper written in C/C++ used by [APT41](https://attack.mitre.org/groups/G0096) since 2021 that decrypts and executes an embedded payload.(Citation: Google Cloud APT41 2024)(Citation: Google Cloud APT41 2022)",
+  "mitreAttackIds": [
+    "T1036.005",
+    "T1027.013",
+    "T1140",
+    "T1055.002",
+    "T1027.009",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "apt41"
+  ]
+}

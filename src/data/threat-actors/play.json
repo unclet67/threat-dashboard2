@@ -1,0 +1,27 @@
+{
+  "id": "play",
+  "name": "Play",
+  "aliases": [
+    "Play"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nltest",
+    "cap-adfind",
+    "cap-psexec",
+    "cap-empire",
+    "cap-wevtutil",
+    "cap-cobalt-strike",
+    "cap-playcrypt",
+    "cap-bloodhound",
+    "cap-mimikatz"
+  ],
+  "description": "[Play](https://attack.mitre.org/groups/G1040) is a ransomware group that has been active since at least 2022 deploying  [Playcrypt](https://attack.mitre.org/software/S1162) ransomware against the business, government, critical infrastructure, healthcare, and media sectors in North America, South Ame",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1040"
+  ]
+}

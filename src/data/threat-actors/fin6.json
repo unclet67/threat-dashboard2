@@ -1,0 +1,35 @@
+{
+  "id": "fin6",
+  "name": "FIN6",
+  "aliases": [
+    "FIN6",
+    "Magecart Group 6",
+    "ITG08",
+    "Skeleton Spider",
+    "TAAL",
+    "Camouflage Tempest"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-flawedammyy",
+    "cap-grimagent",
+    "cap-frameworkpos",
+    "cap-more-eggs",
+    "cap-cobalt-strike",
+    "cap-windows-credential-editor",
+    "cap-adfind",
+    "cap-psexec",
+    "cap-maze",
+    "cap-lockergoga",
+    "cap-ryuk",
+    "cap-mimikatz"
+  ],
+  "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 Ap",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0037"
+  ]
+}

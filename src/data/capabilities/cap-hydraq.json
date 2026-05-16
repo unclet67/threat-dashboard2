@@ -1,0 +1,31 @@
+{
+  "id": "cap-hydraq",
+  "name": "Hydraq",
+  "type": "implant",
+  "description": "[Hydraq](https://attack.mitre.org/software/S0203) is a data-theft trojan first used by [Elderwood](https://attack.mitre.org/groups/G0066) in the 2009 Google intrusion known as Operation Aurora, though variations of this trojan have been used in more recent campaigns by other Chinese actors, possibly",
+  "mitreAttackIds": [
+    "T1012",
+    "T1129",
+    "T1569.002",
+    "T1016",
+    "T1082",
+    "T1005",
+    "T1112",
+    "T1105",
+    "T1027",
+    "T1543.003",
+    "T1685.005",
+    "T1573.001",
+    "T1007",
+    "T1070.004",
+    "T1057",
+    "T1113",
+    "T1048",
+    "T1083",
+    "T1134"
+  ],
+  "actorIds": [
+    "elderwood",
+    "axiom"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cap-cannon",
+  "name": "Cannon",
+  "type": "implant",
+  "description": "[Cannon](https://attack.mitre.org/software/S0351) is a Trojan with variants written in C# and Delphi. It was first observed in April 2018. (Citation: Unit42 Cannon Nov 2018)(Citation: Unit42 Sofacy Dec 2018)",
+  "mitreAttackIds": [
+    "T1057",
+    "T1680",
+    "T1113",
+    "T1033",
+    "T1041",
+    "T1071.003",
+    "T1124",
+    "T1083",
+    "T1105",
+    "T1082",
+    "T1547.004"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

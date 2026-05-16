@@ -1,0 +1,35 @@
+{
+  "id": "cap-maze",
+  "name": "Maze",
+  "type": "implant",
+  "description": "[Maze](https://attack.mitre.org/software/S0449) ransomware, previously known as \"ChaCha\", was discovered in May 2019. In addition to encrypting files on victim machines for impact, [Maze](https://attack.mitre.org/software/S0449) operators conduct information stealing campaigns prior to encryption an",
+  "mitreAttackIds": [
+    "T1486",
+    "T1027.016",
+    "T1082",
+    "T1547.001",
+    "T1036.004",
+    "T1614.001",
+    "T1049",
+    "T1564.006",
+    "T1055.001",
+    "T1529",
+    "T1568",
+    "T1106",
+    "T1071.001",
+    "T1059.003",
+    "T1053.005",
+    "T1685",
+    "T1047",
+    "T1057",
+    "T1070",
+    "T1489",
+    "T1027",
+    "T1218.007",
+    "T1490"
+  ],
+  "actorIds": [
+    "fin7",
+    "fin6"
+  ]
+}

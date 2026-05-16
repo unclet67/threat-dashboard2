@@ -1,0 +1,30 @@
+{
+  "id": "elderwood",
+  "name": "Elderwood",
+  "aliases": [
+    "Elderwood",
+    "Elderwood Gang",
+    "Beijing Group",
+    "Sneaky Panda"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-poisonivy",
+    "cap-naid",
+    "cap-briba",
+    "cap-hydraq",
+    "cap-linfo",
+    "cap-nerex",
+    "cap-vasport",
+    "cap-wiarp",
+    "cap-pasam"
+  ],
+  "description": "[Elderwood](https://attack.mitre.org/groups/G0066) is a suspected Chinese cyber espionage group that was reportedly responsible for the 2009 Google intrusion known as Operation Aurora. (Citation: Security Affairs Elderwood Sept 2012) The group has targeted defense organizations, supply chain manufac",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0066"
+  ]
+}

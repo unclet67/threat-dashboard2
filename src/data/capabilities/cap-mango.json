@@ -1,0 +1,24 @@
+{
+  "id": "cap-mango",
+  "name": "Mango",
+  "type": "implant",
+  "description": "[Mango](https://attack.mitre.org/software/S1169) is a first-stage backdoor written in C#/.NET that was used by [OilRig](https://attack.mitre.org/groups/G0049) during the [Juicy Mix](https://attack.mitre.org/campaigns/C0044) campaign. [Mango](https://attack.mitre.org/software/S1169) is the successor ",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1082",
+    "T1573.002",
+    "T1027.013",
+    "T1083",
+    "T1685",
+    "T1204.002",
+    "T1041",
+    "T1071.001",
+    "T1033",
+    "T1132.001",
+    "T1106",
+    "T1053.005"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

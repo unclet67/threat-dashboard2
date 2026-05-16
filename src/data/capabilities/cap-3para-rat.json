@@ -1,0 +1,15 @@
+{
+  "id": "cap-3para-rat",
+  "name": "3PARA RAT",
+  "type": "implant",
+  "description": "[3PARA RAT](https://attack.mitre.org/software/S0066) is a remote access tool (RAT) programmed in C++ that has been used by [Putter Panda](https://attack.mitre.org/groups/G0024). (Citation: CrowdStrike Putter Panda)",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1071.001",
+    "T1083",
+    "T1070.006"
+  ],
+  "actorIds": [
+    "putter-panda"
+  ]
+}

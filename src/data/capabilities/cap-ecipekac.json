@@ -1,0 +1,16 @@
+{
+  "id": "cap-ecipekac",
+  "name": "Ecipekac",
+  "type": "implant",
+  "description": "[Ecipekac](https://attack.mitre.org/software/S0624) is a multi-layer loader that has been used by [menuPass](https://attack.mitre.org/groups/G0045) since at least 2019 including use as a loader for [P8RAT](https://attack.mitre.org/software/S0626), [SodaMaster](https://attack.mitre.org/software/S0627",
+  "mitreAttackIds": [
+    "T1027",
+    "T1553.002",
+    "T1574.001",
+    "T1105",
+    "T1140"
+  ],
+  "actorIds": [
+    "menupass"
+  ]
+}

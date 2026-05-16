@@ -1,0 +1,24 @@
+{
+  "id": "putter-panda",
+  "name": "Putter Panda",
+  "aliases": [
+    "Putter Panda",
+    "APT2",
+    "MSUpdater"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-pngdowner",
+    "cap-3para-rat",
+    "cap-4h-rat",
+    "cap-httpclient"
+  ],
+  "description": "[Putter Panda](https://attack.mitre.org/groups/G0024) is a Chinese threat group that has been attributed to Unit 61486 of the 12th Bureau of the PLA’s 3rd General Staff Department (GSD). (Citation: CrowdStrike Putter Panda)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0024"
+  ]
+}

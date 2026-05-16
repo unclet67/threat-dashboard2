@@ -1,0 +1,30 @@
+{
+  "id": "indrik-spider",
+  "name": "Indrik Spider",
+  "aliases": [
+    "Indrik Spider",
+    "Evil Corp",
+    "Manatee Tempest",
+    "DEV-0243",
+    "UNC2165"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-donut",
+    "cap-mimikatz",
+    "cap-empire",
+    "cap-psexec",
+    "cap-dridex",
+    "cap-wastedlocker",
+    "cap-bitpaymer",
+    "cap-cobalt-strike"
+  ],
+  "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) is a Russia-based cybercriminal group that has been active since at least 2014. [Indrik Spider](https://attack.mitre.org/groups/G0119) initially started with the [Dridex](https://attack.mitre.org/software/S0384) banking Trojan, and then by 2017 ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0119"
+  ]
+}

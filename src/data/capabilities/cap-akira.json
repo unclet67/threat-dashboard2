@@ -1,0 +1,21 @@
+{
+  "id": "cap-akira",
+  "name": "Akira",
+  "type": "implant",
+  "description": "[Akira](https://attack.mitre.org/software/S1129) ransomware, written in C++, is most prominently (but not exclusively) associated with the ransomware-as-a-service entity [Akira](https://attack.mitre.org/groups/G1024). [Akira](https://attack.mitre.org/software/S1129) ransomware has been used in attac",
+  "mitreAttackIds": [
+    "T1083",
+    "T1082",
+    "T1059.001",
+    "T1047",
+    "T1059.003",
+    "T1135",
+    "T1106",
+    "T1490",
+    "T1057",
+    "T1486"
+  ],
+  "actorIds": [
+    "akira"
+  ]
+}

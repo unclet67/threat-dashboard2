@@ -1,0 +1,17 @@
+{
+  "id": "cap-splatcloak",
+  "name": "SplatCloak",
+  "type": "implant",
+  "description": "[SplatCloak](https://attack.mitre.org/software/S1234) is a malware that disables EDR-related routines used by Windows Defender and Kaspersky to aid in evading detection.  [SplatCloak](https://attack.mitre.org/software/S1234) has been deployed by [SplatDropper](https://attack.mitre.org/software/S1232",
+  "mitreAttackIds": [
+    "T1685",
+    "T1082",
+    "T1518.001",
+    "T1036.001",
+    "T1083",
+    "T1106"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

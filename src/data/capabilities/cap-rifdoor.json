@@ -1,0 +1,20 @@
+{
+  "id": "cap-rifdoor",
+  "name": "Rifdoor",
+  "type": "implant",
+  "description": "[Rifdoor](https://attack.mitre.org/software/S0433) is a remote access trojan (RAT) that shares numerous code similarities with [HotCroissant](https://attack.mitre.org/software/S0431).(Citation: Carbon Black HotCroissant April 2020)",
+  "mitreAttackIds": [
+    "T1027.013",
+    "T1082",
+    "T1027.001",
+    "T1016",
+    "T1547.001",
+    "T1566.001",
+    "T1573.001",
+    "T1033",
+    "T1204.002"
+  ],
+  "actorIds": [
+    "andariel"
+  ]
+}

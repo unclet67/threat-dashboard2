@@ -1,0 +1,14 @@
+{
+  "id": "cap-oilcheck",
+  "name": "OilCheck",
+  "type": "implant",
+  "description": "[OilCheck](https://attack.mitre.org/software/S1171) is a C#/.NET downloader that has been used by [OilRig](https://attack.mitre.org/groups/G0049) since at least 2022 including against targets in Israel. [OilCheck](https://attack.mitre.org/software/S1171) uses draft messages created in a shared email",
+  "mitreAttackIds": [
+    "T1567",
+    "T1105",
+    "T1102.002"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

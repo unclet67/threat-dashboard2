@@ -1,0 +1,26 @@
+{
+  "id": "cap-ping",
+  "name": "Ping",
+  "type": "tool",
+  "description": "[Ping](https://attack.mitre.org/software/S0097) is an operating system utility commonly used to troubleshoot and verify network connections. (Citation: TechNet Ping)",
+  "mitreAttackIds": [
+    "T1018"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "hexane",
+    "ke3chang",
+    "volt-typhoon",
+    "magic-hound",
+    "toddycat",
+    "menupass",
+    "mirrorface",
+    "apt41",
+    "gallium",
+    "fin8",
+    "gamaredon-group",
+    "naikon",
+    "lotus-blossom",
+    "deep-panda"
+  ]
+}

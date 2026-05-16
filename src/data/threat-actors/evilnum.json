@@ -1,0 +1,21 @@
+{
+  "id": "evilnum",
+  "name": "Evilnum",
+  "aliases": [
+    "Evilnum"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-more-eggs",
+    "cap-evilnum",
+    "cap-lazagne"
+  ],
+  "description": "[Evilnum](https://attack.mitre.org/groups/G0120) is a financially motivated threat group that has been active since at least 2018.(Citation: ESET EvilNum July 2020)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0120"
+  ]
+}

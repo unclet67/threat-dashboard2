@@ -1,0 +1,31 @@
+{
+  "id": "scattered-spider",
+  "name": "Scattered Spider",
+  "aliases": [
+    "Scattered Spider",
+    "Roasted 0ktapus",
+    "Octo Tempest",
+    "Storm-0875",
+    "UNC3944"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-warzonerat",
+    "cap-rclone",
+    "cap-lazagne",
+    "cap-tor",
+    "cap-mimikatz",
+    "cap-raccoon-stealer",
+    "cap-ngrok",
+    "cap-blackcat",
+    "cap-connectwise"
+  ],
+  "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) is a native English-speaking cybercriminal group active since at least 2022. (Citation: CrowdStrike Scattered Spider Profile) (Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1015"
+  ]
+}

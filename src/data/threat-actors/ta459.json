@@ -1,0 +1,22 @@
+{
+  "id": "ta459",
+  "name": "TA459",
+  "aliases": [
+    "TA459"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-gh0st-rat",
+    "cap-nettraveler",
+    "cap-plugx",
+    "cap-zerot"
+  ],
+  "description": "[TA459](https://attack.mitre.org/groups/G0062) is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint TA459 April 2017)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0062"
+  ]
+}

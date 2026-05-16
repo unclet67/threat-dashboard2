@@ -1,0 +1,17 @@
+{
+  "id": "cap-megazord",
+  "name": "Megazord",
+  "type": "implant",
+  "description": "[Megazord](https://attack.mitre.org/software/S1191) is a Rust-based variant of [Akira](https://attack.mitre.org/software/S1129) ransomware that has been in use since at least August 2023 to target Windows environments. [Megazord](https://attack.mitre.org/software/S1191) has been attributed to the [A",
+  "mitreAttackIds": [
+    "T1059.003",
+    "T1489",
+    "T1654",
+    "T1057",
+    "T1486",
+    "T1083"
+  ],
+  "actorIds": [
+    "akira"
+  ]
+}

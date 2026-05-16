@@ -1,0 +1,17 @@
+{
+  "id": "cap-roadtools",
+  "name": "ROADTools",
+  "type": "tool",
+  "description": "[ROADTools](https://attack.mitre.org/software/S0684) is a framework for enumerating Azure Active Directory environments. The tool is written in Python and publicly available on GitHub.(Citation: ROADtools Github)",
+  "mitreAttackIds": [
+    "T1018",
+    "T1119",
+    "T1526",
+    "T1087.004",
+    "T1069.003",
+    "T1078.004"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

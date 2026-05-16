@@ -1,0 +1,17 @@
+{
+  "id": "cap-halfbaked",
+  "name": "HALFBAKED",
+  "type": "implant",
+  "description": "[HALFBAKED](https://attack.mitre.org/software/S0151) is a malware family consisting of multiple components intended to establish persistence in victim networks. (Citation: FireEye FIN7 April 2017)",
+  "mitreAttackIds": [
+    "T1057",
+    "T1047",
+    "T1113",
+    "T1059.001",
+    "T1070.004",
+    "T1082"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

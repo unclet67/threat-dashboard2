@@ -1,0 +1,17 @@
+{
+  "id": "cap-winmm",
+  "name": "WinMM",
+  "type": "implant",
+  "description": "[WinMM](https://attack.mitre.org/software/S0059) is a full-featured, simple backdoor used by [Naikon](https://attack.mitre.org/groups/G0019). (Citation: Baumgartner Naikon 2015)",
+  "mitreAttackIds": [
+    "T1057",
+    "T1083",
+    "T1082",
+    "T1008",
+    "T1071.001",
+    "T1033"
+  ],
+  "actorIds": [
+    "naikon"
+  ]
+}

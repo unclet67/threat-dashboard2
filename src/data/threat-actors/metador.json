@@ -1,0 +1,20 @@
+{
+  "id": "metador",
+  "name": "Metador",
+  "aliases": [
+    "Metador"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-metamain",
+    "cap-mafalda"
+  ],
+  "description": "[Metador](https://attack.mitre.org/groups/G1013) is a suspected cyber espionage group that was first reported in September 2022. [Metador](https://attack.mitre.org/groups/G1013) has targeted a limited number of telecommunication companies, internet service providers, and universities in the Middle E",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1013"
+  ]
+}

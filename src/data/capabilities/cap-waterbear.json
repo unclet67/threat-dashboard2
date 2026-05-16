@@ -1,0 +1,25 @@
+{
+  "id": "cap-waterbear",
+  "name": "Waterbear",
+  "type": "implant",
+  "description": "[Waterbear](https://attack.mitre.org/software/S0579) is modular malware attributed to [BlackTech](https://attack.mitre.org/groups/G0098) that has been used primarily for lateral movement, decrypting, and triggering payloads and is capable of hiding network behaviors.(Citation: Trend Micro Waterbear ",
+  "mitreAttackIds": [
+    "T1574.001",
+    "T1055.003",
+    "T1055",
+    "T1105",
+    "T1112",
+    "T1140",
+    "T1027.013",
+    "T1049",
+    "T1012",
+    "T1518.001",
+    "T1057",
+    "T1106",
+    "T1027.005",
+    "T1685"
+  ],
+  "actorIds": [
+    "blacktech"
+  ]
+}

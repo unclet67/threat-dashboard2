@@ -1,0 +1,31 @@
+{
+  "id": "agrius",
+  "name": "Agrius",
+  "aliases": [
+    "Agrius",
+    "Pink Sandstorm",
+    "AMERICIUM",
+    "Agonizing Serpens",
+    "BlackShadow"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nbtscan",
+    "cap-mimikatz",
+    "cap-ipsec-helper",
+    "cap-moneybird",
+    "cap-multilayer-wiper",
+    "cap-deadwood",
+    "cap-bfg-agonizer",
+    "cap-aspxspy",
+    "cap-apostle"
+  ],
+  "description": "[Agrius](https://attack.mitre.org/groups/G1030) is an Iranian threat actor active since 2020 notable for a series of ransomware and wiper operations in the Middle East, with an emphasis on Israeli targets.(Citation: SentinelOne Agrius 2021)(Citation: CheckPoint Agrius 2023) Public reporting has link",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1030"
+  ]
+}

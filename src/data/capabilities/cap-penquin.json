@@ -1,0 +1,29 @@
+{
+  "id": "cap-penquin",
+  "name": "Penquin",
+  "type": "implant",
+  "description": "[Penquin](https://attack.mitre.org/software/S0587) is a remote access trojan (RAT) with multiple versions used by [Turla](https://attack.mitre.org/groups/G0010) to target Linux systems since at least 2014.(Citation: Kaspersky Turla Penquin December 2014)(Citation: Leonardo Turla Penquin May 2020)",
+  "mitreAttackIds": [
+    "T1059.004",
+    "T1016",
+    "T1205",
+    "T1036.005",
+    "T1105",
+    "T1680",
+    "T1053.003",
+    "T1040",
+    "T1573.002",
+    "T1027.005",
+    "T1222.002",
+    "T1041",
+    "T1205.002",
+    "T1095",
+    "T1083",
+    "T1082",
+    "T1070.004",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ta578",
+  "name": "TA578",
+  "aliases": [
+    "TA578"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-bumblebee",
+    "cap-latrodectus",
+    "cap-icedid"
+  ],
+  "description": "[TA578](https://attack.mitre.org/groups/G1038) is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including [Latrodectus](https://attack.mitre.org/software/S1160), [IcedID](https://attack.mitre.org/software/S0483), and [Bumblebee",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1038"
+  ]
+}

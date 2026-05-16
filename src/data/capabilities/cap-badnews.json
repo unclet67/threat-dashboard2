@@ -1,0 +1,35 @@
+{
+  "id": "cap-badnews",
+  "name": "BADNEWS",
+  "type": "implant",
+  "description": "[BADNEWS](https://attack.mitre.org/software/S0128) is malware that has been used by the actors responsible for the [Patchwork](https://attack.mitre.org/groups/G0040) campaign. Its name was given due to its use of RSS feeds, forums, and blogs for command and control. (Citation: Forcepoint Monsoon) (C",
+  "mitreAttackIds": [
+    "T1102.001",
+    "T1071.001",
+    "T1113",
+    "T1005",
+    "T1573.001",
+    "T1574.001",
+    "T1132",
+    "T1056.001",
+    "T1102.002",
+    "T1036.001",
+    "T1119",
+    "T1053.005",
+    "T1039",
+    "T1132.001",
+    "T1547.001",
+    "T1025",
+    "T1059.003",
+    "T1055.012",
+    "T1105",
+    "T1036.005",
+    "T1106",
+    "T1074.001",
+    "T1083",
+    "T1120"
+  ],
+  "actorIds": [
+    "patchwork"
+  ]
+}

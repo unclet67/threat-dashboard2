@@ -1,0 +1,22 @@
+{
+  "id": "copykittens",
+  "name": "CopyKittens",
+  "aliases": [
+    "CopyKittens"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-cobalt-strike",
+    "cap-empire",
+    "cap-tdtess",
+    "cap-matryoshka"
+  ],
+  "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted T",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0052"
+  ]
+}

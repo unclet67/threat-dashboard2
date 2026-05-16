@@ -1,13 +1,54 @@
 {
   "id": "kimsuky",
   "name": "Kimsuky",
-  "aliases": ["Velvet Chollima", "TA406", "Black Banshee", "Thallium"],
+  "aliases": [
+    "Velvet Chollima",
+    "TA406",
+    "Black Banshee",
+    "Thallium",
+    "Kimsuky",
+    "Emerald Sleet",
+    "THALLIUM",
+    "APT43",
+    "TA427",
+    "Springtail",
+    "Earth Kumiho",
+    "PatheticSlug"
+  ],
   "countryId": "north-korea",
   "orgId": "rgb",
-  "opTypes": ["Cyber", "IO"],
-  "operationIds": ["op-nk-002"],
-  "capabilityIds": [],
+  "opTypes": [
+    "Cyber",
+    "IO"
+  ],
+  "operationIds": [
+    "op-nk-002"
+  ],
+  "capabilityIds": [
+    "cap-troll-stealer",
+    "cap-httptroy",
+    "cap-schtasks",
+    "cap-certutil",
+    "cap-amadey",
+    "cap-gobear",
+    "cap-brave-prince",
+    "cap-cspy-downloader",
+    "cap-gh0st-rat",
+    "cap-appleseed",
+    "cap-gomir",
+    "cap-nokki",
+    "cap-quasarrat",
+    "cap-gold-dragon",
+    "cap-psexec",
+    "cap-kgh-spy",
+    "cap-mimikatz",
+    "cap-babyshark",
+    "cap-translatext"
+  ],
   "description": "RGB-linked actor focused on intelligence collection against Korean peninsula policy, sanctions policy, and nuclear issues. Targets government officials, think tanks, academics, and media using spearphishing and credential harvesting. Conducts influence operations alongside espionage.",
   "confidence": "high",
-  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a"]
+  "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a",
+    "https://attack.mitre.org/groups/G0094"
+  ]
 }

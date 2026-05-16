@@ -1,0 +1,16 @@
+{
+  "id": "cap-powerstallion",
+  "name": "PowerStallion",
+  "type": "implant",
+  "description": "[PowerStallion](https://attack.mitre.org/software/S0393) is a lightweight [PowerShell](https://attack.mitre.org/techniques/T1059/001) backdoor used by [Turla](https://attack.mitre.org/groups/G0010), possibly as a recovery access tool to install other backdoors.(Citation: ESET Turla PowerShell May 20",
+  "mitreAttackIds": [
+    "T1102.002",
+    "T1027",
+    "T1059.001",
+    "T1070.006",
+    "T1057"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "luminousmoth",
+  "name": "LuminousMoth",
+  "aliases": [
+    "LuminousMoth"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-plugx",
+    "cap-cobalt-strike"
+  ],
+  "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) is a Chinese-speaking cyber espionage group that has been active since at least October 2020. [LuminousMoth](https://attack.mitre.org/groups/G1014) has targeted high-profile organizations, including government entities, in Myanmar, the Philippine",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1014"
+  ]
+}

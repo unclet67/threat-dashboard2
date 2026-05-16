@@ -1,0 +1,27 @@
+{
+  "id": "blackbyte",
+  "name": "BlackByte",
+  "aliases": [
+    "BlackByte",
+    "Hecamede"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-adfind",
+    "cap-blackbyte-ransomware",
+    "cap-exbyte",
+    "cap-arp",
+    "cap-blackbyte-2-0-ransomware",
+    "cap-psexec",
+    "cap-cobalt-strike",
+    "cap-mimikatz"
+  ],
+  "description": "[BlackByte](https://attack.mitre.org/groups/G1043) is a ransomware threat actor operating since at least 2021. [BlackByte](https://attack.mitre.org/groups/G1043) is associated with several versions of ransomware also labeled [BlackByte Ransomware](https://attack.mitre.org/software/S1180). [BlackByte",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1043"
+  ]
+}

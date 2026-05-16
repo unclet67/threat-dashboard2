@@ -1,0 +1,18 @@
+{
+  "id": "cap-fooder",
+  "name": "Fooder",
+  "type": "implant",
+  "description": "[Fooder](https://attack.mitre.org/software/S9033) is a custom 64-bit C/C++ loader used by [MuddyWater](https://attack.mitre.org/groups/G0069) that can decrypt and reflectively load embedded payloads such as a go-socks5 proxy utility, the open-source HackBrowserData infostealer, or the [MuddyViper](h",
+  "mitreAttackIds": [
+    "T1027",
+    "T1134.001",
+    "T1106",
+    "T1620",
+    "T1036.005",
+    "T1678",
+    "T1140"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

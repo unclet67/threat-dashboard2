@@ -1,0 +1,18 @@
+{
+  "id": "cap-raindrop",
+  "name": "Raindrop",
+  "type": "implant",
+  "description": "[Raindrop](https://attack.mitre.org/software/S0565) is a loader used by [APT29](https://attack.mitre.org/groups/G0016) that was discovered on some victim machines during investigations related to the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024). It was discovered in January 2021",
+  "mitreAttackIds": [
+    "T1497.003",
+    "T1027.013",
+    "T1027.002",
+    "T1036",
+    "T1036.005",
+    "T1027.003",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

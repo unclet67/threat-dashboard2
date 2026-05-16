@@ -1,0 +1,29 @@
+{
+  "id": "cap-bitpaymer",
+  "name": "BitPaymer",
+  "type": "implant",
+  "description": "[BitPaymer](https://attack.mitre.org/software/S0570) is a ransomware variant first observed in August 2017 targeting hospitals in the U.K. [BitPaymer](https://attack.mitre.org/software/S0570) uses a unique encryption key, ransom note, and contact information for each operation. [BitPaymer](https://a",
+  "mitreAttackIds": [
+    "T1018",
+    "T1480",
+    "T1222.001",
+    "T1486",
+    "T1027.013",
+    "T1070.006",
+    "T1547.001",
+    "T1135",
+    "T1134.001",
+    "T1012",
+    "T1490",
+    "T1543.003",
+    "T1548.002",
+    "T1564.004",
+    "T1007",
+    "T1087.001",
+    "T1112",
+    "T1106"
+  ],
+  "actorIds": [
+    "indrik-spider"
+  ]
+}

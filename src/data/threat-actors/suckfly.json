@@ -1,0 +1,19 @@
+{
+  "id": "suckfly",
+  "name": "Suckfly",
+  "aliases": [
+    "Suckfly"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nidiran"
+  ],
+  "description": "[Suckfly](https://attack.mitre.org/groups/G0039) is a China-based threat group that has been active since at least 2014. (Citation: Symantec Suckfly March 2016)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0039"
+  ]
+}

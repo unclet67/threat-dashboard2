@@ -1,0 +1,32 @@
+{
+  "id": "cap-ebury",
+  "name": "Ebury",
+  "type": "implant",
+  "description": "[Ebury](https://attack.mitre.org/software/S0377) is an OpenSSH backdoor and credential stealer targeting Linux servers and container hosts developed by [Windigo](https://attack.mitre.org/groups/G0124). [Ebury](https://attack.mitre.org/software/S0377) is primarily installed through modifying shared l",
+  "mitreAttackIds": [
+    "T1014",
+    "T1059.004",
+    "T1556.003",
+    "T1071.004",
+    "T1008",
+    "T1140",
+    "T1556",
+    "T1020",
+    "T1573.001",
+    "T1685.004",
+    "T1554",
+    "T1027",
+    "T1685",
+    "T1132.001",
+    "T1059.006",
+    "T1574.006",
+    "T1129",
+    "T1553.002",
+    "T1552.004",
+    "T1041",
+    "T1568.002"
+  ],
+  "actorIds": [
+    "windigo"
+  ]
+}

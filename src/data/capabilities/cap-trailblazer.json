@@ -1,0 +1,16 @@
+{
+  "id": "cap-trailblazer",
+  "name": "TrailBlazer",
+  "type": "implant",
+  "description": "[TrailBlazer](https://attack.mitre.org/software/S0682) is a modular malware that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2019.(Citation: CrowdStrike StellarParticle January 2022)",
+  "mitreAttackIds": [
+    "T1001.001",
+    "T1001",
+    "T1071.001",
+    "T1036",
+    "T1546.003"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

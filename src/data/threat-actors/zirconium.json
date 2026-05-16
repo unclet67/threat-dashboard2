@@ -1,0 +1,19 @@
+{
+  "id": "zirconium",
+  "name": "ZIRCONIUM",
+  "aliases": [
+    "ZIRCONIUM",
+    "APT31",
+    "Violet Typhoon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.(Citation: Microsoft Targeting Electio",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0128"
+  ]
+}

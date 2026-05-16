@@ -1,0 +1,37 @@
+{
+  "id": "apt37",
+  "name": "APT37",
+  "aliases": [
+    "APT37",
+    "InkySquid",
+    "ScarCruft",
+    "Reaper",
+    "Group123",
+    "TEMP.Reaper",
+    "Ricochet Chollima"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-bluelight",
+    "cap-coraldeck",
+    "cap-karae",
+    "cap-slowdrift",
+    "cap-rokrat",
+    "cap-shutterspeed",
+    "cap-pooraim",
+    "cap-happywork",
+    "cap-final1stspy",
+    "cap-cobalt-strike",
+    "cap-navrat",
+    "cap-dogcall",
+    "cap-winerack"
+  ],
+  "description": "[APT37](https://attack.mitre.org/groups/G0067) is a North Korean state-sponsored cyber espionage group that has been active since at least 2012. The group has targeted victims primarily in South Korea, but also in Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, and other parts of the M",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0067"
+  ]
+}

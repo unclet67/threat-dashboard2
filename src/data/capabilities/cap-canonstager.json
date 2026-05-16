@@ -1,0 +1,17 @@
+{
+  "id": "cap-canonstager",
+  "name": "CANONSTAGER",
+  "type": "implant",
+  "description": "[CANONSTAGER](https://attack.mitre.org/software/S1237) is a loader known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2025.  [Mustang Panda](https://attack.mitre.org/groups/G0129) utilizes DLL side-loading to execute within the victim e",
+  "mitreAttackIds": [
+    "T1027.007",
+    "T1055.005",
+    "T1036.005",
+    "T1574.001",
+    "T1106",
+    "T1564.003"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

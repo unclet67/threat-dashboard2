@@ -1,0 +1,27 @@
+{
+  "id": "cobalt-group",
+  "name": "Cobalt Group",
+  "aliases": [
+    "Cobalt Group",
+    "GOLD KINGSWOOD",
+    "Cobalt Gang",
+    "Cobalt Spider"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-more-eggs",
+    "cap-spicyomelette",
+    "cap-sdelete",
+    "cap-cobalt-strike",
+    "cap-psexec"
+  ],
+  "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) is a financially motivated threat group that has primarily targeted financial institutions since at least 2016. The group has conducted intrusions to steal money via targeting ATM systems, card processing, payment systems and SWIFT systems. [Coba",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0080"
+  ]
+}

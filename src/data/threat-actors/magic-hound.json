@@ -1,0 +1,39 @@
+{
+  "id": "magic-hound",
+  "name": "Magic Hound",
+  "aliases": [
+    "Magic Hound",
+    "TA453",
+    "COBALT ILLUSION",
+    "Charming Kitten",
+    "ITG18",
+    "Phosphorus",
+    "Newscaster",
+    "APT35",
+    "Mint Sandstorm"
+  ],
+  "countryId": "iran",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-net",
+    "cap-impacket",
+    "cap-ping",
+    "cap-charmpower",
+    "cap-frp",
+    "cap-mimikatz",
+    "cap-systeminfo",
+    "cap-ipconfig",
+    "cap-netsh",
+    "cap-powerless",
+    "cap-pupy",
+    "cap-downpaper",
+    "cap-psexec"
+  ],
+  "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) is an Iranian-sponsored threat group that conducts long term, resource-intensive cyber espionage operations, likely on behalf of the Islamic Revolutionary Guard Corps. They have targeted European, U.S., and Middle Eastern government and military p",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0059"
+  ]
+}

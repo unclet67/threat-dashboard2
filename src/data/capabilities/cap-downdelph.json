@@ -1,0 +1,16 @@
+{
+  "id": "cap-downdelph",
+  "name": "Downdelph",
+  "type": "implant",
+  "description": "[Downdelph](https://attack.mitre.org/software/S0134) is a first-stage downloader written in Delphi that has been used by [APT28](https://attack.mitre.org/groups/G0007) in rare instances between 2013 and 2015. (Citation: ESET Sednit Part 3)",
+  "mitreAttackIds": [
+    "T1001.001",
+    "T1548.002",
+    "T1573.001",
+    "T1105",
+    "T1574.001"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cap-multilayer-wiper",
+  "name": "MultiLayer Wiper",
+  "type": "implant",
+  "description": "[MultiLayer Wiper](https://attack.mitre.org/software/S1135) is wiper malware written in .NET associated with [Agrius](https://attack.mitre.org/groups/G1030) operations. Observed samples of [MultiLayer Wiper](https://attack.mitre.org/software/S1135) have an anomalous, future compilation date suggesti",
+  "mitreAttackIds": [
+    "T1529",
+    "T1070",
+    "T1685.005",
+    "T1565.001",
+    "T1070.004",
+    "T1485",
+    "T1027.009",
+    "T1059.003",
+    "T1490",
+    "T1053.005",
+    "T1070.006",
+    "T1561.002",
+    "T1083",
+    "T1685"
+  ],
+  "actorIds": [
+    "agrius"
+  ]
+}

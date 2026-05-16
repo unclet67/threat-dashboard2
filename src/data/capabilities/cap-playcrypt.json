@@ -1,0 +1,14 @@
+{
+  "id": "cap-playcrypt",
+  "name": "Playcrypt",
+  "type": "implant",
+  "description": "[Playcrypt](https://attack.mitre.org/software/S1162) is a ransomware that has been used by [Play](https://attack.mitre.org/groups/G1040) since at least 2022 in attacks against against the business, government, critical infrastructure, healthcare, and media sectors in North America, South America, an",
+  "mitreAttackIds": [
+    "T1486",
+    "T1490",
+    "T1083"
+  ],
+  "actorIds": [
+    "play"
+  ]
+}

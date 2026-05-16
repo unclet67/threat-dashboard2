@@ -1,0 +1,21 @@
+{
+  "id": "water-galura",
+  "name": "Water Galura",
+  "aliases": [
+    "Water Galura",
+    "GOLD FEATHER"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-qilin",
+    "cap-tor"
+  ],
+  "description": "[Water Galura](https://attack.mitre.org/groups/G1050) are the operators of the [Qilin](https://attack.mitre.org/software/S1242) Ransomware-as-a-Service (RaaS) who handle payload generation, ransom negotiations, and the publication of stolen data for [Qilin](https://attack.mitre.org/software/S1242) a",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1050"
+  ]
+}

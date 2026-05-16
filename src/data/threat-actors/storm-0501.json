@@ -1,0 +1,26 @@
+{
+  "id": "storm-0501",
+  "name": "Storm-0501",
+  "aliases": [
+    "Storm-0501"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-impacket",
+    "cap-tasklist",
+    "cap-cobalt-strike",
+    "cap-embargo",
+    "cap-rclone",
+    "cap-nltest",
+    "cap-net",
+    "cap-aadinternals"
+  ],
+  "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) is a financially motivated cyber criminal group that uses commodity and open-source tools to conduct ransomware operations. [Storm-0501](https://attack.mitre.org/groups/G1053) has been active since 2021 and has previously been affiliated with Sabba",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1053"
+  ]
+}

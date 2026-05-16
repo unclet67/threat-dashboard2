@@ -1,0 +1,22 @@
+{
+  "id": "cap-cmd",
+  "name": "cmd",
+  "type": "tool",
+  "description": "[cmd](https://attack.mitre.org/software/S0106) is the Windows command-line interpreter that can be used to interact with systems and execute other processes and utilities. (Citation: TechNet Cmd)\n\nCmd.exe contains native functionality to perform many operations to interact with the system, including",
+  "mitreAttackIds": [
+    "T1083",
+    "T1105",
+    "T1082",
+    "T1070.004",
+    "T1059.003",
+    "T1570"
+  ],
+  "actorIds": [
+    "volt-typhoon",
+    "bronze-butler",
+    "menupass",
+    "gallium",
+    "apt18",
+    "orangeworm"
+  ]
+}

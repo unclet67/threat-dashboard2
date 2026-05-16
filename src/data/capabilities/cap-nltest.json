@@ -1,0 +1,21 @@
+{
+  "id": "cap-nltest",
+  "name": "Nltest",
+  "type": "tool",
+  "description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
+  "mitreAttackIds": [
+    "T1482",
+    "T1018",
+    "T1016"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "earth-lusca",
+    "play",
+    "volt-typhoon",
+    "storm-0501",
+    "mirrorface",
+    "inc-ransom",
+    "fin8"
+  ]
+}

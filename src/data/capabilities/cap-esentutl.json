@@ -1,0 +1,19 @@
+{
+  "id": "cap-esentutl",
+  "name": "esentutl",
+  "type": "tool",
+  "description": "[esentutl](https://attack.mitre.org/software/S0404) is a command-line tool that provides database utilities for the Windows Extensible Storage Engine.(Citation: Microsoft Esentutl)",
+  "mitreAttackIds": [
+    "T1006",
+    "T1570",
+    "T1003.003",
+    "T1564.004",
+    "T1105",
+    "T1005"
+  ],
+  "actorIds": [
+    "chimera",
+    "menupass",
+    "inc-ransom"
+  ]
+}

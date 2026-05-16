@@ -1,0 +1,19 @@
+{
+  "id": "silent-librarian",
+  "name": "Silent Librarian",
+  "aliases": [
+    "Silent Librarian",
+    "TA407",
+    "COBALT DICKENS"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of  [Silent Librarian](https://attack.mitre.org/groups/G0122) are known to ha",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0122"
+  ]
+}

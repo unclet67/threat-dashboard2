@@ -1,0 +1,14 @@
+{
+  "id": "cap-httpclient",
+  "name": "httpclient",
+  "type": "implant",
+  "description": "[httpclient](https://attack.mitre.org/software/S0068) is malware used by [Putter Panda](https://attack.mitre.org/groups/G0024). It is a simple tool that provides a limited range of functionality, suggesting it is likely used as a second-stage or supplementary/backup tool. (Citation: CrowdStrike Putt",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1071.001",
+    "T1059.003"
+  ],
+  "actorIds": [
+    "putter-panda"
+  ]
+}

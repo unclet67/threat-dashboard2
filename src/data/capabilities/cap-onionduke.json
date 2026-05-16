@@ -1,0 +1,16 @@
+{
+  "id": "cap-onionduke",
+  "name": "OnionDuke",
+  "type": "implant",
+  "description": "[OnionDuke](https://attack.mitre.org/software/S0052) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2013 to 2015. (Citation: F-Secure The Dukes)",
+  "mitreAttackIds": [
+    "T1003",
+    "T1499",
+    "T1102.003",
+    "T1071.001",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

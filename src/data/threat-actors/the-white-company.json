@@ -1,0 +1,20 @@
+{
+  "id": "the-white-company",
+  "name": "The White Company",
+  "aliases": [
+    "The White Company"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-revenge-rat",
+    "cap-netwire"
+  ],
+  "description": "[The White Company](https://attack.mitre.org/groups/G0089) is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan.(Citation: Cylance Shaheen ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0089"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "earth-lusca",
+  "name": "Earth Lusca",
+  "aliases": [
+    "Earth Lusca",
+    "TAG-22",
+    "Charcoal Typhoon",
+    "CHROMIUM",
+    "ControlX"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-powersploit",
+    "cap-tasklist",
+    "cap-certutil",
+    "cap-cobalt-strike",
+    "cap-winnti-for-linux",
+    "cap-nltest",
+    "cap-nbtscan",
+    "cap-shadowpad"
+  ],
+  "description": "[Earth Lusca](https://attack.mitre.org/groups/G1006) is a suspected China-based cyber espionage group that has been active since at least April 2019. [Earth Lusca](https://attack.mitre.org/groups/G1006) has targeted organizations in Australia, China, Hong Kong, Mongolia, Nepal, the Philippines, Taiw",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1006"
+  ]
+}

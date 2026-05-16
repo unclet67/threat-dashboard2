@@ -1,0 +1,15 @@
+{
+  "id": "cap-vasport",
+  "name": "Vasport",
+  "type": "implant",
+  "description": "[Vasport](https://attack.mitre.org/software/S0207) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Vasport May 2012)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1105",
+    "T1547.001",
+    "T1090"
+  ],
+  "actorIds": [
+    "elderwood"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cap-coraldeck",
+  "name": "CORALDECK",
+  "type": "implant",
+  "description": "[CORALDECK](https://attack.mitre.org/software/S0212) is an exfiltration tool used by [APT37](https://attack.mitre.org/groups/G0067). (Citation: FireEye APT37 Feb 2018)",
+  "mitreAttackIds": [
+    "T1048.003",
+    "T1560.001",
+    "T1083"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

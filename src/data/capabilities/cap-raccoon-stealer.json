@@ -1,0 +1,35 @@
+{
+  "id": "cap-raccoon-stealer",
+  "name": "Raccoon Stealer",
+  "type": "implant",
+  "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) is an information stealer malware family active since at least 2019 as a malware-as-a-service offering sold in underground forums. [Raccoon Stealer](https://attack.mitre.org/software/S1148) has experienced two periods of activity across two ",
+  "mitreAttackIds": [
+    "T1033",
+    "T1071.001",
+    "T1005",
+    "T1124",
+    "T1027.013",
+    "T1105",
+    "T1020",
+    "T1213",
+    "T1555.003",
+    "T1560",
+    "T1027.007",
+    "T1195",
+    "T1614",
+    "T1119",
+    "T1113",
+    "T1041",
+    "T1070.004",
+    "T1012",
+    "T1518",
+    "T1087.001",
+    "T1539",
+    "T1140",
+    "T1082",
+    "T1083"
+  ],
+  "actorIds": [
+    "scattered-spider"
+  ]
+}

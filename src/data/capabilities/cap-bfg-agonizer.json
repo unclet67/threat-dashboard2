@@ -1,0 +1,15 @@
+{
+  "id": "cap-bfg-agonizer",
+  "name": "BFG Agonizer",
+  "type": "implant",
+  "description": "[BFG Agonizer](https://attack.mitre.org/software/S1136) is a wiper related to the open-source project CRYLINE-v.5.0. The malware is associated with wiping operations conducted by the [Agrius](https://attack.mitre.org/groups/G1030) threat actor.(Citation: Unit42 Agrius 2023)",
+  "mitreAttackIds": [
+    "T1529",
+    "T1554",
+    "T1561.002",
+    "T1490"
+  ],
+  "actorIds": [
+    "agrius"
+  ]
+}

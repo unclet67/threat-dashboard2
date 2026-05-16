@@ -1,0 +1,23 @@
+{
+  "id": "cap-bitsadmin",
+  "name": "BITSAdmin",
+  "type": "tool",
+  "description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
+  "mitreAttackIds": [
+    "T1570",
+    "T1048.003",
+    "T1105",
+    "T1197"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "daggerfly",
+    "hexane",
+    "leviathan",
+    "storm-1811",
+    "tropic-trooper",
+    "mirrorface",
+    "apt41",
+    "ferocious-kitten"
+  ]
+}

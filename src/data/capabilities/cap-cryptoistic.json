@@ -1,0 +1,18 @@
+{
+  "id": "cap-cryptoistic",
+  "name": "Cryptoistic",
+  "type": "implant",
+  "description": "[Cryptoistic](https://attack.mitre.org/software/S0498) is a backdoor, written in Swift, that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032).(Citation: SentinelOne Lazarus macOS July 2020)",
+  "mitreAttackIds": [
+    "T1005",
+    "T1573",
+    "T1070.004",
+    "T1083",
+    "T1105",
+    "T1095",
+    "T1033"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

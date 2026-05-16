@@ -1,0 +1,15 @@
+{
+  "id": "cap-briba",
+  "name": "Briba",
+  "type": "implant",
+  "description": "[Briba](https://attack.mitre.org/software/S0204) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor and download files on to compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Briba May 2012)",
+  "mitreAttackIds": [
+    "T1543.003",
+    "T1218.011",
+    "T1105",
+    "T1547.001"
+  ],
+  "actorIds": [
+    "elderwood"
+  ]
+}

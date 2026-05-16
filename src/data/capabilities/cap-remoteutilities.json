@@ -1,0 +1,15 @@
+{
+  "id": "cap-remoteutilities",
+  "name": "RemoteUtilities",
+  "type": "tool",
+  "description": "[RemoteUtilities](https://attack.mitre.org/software/S0592) is a legitimate remote administration tool that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2021 for execution on target machines.(Citation: Trend Micro Muddy Water March 2021)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1105",
+    "T1218.007",
+    "T1113"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

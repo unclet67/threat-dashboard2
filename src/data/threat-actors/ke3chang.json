@@ -1,0 +1,37 @@
+{
+  "id": "ke3chang",
+  "name": "Ke3chang",
+  "aliases": [
+    "Ke3chang",
+    "APT15",
+    "Mirage",
+    "Vixen Panda",
+    "GREF",
+    "Playful Dragon",
+    "RoyalAPT",
+    "NICKEL",
+    "Nylon Typhoon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-ping",
+    "cap-okrum",
+    "cap-systeminfo",
+    "cap-netstat",
+    "cap-spwebmember",
+    "cap-mimikatz",
+    "cap-tasklist",
+    "cap-miragefox",
+    "cap-net",
+    "cap-neoichor",
+    "cap-ipconfig"
+  ],
+  "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) is a threat group attributed to actors operating out of China. [Ke3chang](https://attack.mitre.org/groups/G0004) has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0004"
+  ]
+}

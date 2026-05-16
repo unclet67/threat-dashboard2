@@ -1,0 +1,30 @@
+{
+  "id": "cap-dustysky",
+  "name": "DustySky",
+  "type": "implant",
+  "description": "[DustySky](https://attack.mitre.org/software/S0062) is multi-stage malware written in .NET that has been used by [Molerats](https://attack.mitre.org/groups/G0021) since May 2015. (Citation: DustySky) (Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1518",
+    "T1070.004",
+    "T1091",
+    "T1027",
+    "T1560.001",
+    "T1041",
+    "T1056.001",
+    "T1120",
+    "T1047",
+    "T1074.001",
+    "T1547.001",
+    "T1113",
+    "T1518.001",
+    "T1570",
+    "T1008",
+    "T1082",
+    "T1057",
+    "T1083"
+  ],
+  "actorIds": [
+    "molerats"
+  ]
+}

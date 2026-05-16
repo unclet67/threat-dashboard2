@@ -1,0 +1,12 @@
+{
+  "id": "cap-rockboot",
+  "name": "ROCKBOOT",
+  "type": "implant",
+  "description": "[ROCKBOOT](https://attack.mitre.org/software/S0112) is a [Bootkit](https://attack.mitre.org/techniques/T1542/003) that has been used by an unidentified, suspected China-based group. (Citation: FireEye Bootkits)",
+  "mitreAttackIds": [
+    "T1542.003"
+  ],
+  "actorIds": [
+    "apt41"
+  ]
+}

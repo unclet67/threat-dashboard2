@@ -1,0 +1,39 @@
+{
+  "id": "cap-jrat",
+  "name": "jRAT",
+  "type": "implant",
+  "description": "[jRAT](https://attack.mitre.org/software/S0283) is a cross-platform, Java-based backdoor originally available for purchase in 2012. Variants of [jRAT](https://attack.mitre.org/software/S0283) have been distributed via a software-as-a-service platform, similar to an online subscription model.(Citatio",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1120",
+    "T1029",
+    "T1047",
+    "T1059.005",
+    "T1125",
+    "T1059.003",
+    "T1007",
+    "T1070.004",
+    "T1082",
+    "T1037.005",
+    "T1105",
+    "T1057",
+    "T1083",
+    "T1021.001",
+    "T1555.003",
+    "T1027.002",
+    "T1518.001",
+    "T1090",
+    "T1059.007",
+    "T1115",
+    "T1552.001",
+    "T1123",
+    "T1113",
+    "T1049",
+    "T1027",
+    "T1016",
+    "T1552.004"
+  ],
+  "actorIds": [
+    "ta2541"
+  ]
+}

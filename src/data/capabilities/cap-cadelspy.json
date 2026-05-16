@@ -1,0 +1,19 @@
+{
+  "id": "cap-cadelspy",
+  "name": "Cadelspy",
+  "type": "implant",
+  "description": "[Cadelspy](https://attack.mitre.org/software/S0454) is a backdoor that has been used by [APT39](https://attack.mitre.org/groups/G0087).(Citation: Symantec Chafer Dec 2015)",
+  "mitreAttackIds": [
+    "T1010",
+    "T1056.001",
+    "T1560",
+    "T1115",
+    "T1123",
+    "T1082",
+    "T1113",
+    "T1120"
+  ],
+  "actorIds": [
+    "apt39"
+  ]
+}

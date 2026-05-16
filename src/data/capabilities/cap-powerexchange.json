@@ -1,0 +1,16 @@
+{
+  "id": "cap-powerexchange",
+  "name": "PowerExchange",
+  "type": "implant",
+  "description": "[PowerExchange](https://attack.mitre.org/software/S1173) is a PowerShell backdoor that has been used by [OilRig](https://attack.mitre.org/groups/G0049) since at least 2023 including against government targets in the Middle East.(Citation: Symantec Crambus OCT 2023)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1041",
+    "T1071.003",
+    "T1140",
+    "T1059.001"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

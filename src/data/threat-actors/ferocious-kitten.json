@@ -1,0 +1,20 @@
+{
+  "id": "ferocious-kitten",
+  "name": "Ferocious Kitten",
+  "aliases": [
+    "Ferocious Kitten"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-markirat",
+    "cap-bitsadmin"
+  ],
+  "description": "[Ferocious Kitten](https://attack.mitre.org/groups/G0137) is a threat group that has primarily targeted Persian-speaking individuals in Iran since at least 2015.(Citation: Kaspersky Ferocious Kitten Jun 2021)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0137"
+  ]
+}

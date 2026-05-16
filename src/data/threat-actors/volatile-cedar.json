@@ -1,0 +1,21 @@
+{
+  "id": "volatile-cedar",
+  "name": "Volatile Cedar",
+  "aliases": [
+    "Volatile Cedar",
+    "Lebanese Cedar"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-caterpillar-webshell",
+    "cap-explosive"
+  ],
+  "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. [Volatile Cedar](https://attack.mitre.org/groups/G0123) has been operating since 2012 and is motivated by political and ideological interests.(Cita",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0123"
+  ]
+}

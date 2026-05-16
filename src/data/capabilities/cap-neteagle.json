@@ -1,0 +1,22 @@
+{
+  "id": "cap-neteagle",
+  "name": "NETEAGLE",
+  "type": "implant",
+  "description": "[NETEAGLE](https://attack.mitre.org/software/S0034) is a backdoor developed by [APT30](https://attack.mitre.org/groups/G0013) with compile dates as early as 2008. It has two main variants known as “Scout” and “Norton.” (Citation: FireEye APT30)",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1057",
+    "T1071",
+    "T1041",
+    "T1568",
+    "T1083",
+    "T1547.001",
+    "T1071.001",
+    "T1059.003",
+    "T1008",
+    "T1095"
+  ],
+  "actorIds": [
+    "apt30"
+  ]
+}

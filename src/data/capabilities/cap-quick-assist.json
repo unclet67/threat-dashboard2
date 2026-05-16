@@ -1,0 +1,14 @@
+{
+  "id": "cap-quick-assist",
+  "name": "Quick Assist",
+  "type": "tool",
+  "description": "[Quick Assist](https://attack.mitre.org/software/S1209) is a remote assistance tool primarily for Microsoft Windows, although a macOS version also exists. [Quick Assist](https://attack.mitre.org/software/S1209) allows for remote screen sharing and, with end user approval, remote control and command ",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1113",
+    "T1125"
+  ],
+  "actorIds": [
+    "storm-1811"
+  ]
+}

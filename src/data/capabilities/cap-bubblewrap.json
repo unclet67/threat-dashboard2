@@ -1,0 +1,14 @@
+{
+  "id": "cap-bubblewrap",
+  "name": "BUBBLEWRAP",
+  "type": "implant",
+  "description": "[BUBBLEWRAP](https://attack.mitre.org/software/S0043) is a full-featured, second-stage backdoor used by the [admin@338](https://attack.mitre.org/groups/G0018) group. It is set to run when the system boots and includes functionality to check, upload, and register plug-ins that can further enhance its",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1095",
+    "T1082"
+  ],
+  "actorIds": [
+    "admin-338"
+  ]
+}

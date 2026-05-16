@@ -1,0 +1,23 @@
+{
+  "id": "cap-noopldr",
+  "name": "NOOPLDR",
+  "type": "implant",
+  "description": "[NOOPLDR](https://attack.mitre.org/software/S9025) is a shellcode loader with XML/C# and DLL versions that has been used by [MirrorFace](https://attack.mitre.org/groups/G1054) to load [HiddenFace](https://attack.mitre.org/software/S9023).(Citation: Trend Micro Earth Kasha NOV 2024)\n",
+  "mitreAttackIds": [
+    "T1055",
+    "T1127.001",
+    "T1140",
+    "T1027.013",
+    "T1070.004",
+    "T1027",
+    "T1106",
+    "T1112",
+    "T1574.001",
+    "T1564",
+    "T1082",
+    "T1027.016"
+  ],
+  "actorIds": [
+    "mirrorface"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cap-polyglotduke",
+  "name": "PolyglotDuke",
+  "type": "implant",
+  "description": "[PolyglotDuke](https://attack.mitre.org/software/S0518) is a downloader that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2013. [PolyglotDuke](https://attack.mitre.org/software/S0518) has been used to drop [MiniDuke](https://attack.mitre.org/software/S0051).(Citatio",
+  "mitreAttackIds": [
+    "T1112",
+    "T1027",
+    "T1027.011",
+    "T1105",
+    "T1218.011",
+    "T1106",
+    "T1102.001",
+    "T1071.001",
+    "T1027.003",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "confucius",
+  "name": "Confucius",
+  "aliases": [
+    "Confucius",
+    "Confucius APT"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-warzonerat"
+  ],
+  "description": "[Confucius](https://attack.mitre.org/groups/G0142) is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between [Confucius]",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0142"
+  ]
+}

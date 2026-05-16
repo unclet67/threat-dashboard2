@@ -1,0 +1,32 @@
+{
+  "id": "gamaredon-group",
+  "name": "Gamaredon Group",
+  "aliases": [
+    "Gamaredon Group",
+    "IRON TILDEN",
+    "Primitive Bear",
+    "ACTINIUM",
+    "Armageddon",
+    "Shuckworm",
+    "DEV-0157",
+    "Aqua Blizzard",
+    "NastyShrew"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-quietsieve",
+    "cap-pteranodon",
+    "cap-remcos",
+    "cap-ping",
+    "cap-reg",
+    "cap-powerpunch"
+  ],
+  "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) is a suspected Russian cyber espionage group that has targeted military, law enforcement, judiciary, non-profit, and non-governmental organizations in Ukraine since at least 2013. The name [Gamaredon Group](https://attack.mitre.org/groups/G004",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0047"
+  ]
+}

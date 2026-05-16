@@ -1,0 +1,25 @@
+{
+  "id": "cap-evilnum",
+  "name": "EVILNUM",
+  "type": "implant",
+  "description": "[EVILNUM](https://attack.mitre.org/software/S0568) is fully capable backdoor that was first identified in 2018. [EVILNUM](https://attack.mitre.org/software/S0568) is used by the APT group [Evilnum](https://attack.mitre.org/groups/G0120) which has the same name.(Citation: ESET EvilNum July 2020)(Cita",
+  "mitreAttackIds": [
+    "T1102.003",
+    "T1547.001",
+    "T1070",
+    "T1082",
+    "T1041",
+    "T1539",
+    "T1070.006",
+    "T1112",
+    "T1105",
+    "T1033",
+    "T1218.011",
+    "T1518.001",
+    "T1218.010",
+    "T1047"
+  ],
+  "actorIds": [
+    "evilnum"
+  ]
+}

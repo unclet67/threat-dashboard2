@@ -1,0 +1,29 @@
+{
+  "id": "akira",
+  "name": "Akira",
+  "aliases": [
+    "Akira",
+    "GOLD SAHARA",
+    "PUNK SPIDER",
+    "Howling Scorpius"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-psexec",
+    "cap-adfind",
+    "cap-akira-v2",
+    "cap-akira",
+    "cap-megazord",
+    "cap-lazagne",
+    "cap-rclone"
+  ],
+  "description": "[Akira](https://attack.mitre.org/groups/G1024) is a ransomware variant and ransomware deployment entity active since at least March 2023.(Citation: Arctic Wolf Akira 2023) [Akira](https://attack.mitre.org/groups/G1024) uses compromised credentials to access single-factor external access mechanisms s",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1024"
+  ]
+}

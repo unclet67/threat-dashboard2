@@ -1,0 +1,24 @@
+{
+  "id": "cleaver",
+  "name": "Cleaver",
+  "aliases": [
+    "Cleaver",
+    "Threat Group 2889",
+    "TG-2889"
+  ],
+  "countryId": "iran",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-net-crawler",
+    "cap-psexec",
+    "cap-tinyzbot",
+    "cap-mimikatz"
+  ],
+  "description": "[Cleaver](https://attack.mitre.org/groups/G0003) is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation:",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0003"
+  ]
+}

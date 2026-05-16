@@ -1,0 +1,20 @@
+{
+  "id": "sowbug",
+  "name": "Sowbug",
+  "aliases": [
+    "Sowbug"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-starloader",
+    "cap-felismus"
+  ],
+  "description": "[Sowbug](https://attack.mitre.org/groups/G0054) is a threat group that has conducted targeted attacks against organizations in South America and Southeast Asia, particularly government entities, since at least 2015. (Citation: Symantec Sowbug Nov 2017)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0054"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cap-lazagne",
+  "name": "LaZagne",
+  "type": "tool",
+  "description": "[LaZagne](https://attack.mitre.org/software/S0349) is a post-exploitation, open-source tool used to recover stored passwords on a system. It has modules for Windows, Linux, and OSX, but is mainly focused on Windows systems. [LaZagne](https://attack.mitre.org/software/S0349) is publicly available on ",
+  "mitreAttackIds": [
+    "T1552.001",
+    "T1555.004",
+    "T1003.004",
+    "T1003.008",
+    "T1555.003",
+    "T1003.001",
+    "T1003.005",
+    "T1555",
+    "T1555.001",
+    "T1003.007"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "oilrig",
+    "teamtnt",
+    "inception",
+    "leafminer",
+    "muddywater",
+    "akira",
+    "scattered-spider",
+    "tonto-team",
+    "apt3",
+    "apt33",
+    "evilnum"
+  ]
+}

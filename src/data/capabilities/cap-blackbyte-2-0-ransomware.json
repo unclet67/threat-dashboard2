@@ -1,0 +1,22 @@
+{
+  "id": "cap-blackbyte-2-0-ransomware",
+  "name": "BlackByte 2.0 Ransomware",
+  "type": "implant",
+  "description": "[BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) is a replacement for [BlackByte Ransomware](https://attack.mitre.org/software/S1180). Unlike [BlackByte Ransomware](https://attack.mitre.org/software/S1180), [BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) does n",
+  "mitreAttackIds": [
+    "T1070.006",
+    "T1112",
+    "T1486",
+    "T1490",
+    "T1068",
+    "T1135",
+    "T1489",
+    "T1070.004",
+    "T1569.002",
+    "T1055",
+    "T1686.003"
+  ],
+  "actorIds": [
+    "blackbyte"
+  ]
+}

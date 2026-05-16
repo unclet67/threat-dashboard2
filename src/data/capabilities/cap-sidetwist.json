@@ -1,0 +1,26 @@
+{
+  "id": "cap-sidetwist",
+  "name": "SideTwist",
+  "type": "implant",
+  "description": "[SideTwist](https://attack.mitre.org/software/S0610) is a C-based backdoor that has been used by [OilRig](https://attack.mitre.org/groups/G0049) since at least 2021.(Citation: Check Point APT34 April 2021)",
+  "mitreAttackIds": [
+    "T1106",
+    "T1132.001",
+    "T1033",
+    "T1573.001",
+    "T1083",
+    "T1059.003",
+    "T1105",
+    "T1071.001",
+    "T1016",
+    "T1140",
+    "T1005",
+    "T1008",
+    "T1041",
+    "T1082",
+    "T1001"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

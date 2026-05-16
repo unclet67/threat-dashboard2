@@ -1,0 +1,26 @@
+{
+  "id": "cap-pillowmint",
+  "name": "Pillowmint",
+  "type": "implant",
+  "description": "[Pillowmint](https://attack.mitre.org/software/S0517) is a point-of-sale malware used by [FIN7](https://attack.mitre.org/groups/G0046) designed to capture credit card information.(Citation: Trustwave Pillowmint June 2020)",
+  "mitreAttackIds": [
+    "T1546.011",
+    "T1055.004",
+    "T1112",
+    "T1012",
+    "T1027",
+    "T1027.015",
+    "T1027.011",
+    "T1070.009",
+    "T1057",
+    "T1106",
+    "T1059.001",
+    "T1140",
+    "T1005",
+    "T1070.004",
+    "T1560"
+  ],
+  "actorIds": [
+    "fin7"
+  ]
+}

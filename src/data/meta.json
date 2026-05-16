@@ -1,9 +1,4601 @@
 {
   "recentAdditions": [
-    { "type": "actor", "id": "volt-typhoon", "name": "Volt Typhoon", "addedAt": "2026-05-15" },
-    { "type": "actor", "id": "salt-typhoon", "name": "Salt Typhoon", "addedAt": "2026-05-15" },
-    { "type": "actor", "id": "apt41", "name": "APT41", "addedAt": "2026-05-15" },
-    { "type": "actor", "id": "apt31", "name": "APT31", "addedAt": "2026-05-15" },
-    { "type": "actor", "id": "unc5221", "name": "UNC5221", "addedAt": "2026-05-15" }
-  ]
+    {
+      "type": "actor",
+      "id": "indrik-spider",
+      "name": "Indrik Spider",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "luminousmoth",
+      "name": "LuminousMoth",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "medusa-group",
+      "name": "Medusa Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "wizard-spider",
+      "name": "Wizard Spider",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "elderwood",
+      "name": "Elderwood",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin7",
+      "name": "FIN7",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "unc3886",
+      "name": "UNC3886",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "velvet-ant",
+      "name": "Velvet Ant",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "wirte",
+      "name": "WIRTE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "star-blizzard",
+      "name": "Star Blizzard",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "dragonfly",
+      "name": "Dragonfly",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt-c-36",
+      "name": "APT-C-36",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "oilrig",
+      "name": "OilRig",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "equation",
+      "name": "Equation",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fox-kitten",
+      "name": "Fox Kitten",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "aquatic-panda",
+      "name": "Aquatic Panda",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "daggerfly",
+      "name": "Daggerfly",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "teamtnt",
+      "name": "TeamTNT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta505",
+      "name": "TA505",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "inception",
+      "name": "Inception",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "admin-338",
+      "name": "admin@338",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "blacktech",
+      "name": "BlackTech",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt42",
+      "name": "APT42",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "malteiro",
+      "name": "Malteiro",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "earth-lusca",
+      "name": "Earth Lusca",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "play",
+      "name": "Play",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta577",
+      "name": "TA577",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "suckfly",
+      "name": "Suckfly",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ember-bear",
+      "name": "Ember Bear",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin6",
+      "name": "FIN6",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "silence",
+      "name": "Silence",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "patchwork",
+      "name": "Patchwork",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "aoqin-dragon",
+      "name": "Aoqin Dragon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "cinnamon-tempest",
+      "name": "Cinnamon Tempest",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "hexane",
+      "name": "HEXANE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "darkhotel",
+      "name": "Darkhotel",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ke3chang",
+      "name": "Ke3chang",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "leafminer",
+      "name": "Leafminer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "magic-hound",
+      "name": "Magic Hound",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "exotic-lily",
+      "name": "EXOTIC LILY",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "cobalt-group",
+      "name": "Cobalt Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "andariel",
+      "name": "Andariel",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "hafnium",
+      "name": "HAFNIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt39",
+      "name": "APT39",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "muddywater",
+      "name": "MuddyWater",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "transparent-tribe",
+      "name": "Transparent Tribe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt32",
+      "name": "APT32",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "bronze-butler",
+      "name": "BRONZE BUTLER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "polonium",
+      "name": "POLONIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt5",
+      "name": "APT5",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "backdoordiplomacy",
+      "name": "BackdoorDiplomacy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "leviathan",
+      "name": "Leviathan",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "storm-1811",
+      "name": "Storm-1811",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ajax-security-team",
+      "name": "Ajax Security Team",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "akira",
+      "name": "Akira",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "mustang-panda",
+      "name": "Mustang Panda",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "lapsus",
+      "name": "LAPSUS$",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "chimera",
+      "name": "Chimera",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta2541",
+      "name": "TA2541",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "toddycat",
+      "name": "ToddyCat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "bitter",
+      "name": "BITTER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "rtm",
+      "name": "RTM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "menupass",
+      "name": "menuPass",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "storm-0501",
+      "name": "Storm-0501",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "tropic-trooper",
+      "name": "Tropic Trooper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "mustard-tempest",
+      "name": "Mustard Tempest",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt19",
+      "name": "APT19",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "moses-staff",
+      "name": "Moses Staff",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "molerats",
+      "name": "Molerats",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "stealth-falcon",
+      "name": "Stealth Falcon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "mirrorface",
+      "name": "MirrorFace",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "darkvishnya",
+      "name": "DarkVishnya",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt37",
+      "name": "APT37",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "void-manticore",
+      "name": "VOID MANTICORE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "threat-group-1314",
+      "name": "Threat Group-1314",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "inc-ransom",
+      "name": "INC Ransom",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin13",
+      "name": "FIN13",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "group5",
+      "name": "Group5",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "platinum",
+      "name": "PLATINUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gallium",
+      "name": "GALLIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin10",
+      "name": "FIN10",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "winnti-group",
+      "name": "Winnti Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin8",
+      "name": "FIN8",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "rocke",
+      "name": "Rocke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "redecho",
+      "name": "RedEcho",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "saint-bear",
+      "name": "Saint Bear",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "scattered-spider",
+      "name": "Scattered Spider",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "curium",
+      "name": "CURIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "windigo",
+      "name": "Windigo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "blue-mockingbird",
+      "name": "Blue Mockingbird",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "redcurl",
+      "name": "RedCurl",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin4",
+      "name": "FIN4",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "contagious-interview",
+      "name": "Contagious Interview",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gorgon-group",
+      "name": "Gorgon Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "sidewinder",
+      "name": "Sidewinder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "higaisa",
+      "name": "Higaisa",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt30",
+      "name": "APT30",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "windshift",
+      "name": "Windshift",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "confucius",
+      "name": "Confucius",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "blackbyte",
+      "name": "BlackByte",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "threat-group-3390",
+      "name": "Threat Group-3390",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "tonto-team",
+      "name": "Tonto Team",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gamaredon-group",
+      "name": "Gamaredon Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "agrius",
+      "name": "Agrius",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "sea-turtle",
+      "name": "Sea Turtle",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "rancor",
+      "name": "Rancor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "moonstone-sleet",
+      "name": "Moonstone Sleet",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta551",
+      "name": "TA551",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "axiom",
+      "name": "Axiom",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "dark-caracal",
+      "name": "Dark Caracal",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "nomadic-octopus",
+      "name": "Nomadic Octopus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt12",
+      "name": "APT12",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt3",
+      "name": "APT3",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "putter-panda",
+      "name": "Putter Panda",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "metador",
+      "name": "Metador",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta459",
+      "name": "TA459",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "zirconium",
+      "name": "ZIRCONIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt1",
+      "name": "APT1",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "naikon",
+      "name": "Naikon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "sowbug",
+      "name": "Sowbug",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "mofang",
+      "name": "Mofang",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "machete",
+      "name": "Machete",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "fin5",
+      "name": "FIN5",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "winter-vivern",
+      "name": "Winter Vivern",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "sidecopy",
+      "name": "SideCopy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "lotus-blossom",
+      "name": "Lotus Blossom",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gold-southfield",
+      "name": "GOLD SOUTHFIELD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "volatile-cedar",
+      "name": "Volatile Cedar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "evilnum",
+      "name": "Evilnum",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "cleaver",
+      "name": "Cleaver",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "temp-veles",
+      "name": "TEMP.Veles",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "darkhydrus",
+      "name": "DarkHydrus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "whitefly",
+      "name": "Whitefly",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "silent-librarian",
+      "name": "Silent Librarian",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt18",
+      "name": "APT18",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "carbanak",
+      "name": "Carbanak",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "orangeworm",
+      "name": "Orangeworm",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "deep-panda",
+      "name": "Deep Panda",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "the-white-company",
+      "name": "The White Company",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "poseidon-group",
+      "name": "Poseidon Group",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "lazyscripter",
+      "name": "LazyScripter",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gallmaker",
+      "name": "Gallmaker",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "moustachedbouncer",
+      "name": "MoustachedBouncer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "copykittens",
+      "name": "CopyKittens",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "thrip",
+      "name": "Thrip",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "promethium",
+      "name": "PROMETHIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "gcman",
+      "name": "GCMAN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ferocious-kitten",
+      "name": "Ferocious Kitten",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "pittytiger",
+      "name": "PittyTiger",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt17",
+      "name": "APT17",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "water-galura",
+      "name": "Water Galura",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "blackoasis",
+      "name": "BlackOasis",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "indigozebra",
+      "name": "IndigoZebra",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "silverterrier",
+      "name": "SilverTerrier",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "strider",
+      "name": "Strider",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "applejeus",
+      "name": "AppleJeus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "scarlet-mimic",
+      "name": "Scarlet Mimic",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "ta578",
+      "name": "TA578",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt16",
+      "name": "APT16",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "moafee",
+      "name": "Moafee",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "neodymium",
+      "name": "NEODYMIUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "dragonok",
+      "name": "DragonOK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "apt-c-23",
+      "name": "APT-C-23",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-donut",
+      "name": "Donut",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mimikatz",
+      "name": "Mimikatz",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-empire",
+      "name": "Empire",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-psexec",
+      "name": "PsExec",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dridex",
+      "name": "Dridex",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wastedlocker",
+      "name": "WastedLocker",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bitpaymer",
+      "name": "BitPaymer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cobalt-strike",
+      "name": "Cobalt Strike",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-plugx",
+      "name": "PlugX",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-certutil",
+      "name": "certutil",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rclone",
+      "name": "Rclone",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-medusa-ransomware",
+      "name": "Medusa Ransomware",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-trickbot",
+      "name": "TrickBot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-adfind",
+      "name": "AdFind",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bitsadmin",
+      "name": "BITSAdmin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-systembc",
+      "name": "SystemBC",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bloodhound",
+      "name": "BloodHound",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ping",
+      "name": "Ping",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bazar",
+      "name": "Bazar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lazagne",
+      "name": "LaZagne",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nltest",
+      "name": "Nltest",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-grimagent",
+      "name": "GrimAgent",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dyre",
+      "name": "Dyre",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ryuk",
+      "name": "Ryuk",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-conti",
+      "name": "Conti",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-emotet",
+      "name": "Emotet",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rubeus",
+      "name": "Rubeus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-anchor",
+      "name": "Anchor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-diavol",
+      "name": "Diavol",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-net",
+      "name": "Net",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-poisonivy",
+      "name": "PoisonIvy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-naid",
+      "name": "Naid",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-briba",
+      "name": "Briba",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hydraq",
+      "name": "Hydraq",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-linfo",
+      "name": "Linfo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nerex",
+      "name": "Nerex",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-vasport",
+      "name": "Vasport",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wiarp",
+      "name": "Wiarp",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pasam",
+      "name": "Pasam",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-griffon",
+      "name": "GRIFFON",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-jss-loader",
+      "name": "JSS Loader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-halfbaked",
+      "name": "HALFBAKED",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-revil",
+      "name": "REvil",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powersploit",
+      "name": "PowerSploit",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-crackmapexec",
+      "name": "CrackMapExec",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-carbanak",
+      "name": "Carbanak",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pillowmint",
+      "name": "Pillowmint",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-maze",
+      "name": "Maze",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powersource",
+      "name": "POWERSOURCE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rdfsniffer",
+      "name": "RDFSNIFFER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sqlrat",
+      "name": "SQLRat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lizar",
+      "name": "Lizar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-textmate",
+      "name": "TEXTMATE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-boostwrite",
+      "name": "BOOSTWRITE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mopsled",
+      "name": "MOPSLED",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-virtualpie",
+      "name": "VIRTUALPIE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-castletap",
+      "name": "CASTLETAP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-thincrust",
+      "name": "THINCRUST",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-virtualpita",
+      "name": "VIRTUALPITA",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-reptile",
+      "name": "REPTILE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-medusa",
+      "name": "MEDUSA",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-riflespine",
+      "name": "RIFLESPINE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-impacket",
+      "name": "Impacket",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-litepower",
+      "name": "LitePower",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-samecoin",
+      "name": "SameCoin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ferocious",
+      "name": "Ferocious",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ironwind",
+      "name": "IronWind",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-havoc",
+      "name": "Havoc",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ashtag",
+      "name": "AshTag",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-spica",
+      "name": "Spica",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mcmd",
+      "name": "MCMD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-reg",
+      "name": "Reg",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-backdoor-oldrea",
+      "name": "Backdoor.Oldrea",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-trojan-karagany",
+      "name": "Trojan.Karagany",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-netsh",
+      "name": "netsh",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-njrat",
+      "name": "njRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-imminent-monitor",
+      "name": "Imminent Monitor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dcrat",
+      "name": "DCRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-purecrypter",
+      "name": "PureCrypter",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-caminho",
+      "name": "Caminho",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-remcos",
+      "name": "Remcos",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-asyncrat",
+      "name": "AsyncRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-quasarrat",
+      "name": "QuasarRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-heartcrypt",
+      "name": "HeartCrypt",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-isminjector",
+      "name": "ISMInjector",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-odagent",
+      "name": "ODAgent",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rdat",
+      "name": "RDAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-systeminfo",
+      "name": "Systeminfo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-quadagent",
+      "name": "QUADAGENT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-oopsie",
+      "name": "OopsIE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ngrok",
+      "name": "ngrok",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tasklist",
+      "name": "Tasklist",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zerocleare",
+      "name": "ZeroCleare",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powruner",
+      "name": "POWRUNER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-netstat",
+      "name": "netstat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-solar",
+      "name": "Solar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ipconfig",
+      "name": "ipconfig",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bondupdater",
+      "name": "BONDUPDATER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sidetwist",
+      "name": "SideTwist",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-helminth",
+      "name": "Helminth",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mango",
+      "name": "Mango",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-oilbooster",
+      "name": "OilBooster",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-samplecheck5000",
+      "name": "SampleCheck5000",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-seasharpee",
+      "name": "SEASHARPEE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerexchange",
+      "name": "PowerExchange",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-oilcheck",
+      "name": "OilCheck",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rgdoor",
+      "name": "RGDoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ftp",
+      "name": "ftp",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-china-chopper",
+      "name": "China Chopper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pay2key",
+      "name": "Pay2Key",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rawdisk",
+      "name": "RawDisk",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-proxysvc",
+      "name": "Proxysvc",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-badcall",
+      "name": "BADCALL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fallchill",
+      "name": "FALLCHILL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wannacry",
+      "name": "WannaCry",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-magicrat",
+      "name": "MagicRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hoplight",
+      "name": "HOPLIGHT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-typeframe",
+      "name": "TYPEFRAME",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dtrack",
+      "name": "Dtrack",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hotcroissant",
+      "name": "HotCroissant",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hardrain",
+      "name": "HARDRAIN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dacls",
+      "name": "Dacls",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-keymarble",
+      "name": "KEYMARBLE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-taintedscribe",
+      "name": "TAINTEDSCRIBE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-auditcred",
+      "name": "AuditCred",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-eccentricbandwagon",
+      "name": "ECCENTRICBANDWAGON",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-applejeus",
+      "name": "AppleJeus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-route",
+      "name": "route",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blindingcan",
+      "name": "BLINDINGCAN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-threatneedle",
+      "name": "ThreatNeedle",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-volgmer",
+      "name": "Volgmer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cryptoistic",
+      "name": "Cryptoistic",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-responder",
+      "name": "Responder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wevtutil",
+      "name": "Wevtutil",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-winnti-for-windows",
+      "name": "Winnti for Windows",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shadowpad",
+      "name": "ShadowPad",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-winnti-for-linux",
+      "name": "Winnti for Linux",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mgbot",
+      "name": "MgBot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-macma",
+      "name": "MacMa",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nightdoor",
+      "name": "Nightdoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-peirates",
+      "name": "Peirates",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mimipenguin",
+      "name": "MimiPenguin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hildegard",
+      "name": "Hildegard",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-clop",
+      "name": "Clop",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-azorult",
+      "name": "Azorult",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-flawedammyy",
+      "name": "FlawedAmmyy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-get2",
+      "name": "Get2",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-flawedgrace",
+      "name": "FlawedGrace",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-servhelper",
+      "name": "ServHelper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-amadey",
+      "name": "Amadey",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sdbbot",
+      "name": "SDBbot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powershower",
+      "name": "PowerShower",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-vbshower",
+      "name": "VBShower",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bubblewrap",
+      "name": "BUBBLEWRAP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lowball",
+      "name": "LOWBALL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-plead",
+      "name": "PLEAD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kivars",
+      "name": "Kivars",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tscookie",
+      "name": "TSCookie",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-flagpro",
+      "name": "Flagpro",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-waterbear",
+      "name": "Waterbear",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nicecurl",
+      "name": "NICECURL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tamecat",
+      "name": "TAMECAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mispadu",
+      "name": "Mispadu",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nbtscan",
+      "name": "NBTscan",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-troll-stealer",
+      "name": "Troll Stealer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-httptroy",
+      "name": "HTTPTroy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-schtasks",
+      "name": "schtasks",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gobear",
+      "name": "GoBear",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-brave-prince",
+      "name": "Brave Prince",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cspy-downloader",
+      "name": "CSPY Downloader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gh0st-rat",
+      "name": "gh0st RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-appleseed",
+      "name": "AppleSeed",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gomir",
+      "name": "Gomir",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nokki",
+      "name": "NOKKI",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gold-dragon",
+      "name": "Gold Dragon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kgh-spy",
+      "name": "KGH_SPY",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-babyshark",
+      "name": "BabyShark",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-translatext",
+      "name": "TRANSLATEXT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-playcrypt",
+      "name": "Playcrypt",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bad-rabbit",
+      "name": "Bad Rabbit",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-exaramel-for-linux",
+      "name": "Exaramel for Linux",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-exaramel-for-windows",
+      "name": "Exaramel for Windows",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-greyenergy",
+      "name": "GreyEnergy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-prestige",
+      "name": "Prestige",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-p-a-s-webshell",
+      "name": "P.A.S. Webshell",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-acidpour",
+      "name": "AcidPour",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-vpnfilter",
+      "name": "VPNFilter",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-neo-regeorg",
+      "name": "Neo-reGeorg",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cyclops-blink",
+      "name": "Cyclops Blink",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sdelete",
+      "name": "SDelete",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kapeka",
+      "name": "Kapeka",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-acidrain",
+      "name": "AcidRain",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-industroyer2",
+      "name": "Industroyer2",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackenergy",
+      "name": "BlackEnergy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-notpetya",
+      "name": "NotPetya",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-killdisk",
+      "name": "KillDisk",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-poshc2",
+      "name": "PoshC2",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-invoke-psimage",
+      "name": "Invoke-PSImage",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-olympic-destroyer",
+      "name": "Olympic Destroyer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pikabot",
+      "name": "Pikabot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-qakbot",
+      "name": "QakBot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-latrodectus",
+      "name": "Latrodectus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nbtstat",
+      "name": "nbtstat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-comrat",
+      "name": "ComRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mosquito",
+      "name": "Mosquito",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kopiluwak",
+      "name": "KOPILUWAK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ironnetinjector",
+      "name": "IronNetInjector",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lunarweb",
+      "name": "LunarWeb",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-arp",
+      "name": "Arp",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-crutch",
+      "name": "Crutch",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-uroburos",
+      "name": "Uroburos",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerstallion",
+      "name": "PowerStallion",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gazer",
+      "name": "Gazer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kazuar",
+      "name": "Kazuar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lightneuron",
+      "name": "LightNeuron",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lunarmail",
+      "name": "LunarMail",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hyperstack",
+      "name": "HyperStack",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-epic",
+      "name": "Epic",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tinyturla",
+      "name": "TinyTurla",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-penquin",
+      "name": "Penquin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lunarloader",
+      "name": "LunarLoader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nidiran",
+      "name": "Nidiran",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-regeorg",
+      "name": "reGeorg",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-whispergate",
+      "name": "WhisperGate",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-saint-bot",
+      "name": "Saint Bot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-frameworkpos",
+      "name": "FrameworkPOS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-more-eggs",
+      "name": "More_eggs",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-windows-credential-editor",
+      "name": "Windows Credential Editor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lockergoga",
+      "name": "LockerGoga",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-winexe",
+      "name": "Winexe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ndiskmonitor",
+      "name": "NDiskMonitor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-backconfig",
+      "name": "BackConfig",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tinytyphon",
+      "name": "TINYTYPHON",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-autoit-backdoor",
+      "name": "AutoIt backdoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-badnews",
+      "name": "BADNEWS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-unknown-logger",
+      "name": "Unknown Logger",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-chopstick",
+      "name": "CHOPSTICK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-forfiles",
+      "name": "Forfiles",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dealerschoice",
+      "name": "DealersChoice",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-advstoreshell",
+      "name": "ADVSTORESHELL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cannon",
+      "name": "Cannon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-komplex",
+      "name": "Komplex",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hidedrv",
+      "name": "HIDEDRV",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-jhuhugit",
+      "name": "JHUHUGIT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-koadic",
+      "name": "Koadic",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cipher-exe",
+      "name": "cipher.exe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-xtunnel",
+      "name": "XTunnel",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-drovorub",
+      "name": "Drovorub",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lamehug",
+      "name": "LAMEHUG",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tor",
+      "name": "Tor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-coreshell",
+      "name": "CORESHELL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-oldbait",
+      "name": "OLDBAIT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-downdelph",
+      "name": "Downdelph",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-xagentosx",
+      "name": "XAgentOSX",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-usbstealer",
+      "name": "USBStealer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zebrocy",
+      "name": "Zebrocy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fysbis",
+      "name": "Fysbis",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lojax",
+      "name": "LoJax",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mongall",
+      "name": "Mongall",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-heyoka-backdoor",
+      "name": "Heyoka Backdoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sliver",
+      "name": "Sliver",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pandora",
+      "name": "Pandora",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cheerscrypt",
+      "name": "Cheerscrypt",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hui-loader",
+      "name": "HUI Loader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-milan",
+      "name": "Milan",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shark",
+      "name": "Shark",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dnssystem",
+      "name": "DnsSystem",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-danbot",
+      "name": "DanBot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kevin",
+      "name": "Kevin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-okrum",
+      "name": "Okrum",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-spwebmember",
+      "name": "spwebmember",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-miragefox",
+      "name": "MirageFox",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-neoichor",
+      "name": "Neoichor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-versamem",
+      "name": "VersaMem",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-frp",
+      "name": "FRP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cmd",
+      "name": "cmd",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mailsniper",
+      "name": "MailSniper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-charmpower",
+      "name": "CharmPower",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerless",
+      "name": "PowerLess",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pupy",
+      "name": "Pupy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-downpaper",
+      "name": "DownPaper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pinchduke",
+      "name": "PinchDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-roadtools",
+      "name": "ROADTools",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wellmail",
+      "name": "WellMail",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cozycar",
+      "name": "CozyCar",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-meek",
+      "name": "meek",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-trailblazer",
+      "name": "TrailBlazer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-onionduke",
+      "name": "OnionDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fatduke",
+      "name": "FatDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-poshspy",
+      "name": "POSHSPY",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-envyscout",
+      "name": "EnvyScout",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sorefang",
+      "name": "SoreFang",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-geminiduke",
+      "name": "GeminiDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-goldmax",
+      "name": "GoldMax",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-foggyweb",
+      "name": "FoggyWeb",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-polyglotduke",
+      "name": "PolyglotDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-aadinternals",
+      "name": "AADInternals",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-miniduke",
+      "name": "MiniDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-teardrop",
+      "name": "TEARDROP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-seaduke",
+      "name": "SeaDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sibot",
+      "name": "Sibot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-raindrop",
+      "name": "Raindrop",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-regduke",
+      "name": "RegDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cloudduke",
+      "name": "CloudDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-goldfinder",
+      "name": "GoldFinder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nativezone",
+      "name": "NativeZone",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sunspot",
+      "name": "SUNSPOT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerduke",
+      "name": "PowerDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-quietexit",
+      "name": "QUIETEXIT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hammertoss",
+      "name": "HAMMERTOSS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-boombox",
+      "name": "BoomBox",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cosmicduke",
+      "name": "CosmicDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wellmess",
+      "name": "WellMess",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-vaporrage",
+      "name": "VaporRage",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-liteduke",
+      "name": "LiteDuke",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bumblebee",
+      "name": "Bumblebee",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-spicyomelette",
+      "name": "SpicyOmelette",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rifdoor",
+      "name": "Rifdoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tarrask",
+      "name": "Tarrask",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-aspxspy",
+      "name": "ASPXSpy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-covenant",
+      "name": "Covenant",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mechaflounder",
+      "name": "MechaFlounder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-remexi",
+      "name": "Remexi",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pwdump",
+      "name": "pwdump",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cadelspy",
+      "name": "Cadelspy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-muddyviper",
+      "name": "MuddyViper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-starwhale",
+      "name": "STARWHALE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lp-notes",
+      "name": "LP-Notes",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-out1",
+      "name": "Out1",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tsundere-botnet",
+      "name": "Tsundere Botnet",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-small-sieve",
+      "name": "Small Sieve",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fooder",
+      "name": "Fooder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mori",
+      "name": "Mori",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powgoop",
+      "name": "PowGoop",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-connectwise",
+      "name": "ConnectWise",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sharpstats",
+      "name": "SHARPSTATS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rustywater",
+      "name": "RustyWater",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-remoteutilities",
+      "name": "RemoteUtilities",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-darkcomet",
+      "name": "DarkComet",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-obliquerat",
+      "name": "ObliqueRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-crimson",
+      "name": "Crimson",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-peppy",
+      "name": "Peppy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kerrdown",
+      "name": "Kerrdown",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-soundbite",
+      "name": "SOUNDBITE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-osx-oceanlotus-d",
+      "name": "OSX_OCEANLOTUS.D",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-komprogo",
+      "name": "KOMPROGO",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rotajakiro",
+      "name": "RotaJakiro",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-phoreal",
+      "name": "PHOREAL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-windshield",
+      "name": "WINDSHIELD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-denis",
+      "name": "Denis",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-goopy",
+      "name": "Goopy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-build-downer",
+      "name": "build_downer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-abk",
+      "name": "ABK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-at",
+      "name": "at",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bbk",
+      "name": "BBK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-down-new",
+      "name": "down_new",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-daserf",
+      "name": "Daserf",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-gsecdump",
+      "name": "gsecdump",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-avenger",
+      "name": "Avenger",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-creepydrive",
+      "name": "CreepyDrive",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-creepysnail",
+      "name": "CreepySnail",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rapidpulse",
+      "name": "RAPIDPULSE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pcshare",
+      "name": "PcShare",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-slowpulse",
+      "name": "SLOWPULSE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-slightpulse",
+      "name": "SLIGHTPULSE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-skeleton-key",
+      "name": "Skeleton Key",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pacemaker",
+      "name": "PACEMAKER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pulsecheck",
+      "name": "PULSECHECK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-turian",
+      "name": "Turian",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-homefry",
+      "name": "HOMEFRY",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-derusbi",
+      "name": "Derusbi",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackcoffee",
+      "name": "BLACKCOFFEE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-badflick",
+      "name": "BADFLICK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-murkytop",
+      "name": "MURKYTOP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nanhaishu",
+      "name": "NanHaiShu",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-orz",
+      "name": "Orz",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-black-basta",
+      "name": "Black Basta",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-quick-assist",
+      "name": "Quick Assist",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sqlmap",
+      "name": "sqlmap",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-havij",
+      "name": "Havij",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-akira-v2",
+      "name": "Akira _v2",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-akira",
+      "name": "Akira",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-megazord",
+      "name": "Megazord",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-canonstager",
+      "name": "CANONSTAGER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-staticplugin",
+      "name": "STATICPLUGIN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-toneshell",
+      "name": "TONESHELL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hiupan",
+      "name": "HIUPAN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-splatcloak",
+      "name": "SplatCloak",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-paklog",
+      "name": "PAKLOG",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-claimloader",
+      "name": "CLAIMLOADER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pubload",
+      "name": "PUBLOAD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-starproxy",
+      "name": "StarProxy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-corklog",
+      "name": "CorKLOG",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rcsession",
+      "name": "RCSession",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-splatdropper",
+      "name": "SplatDropper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bookworm",
+      "name": "BOOKWORM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-esentutl",
+      "name": "esentutl",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-snip3",
+      "name": "Snip3",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-revenge-rat",
+      "name": "Revenge RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-jrat",
+      "name": "jRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-warzonerat",
+      "name": "WarzoneRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-netwire",
+      "name": "NETWIRE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-agent-tesla",
+      "name": "Agent Tesla",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lofise",
+      "name": "LoFiSe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pcexter",
+      "name": "Pcexter",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-samurai",
+      "name": "Samurai",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ninja",
+      "name": "Ninja",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zxxz",
+      "name": "ZxxZ",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rtm",
+      "name": "RTM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fyanti",
+      "name": "FYAnti",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-uppercut",
+      "name": "UPPERCUT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-snugride",
+      "name": "SNUGRIDE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-p8rat",
+      "name": "P8RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-redleaves",
+      "name": "RedLeaves",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sodamaster",
+      "name": "SodaMaster",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-chches",
+      "name": "ChChes",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-evilgrab",
+      "name": "EvilGrab",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ecipekac",
+      "name": "Ecipekac",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-embargo",
+      "name": "Embargo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-usbferry",
+      "name": "USBferry",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-yahoyah",
+      "name": "YAHOYAH",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-keyboy",
+      "name": "KeyBoy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-socgholish",
+      "name": "SocGholish",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pydcrypt",
+      "name": "PyDCrypt",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dcsrv",
+      "name": "DCSrv",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-strifewater",
+      "name": "StrifeWater",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-molenet",
+      "name": "MoleNet",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-spark",
+      "name": "Spark",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dustysky",
+      "name": "DustySky",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dropbook",
+      "name": "DropBook",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sharpstage",
+      "name": "SharpStage",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mirrorstealer",
+      "name": "MirrorStealer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lodeinfo",
+      "name": "LODEINFO",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-roaminghouse",
+      "name": "ROAMINGHOUSE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-downiissa",
+      "name": "DOWNIISSA",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hiddenface",
+      "name": "HiddenFace",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-noopldr",
+      "name": "NOOPLDR",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bluelight",
+      "name": "BLUELIGHT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-coraldeck",
+      "name": "CORALDECK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-karae",
+      "name": "KARAE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-slowdrift",
+      "name": "SLOWDRIFT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rokrat",
+      "name": "ROKRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shutterspeed",
+      "name": "SHUTTERSPEED",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pooraim",
+      "name": "POORAIM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-happywork",
+      "name": "HAPPYWORK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-final1stspy",
+      "name": "Final1stspy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-navrat",
+      "name": "NavRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dogcall",
+      "name": "DOGCALL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-winerack",
+      "name": "WINERACK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zxshell",
+      "name": "ZxShell",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-keyplug",
+      "name": "KEYPLUG",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lightspy",
+      "name": "LightSpy",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dustpan",
+      "name": "DUSTPAN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-messagetap",
+      "name": "MESSAGETAP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rockboot",
+      "name": "ROCKBOOT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dsquery",
+      "name": "dsquery",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dusttrap",
+      "name": "DUSTTRAP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-inc-ransomware",
+      "name": "INC Ransomware",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nanocore",
+      "name": "NanoCore",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-jpin",
+      "name": "JPIN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-dipsind",
+      "name": "Dipsind",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-adbupd",
+      "name": "adbupd",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pingpull",
+      "name": "PingPull",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackmould",
+      "name": "BlackMould",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-htran",
+      "name": "HTRAN",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pipemon",
+      "name": "PipeMon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-badhatch",
+      "name": "BADHATCH",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-punchbuggy",
+      "name": "PUNCHBUGGY",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ragnar-locker",
+      "name": "Ragnar Locker",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-punchtrack",
+      "name": "PUNCHTRACK",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sardonic",
+      "name": "Sardonic",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-outsteel",
+      "name": "OutSteel",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-raccoon-stealer",
+      "name": "Raccoon Stealer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackcat",
+      "name": "BlackCat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-imaploader",
+      "name": "IMAPLoader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ebury",
+      "name": "Ebury",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-invisibleferret",
+      "name": "InvisibleFerret",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-beavertail",
+      "name": "BeaverTail",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-xorindex-loader",
+      "name": "XORIndex Loader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hexeval-loader",
+      "name": "HexEval Loader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shipshape",
+      "name": "SHIPSHAPE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-backspace",
+      "name": "BACKSPACE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-flashflood",
+      "name": "FLASHFLOOD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-neteagle",
+      "name": "NETEAGLE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-spaceship",
+      "name": "SPACESHIP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-windtail",
+      "name": "WindTail",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackbyte-ransomware",
+      "name": "BlackByte Ransomware",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-exbyte",
+      "name": "Exbyte",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-blackbyte-2-0-ransomware",
+      "name": "BlackByte 2.0 Ransomware",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-httpbrowser",
+      "name": "HTTPBrowser",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sysupdate",
+      "name": "SysUpdate",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hyperbro",
+      "name": "HyperBro",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-clambling",
+      "name": "Clambling",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-jumbledpath",
+      "name": "JumbledPath",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bisonal",
+      "name": "Bisonal",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-quietsieve",
+      "name": "QuietSieve",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pteranodon",
+      "name": "Pteranodon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerpunch",
+      "name": "PowerPunch",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ipsec-helper",
+      "name": "IPsec Helper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-moneybird",
+      "name": "Moneybird",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-multilayer-wiper",
+      "name": "MultiLayer Wiper",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-deadwood",
+      "name": "DEADWOOD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bfg-agonizer",
+      "name": "BFG Agonizer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-apostle",
+      "name": "Apostle",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-snappytcp",
+      "name": "SnappyTCP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ddkong",
+      "name": "DDKONG",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-plaintee",
+      "name": "PLAINTEE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-qilin",
+      "name": "Qilin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-icedid",
+      "name": "IcedID",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-valak",
+      "name": "Valak",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ursnif",
+      "name": "Ursnif",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zox",
+      "name": "Zox",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hikit",
+      "name": "Hikit",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-finfisher",
+      "name": "FinFisher",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-crossrat",
+      "name": "CrossRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-bandook",
+      "name": "Bandook",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-octopus",
+      "name": "Octopus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ixeshe",
+      "name": "Ixeshe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-riptide",
+      "name": "RIPTIDE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-osinfo",
+      "name": "OSInfo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shotput",
+      "name": "SHOTPUT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-remotecmd",
+      "name": "RemoteCMD",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pngdowner",
+      "name": "pngdowner",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-3para-rat",
+      "name": "3PARA RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-4h-rat",
+      "name": "4H RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-httpclient",
+      "name": "httpclient",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-metamain",
+      "name": "metaMain",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mafalda",
+      "name": "Mafalda",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nettraveler",
+      "name": "NetTraveler",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-zerot",
+      "name": "ZeroT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-seasalt",
+      "name": "Seasalt",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-biscuit",
+      "name": "BISCUIT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-cachedump",
+      "name": "Cachedump",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-glooxmail",
+      "name": "GLOOXMAIL",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lslsass",
+      "name": "Lslsass",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-webc2",
+      "name": "WEBC2",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pass-the-hash-toolkit",
+      "name": "Pass-The-Hash Toolkit",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-calendar",
+      "name": "CALENDAR",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-xcmd",
+      "name": "xCmd",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-winmm",
+      "name": "WinMM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rainyday",
+      "name": "RainyDay",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nebulae",
+      "name": "Nebulae",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rarstone",
+      "name": "RARSTONE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hdoor",
+      "name": "HDoor",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sys10",
+      "name": "Sys10",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sslmm",
+      "name": "SslMM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-aria-body",
+      "name": "Aria-body",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-starloader",
+      "name": "Starloader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-felismus",
+      "name": "Felismus",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shimratreporter",
+      "name": "ShimRatReporter",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-shimrat",
+      "name": "ShimRat",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-machete",
+      "name": "Machete",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-flipside",
+      "name": "FLIPSIDE",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-rawpos",
+      "name": "RawPOS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-auto-stealer",
+      "name": "AuTo Stealer",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-action-rat",
+      "name": "Action RAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-ruler",
+      "name": "Ruler",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-stonedrill",
+      "name": "StoneDrill",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-powerton",
+      "name": "POWERTON",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-turnedup",
+      "name": "TURNEDUP",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-emissary",
+      "name": "Emissary",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-elise",
+      "name": "Elise",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hannotog",
+      "name": "Hannotog",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sagerunex",
+      "name": "Sagerunex",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-caterpillar-webshell",
+      "name": "Caterpillar WebShell",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-explosive",
+      "name": "Explosive",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-evilnum",
+      "name": "EVILNUM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-net-crawler",
+      "name": "Net Crawler",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tinyzbot",
+      "name": "TinyZBot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-roguerobin",
+      "name": "RogueRobin",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-hcdloader",
+      "name": "hcdLoader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-pisloader",
+      "name": "Pisloader",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-kwampirs",
+      "name": "Kwampirs",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mivast",
+      "name": "Mivast",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-streamex",
+      "name": "StreamEx",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sakula",
+      "name": "Sakula",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-koctopus",
+      "name": "KOCTOPUS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-nightclub",
+      "name": "NightClub",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-disco",
+      "name": "Disco",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-sharpdisco",
+      "name": "SharpDisco",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-tdtess",
+      "name": "TDTESS",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-matryoshka",
+      "name": "Matryoshka",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-catchamas",
+      "name": "Catchamas",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-truvasys",
+      "name": "Truvasys",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-strongpity",
+      "name": "StrongPity",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-markirat",
+      "name": "MarkiRAT",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lurid",
+      "name": "Lurid",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-xcaon",
+      "name": "xCaon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-boxcaon",
+      "name": "BoxCaon",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-lokibot",
+      "name": "Lokibot",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-remsec",
+      "name": "Remsec",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-psylo",
+      "name": "Psylo",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-mobileorder",
+      "name": "MobileOrder",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-callme",
+      "name": "CallMe",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-fakem",
+      "name": "FakeM",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-elmer",
+      "name": "ELMER",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-wingbird",
+      "name": "Wingbird",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "capability",
+      "id": "cap-micropsia",
+      "name": "Micropsia",
+      "addedAt": "2026-05-16"
+    },
+    {
+      "type": "actor",
+      "id": "volt-typhoon",
+      "name": "Volt Typhoon",
+      "addedAt": "2026-05-15"
+    },
+    {
+      "type": "actor",
+      "id": "salt-typhoon",
+      "name": "Salt Typhoon",
+      "addedAt": "2026-05-15"
+    },
+    {
+      "type": "actor",
+      "id": "apt41",
+      "name": "APT41",
+      "addedAt": "2026-05-15"
+    },
+    {
+      "type": "actor",
+      "id": "apt31",
+      "name": "APT31",
+      "addedAt": "2026-05-15"
+    },
+    {
+      "type": "actor",
+      "id": "unc5221",
+      "name": "UNC5221",
+      "addedAt": "2026-05-15"
+    }
+  ],
+  "lastSynced": "2026-05-16T17:54:00.775Z"
 }

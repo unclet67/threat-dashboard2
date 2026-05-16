@@ -1,0 +1,20 @@
+{
+  "id": "cap-fallchill",
+  "name": "FALLCHILL",
+  "type": "implant",
+  "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) is a RAT that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032) since at least 2016 to target the aerospace, telecommunications, and finance industries. It is usually dropped by other [Lazarus Group](https://attack.mitre.org/",
+  "mitreAttackIds": [
+    "T1083",
+    "T1070.006",
+    "T1573.001",
+    "T1070.004",
+    "T1082",
+    "T1016",
+    "T1680",
+    "T1543.003",
+    "T1001.003"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "threat-group-1314",
+  "name": "Threat Group-1314",
+  "aliases": [
+    "Threat Group-1314",
+    "TG-1314"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-net",
+    "cap-psexec"
+  ],
+  "description": "[Threat Group-1314](https://attack.mitre.org/groups/G0028) is an unattributed threat group that has used compromised credentials to log into a victim's remote access infrastructure. (Citation: Dell TG-1314)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0028"
+  ]
+}

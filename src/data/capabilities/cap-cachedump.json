@@ -1,0 +1,12 @@
+{
+  "id": "cap-cachedump",
+  "name": "Cachedump",
+  "type": "tool",
+  "description": "[Cachedump](https://attack.mitre.org/software/S0119) is a publicly-available tool that program extracts cached password hashes from a system’s registry. (Citation: Mandiant APT1)",
+  "mitreAttackIds": [
+    "T1003.005"
+  ],
+  "actorIds": [
+    "apt1"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cap-nightdoor",
+  "name": "Nightdoor",
+  "type": "implant",
+  "description": "[Nightdoor](https://attack.mitre.org/software/S1147) is a backdoor exclusively associated with [Daggerfly](https://attack.mitre.org/groups/G1034) operations. [Nightdoor](https://attack.mitre.org/software/S1147) uses common libraries with [MgBot](https://attack.mitre.org/software/S1146) and [MacMa](h",
+  "mitreAttackIds": [
+    "T1102",
+    "T1057",
+    "T1053.005",
+    "T1680",
+    "T1059.003",
+    "T1574",
+    "T1497.001",
+    "T1124",
+    "T1016",
+    "T1070.004",
+    "T1033",
+    "T1082",
+    "T1140",
+    "T1071"
+  ],
+  "actorIds": [
+    "daggerfly"
+  ]
+}

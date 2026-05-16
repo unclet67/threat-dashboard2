@@ -1,0 +1,33 @@
+{
+  "id": "hexane",
+  "name": "HEXANE",
+  "aliases": [
+    "HEXANE",
+    "Lyceum",
+    "Siamesekitten",
+    "Spirlin"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-milan",
+    "cap-ping",
+    "cap-netstat",
+    "cap-bitsadmin",
+    "cap-shark",
+    "cap-dnssystem",
+    "cap-danbot",
+    "cap-empire",
+    "cap-ipconfig",
+    "cap-mimikatz",
+    "cap-kevin",
+    "cap-poshc2"
+  ],
+  "description": "[HEXANE](https://attack.mitre.org/groups/G1001) is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Ar",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1001"
+  ]
+}

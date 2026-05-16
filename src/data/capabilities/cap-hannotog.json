@@ -1,0 +1,18 @@
+{
+  "id": "cap-hannotog",
+  "name": "Hannotog",
+  "type": "implant",
+  "description": "[Hannotog](https://attack.mitre.org/software/S1211) is a type of backdoor malware uniquely assoicated with [Lotus Blossom](https://attack.mitre.org/groups/G0030) operations since at least 2022.(Citation: Symantec Bilbug 2022)",
+  "mitreAttackIds": [
+    "T1571",
+    "T1489",
+    "T1020",
+    "T1686",
+    "T1543.003",
+    "T1059.003",
+    "T1105"
+  ],
+  "actorIds": [
+    "lotus-blossom"
+  ]
+}

@@ -1,13 +1,70 @@
 {
   "id": "apt28",
   "name": "APT28",
-  "aliases": ["Fancy Bear", "STRONTIUM", "Sofacy", "Sednit", "GRU Unit 26165"],
+  "aliases": [
+    "Fancy Bear",
+    "STRONTIUM",
+    "Sofacy",
+    "Sednit",
+    "GRU Unit 26165",
+    "APT28",
+    "IRON TWILIGHT",
+    "SNAKEMACKEREL",
+    "Swallowtail",
+    "Group 74",
+    "Pawn Storm",
+    "Tsar Team",
+    "Threat Group-4127",
+    "TG-4127",
+    "Forest Blizzard",
+    "FROZENLAKE",
+    "GruesomeLarch"
+  ],
   "countryId": "russia",
   "orgId": "gru",
-  "opTypes": ["Cyber", "IO"],
-  "operationIds": ["op-ru-001"],
-  "capabilityIds": ["cap-xagent"],
+  "opTypes": [
+    "Cyber",
+    "IO"
+  ],
+  "operationIds": [
+    "op-ru-001"
+  ],
+  "capabilityIds": [
+    "cap-xagent",
+    "cap-wevtutil",
+    "cap-certutil",
+    "cap-chopstick",
+    "cap-net",
+    "cap-forfiles",
+    "cap-dealerschoice",
+    "cap-mimikatz",
+    "cap-advstoreshell",
+    "cap-cannon",
+    "cap-komplex",
+    "cap-hidedrv",
+    "cap-jhuhugit",
+    "cap-koadic",
+    "cap-winexe",
+    "cap-responder",
+    "cap-cipher-exe",
+    "cap-xtunnel",
+    "cap-drovorub",
+    "cap-lamehug",
+    "cap-tor",
+    "cap-coreshell",
+    "cap-oldbait",
+    "cap-downdelph",
+    "cap-xagentosx",
+    "cap-usbstealer",
+    "cap-zebrocy",
+    "cap-regeorg",
+    "cap-fysbis",
+    "cap-lojax"
+  ],
   "description": "GRU-linked actor conducting cyber espionage and influence operations since at least 2007. Targets government, military, defense, and political organizations worldwide. Known for 2016 US election interference and DNC hack.",
   "confidence": "high",
-  "sources": ["https://www.justice.gov/opa/pr/grand-jury-indicts-twelve-russian-intelligence-officers-hacking-offenses-related-2016-election"]
+  "sources": [
+    "https://www.justice.gov/opa/pr/grand-jury-indicts-twelve-russian-intelligence-officers-hacking-offenses-related-2016-election",
+    "https://attack.mitre.org/groups/G0007"
+  ]
 }

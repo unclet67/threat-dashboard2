@@ -1,0 +1,19 @@
+{
+  "id": "cap-tinyzbot",
+  "name": "TinyZBot",
+  "type": "implant",
+  "description": "[TinyZBot](https://attack.mitre.org/software/S0004) is a bot written in C# that was developed by [Cleaver](https://attack.mitre.org/groups/G0003). (Citation: Cylance Cleaver)",
+  "mitreAttackIds": [
+    "T1685",
+    "T1115",
+    "T1113",
+    "T1547.009",
+    "T1543.003",
+    "T1547.001",
+    "T1056.001",
+    "T1059.003"
+  ],
+  "actorIds": [
+    "cleaver"
+  ]
+}

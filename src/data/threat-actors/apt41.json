@@ -1,13 +1,58 @@
 {
   "id": "apt41",
   "name": "APT41",
-  "aliases": ["Double Dragon", "BARIUM", "Winnti Group"],
+  "aliases": [
+    "Double Dragon",
+    "BARIUM",
+    "Winnti Group",
+    "APT41",
+    "Wicked Panda",
+    "Brass Typhoon"
+  ],
   "countryId": "china",
   "orgId": "mss",
-  "opTypes": ["Cyber", "IO"],
+  "opTypes": [
+    "Cyber",
+    "IO"
+  ],
   "operationIds": [],
-  "capabilityIds": [],
+  "capabilityIds": [
+    "cap-aspxspy",
+    "cap-bitsadmin",
+    "cap-plugx",
+    "cap-impacket",
+    "cap-gh0st-rat",
+    "cap-netstat",
+    "cap-powersploit",
+    "cap-zxshell",
+    "cap-keyplug",
+    "cap-ping",
+    "cap-lightspy",
+    "cap-dustpan",
+    "cap-net",
+    "cap-ipconfig",
+    "cap-sqlmap",
+    "cap-china-chopper",
+    "cap-shadowpad",
+    "cap-messagetap",
+    "cap-mimikatz",
+    "cap-certutil",
+    "cap-njrat",
+    "cap-empire",
+    "cap-cobalt-strike",
+    "cap-pwdump",
+    "cap-blackcoffee",
+    "cap-mopsled",
+    "cap-rockboot",
+    "cap-dsquery",
+    "cap-winnti-for-linux",
+    "cap-dusttrap",
+    "cap-derusbi",
+    "cap-ftp"
+  ],
   "description": "Prolific MSS-affiliated actor conducting both state-sponsored espionage and financially motivated cybercrime. Known for supply chain compromises and a large custom malware arsenal.",
   "confidence": "high",
-  "sources": []
+  "sources": [
+    "https://attack.mitre.org/groups/G0096"
+  ]
 }

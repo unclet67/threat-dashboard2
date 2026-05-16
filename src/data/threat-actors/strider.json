@@ -1,0 +1,20 @@
+{
+  "id": "strider",
+  "name": "Strider",
+  "aliases": [
+    "Strider",
+    "ProjectSauron"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-remsec"
+  ],
+  "description": "[Strider](https://attack.mitre.org/groups/G0041) is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.(Citation: Symantec Strider Blog)(Citation: Kaspersky ProjectSauron Blog)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0041"
+  ]
+}

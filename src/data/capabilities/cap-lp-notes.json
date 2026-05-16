@@ -1,0 +1,22 @@
+{
+  "id": "cap-lp-notes",
+  "name": "LP-Notes",
+  "type": "implant",
+  "description": "[LP-Notes](https://attack.mitre.org/software/S9036) is a C/C++ Windows credential stealer used by [MuddyWater](https://attack.mitre.org/groups/G0069). [LP-Notes](https://attack.mitre.org/software/S9036) was named after the `lp-notes.txt` file that is used to store stolen credentials.(Citation: ESET_",
+  "mitreAttackIds": [
+    "T1106",
+    "T1056.002",
+    "T1078",
+    "T1140",
+    "T1074.001",
+    "T1560",
+    "T1027.007",
+    "T1059.001",
+    "T1134.001",
+    "T1057",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

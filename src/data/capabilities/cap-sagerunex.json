@@ -1,0 +1,29 @@
+{
+  "id": "cap-sagerunex",
+  "name": "Sagerunex",
+  "type": "implant",
+  "description": "[Sagerunex](https://attack.mitre.org/software/S1210) is a malware family exclusively associated with [Lotus Blossom](https://attack.mitre.org/groups/G0030) operations, with variants existing since at least 2016. Variations of [Sagerunex](https://attack.mitre.org/software/S1210) leverage non-traditio",
+  "mitreAttackIds": [
+    "T1090",
+    "T1041",
+    "T1016",
+    "T1071.001",
+    "T1027.013",
+    "T1106",
+    "T1055.001",
+    "T1057",
+    "T1027.002",
+    "T1102.003",
+    "T1140",
+    "T1082",
+    "T1134",
+    "T1573.002",
+    "T1074.001",
+    "T1480",
+    "T1560.001",
+    "T1102.002"
+  ],
+  "actorIds": [
+    "lotus-blossom"
+  ]
+}

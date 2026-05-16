@@ -1,0 +1,21 @@
+{
+  "id": "higaisa",
+  "name": "Higaisa",
+  "aliases": [
+    "Higaisa"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-plugx",
+    "cap-certutil",
+    "cap-gh0st-rat"
+  ],
+  "description": "[Higaisa](https://attack.mitre.org/groups/G0126) is a threat group suspected to have South Korean origins. [Higaisa](https://attack.mitre.org/groups/G0126) has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Po",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0126"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cap-zerocleare",
+  "name": "ZeroCleare",
+  "type": "implant",
+  "description": "[ZeroCleare](https://attack.mitre.org/software/S1151) is a wiper malware that has been used in conjunction with the [RawDisk](https://attack.mitre.org/software/S0364) driver since at least 2019 by suspected Iran-nexus threat actors including activity targeting the energy and industrial sectors in th",
+  "mitreAttackIds": [
+    "T1680",
+    "T1068",
+    "T1553.002",
+    "T1059",
+    "T1106",
+    "T1070.004",
+    "T1059.001",
+    "T1561.002"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

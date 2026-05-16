@@ -1,0 +1,28 @@
+{
+  "id": "cap-lunarmail",
+  "name": "LunarMail",
+  "type": "implant",
+  "description": "[LunarMail](https://attack.mitre.org/software/S1142) is a backdoor that has been used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2020 including in a compromise of a European ministry of foreign affairs (MFA) in conjunction with [LunarLoader](https://attack.mitre.org/software/S1",
+  "mitreAttackIds": [
+    "T1114.001",
+    "T1070.008",
+    "T1041",
+    "T1140",
+    "T1204.002",
+    "T1027.013",
+    "T1083",
+    "T1059.005",
+    "T1070.004",
+    "T1082",
+    "T1095",
+    "T1001.002",
+    "T1113",
+    "T1543",
+    "T1071.003",
+    "T1137.006",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

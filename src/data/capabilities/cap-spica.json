@@ -1,0 +1,20 @@
+{
+  "id": "cap-spica",
+  "name": "Spica",
+  "type": "implant",
+  "description": "[Spica](https://attack.mitre.org/software/S1140) is a custom backdoor written in Rust that has been used by [Star Blizzard](https://attack.mitre.org/groups/G1033) since at least 2023.(Citation: Google TAG COLDRIVER January 2024) ",
+  "mitreAttackIds": [
+    "T1059.001",
+    "T1105",
+    "T1560",
+    "T1083",
+    "T1539",
+    "T1053.005",
+    "T1036.004",
+    "T1095",
+    "T1140"
+  ],
+  "actorIds": [
+    "star-blizzard"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cap-mori",
+  "name": "Mori",
+  "type": "implant",
+  "description": "[Mori](https://attack.mitre.org/software/S1047) is a backdoor that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least January 2022.(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: CYBERCOM Iranian Intel Cyber January 2022)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1001.001",
+    "T1218.010",
+    "T1140",
+    "T1071.004",
+    "T1012",
+    "T1112",
+    "T1070.004",
+    "T1132.001"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

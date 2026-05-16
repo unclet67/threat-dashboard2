@@ -1,0 +1,25 @@
+{
+  "id": "storm-1811",
+  "name": "Storm-1811",
+  "aliases": [
+    "Storm-1811"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-black-basta",
+    "cap-cobalt-strike",
+    "cap-quick-assist",
+    "cap-bitsadmin",
+    "cap-psexec",
+    "cap-impacket",
+    "cap-qakbot"
+  ],
+  "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) is a financially-motivated entity linked to [Black Basta](https://attack.mitre.org/software/S1070) ransomware deployment. [Storm-1811](https://attack.mitre.org/groups/G1046) is notable for unique phishing and social engineering mechanisms for initi",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1046"
+  ]
+}

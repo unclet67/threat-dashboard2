@@ -1,0 +1,19 @@
+{
+  "id": "cap-powgoop",
+  "name": "PowGoop",
+  "type": "implant",
+  "description": "[PowGoop](https://attack.mitre.org/software/S1046) is a loader that consists of a DLL loader and a PowerShell-based downloader; it has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) as their main loader.(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: CYBERCOM Iran",
+  "mitreAttackIds": [
+    "T1573",
+    "T1036",
+    "T1071.001",
+    "T1059.001",
+    "T1574.001",
+    "T1140",
+    "T1036.005",
+    "T1132.002"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

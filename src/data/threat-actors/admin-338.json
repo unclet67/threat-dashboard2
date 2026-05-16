@@ -1,0 +1,25 @@
+{
+  "id": "admin-338",
+  "name": "admin@338",
+  "aliases": [
+    "admin@338"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-bubblewrap",
+    "cap-lowball",
+    "cap-systeminfo",
+    "cap-poisonivy",
+    "cap-net",
+    "cap-netstat",
+    "cap-ipconfig"
+  ],
+  "description": "[admin@338](https://attack.mitre.org/groups/G0018) is a China-based cyber threat group. It has previously used newsworthy events as lures to deliver malware and has primarily targeted organizations involved in financial, economic, and trade policy, typically using publicly available RATs such as [Po",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0018"
+  ]
+}

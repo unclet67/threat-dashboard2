@@ -1,0 +1,20 @@
+{
+  "id": "cap-wingbird",
+  "name": "Wingbird",
+  "type": "implant",
+  "description": "[Wingbird](https://attack.mitre.org/software/S0176) is a backdoor that appears to be a version of commercial software [FinFisher](https://attack.mitre.org/software/S0182). It is reportedly used to attack individual computers instead of networks. It was used by [NEODYMIUM](https://attack.mitre.org/gr",
+  "mitreAttackIds": [
+    "T1547.008",
+    "T1574.001",
+    "T1070.004",
+    "T1569.002",
+    "T1543.003",
+    "T1518.001",
+    "T1068",
+    "T1055",
+    "T1082"
+  ],
+  "actorIds": [
+    "neodymium"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "chimera",
+  "name": "Chimera",
+  "aliases": [
+    "Chimera"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-psexec",
+    "cap-bloodhound",
+    "cap-esentutl",
+    "cap-net",
+    "cap-mimikatz",
+    "cap-cobalt-strike"
+  ],
+  "description": "[Chimera](https://attack.mitre.org/groups/G0114) is a suspected China-based threat group that has been active since at least 2018 targeting the semiconductor industry in Taiwan as well as data from the airline industry.(Citation: Cycraft Chimera April 2020)(Citation: NCC Group Chimera January 2021)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0114"
+  ]
+}

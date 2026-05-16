@@ -1,0 +1,13 @@
+{
+  "id": "cap-sqlmap",
+  "name": "sqlmap",
+  "type": "tool",
+  "description": "[sqlmap](https://attack.mitre.org/software/S0225) is an open source penetration testing tool that can be used to automate the process of detecting and exploiting SQL injection flaws. (Citation: sqlmap Introduction)",
+  "mitreAttackIds": [
+    "T1190"
+  ],
+  "actorIds": [
+    "ajax-security-team",
+    "apt41"
+  ]
+}

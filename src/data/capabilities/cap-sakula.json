@@ -1,0 +1,22 @@
+{
+  "id": "cap-sakula",
+  "name": "Sakula",
+  "type": "implant",
+  "description": "[Sakula](https://attack.mitre.org/software/S0074) is a remote access tool (RAT) that first surfaced in 2012 and was used in intrusions throughout 2015. (Citation: Dell Sakula)",
+  "mitreAttackIds": [
+    "T1027.013",
+    "T1105",
+    "T1547.001",
+    "T1071.001",
+    "T1548.002",
+    "T1573.001",
+    "T1574.001",
+    "T1059.003",
+    "T1218.011",
+    "T1543.003",
+    "T1070.004"
+  ],
+  "actorIds": [
+    "deep-panda"
+  ]
+}

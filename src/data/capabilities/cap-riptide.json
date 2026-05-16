@@ -1,0 +1,13 @@
+{
+  "id": "cap-riptide",
+  "name": "RIPTIDE",
+  "type": "implant",
+  "description": "[RIPTIDE](https://attack.mitre.org/software/S0003) is a proxy-aware backdoor used by [APT12](https://attack.mitre.org/groups/G0005). (Citation: Moran 2014)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "apt12"
+  ]
+}

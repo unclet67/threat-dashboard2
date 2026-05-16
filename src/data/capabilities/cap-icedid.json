@@ -1,0 +1,43 @@
+{
+  "id": "cap-icedid",
+  "name": "IcedID",
+  "type": "implant",
+  "description": "[IcedID](https://attack.mitre.org/software/S0483) is a modular banking malware designed to steal financial information that has been observed in the wild since at least 2017.  [IcedID](https://attack.mitre.org/software/S0483)  has been downloaded by [Emotet](https://attack.mitre.org/software/S0367) ",
+  "mitreAttackIds": [
+    "T1497",
+    "T1055.012",
+    "T1614.001",
+    "T1482",
+    "T1218.007",
+    "T1189",
+    "T1048.002",
+    "T1069",
+    "T1053.005",
+    "T1218.011",
+    "T1036.005",
+    "T1204.002",
+    "T1518.001",
+    "T1027.009",
+    "T1027.013",
+    "T1106",
+    "T1027.003",
+    "T1087.002",
+    "T1047",
+    "T1059.005",
+    "T1055.004",
+    "T1105",
+    "T1016",
+    "T1566.001",
+    "T1071.001",
+    "T1135",
+    "T1185",
+    "T1547.001",
+    "T1027.002",
+    "T1082",
+    "T1573.002"
+  ],
+  "actorIds": [
+    "ta551",
+    "ta578"
+  ]
+}

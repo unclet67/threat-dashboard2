@@ -1,0 +1,41 @@
+{
+  "id": "cap-crimson",
+  "name": "Crimson",
+  "type": "implant",
+  "description": "[Crimson](https://attack.mitre.org/software/S0115) is a remote access Trojan that has been used by [Transparent Tribe](https://attack.mitre.org/groups/G0134) since at least 2016.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1125",
+    "T1518.001",
+    "T1547.001",
+    "T1070.004",
+    "T1124",
+    "T1082",
+    "T1140",
+    "T1497.003",
+    "T1056.001",
+    "T1071.001",
+    "T1005",
+    "T1033",
+    "T1113",
+    "T1123",
+    "T1041",
+    "T1057",
+    "T1114.001",
+    "T1112",
+    "T1016",
+    "T1120",
+    "T1025",
+    "T1091",
+    "T1614",
+    "T1105",
+    "T1059.003",
+    "T1095",
+    "T1012",
+    "T1555.003",
+    "T1680"
+  ],
+  "actorIds": [
+    "transparent-tribe"
+  ]
+}

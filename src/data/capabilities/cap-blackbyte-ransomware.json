@@ -1,0 +1,32 @@
+{
+  "id": "cap-blackbyte-ransomware",
+  "name": "BlackByte Ransomware",
+  "type": "implant",
+  "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) is uniquely associated with [BlackByte](https://attack.mitre.org/groups/G1043) operations. [BlackByte Ransomware](https://attack.mitre.org/software/S1180) used a common key for infections, allowing for the creation of a universal decryp",
+  "mitreAttackIds": [
+    "T1135",
+    "T1486",
+    "T1012",
+    "T1059.007",
+    "T1570",
+    "T1082",
+    "T1053.005",
+    "T1490",
+    "T1689",
+    "T1046",
+    "T1027.013",
+    "T1685",
+    "T1106",
+    "T1222.001",
+    "T1112",
+    "T1480",
+    "T1140",
+    "T1021.002",
+    "T1614.001",
+    "T1518.001",
+    "T1497.001"
+  ],
+  "actorIds": [
+    "blackbyte"
+  ]
+}

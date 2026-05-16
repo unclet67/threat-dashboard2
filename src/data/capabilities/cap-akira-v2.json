@@ -1,0 +1,17 @@
+{
+  "id": "cap-akira-v2",
+  "name": "Akira _v2",
+  "type": "implant",
+  "description": "[Akira _v2](https://attack.mitre.org/software/S1194) is a Rust-based variant of [Akira](https://attack.mitre.org/software/S1129) ransomware that has been in use since at least 2024. [Akira _v2](https://attack.mitre.org/software/S1194) is designed to target VMware ESXi servers and includes a new comm",
+  "mitreAttackIds": [
+    "T1543",
+    "T1654",
+    "T1486",
+    "T1083",
+    "T1489",
+    "T1480"
+  ],
+  "actorIds": [
+    "akira"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "darkvishnya",
+  "name": "DarkVishnya",
+  "aliases": [
+    "DarkVishnya"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-winexe",
+    "cap-psexec"
+  ],
+  "description": "[DarkVishnya](https://attack.mitre.org/groups/G0105) is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.(Citation: Securelist DarkVishnya Dec 2018)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0105"
+  ]
+}

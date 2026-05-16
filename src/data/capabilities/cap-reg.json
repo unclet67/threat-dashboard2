@@ -1,0 +1,21 @@
+{
+  "id": "cap-reg",
+  "name": "Reg",
+  "type": "tool",
+  "description": "[Reg](https://attack.mitre.org/software/S0075) is a Windows utility used to interact with the Windows Registry. It can be used at the command-line interface to query, add, modify, and remove information. (Citation: Microsoft Reg)\n\nUtilities such as [Reg](https://attack.mitre.org/software/S0075) are ",
+  "mitreAttackIds": [
+    "T1552.002",
+    "T1012",
+    "T1112"
+  ],
+  "actorIds": [
+    "dragonfly",
+    "oilrig",
+    "daggerfly",
+    "turla",
+    "volt-typhoon",
+    "gallium",
+    "gamaredon-group",
+    "rancor"
+  ]
+}

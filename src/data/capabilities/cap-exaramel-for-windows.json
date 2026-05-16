@@ -1,0 +1,19 @@
+{
+  "id": "cap-exaramel-for-windows",
+  "name": "Exaramel for Windows",
+  "type": "implant",
+  "description": "[Exaramel for Windows](https://attack.mitre.org/software/S0343) is a backdoor used for targeting Windows systems. The Linux version is tracked separately under [Exaramel for Linux](https://attack.mitre.org/software/S0401).(Citation: ESET TeleBots Oct 2018)",
+  "mitreAttackIds": [
+    "T1560",
+    "T1059.005",
+    "T1027.011",
+    "T1543.003",
+    "T1112",
+    "T1059.003",
+    "T1036.004",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cap-osinfo",
+  "name": "OSInfo",
+  "type": "implant",
+  "description": "[OSInfo](https://attack.mitre.org/software/S0165) is a custom tool used by [APT3](https://attack.mitre.org/groups/G0022) to do internal discovery on a victim's computer and network. (Citation: Symantec Buckeye)",
+  "mitreAttackIds": [
+    "T1087.001",
+    "T1012",
+    "T1082",
+    "T1049",
+    "T1018",
+    "T1069.002",
+    "T1087.002",
+    "T1069.001",
+    "T1135",
+    "T1016"
+  ],
+  "actorIds": [
+    "apt3"
+  ]
+}

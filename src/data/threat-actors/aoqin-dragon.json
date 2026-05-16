@@ -1,0 +1,20 @@
+{
+  "id": "aoqin-dragon",
+  "name": "Aoqin Dragon",
+  "aliases": [
+    "Aoqin Dragon"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mongall",
+    "cap-heyoka-backdoor"
+  ],
+  "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) is a suspected Chinese cyber espionage threat group that has been active since at least 2013. [Aoqin Dragon](https://attack.mitre.org/groups/G1007) has primarily targeted government, education, and telecommunication organizations in Australia, Ca",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1007"
+  ]
+}

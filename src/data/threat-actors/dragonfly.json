@@ -1,0 +1,37 @@
+{
+  "id": "dragonfly",
+  "name": "Dragonfly",
+  "aliases": [
+    "Dragonfly",
+    "TEMP.Isotope",
+    "DYMALLOY",
+    "Berserk Bear",
+    "TG-4192",
+    "Crouching Yeti",
+    "IRON LIBERTY",
+    "Energetic Bear",
+    "Ghost Blizzard",
+    "BROMINE"
+  ],
+  "countryId": "russia",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mcmd",
+    "cap-net",
+    "cap-impacket",
+    "cap-crackmapexec",
+    "cap-reg",
+    "cap-backdoor-oldrea",
+    "cap-mimikatz",
+    "cap-psexec",
+    "cap-trojan-karagany",
+    "cap-netsh"
+  ],
+  "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, [Drag",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0035"
+  ]
+}

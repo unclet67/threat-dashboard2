@@ -1,0 +1,23 @@
+{
+  "id": "medusa-group",
+  "name": "Medusa Group",
+  "aliases": [
+    "Medusa Group"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-certutil",
+    "cap-rclone",
+    "cap-medusa-ransomware",
+    "cap-mimikatz",
+    "cap-psexec"
+  ],
+  "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has been active since at least 2021 and was initially operated as a closed ransomware group before evolving into a Ransomware-as-a-Service (RaaS) operation. Some reporting indicates that certain attacks may still be conducted directly by the rans",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1051"
+  ]
+}

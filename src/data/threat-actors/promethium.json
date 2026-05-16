@@ -1,0 +1,21 @@
+{
+  "id": "promethium",
+  "name": "PROMETHIUM",
+  "aliases": [
+    "PROMETHIUM",
+    "StrongPity"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-truvasys",
+    "cap-strongpity"
+  ],
+  "description": "[PROMETHIUM](https://attack.mitre.org/groups/G0056) is an activity group focused on espionage that has been active since at least 2012. The group has conducted operations globally with a heavy emphasis on Turkish targets. [PROMETHIUM](https://attack.mitre.org/groups/G0056) has demonstrated similarit",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0056"
+  ]
+}

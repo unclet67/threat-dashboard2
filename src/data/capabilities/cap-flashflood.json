@@ -1,0 +1,17 @@
+{
+  "id": "cap-flashflood",
+  "name": "FLASHFLOOD",
+  "type": "implant",
+  "description": "[FLASHFLOOD](https://attack.mitre.org/software/S0036) is malware developed by [APT30](https://attack.mitre.org/groups/G0013) that allows propagation and exfiltration of data over removable devices. [APT30](https://attack.mitre.org/groups/G0013) may use this capability to exfiltrate data across air-g",
+  "mitreAttackIds": [
+    "T1005",
+    "T1547.001",
+    "T1083",
+    "T1025",
+    "T1074.001",
+    "T1560.003"
+  ],
+  "actorIds": [
+    "apt30"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cap-connectwise",
+  "name": "ConnectWise",
+  "type": "tool",
+  "description": "[ConnectWise](https://attack.mitre.org/software/S0591) is a legitimate remote administration tool that has been used since at least 2016 by threat actors including [MuddyWater](https://attack.mitre.org/groups/G0069) and [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) to connect to and condu",
+  "mitreAttackIds": [
+    "T1125",
+    "T1059.001",
+    "T1113"
+  ],
+  "actorIds": [
+    "muddywater",
+    "scattered-spider",
+    "gold-southfield"
+  ]
+}

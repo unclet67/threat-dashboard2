@@ -1,0 +1,16 @@
+{
+  "id": "cap-snappytcp",
+  "name": "SnappyTCP",
+  "type": "implant",
+  "description": "[SnappyTCP](https://attack.mitre.org/software/S1163) is a web shell used by [Sea Turtle](https://attack.mitre.org/groups/G1041) between 2021 and 2023 against multiple victims. [SnappyTCP](https://attack.mitre.org/software/S1163) appears to be based on a public GitHub project that has since been remo",
+  "mitreAttackIds": [
+    "T1059.004",
+    "T1071.001",
+    "T1573.002",
+    "T1505.003",
+    "T1095"
+  ],
+  "actorIds": [
+    "sea-turtle"
+  ]
+}

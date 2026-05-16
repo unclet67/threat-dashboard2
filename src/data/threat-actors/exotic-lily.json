@@ -1,0 +1,20 @@
+{
+  "id": "exotic-lily",
+  "name": "EXOTIC LILY",
+  "aliases": [
+    "EXOTIC LILY"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-bazar",
+    "cap-bumblebee"
+  ],
+  "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) is a financially motivated group that has been closely linked with [Wizard Spider](https://attack.mitre.org/groups/G0102) and the deployment of ransomware including [Conti](https://attack.mitre.org/software/S0575) and [Diavol](https://attack.mitre",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1011"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cap-aspxspy",
+  "name": "ASPXSpy",
+  "type": "implant",
+  "description": "[ASPXSpy](https://attack.mitre.org/software/S0073) is a Web shell. It has been modified by [Threat Group-3390](https://attack.mitre.org/groups/G0027) actors to create the ASPXTool version. (Citation: Dell TG-3390)",
+  "mitreAttackIds": [
+    "T1505.003"
+  ],
+  "actorIds": [
+    "hafnium",
+    "apt39",
+    "apt41",
+    "threat-group-3390",
+    "agrius"
+  ]
+}

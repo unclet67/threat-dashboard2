@@ -1,0 +1,51 @@
+{
+  "id": "menupass",
+  "name": "menuPass",
+  "aliases": [
+    "menuPass",
+    "Cicada",
+    "POTASSIUM",
+    "Stone Panda",
+    "APT10",
+    "Red Apollo",
+    "CVNX",
+    "HOGFISH",
+    "BRONZE RIVERSIDE"
+  ],
+  "countryId": "china",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-certutil",
+    "cap-fyanti",
+    "cap-uppercut",
+    "cap-snugride",
+    "cap-p8rat",
+    "cap-redleaves",
+    "cap-sodamaster",
+    "cap-pwdump",
+    "cap-mimikatz",
+    "cap-plugx",
+    "cap-net",
+    "cap-powersploit",
+    "cap-chches",
+    "cap-cmd",
+    "cap-quasarrat",
+    "cap-adfind",
+    "cap-cobalt-strike",
+    "cap-poisonivy",
+    "cap-evilgrab",
+    "cap-esentutl",
+    "cap-impacket",
+    "cap-ecipekac",
+    "cap-ping",
+    "cap-psexec",
+    "cap-hui-loader"
+  ],
+  "description": "[menuPass](https://attack.mitre.org/groups/G0045) is a threat group that has been active since at least 2006. Individual members of [menuPass](https://attack.mitre.org/groups/G0045) are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bure",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0045"
+  ]
+}

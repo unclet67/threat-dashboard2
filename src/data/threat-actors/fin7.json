@@ -1,0 +1,42 @@
+{
+  "id": "fin7",
+  "name": "FIN7",
+  "aliases": [
+    "FIN7",
+    "GOLD NIAGARA",
+    "ITG14",
+    "Carbon Spider",
+    "ELBRUS",
+    "Sangria Tempest"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-griffon",
+    "cap-mimikatz",
+    "cap-adfind",
+    "cap-jss-loader",
+    "cap-halfbaked",
+    "cap-revil",
+    "cap-powersploit",
+    "cap-crackmapexec",
+    "cap-carbanak",
+    "cap-pillowmint",
+    "cap-cobalt-strike",
+    "cap-maze",
+    "cap-powersource",
+    "cap-rdfsniffer",
+    "cap-sqlrat",
+    "cap-lizar",
+    "cap-textmate",
+    "cap-boostwrite",
+    "cap-systembc"
+  ],
+  "description": "[FIN7](https://attack.mitre.org/groups/G0046) is a financially-motivated threat group that has been active since 2013. [FIN7](https://attack.mitre.org/groups/G0046) has targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, f",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0046"
+  ]
+}

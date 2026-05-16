@@ -1,0 +1,33 @@
+{
+  "id": "cap-trojan-karagany",
+  "name": "Trojan.Karagany",
+  "type": "implant",
+  "description": "[Trojan.Karagany](https://attack.mitre.org/software/S0094) is a modular remote access tool used for recon and linked to [Dragonfly](https://attack.mitre.org/groups/G0035). The source code for [Trojan.Karagany](https://attack.mitre.org/software/S0094) originated from Dream Loader malware which was le",
+  "mitreAttackIds": [
+    "T1033",
+    "T1113",
+    "T1049",
+    "T1010",
+    "T1027",
+    "T1027.002",
+    "T1555.003",
+    "T1057",
+    "T1547.001",
+    "T1082",
+    "T1070.004",
+    "T1105",
+    "T1056.001",
+    "T1083",
+    "T1074.001",
+    "T1055.003",
+    "T1573.002",
+    "T1497.001",
+    "T1003",
+    "T1016",
+    "T1059.003",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "dragonfly"
+  ]
+}

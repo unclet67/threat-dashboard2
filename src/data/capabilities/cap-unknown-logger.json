@@ -1,0 +1,19 @@
+{
+  "id": "cap-unknown-logger",
+  "name": "Unknown Logger",
+  "type": "implant",
+  "description": "[Unknown Logger](https://attack.mitre.org/software/S0130) is a publicly released, free backdoor. Version 1.5 of the backdoor has been used by the actors responsible for the MONSOON campaign. (Citation: Forcepoint Monsoon)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1033",
+    "T1091",
+    "T1105",
+    "T1685",
+    "T1016",
+    "T1555.003",
+    "T1056.001"
+  ],
+  "actorIds": [
+    "patchwork"
+  ]
+}

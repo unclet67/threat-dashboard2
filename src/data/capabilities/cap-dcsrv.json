@@ -1,0 +1,19 @@
+{
+  "id": "cap-dcsrv",
+  "name": "DCSrv",
+  "type": "implant",
+  "description": "[DCSrv](https://attack.mitre.org/software/S1033) is destructive malware that has been used by [Moses Staff](https://attack.mitre.org/groups/G1009) since at least  September 2021. Though [DCSrv](https://attack.mitre.org/software/S1033) has ransomware-like capabilities, [Moses Staff](https://attack.mi",
+  "mitreAttackIds": [
+    "T1036.004",
+    "T1543.003",
+    "T1529",
+    "T1112",
+    "T1027.013",
+    "T1124",
+    "T1486",
+    "T1106"
+  ],
+  "actorIds": [
+    "moses-staff"
+  ]
+}

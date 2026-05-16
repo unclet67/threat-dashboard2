@@ -1,0 +1,21 @@
+{
+  "id": "darkhydrus",
+  "name": "DarkHydrus",
+  "aliases": [
+    "DarkHydrus"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-roguerobin",
+    "cap-cobalt-strike"
+  ],
+  "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. (Citation: Unit 42 DarkHydrus J",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0079"
+  ]
+}

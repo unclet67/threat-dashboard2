@@ -1,0 +1,14 @@
+{
+  "id": "cap-goldfinder",
+  "name": "GoldFinder",
+  "type": "implant",
+  "description": "[GoldFinder](https://attack.mitre.org/software/S0597) is a custom HTTP tracer tool written in Go that logs the route a packet takes between a compromised network and a C2 server. It can be used to inform  threat actors of potential points of discovery or logging of their actions, including C2 relate",
+  "mitreAttackIds": [
+    "T1016.001",
+    "T1119",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

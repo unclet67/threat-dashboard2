@@ -1,0 +1,17 @@
+{
+  "id": "cap-geminiduke",
+  "name": "GeminiDuke",
+  "type": "implant",
+  "description": "[GeminiDuke](https://attack.mitre.org/software/S0049) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2009 to 2012. (Citation: F-Secure The Dukes)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1087.001",
+    "T1057",
+    "T1016",
+    "T1007",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cap-quadagent",
+  "name": "QUADAGENT",
+  "type": "implant",
+  "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) is a PowerShell backdoor used by [OilRig](https://attack.mitre.org/groups/G0049). (Citation: Unit 42 QUADAGENT July 2018)",
+  "mitreAttackIds": [
+    "T1071.004",
+    "T1071.001",
+    "T1140",
+    "T1132.001",
+    "T1059.005",
+    "T1016",
+    "T1027.010",
+    "T1059.003",
+    "T1036.005",
+    "T1027.011",
+    "T1070.004",
+    "T1012",
+    "T1059.001",
+    "T1008",
+    "T1112",
+    "T1033",
+    "T1053.005"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

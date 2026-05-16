@@ -1,0 +1,16 @@
+{
+  "id": "cap-soundbite",
+  "name": "SOUNDBITE",
+  "type": "implant",
+  "description": "[SOUNDBITE](https://attack.mitre.org/software/S0157) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050). (Citation: FireEye APT32 May 2017)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1112",
+    "T1071.004",
+    "T1010",
+    "T1083"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

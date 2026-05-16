@@ -1,0 +1,19 @@
+{
+  "id": "cap-badcall",
+  "name": "BADCALL",
+  "type": "implant",
+  "description": "[BADCALL](https://attack.mitre.org/software/S0245) is a Trojan malware variant used by the group [Lazarus Group](https://attack.mitre.org/groups/G0032). (Citation: US-CERT BADCALL)",
+  "mitreAttackIds": [
+    "T1686.003",
+    "T1573.001",
+    "T1001.003",
+    "T1090",
+    "T1112",
+    "T1082",
+    "T1571",
+    "T1016"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cap-wiarp",
+  "name": "Wiarp",
+  "type": "implant",
+  "description": "[Wiarp](https://attack.mitre.org/software/S0206) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Wiarp May 2012)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1059.003",
+    "T1055",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "elderwood"
+  ]
+}

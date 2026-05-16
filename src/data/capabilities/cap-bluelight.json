@@ -1,0 +1,30 @@
+{
+  "id": "cap-bluelight",
+  "name": "BLUELIGHT",
+  "type": "implant",
+  "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) is a remote access Trojan used by [APT37](https://attack.mitre.org/groups/G0067) that was first observed in early 2021.(Citation: Volexity InkySquid BLUELIGHT August 2021)",
+  "mitreAttackIds": [
+    "T1016",
+    "T1560.003",
+    "T1033",
+    "T1082",
+    "T1105",
+    "T1027.013",
+    "T1041",
+    "T1518.001",
+    "T1070.004",
+    "T1102.002",
+    "T1539",
+    "T1555.003",
+    "T1057",
+    "T1560",
+    "T1497.001",
+    "T1083",
+    "T1071.001",
+    "T1124",
+    "T1113"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

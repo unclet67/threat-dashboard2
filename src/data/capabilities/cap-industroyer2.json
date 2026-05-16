@@ -1,0 +1,12 @@
+{
+  "id": "cap-industroyer2",
+  "name": "Industroyer2",
+  "type": "implant",
+  "description": "[Industroyer2](https://attack.mitre.org/software/S1072) is a compiled and static piece of malware that has the ability to communicate over the IEC-104 protocol. It is similar to the IEC-104 module found in [Industroyer](https://attack.mitre.org/software/S0604). Security researchers assess that [Indu",
+  "mitreAttackIds": [
+    "T1057"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

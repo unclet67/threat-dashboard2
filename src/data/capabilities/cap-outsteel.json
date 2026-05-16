@@ -1,0 +1,28 @@
+{
+  "id": "cap-outsteel",
+  "name": "OutSteel",
+  "type": "implant",
+  "description": "[OutSteel](https://attack.mitre.org/software/S1017) is a file uploader and document stealer developed with the scripting language AutoIT that has been used by [Saint Bear](https://attack.mitre.org/groups/G1031) since at least March 2021.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
+  "mitreAttackIds": [
+    "T1059.003",
+    "T1041",
+    "T1566.002",
+    "T1204.001",
+    "T1005",
+    "T1020",
+    "T1059.010",
+    "T1083",
+    "T1119",
+    "T1204.002",
+    "T1566.001",
+    "T1070.004",
+    "T1570",
+    "T1071.001",
+    "T1105",
+    "T1057",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "saint-bear"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "velvet-ant",
+  "name": "Velvet Ant",
+  "aliases": [
+    "Velvet Ant"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-plugx",
+    "cap-impacket"
+  ],
+  "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) is a threat actor operating since at least 2021. [Velvet Ant](https://attack.mitre.org/groups/G1047) is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day explo",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1047"
+  ]
+}

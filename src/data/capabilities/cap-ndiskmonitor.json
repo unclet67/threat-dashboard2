@@ -1,0 +1,16 @@
+{
+  "id": "cap-ndiskmonitor",
+  "name": "NDiskMonitor",
+  "type": "implant",
+  "description": "[NDiskMonitor](https://attack.mitre.org/software/S0272) is a custom backdoor written in .NET that appears to be unique to [Patchwork](https://attack.mitre.org/groups/G0040). (Citation: TrendMicro Patchwork Dec 2017)",
+  "mitreAttackIds": [
+    "T1033",
+    "T1573.001",
+    "T1105",
+    "T1082",
+    "T1083"
+  ],
+  "actorIds": [
+    "patchwork"
+  ]
+}

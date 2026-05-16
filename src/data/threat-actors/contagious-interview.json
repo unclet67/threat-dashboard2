@@ -1,0 +1,28 @@
+{
+  "id": "contagious-interview",
+  "name": "Contagious Interview",
+  "aliases": [
+    "Contagious Interview",
+    "DeceptiveDevelopment",
+    "Gwisin Gang",
+    "Tenacious Pungsan",
+    "DEV#POPPER",
+    "PurpleBravo",
+    "TAG-121"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-invisibleferret",
+    "cap-beavertail",
+    "cap-xorindex-loader",
+    "cap-hexeval-loader"
+  ],
+  "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) is a North Korea–aligned threat group active since 2023. The group conducts both cyberespionage and financially motivated operations, including the theft of cryptocurrency and user credentials. [Contagious Interview](https://attack.mitre.",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1052"
+  ]
+}

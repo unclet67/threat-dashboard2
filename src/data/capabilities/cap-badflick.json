@@ -1,0 +1,21 @@
+{
+  "id": "cap-badflick",
+  "name": "BADFLICK",
+  "type": "implant",
+  "description": "[BADFLICK](https://attack.mitre.org/software/S0642) is a backdoor used by [Leviathan](https://attack.mitre.org/groups/G0065) in spearphishing campaigns first reported in 2018 that targeted the U.S. engineering and maritime industries.(Citation: FireEye Periscope March 2018)(Citation: Accenture MUDCA",
+  "mitreAttackIds": [
+    "T1082",
+    "T1560.002",
+    "T1083",
+    "T1204.002",
+    "T1005",
+    "T1566.001",
+    "T1497.003",
+    "T1016",
+    "T1105",
+    "T1140"
+  ],
+  "actorIds": [
+    "leviathan"
+  ]
+}

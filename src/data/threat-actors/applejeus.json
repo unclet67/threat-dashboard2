@@ -1,0 +1,21 @@
+{
+  "id": "applejeus",
+  "name": "AppleJeus",
+  "aliases": [
+    "AppleJeus",
+    "Gleaming Pisces",
+    "Citrine Sleet",
+    "UNC1720",
+    "UNC4736"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[AppleJeus](https://attack.mitre.org/groups/G1049) is a North Korean state-sponsored threat group attributed to the Reconnaissance General Bureau. Associated with the broader [Lazarus Group](https://attack.mitre.org/groups/G0032) umbrella of actors, [AppleJeus](https://attack.mitre.org/groups/G1049)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1049"
+  ]
+}

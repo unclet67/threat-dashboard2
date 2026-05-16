@@ -1,0 +1,16 @@
+{
+  "id": "cap-psylo",
+  "name": "Psylo",
+  "type": "implant",
+  "description": "[Psylo](https://attack.mitre.org/software/S0078) is a shellcode-based Trojan that has been used by [Scarlet Mimic](https://attack.mitre.org/groups/G0029). It has similar characteristics as [FakeM](https://attack.mitre.org/software/S0076). (Citation: Scarlet Mimic Jan 2016)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1083",
+    "T1105",
+    "T1041",
+    "T1070.006"
+  ],
+  "actorIds": [
+    "scarlet-mimic"
+  ]
+}

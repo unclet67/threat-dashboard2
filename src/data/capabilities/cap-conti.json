@@ -1,0 +1,27 @@
+{
+  "id": "cap-conti",
+  "name": "Conti",
+  "type": "implant",
+  "description": "[Conti](https://attack.mitre.org/software/S0575) is a Ransomware-as-a-Service (RaaS) that was first observed in December 2019. [Conti](https://attack.mitre.org/software/S0575) has been deployed via [TrickBot](https://attack.mitre.org/software/S0266) and used against major corporations and government",
+  "mitreAttackIds": [
+    "T1021.002",
+    "T1135",
+    "T1140",
+    "T1489",
+    "T1083",
+    "T1016",
+    "T1486",
+    "T1018",
+    "T1027",
+    "T1490",
+    "T1049",
+    "T1055.001",
+    "T1080",
+    "T1059.003",
+    "T1057",
+    "T1106"
+  ],
+  "actorIds": [
+    "wizard-spider"
+  ]
+}

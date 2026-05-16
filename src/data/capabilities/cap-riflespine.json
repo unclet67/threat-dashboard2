@@ -1,0 +1,21 @@
+{
+  "id": "cap-riflespine",
+  "name": "RIFLESPINE",
+  "type": "implant",
+  "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) is a cross-platform backdoor that leverages Google Drive for file transfer and command execution.(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "mitreAttackIds": [
+    "T1102.002",
+    "T1567.002",
+    "T1573.001",
+    "T1105",
+    "T1543.002",
+    "T1140",
+    "T1082",
+    "T1071.001",
+    "T1059.004",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "unc3886"
+  ]
+}

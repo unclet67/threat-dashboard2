@@ -1,0 +1,15 @@
+{
+  "id": "cap-powerpunch",
+  "name": "PowerPunch",
+  "type": "implant",
+  "description": "[PowerPunch](https://attack.mitre.org/software/S0685) is a lightweight downloader that has been used by [Gamaredon Group](https://attack.mitre.org/groups/G0047) since at least 2021.(Citation: Microsoft Actinium February 2022)",
+  "mitreAttackIds": [
+    "T1027.010",
+    "T1059.001",
+    "T1105",
+    "T1480.001"
+  ],
+  "actorIds": [
+    "gamaredon-group"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cap-fatduke",
+  "name": "FatDuke",
+  "type": "implant",
+  "description": "[FatDuke](https://attack.mitre.org/software/S0512) is a backdoor used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2016.(Citation: ESET Dukes October 2019)",
+  "mitreAttackIds": [
+    "T1012",
+    "T1036.012",
+    "T1071.001",
+    "T1497.003",
+    "T1016",
+    "T1008",
+    "T1082",
+    "T1547.001",
+    "T1106",
+    "T1027.002",
+    "T1090.001",
+    "T1057",
+    "T1027",
+    "T1070.004",
+    "T1005",
+    "T1218.011",
+    "T1059.001",
+    "T1573.001",
+    "T1083",
+    "T1027.016",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

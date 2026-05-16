@@ -1,0 +1,12 @@
+{
+  "id": "cap-lslsass",
+  "name": "Lslsass",
+  "type": "tool",
+  "description": "[Lslsass](https://attack.mitre.org/software/S0121) is a publicly-available tool that can dump active logon session password hashes from the lsass process. (Citation: Mandiant APT1)",
+  "mitreAttackIds": [
+    "T1003.001"
+  ],
+  "actorIds": [
+    "apt1"
+  ]
+}

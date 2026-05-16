@@ -1,0 +1,20 @@
+{
+  "id": "cap-dacls",
+  "name": "Dacls",
+  "type": "implant",
+  "description": "[Dacls](https://attack.mitre.org/software/S0497) is a multi-platform remote access tool used by [Lazarus Group](https://attack.mitre.org/groups/G0032) since at least December 2019.(Citation: TrendMicro macOS Dacls May 2020)(Citation: SentinelOne Lazarus macOS July 2020)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1071.001",
+    "T1057",
+    "T1543.001",
+    "T1027.013",
+    "T1543.004",
+    "T1564.001",
+    "T1083",
+    "T1036"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

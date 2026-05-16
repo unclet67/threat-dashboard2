@@ -1,13 +1,36 @@
 {
   "id": "apt38",
   "name": "APT38",
-  "aliases": ["Stardust Chollima", "CopyKittens", "BlueNoroff"],
+  "aliases": [
+    "Stardust Chollima",
+    "CopyKittens",
+    "BlueNoroff",
+    "APT38",
+    "NICKEL GLADSTONE",
+    "BeagleBoyz",
+    "Bluenoroff",
+    "Sapphire Sleet",
+    "COPERNICIUM"
+  ],
   "countryId": "north-korea",
   "orgId": "rgb",
-  "opTypes": ["Cyber"],
+  "opTypes": [
+    "Cyber"
+  ],
   "operationIds": [],
-  "capabilityIds": ["cap-bankshot"],
+  "capabilityIds": [
+    "cap-bankshot",
+    "cap-eccentricbandwagon",
+    "cap-net",
+    "cap-hoplight",
+    "cap-mimikatz",
+    "cap-killdisk",
+    "cap-darkcomet"
+  ],
   "description": "RGB sub-unit specializing in financially motivated attacks against global financial institutions using SWIFT transaction fraud. Distinct from Lazarus Group in tradecraft and targets. Has stolen over $1.3B from banks across Asia, Africa, and Latin America.",
   "confidence": "high",
-  "sources": ["https://www.mandiant.com/resources/reports/apt38-us-financial-sanctions"]
+  "sources": [
+    "https://www.mandiant.com/resources/reports/apt38-us-financial-sanctions",
+    "https://attack.mitre.org/groups/G0082"
+  ]
 }

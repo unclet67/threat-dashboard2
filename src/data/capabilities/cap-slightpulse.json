@@ -1,0 +1,20 @@
+{
+  "id": "cap-slightpulse",
+  "name": "SLIGHTPULSE",
+  "type": "implant",
+  "description": "[SLIGHTPULSE](https://attack.mitre.org/software/S1110) is a web shell that was used by [APT5](https://attack.mitre.org/groups/G1023) as early as 2020 including against Pulse Secure VPNs at US Defense Industrial Base (DIB) entities.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
+  "mitreAttackIds": [
+    "T1074.001",
+    "T1132.001",
+    "T1505.003",
+    "T1105",
+    "T1140",
+    "T1005",
+    "T1059",
+    "T1071.001",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "apt5"
+  ]
+}

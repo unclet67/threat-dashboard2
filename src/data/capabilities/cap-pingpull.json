@@ -1,0 +1,26 @@
+{
+  "id": "cap-pingpull",
+  "name": "PingPull",
+  "type": "implant",
+  "description": "[PingPull](https://attack.mitre.org/software/S1031) is a remote access Trojan (RAT) written in Visual C++ that has been used by [GALLIUM](https://attack.mitre.org/groups/G0093) since at least June 2022. [PingPull](https://attack.mitre.org/software/S1031) has been used to target telecommunications co",
+  "mitreAttackIds": [
+    "T1571",
+    "T1083",
+    "T1005",
+    "T1071.001",
+    "T1082",
+    "T1036.004",
+    "T1016",
+    "T1132.001",
+    "T1543.003",
+    "T1070.006",
+    "T1095",
+    "T1059.003",
+    "T1140",
+    "T1041",
+    "T1573.001"
+  ],
+  "actorIds": [
+    "gallium"
+  ]
+}

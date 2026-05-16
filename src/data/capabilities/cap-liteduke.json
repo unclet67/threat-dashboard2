@@ -1,0 +1,24 @@
+{
+  "id": "cap-liteduke",
+  "name": "LiteDuke",
+  "type": "implant",
+  "description": "[LiteDuke](https://attack.mitre.org/software/S0513) is a third stage backdoor that was used by [APT29](https://attack.mitre.org/groups/G0016), primarily in 2014-2015. [LiteDuke](https://attack.mitre.org/software/S0513) used the same dropper as [PolyglotDuke](https://attack.mitre.org/software/S0518),",
+  "mitreAttackIds": [
+    "T1140",
+    "T1082",
+    "T1027.003",
+    "T1016",
+    "T1071.001",
+    "T1012",
+    "T1547.001",
+    "T1070.004",
+    "T1027.002",
+    "T1105",
+    "T1497.003",
+    "T1518.001",
+    "T1033"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

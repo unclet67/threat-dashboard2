@@ -1,0 +1,19 @@
+{
+  "id": "darkhotel",
+  "name": "Darkhotel",
+  "aliases": [
+    "Darkhotel",
+    "DUBNIUM",
+    "Zigzag Hail"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) is a suspected South Korean threat group that has targeted victims primarily in East Asia since at least 2004. The group's name is based on cyber espionage operations conducted via hotel Internet networks against traveling executives and other selec",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0012"
+  ]
+}

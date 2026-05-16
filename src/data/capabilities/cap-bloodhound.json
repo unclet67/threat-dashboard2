@@ -1,0 +1,27 @@
+{
+  "id": "cap-bloodhound",
+  "name": "BloodHound",
+  "type": "tool",
+  "description": "[BloodHound](https://attack.mitre.org/software/S0521) is an Active Directory (AD) reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment.(Citation: GitHub Bloodhound)(Citation: CrowdStrike BloodHound April 2018)(Citation: FoxIT Wocao December 2019",
+  "mitreAttackIds": [
+    "T1069.002",
+    "T1615",
+    "T1560",
+    "T1069.001",
+    "T1087.002",
+    "T1087.001",
+    "T1033",
+    "T1018",
+    "T1106",
+    "T1059.001",
+    "T1482"
+  ],
+  "actorIds": [
+    "wizard-spider",
+    "ta505",
+    "play",
+    "ember-bear",
+    "apt29",
+    "chimera"
+  ]
+}

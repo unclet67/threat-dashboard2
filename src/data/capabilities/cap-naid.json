@@ -1,0 +1,15 @@
+{
+  "id": "cap-naid",
+  "name": "Naid",
+  "type": "implant",
+  "description": "[Naid](https://attack.mitre.org/software/S0205) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Naid June 2012)",
+  "mitreAttackIds": [
+    "T1016",
+    "T1082",
+    "T1112",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "elderwood"
+  ]
+}

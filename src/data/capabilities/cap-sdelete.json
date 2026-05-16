@@ -1,0 +1,17 @@
+{
+  "id": "cap-sdelete",
+  "name": "SDelete",
+  "type": "tool",
+  "description": "[SDelete](https://attack.mitre.org/software/S0195) is an application that securely deletes data in a way that makes it unrecoverable. It is part of the Microsoft Sysinternals suite of tools. (Citation: Microsoft SDelete July 2016)",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1485"
+  ],
+  "actorIds": [
+    "sandworm-team",
+    "silence",
+    "apt29",
+    "cobalt-group",
+    "fin5"
+  ]
+}

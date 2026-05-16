@@ -1,0 +1,17 @@
+{
+  "id": "cap-lofise",
+  "name": "LoFiSe",
+  "type": "implant",
+  "description": "[LoFiSe](https://attack.mitre.org/software/S1101) has been used by [ToddyCat](https://attack.mitre.org/groups/G1022) since at least 2023 to identify and collect files of interest on targeted systems.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+  "mitreAttackIds": [
+    "T1560",
+    "T1083",
+    "T1574.001",
+    "T1074.001",
+    "T1005",
+    "T1119"
+  ],
+  "actorIds": [
+    "toddycat"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cap-4h-rat",
+  "name": "4H RAT",
+  "type": "implant",
+  "description": "[4H RAT](https://attack.mitre.org/software/S0065) is malware that has been used by [Putter Panda](https://attack.mitre.org/groups/G0024) since at least 2007. (Citation: CrowdStrike Putter Panda)",
+  "mitreAttackIds": [
+    "T1083",
+    "T1082",
+    "T1059.003",
+    "T1071.001",
+    "T1573.001",
+    "T1057"
+  ],
+  "actorIds": [
+    "putter-panda"
+  ]
+}

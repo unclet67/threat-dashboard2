@@ -1,0 +1,22 @@
+{
+  "id": "cap-pydcrypt",
+  "name": "PyDCrypt",
+  "type": "implant",
+  "description": "[PyDCrypt](https://attack.mitre.org/software/S1032) is malware written in Python designed to deliver [DCSrv](https://attack.mitre.org/software/S1033). It has been used by [Moses Staff](https://attack.mitre.org/groups/G1009) since at least September 2021, with each sample tailored for its intended vi",
+  "mitreAttackIds": [
+    "T1059.006",
+    "T1059.003",
+    "T1036.005",
+    "T1140",
+    "T1686",
+    "T1049",
+    "T1027.013",
+    "T1059.001",
+    "T1047",
+    "T1033",
+    "T1070.004"
+  ],
+  "actorIds": [
+    "moses-staff"
+  ]
+}

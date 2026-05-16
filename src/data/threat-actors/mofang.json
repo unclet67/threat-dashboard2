@@ -1,0 +1,20 @@
+{
+  "id": "mofang",
+  "name": "Mofang",
+  "aliases": [
+    "Mofang"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-shimratreporter",
+    "cap-shimrat"
+  ],
+  "description": "[Mofang](https://attack.mitre.org/groups/G0103) is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0103"
+  ]
+}

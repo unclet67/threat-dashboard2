@@ -1,0 +1,39 @@
+{
+  "id": "cap-osx-oceanlotus-d",
+  "name": "OSX_OCEANLOTUS.D",
+  "type": "implant",
+  "description": "[OSX_OCEANLOTUS.D](https://attack.mitre.org/software/S0352) is a macOS backdoor used by [APT32](https://attack.mitre.org/groups/G0050). First discovered in 2015, [APT32](https://attack.mitre.org/groups/G0050) has continued to make improvements using a plugin architecture to extend capabilities, spec",
+  "mitreAttackIds": [
+    "T1027.013",
+    "T1095",
+    "T1222.002",
+    "T1070.004",
+    "T1016",
+    "T1497.001",
+    "T1573.001",
+    "T1140",
+    "T1059.004",
+    "T1082",
+    "T1571",
+    "T1543.001",
+    "T1105",
+    "T1059.005",
+    "T1564.001",
+    "T1070.006",
+    "T1071.001",
+    "T1132.001",
+    "T1543.004",
+    "T1027.002",
+    "T1560.002",
+    "T1036.004",
+    "T1005",
+    "T1560.003",
+    "T1129",
+    "T1553.001",
+    "T1059.001",
+    "T1036.008"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

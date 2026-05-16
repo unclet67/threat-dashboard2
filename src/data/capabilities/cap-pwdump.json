@@ -1,0 +1,17 @@
+{
+  "id": "cap-pwdump",
+  "name": "pwdump",
+  "type": "tool",
+  "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
+  "mitreAttackIds": [
+    "T1003.002"
+  ],
+  "actorIds": [
+    "apt39",
+    "menupass",
+    "apt41",
+    "threat-group-3390",
+    "apt1",
+    "fin5"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cap-messagetap",
+  "name": "MESSAGETAP",
+  "type": "implant",
+  "description": "[MESSAGETAP](https://attack.mitre.org/software/S0443) is a data mining malware family deployed by [APT41](https://attack.mitre.org/groups/G0096) into telecommunications networks to monitor and save SMS traffic from specific phone numbers, IMSI numbers, or that contain specific keywords. (Citation: F",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1040",
+    "T1140",
+    "T1074.001",
+    "T1049",
+    "T1560.003",
+    "T1119",
+    "T1083"
+  ],
+  "actorIds": [
+    "apt41"
+  ]
+}

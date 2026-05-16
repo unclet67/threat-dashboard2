@@ -1,0 +1,12 @@
+{
+  "id": "cap-vpnfilter",
+  "name": "VPNFilter",
+  "type": "implant",
+  "description": "[VPNFilter](https://attack.mitre.org/software/S1010) is a multi-stage, modular platform with versatile capabilities to support both intelligence-collection and destructive cyber attack operations. [VPNFilter](https://attack.mitre.org/software/S1010) modules such as its packet sniffer ('ps') can coll",
+  "mitreAttackIds": [
+    "T1561.001"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

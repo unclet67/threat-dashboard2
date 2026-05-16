@@ -1,0 +1,26 @@
+{
+  "id": "cap-tasklist",
+  "name": "Tasklist",
+  "type": "tool",
+  "description": "The [Tasklist](https://attack.mitre.org/software/S0057) utility displays a list of applications and services with their Process IDs (PID) for all tasks running on either a local or a remote computer. It is packaged with Windows operating systems and can be executed from the command-line interface. (",
+  "mitreAttackIds": [
+    "T1057",
+    "T1007",
+    "T1518.001"
+  ],
+  "actorIds": [
+    "oilrig",
+    "earth-lusca",
+    "turla",
+    "ke3chang",
+    "volt-typhoon",
+    "apt29",
+    "apt5",
+    "storm-0501",
+    "mirrorface",
+    "threat-group-3390",
+    "apt1",
+    "naikon",
+    "deep-panda"
+  ]
+}

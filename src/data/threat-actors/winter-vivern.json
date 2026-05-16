@@ -1,0 +1,19 @@
+{
+  "id": "winter-vivern",
+  "name": "Winter Vivern",
+  "aliases": [
+    "Winter Vivern",
+    "TA473",
+    "UAC-0114"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims. The group leverages a combination of document-based phishing activity and server-side exploi",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1035"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "leafminer",
+  "name": "Leafminer",
+  "aliases": [
+    "Leafminer",
+    "Raspite"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-lazagne",
+    "cap-mimikatz",
+    "cap-mailsniper",
+    "cap-psexec"
+  ],
+  "description": "[Leafminer](https://attack.mitre.org/groups/G0077) is an Iranian threat group that has targeted government organizations and business entities in the Middle East since at least early 2017. (Citation: Symantec Leafminer July 2018)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0077"
+  ]
+}

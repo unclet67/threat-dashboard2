@@ -1,0 +1,19 @@
+{
+  "id": "cap-keyplug",
+  "name": "KEYPLUG",
+  "type": "implant",
+  "description": "[KEYPLUG](https://attack.mitre.org/software/S1051) is a modular backdoor written in C++, with Windows and Linux variants, that has been used by [APT41](https://attack.mitre.org/groups/G0096) since at least June 2021.(Citation: Mandiant APT41)",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1124",
+    "T1102.001",
+    "T1027.013",
+    "T1140",
+    "T1573.002",
+    "T1090",
+    "T1095"
+  ],
+  "actorIds": [
+    "apt41"
+  ]
+}

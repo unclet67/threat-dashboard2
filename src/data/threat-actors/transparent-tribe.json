@@ -1,0 +1,27 @@
+{
+  "id": "transparent-tribe",
+  "name": "Transparent Tribe",
+  "aliases": [
+    "Transparent Tribe",
+    "COPPER FIELDSTONE",
+    "APT36",
+    "Mythic Leopard",
+    "ProjectM"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-darkcomet",
+    "cap-obliquerat",
+    "cap-njrat",
+    "cap-crimson",
+    "cap-peppy"
+  ],
+  "description": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) is a suspected Pakistan-based threat group that has been active since at least 2013, primarily targeting diplomatic, defense, and research organizations in India and Afghanistan.(Citation: Proofpoint Operation Transparent Tribe March 2016)(C",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0134"
+  ]
+}

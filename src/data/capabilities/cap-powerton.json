@@ -1,0 +1,17 @@
+{
+  "id": "cap-powerton",
+  "name": "POWERTON",
+  "type": "implant",
+  "description": "[POWERTON](https://attack.mitre.org/software/S0371) is a custom PowerShell backdoor first observed in 2018. It has typically been deployed as a late-stage backdoor by [APT33](https://attack.mitre.org/groups/G0064). At least two variants of the backdoor have been identified, with the later version co",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1071.001",
+    "T1059.001",
+    "T1003.002",
+    "T1547.001",
+    "T1546.003"
+  ],
+  "actorIds": [
+    "apt33"
+  ]
+}

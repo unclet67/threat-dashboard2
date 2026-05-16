@@ -1,0 +1,19 @@
+{
+  "id": "windigo",
+  "name": "Windigo",
+  "aliases": [
+    "Windigo"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-ebury"
+  ],
+  "description": "The [Windigo](https://attack.mitre.org/groups/G0124) group has been operating since at least 2011, compromising thousands of Linux and Unix servers using the [Ebury](https://attack.mitre.org/software/S0377) SSH backdoor to create a spam botnet. Despite law enforcement intervention against the creato",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0124"
+  ]
+}

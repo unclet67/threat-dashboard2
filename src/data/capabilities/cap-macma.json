@@ -1,0 +1,38 @@
+{
+  "id": "cap-macma",
+  "name": "MacMa",
+  "type": "implant",
+  "description": "[MacMa](https://attack.mitre.org/software/S1016) is a macOS-based backdoor with a large set of functionalities to control and exfiltrate files from a compromised computer. [MacMa](https://attack.mitre.org/software/S1016) has been observed in the wild since November 2021.(Citation: ESET DazzleSpy Jan",
+  "mitreAttackIds": [
+    "T1033",
+    "T1082",
+    "T1095",
+    "T1553.002",
+    "T1113",
+    "T1016",
+    "T1074.001",
+    "T1543.001",
+    "T1005",
+    "T1021",
+    "T1106",
+    "T1123",
+    "T1555.001",
+    "T1041",
+    "T1057",
+    "T1070.006",
+    "T1571",
+    "T1140",
+    "T1056.001",
+    "T1685.006",
+    "T1059.004",
+    "T1680",
+    "T1553.001",
+    "T1105",
+    "T1573",
+    "T1083",
+    "T1070.004"
+  ],
+  "actorIds": [
+    "daggerfly"
+  ]
+}

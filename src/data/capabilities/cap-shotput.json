@@ -1,0 +1,17 @@
+{
+  "id": "cap-shotput",
+  "name": "SHOTPUT",
+  "type": "implant",
+  "description": "[SHOTPUT](https://attack.mitre.org/software/S0063) is a custom backdoor used by [APT3](https://attack.mitre.org/groups/G0022). (Citation: FireEye Clandestine Wolf)",
+  "mitreAttackIds": [
+    "T1027",
+    "T1083",
+    "T1087.001",
+    "T1018",
+    "T1049",
+    "T1057"
+  ],
+  "actorIds": [
+    "apt3"
+  ]
+}

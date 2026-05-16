@@ -1,0 +1,25 @@
+{
+  "id": "cap-sorefang",
+  "name": "SoreFang",
+  "type": "implant",
+  "description": "[SoreFang](https://attack.mitre.org/software/S0516) is first stage downloader used by [APT29](https://attack.mitre.org/groups/G0016) for exfiltration and to load other malware.(Citation: NCSC APT29 July 2020)(Citation: CISA SoreFang July 2016)",
+  "mitreAttackIds": [
+    "T1105",
+    "T1087.002",
+    "T1057",
+    "T1083",
+    "T1071.001",
+    "T1190",
+    "T1053.005",
+    "T1082",
+    "T1087.001",
+    "T1069.002",
+    "T1016",
+    "T1680",
+    "T1027",
+    "T1140"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

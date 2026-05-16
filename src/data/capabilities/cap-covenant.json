@@ -1,0 +1,21 @@
+{
+  "id": "cap-covenant",
+  "name": "Covenant",
+  "type": "tool",
+  "description": "[Covenant](https://attack.mitre.org/software/S1155) is a multi-platform command and control framework written in .NET. While designed for penetration testing and security research, the tool has also been used by threat actors such as [HAFNIUM](https://attack.mitre.org/groups/G0125) during operations",
+  "mitreAttackIds": [
+    "T1059.001",
+    "T1571",
+    "T1047",
+    "T1218.010",
+    "T1218.004",
+    "T1082",
+    "T1059.003",
+    "T1071.001",
+    "T1218.005",
+    "T1573.002"
+  ],
+  "actorIds": [
+    "hafnium"
+  ]
+}

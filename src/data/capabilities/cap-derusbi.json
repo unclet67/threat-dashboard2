@@ -1,0 +1,32 @@
+{
+  "id": "cap-derusbi",
+  "name": "Derusbi",
+  "type": "implant",
+  "description": "[Derusbi](https://attack.mitre.org/software/S0021) is malware used by multiple Chinese APT groups.(Citation: Novetta-Axiom)(Citation: ThreatConnect Anthem) Both Windows and Linux variants have been observed.(Citation: Fidelis Turbo)",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1059.004",
+    "T1218.010",
+    "T1082",
+    "T1070.006",
+    "T1055.001",
+    "T1070.004",
+    "T1571",
+    "T1573.001",
+    "T1033",
+    "T1123",
+    "T1083",
+    "T1008",
+    "T1095",
+    "T1113",
+    "T1125",
+    "T1057",
+    "T1012"
+  ],
+  "actorIds": [
+    "leviathan",
+    "apt41",
+    "axiom",
+    "deep-panda"
+  ]
+}

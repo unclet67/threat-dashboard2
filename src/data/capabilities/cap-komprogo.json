@@ -1,0 +1,14 @@
+{
+  "id": "cap-komprogo",
+  "name": "KOMPROGO",
+  "type": "implant",
+  "description": "[KOMPROGO](https://attack.mitre.org/software/S0156) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050) that is capable of process, file, and registry management. (Citation: FireEye APT32 May 2017)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1047",
+    "T1059.003"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cap-staticplugin",
+  "name": "STATICPLUGIN",
+  "type": "implant",
+  "description": "[STATICPLUGIN](https://attack.mitre.org/software/S1238) is a downloader known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2025.  [STATICPLUGIN](https://attack.mitre.org/software/S1238) has utilized a valid certificate in order to bypas",
+  "mitreAttackIds": [
+    "T1553.002",
+    "T1036.008",
+    "T1036.005",
+    "T1204.002",
+    "T1559.001"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

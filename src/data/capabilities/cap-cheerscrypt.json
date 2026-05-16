@@ -1,0 +1,16 @@
+{
+  "id": "cap-cheerscrypt",
+  "name": "Cheerscrypt",
+  "type": "implant",
+  "description": "[Cheerscrypt](https://attack.mitre.org/software/S1096) is a ransomware that was developed by [Cinnamon Tempest](https://attack.mitre.org/groups/G1021) and has been used in attacks against ESXi and Windows environments since at least 2022. [Cheerscrypt](https://attack.mitre.org/software/S1096) was de",
+  "mitreAttackIds": [
+    "T1489",
+    "T1059.012",
+    "T1486",
+    "T1083",
+    "T1673"
+  ],
+  "actorIds": [
+    "cinnamon-tempest"
+  ]
+}

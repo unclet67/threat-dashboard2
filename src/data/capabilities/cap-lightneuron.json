@@ -1,0 +1,33 @@
+{
+  "id": "cap-lightneuron",
+  "name": "LightNeuron",
+  "type": "implant",
+  "description": "[LightNeuron](https://attack.mitre.org/software/S0395) is a sophisticated backdoor that has targeted Microsoft Exchange servers since at least 2014. [LightNeuron](https://attack.mitre.org/software/S0395) has been used by [Turla](https://attack.mitre.org/groups/G0010) to target diplomatic and foreign",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1071.003",
+    "T1029",
+    "T1020",
+    "T1041",
+    "T1027.013",
+    "T1001.002",
+    "T1140",
+    "T1560",
+    "T1036.005",
+    "T1114.002",
+    "T1082",
+    "T1105",
+    "T1119",
+    "T1573.001",
+    "T1074.001",
+    "T1059.003",
+    "T1005",
+    "T1565.002",
+    "T1016",
+    "T1106",
+    "T1505.002"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

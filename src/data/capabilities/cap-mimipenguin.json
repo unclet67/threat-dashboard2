@@ -1,0 +1,12 @@
+{
+  "id": "cap-mimipenguin",
+  "name": "MimiPenguin",
+  "type": "tool",
+  "description": "[MimiPenguin](https://attack.mitre.org/software/S0179) is a credential dumper, similar to [Mimikatz](https://attack.mitre.org/software/S0002), designed specifically for Linux platforms. (Citation: MimiPenguin GitHub May 2017)",
+  "mitreAttackIds": [
+    "T1003.007"
+  ],
+  "actorIds": [
+    "teamtnt"
+  ]
+}

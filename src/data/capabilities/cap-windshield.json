@@ -1,0 +1,16 @@
+{
+  "id": "cap-windshield",
+  "name": "WINDSHIELD",
+  "type": "implant",
+  "description": "[WINDSHIELD](https://attack.mitre.org/software/S0155) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050). (Citation: FireEye APT32 May 2017)",
+  "mitreAttackIds": [
+    "T1095",
+    "T1033",
+    "T1012",
+    "T1082",
+    "T1070.004"
+  ],
+  "actorIds": [
+    "apt32"
+  ]
+}

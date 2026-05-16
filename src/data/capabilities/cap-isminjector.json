@@ -1,0 +1,15 @@
+{
+  "id": "cap-isminjector",
+  "name": "ISMInjector",
+  "type": "implant",
+  "description": "[ISMInjector](https://attack.mitre.org/software/S0189) is a Trojan used to install another [OilRig](https://attack.mitre.org/groups/G0049) backdoor, ISMAgent. (Citation: OilRig New Delivery Oct 2017)",
+  "mitreAttackIds": [
+    "T1140",
+    "T1027",
+    "T1055.012",
+    "T1053.005"
+  ],
+  "actorIds": [
+    "oilrig"
+  ]
+}

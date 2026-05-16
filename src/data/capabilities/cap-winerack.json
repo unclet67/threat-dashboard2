@@ -1,0 +1,18 @@
+{
+  "id": "cap-winerack",
+  "name": "WINERACK",
+  "type": "implant",
+  "description": "[WINERACK](https://attack.mitre.org/software/S0219) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067). (Citation: FireEye APT37 Feb 2018)",
+  "mitreAttackIds": [
+    "T1057",
+    "T1033",
+    "T1083",
+    "T1010",
+    "T1059",
+    "T1007",
+    "T1082"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

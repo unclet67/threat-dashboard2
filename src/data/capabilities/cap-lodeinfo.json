@@ -1,0 +1,43 @@
+{
+  "id": "cap-lodeinfo",
+  "name": "LODEINFO",
+  "type": "implant",
+  "description": "[LODEINFO](https://attack.mitre.org/software/S9020) is a fileless backdoor malware first identified in 2020 that has been used by actors including [MirrorFace](https://attack.mitre.org/groups/G1054), primarily against media, diplomatic, governmental, and public sector organizations in Japan.(Citatio",
+  "mitreAttackIds": [
+    "T1070.004",
+    "T1057",
+    "T1001.001",
+    "T1486",
+    "T1574.001",
+    "T1074.001",
+    "T1573.001",
+    "T1018",
+    "T1105",
+    "T1480",
+    "T1047",
+    "T1041",
+    "T1614.001",
+    "T1027.015",
+    "T1056.001",
+    "T1027.016",
+    "T1027.013",
+    "T1113",
+    "T1566.001",
+    "T1027.007",
+    "T1124",
+    "T1082",
+    "T1055",
+    "T1204.002",
+    "T1106",
+    "T1016",
+    "T1005",
+    "T1547.001",
+    "T1083",
+    "T1033",
+    "T1027",
+    "T1539"
+  ],
+  "actorIds": [
+    "mirrorface"
+  ]
+}

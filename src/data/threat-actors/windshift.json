@@ -1,0 +1,20 @@
+{
+  "id": "windshift",
+  "name": "Windshift",
+  "aliases": [
+    "Windshift",
+    "Bahamut"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-windtail"
+  ],
+  "description": "[Windshift](https://attack.mitre.org/groups/G0112) is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see w",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0112"
+  ]
+}

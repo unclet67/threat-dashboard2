@@ -1,0 +1,27 @@
+{
+  "id": "cap-lightspy",
+  "name": "LightSpy",
+  "type": "implant",
+  "description": "First observed in 2018, LightSpy is a modular malware family that initially targeted iOS devices in Southern Asia before expanding to Android and macOS platforms. It consists of a downloader, a main executable that manages network communications, and functionality-specific modules, typically impleme",
+  "mitreAttackIds": [
+    "T1057",
+    "T1480",
+    "T1555.001",
+    "T1105",
+    "T1113",
+    "T1041",
+    "T1071.001",
+    "T1129",
+    "T1123",
+    "T1027.013",
+    "T1082",
+    "T1083",
+    "T1217",
+    "T1027.001",
+    "T1518",
+    "T1046"
+  ],
+  "actorIds": [
+    "apt41"
+  ]
+}

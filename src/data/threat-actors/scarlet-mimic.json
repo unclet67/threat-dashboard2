@@ -1,0 +1,22 @@
+{
+  "id": "scarlet-mimic",
+  "name": "Scarlet Mimic",
+  "aliases": [
+    "Scarlet Mimic"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-psylo",
+    "cap-mobileorder",
+    "cap-callme",
+    "cap-fakem"
+  ],
+  "description": "[Scarlet Mimic](https://attack.mitre.org/groups/G0029) is a threat group that has targeted minority rights activists. This group has not been directly linked to a government source, but the group's motivations appear to overlap with those of the Chinese government. While there is some overlap betwee",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0029"
+  ]
+}

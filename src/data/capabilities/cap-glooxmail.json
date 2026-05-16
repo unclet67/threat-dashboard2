@@ -1,0 +1,13 @@
+{
+  "id": "cap-glooxmail",
+  "name": "GLOOXMAIL",
+  "type": "implant",
+  "description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) is malware used by [APT1](https://attack.mitre.org/groups/G0006) that mimics legitimate Jabber/XMPP traffic. (Citation: Mandiant APT1)",
+  "mitreAttackIds": [
+    "T1071.005",
+    "T1102.002"
+  ],
+  "actorIds": [
+    "apt1"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sidecopy",
+  "name": "SideCopy",
+  "aliases": [
+    "SideCopy"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-auto-stealer",
+    "cap-action-rat"
+  ],
+  "description": "[SideCopy](https://attack.mitre.org/groups/G1008) is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. [SideCopy](https://attack.mitre.org/groups/G1008)'s name comes from its infection chain that tries ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1008"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cap-tarrask",
+  "name": "Tarrask",
+  "type": "implant",
+  "description": "[Tarrask](https://attack.mitre.org/software/S1011) is malware that has been used by [HAFNIUM](https://attack.mitre.org/groups/G0125) since at least August 2021. [Tarrask](https://attack.mitre.org/software/S1011) was designed to evade digital defenses and maintain persistence by generating concealed ",
+  "mitreAttackIds": [
+    "T1036.005",
+    "T1059.003",
+    "T1134.001",
+    "T1036.004",
+    "T1053.005",
+    "T1112",
+    "T1564"
+  ],
+  "actorIds": [
+    "hafnium"
+  ]
+}

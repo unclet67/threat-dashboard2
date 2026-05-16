@@ -1,0 +1,20 @@
+{
+  "id": "cap-ngrok",
+  "name": "ngrok",
+  "type": "tool",
+  "description": "[ngrok](https://attack.mitre.org/software/S0508) is a legitimate reverse proxy tool that can create a secure tunnel to servers located behind firewalls or on local machines that do not have a public IP. [ngrok](https://attack.mitre.org/software/S0508) has been leveraged by threat actors in several c",
+  "mitreAttackIds": [
+    "T1090",
+    "T1567",
+    "T1568.002",
+    "T1102",
+    "T1572"
+  ],
+  "actorIds": [
+    "oilrig",
+    "fox-kitten",
+    "ember-bear",
+    "scattered-spider",
+    "lazyscripter"
+  ]
+}

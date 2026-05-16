@@ -1,0 +1,50 @@
+{
+  "id": "wizard-spider",
+  "name": "Wizard Spider",
+  "aliases": [
+    "Wizard Spider",
+    "UNC1878",
+    "TEMP.MixMaster",
+    "Grim Spider",
+    "FIN12",
+    "GOLD BLACKBURN",
+    "ITG23",
+    "Periwinkle Tempest",
+    "DEV-0193",
+    "Pistachio Tempest",
+    "DEV-0237"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-trickbot",
+    "cap-adfind",
+    "cap-bitsadmin",
+    "cap-systembc",
+    "cap-bloodhound",
+    "cap-ping",
+    "cap-bazar",
+    "cap-lazagne",
+    "cap-nltest",
+    "cap-grimagent",
+    "cap-dyre",
+    "cap-ryuk",
+    "cap-conti",
+    "cap-emotet",
+    "cap-rubeus",
+    "cap-mimikatz",
+    "cap-anchor",
+    "cap-diavol",
+    "cap-net",
+    "cap-empire",
+    "cap-psexec",
+    "cap-cobalt-strike"
+  ],
+  "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) is a Russia-based financially motivated threat group originally known for the creation and deployment of [TrickBot](https://attack.mitre.org/software/S0266) since at least 2016. [Wizard Spider](https://attack.mitre.org/groups/G0102) possesses a ",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0102"
+  ]
+}

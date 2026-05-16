@@ -1,0 +1,21 @@
+{
+  "id": "cap-paklog",
+  "name": "PAKLOG",
+  "type": "implant",
+  "description": "[PAKLOG](https://attack.mitre.org/software/S1233) is a keylogger known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2024. [PAKLOG](https://attack.mitre.org/software/S1233) is deployed via a RAR archive (e.g., key.rar), which contains tw",
+  "mitreAttackIds": [
+    "T1027.013",
+    "T1056.001",
+    "T1115",
+    "T1106",
+    "T1553.002",
+    "T1074.001",
+    "T1010",
+    "T1574.001",
+    "T1057",
+    "T1124"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

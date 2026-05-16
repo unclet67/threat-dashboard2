@@ -1,0 +1,14 @@
+{
+  "id": "cap-winexe",
+  "name": "Winexe",
+  "type": "tool",
+  "description": "[Winexe](https://attack.mitre.org/software/S0191) is a lightweight, open source tool similar to [PsExec](https://attack.mitre.org/software/S0029) designed to allow system administrators to execute commands on remote servers. (Citation: Winexe Github Sept 2013) [Winexe](https://attack.mitre.org/softw",
+  "mitreAttackIds": [
+    "T1569.002"
+  ],
+  "actorIds": [
+    "silence",
+    "apt28",
+    "darkvishnya"
+  ]
+}

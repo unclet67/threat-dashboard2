@@ -1,0 +1,16 @@
+{
+  "id": "cap-lunarloader",
+  "name": "LunarLoader",
+  "type": "implant",
+  "description": "[LunarLoader](https://attack.mitre.org/software/S1143) is the loader component for the [LunarWeb](https://attack.mitre.org/software/S1141) and [LunarMail](https://attack.mitre.org/software/S1142) backdoors that has been used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2020 inclu",
+  "mitreAttackIds": [
+    "T1016",
+    "T1480",
+    "T1140",
+    "T1137.006",
+    "T1620"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}

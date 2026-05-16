@@ -1,0 +1,26 @@
+{
+  "id": "cap-translatext",
+  "name": "TRANSLATEXT",
+  "type": "implant",
+  "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) is malware that is believed to be used by [Kimsuky](https://attack.mitre.org/groups/G0094).(Citation: Zscaler Kimsuky TRANSLATEXT) [TRANSLATEXT](https://attack.mitre.org/software/S1201) masqueraded as a Google Translate extension for Google Chro",
+  "mitreAttackIds": [
+    "T1071.001",
+    "T1555.003",
+    "T1059.001",
+    "T1041",
+    "T1112",
+    "T1185",
+    "T1102.001",
+    "T1539",
+    "T1113",
+    "T1176.001",
+    "T1036.005",
+    "T1114",
+    "T1102.002",
+    "T1012",
+    "T1205"
+  ],
+  "actorIds": [
+    "kimsuky"
+  ]
+}

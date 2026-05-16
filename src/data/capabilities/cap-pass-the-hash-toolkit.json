@@ -1,0 +1,12 @@
+{
+  "id": "cap-pass-the-hash-toolkit",
+  "name": "Pass-The-Hash Toolkit",
+  "type": "tool",
+  "description": "[Pass-The-Hash Toolkit](https://attack.mitre.org/software/S0122) is a toolkit that allows an adversary to \"pass\" a password hash (without knowing the original password) to log in to systems. (Citation: Mandiant APT1)",
+  "mitreAttackIds": [
+    "T1550.002"
+  ],
+  "actorIds": [
+    "apt1"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cap-yahoyah",
+  "name": "YAHOYAH",
+  "type": "implant",
+  "description": "[YAHOYAH](https://attack.mitre.org/software/S0388) is a Trojan used by [Tropic Trooper](https://attack.mitre.org/groups/G0081) as a second-stage backdoor.(Citation: TrendMicro TropicTrooper 2015)",
+  "mitreAttackIds": [
+    "T1082",
+    "T1105",
+    "T1518.001",
+    "T1140",
+    "T1071.001",
+    "T1027.013"
+  ],
+  "actorIds": [
+    "tropic-trooper"
+  ]
+}

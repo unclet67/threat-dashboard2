@@ -1,0 +1,22 @@
+{
+  "id": "cap-claimloader",
+  "name": "CLAIMLOADER",
+  "type": "implant",
+  "description": "[CLAIMLOADER](https://attack.mitre.org/software/S1236) is a malware variant that frequently accompanies legitimate executables that are used for DLL side-loading known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2021.(Citation: IBM MUS",
+  "mitreAttackIds": [
+    "T1559.001",
+    "T1106",
+    "T1547.001",
+    "T1574.001",
+    "T1564.001",
+    "T1036.005",
+    "T1480.002",
+    "T1204.002",
+    "T1053.005",
+    "T1140",
+    "T1027.007"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

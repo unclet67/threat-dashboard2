@@ -1,0 +1,30 @@
+{
+  "id": "cap-chopstick",
+  "name": "CHOPSTICK",
+  "type": "implant",
+  "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) is a malware family of modular backdoors used by [APT28](https://attack.mitre.org/groups/G0007). It has been used since at least 2012 and is usually dropped on victims as second-stage malware, though it has been used as first-stage malware in seve",
+  "mitreAttackIds": [
+    "T1008",
+    "T1092",
+    "T1090.001",
+    "T1059",
+    "T1071.003",
+    "T1071.001",
+    "T1112",
+    "T1497",
+    "T1113",
+    "T1105",
+    "T1518.001",
+    "T1083",
+    "T1027.011",
+    "T1056.001",
+    "T1091",
+    "T1568.002",
+    "T1573.001",
+    "T1573.002",
+    "T1012"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cap-hdoor",
+  "name": "HDoor",
+  "type": "implant",
+  "description": "[HDoor](https://attack.mitre.org/software/S0061) is malware that has been customized and used by the [Naikon](https://attack.mitre.org/groups/G0019) group. (Citation: Baumgartner Naikon 2015)",
+  "mitreAttackIds": [
+    "T1046",
+    "T1685"
+  ],
+  "actorIds": [
+    "naikon"
+  ]
+}

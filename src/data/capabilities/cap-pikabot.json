@@ -1,0 +1,32 @@
+{
+  "id": "cap-pikabot",
+  "name": "Pikabot",
+  "type": "implant",
+  "description": "[Pikabot](https://attack.mitre.org/software/S1145) is a backdoor used for initial access and follow-on tool deployment active since early 2023. [Pikabot](https://attack.mitre.org/software/S1145) is notable for extensive use of multiple encoding, encryption, and defense evasion mechanisms to evade de",
+  "mitreAttackIds": [
+    "T1016",
+    "T1059.003",
+    "T1482",
+    "T1055.003",
+    "T1622",
+    "T1571",
+    "T1573.001",
+    "T1041",
+    "T1087.001",
+    "T1106",
+    "T1082",
+    "T1027.011",
+    "T1027.003",
+    "T1620",
+    "T1132.001",
+    "T1140",
+    "T1027.009",
+    "T1055.002",
+    "T1480.001",
+    "T1547.001",
+    "T1497.001"
+  ],
+  "actorIds": [
+    "ta577"
+  ]
+}

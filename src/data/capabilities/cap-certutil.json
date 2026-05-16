@@ -1,0 +1,28 @@
+{
+  "id": "cap-certutil",
+  "name": "certutil",
+  "type": "tool",
+  "description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
+  "mitreAttackIds": [
+    "T1560.001",
+    "T1553.004",
+    "T1140",
+    "T1105"
+  ],
+  "actorIds": [
+    "medusa-group",
+    "oilrig",
+    "earth-lusca",
+    "kimsuky",
+    "turla",
+    "apt28",
+    "volt-typhoon",
+    "menupass",
+    "apt41",
+    "fin13",
+    "higaisa",
+    "threat-group-3390",
+    "rancor",
+    "lotus-blossom"
+  ]
+}

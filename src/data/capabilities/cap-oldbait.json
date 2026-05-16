@@ -1,0 +1,17 @@
+{
+  "id": "cap-oldbait",
+  "name": "OLDBAIT",
+  "type": "implant",
+  "description": "[OLDBAIT](https://attack.mitre.org/software/S0138) is a credential harvester used by [APT28](https://attack.mitre.org/groups/G0007). (Citation: FireEye APT28) (Citation: FireEye APT28 January 2017)",
+  "mitreAttackIds": [
+    "T1036.005",
+    "T1555.003",
+    "T1071.003",
+    "T1027",
+    "T1555",
+    "T1071.001"
+  ],
+  "actorIds": [
+    "apt28"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cap-darkcomet",
+  "name": "DarkComet",
+  "type": "implant",
+  "description": "[DarkComet](https://attack.mitre.org/software/S0334) is a Windows remote administration tool and backdoor.(Citation: TrendMicro DarkComet Sept 2014)(Citation: Malwarebytes DarkComet March 2018)",
+  "mitreAttackIds": [
+    "T1686.003",
+    "T1059",
+    "T1115",
+    "T1125",
+    "T1082",
+    "T1105",
+    "T1057",
+    "T1059.003",
+    "T1021.001",
+    "T1547.001",
+    "T1685",
+    "T1071.001",
+    "T1123",
+    "T1027.002",
+    "T1112",
+    "T1056.001",
+    "T1033",
+    "T1036.005"
+  ],
+  "actorIds": [
+    "apt38",
+    "transparent-tribe",
+    "silverterrier"
+  ]
+}

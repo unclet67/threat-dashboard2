@@ -1,0 +1,30 @@
+{
+  "id": "cap-carbanak",
+  "name": "Carbanak",
+  "type": "implant",
+  "description": "[Carbanak](https://attack.mitre.org/software/S0030) is a full-featured, remote backdoor used by a group of the same name ([Carbanak](https://attack.mitre.org/groups/G0008)). It is intended for espionage, data exfiltration, and providing remote access to infected machines. (Citation: Kaspersky Carban",
+  "mitreAttackIds": [
+    "T1003",
+    "T1113",
+    "T1071.001",
+    "T1012",
+    "T1021.001",
+    "T1059.003",
+    "T1055.002",
+    "T1114.001",
+    "T1057",
+    "T1027",
+    "T1219",
+    "T1056.001",
+    "T1547.001",
+    "T1136.001",
+    "T1573.001",
+    "T1070.004",
+    "T1132.001",
+    "T1030"
+  ],
+  "actorIds": [
+    "fin7",
+    "carbanak"
+  ]
+}

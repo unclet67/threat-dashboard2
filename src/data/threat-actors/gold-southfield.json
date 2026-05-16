@@ -1,0 +1,21 @@
+{
+  "id": "gold-southfield",
+  "name": "GOLD SOUTHFIELD",
+  "aliases": [
+    "GOLD SOUTHFIELD",
+    "Pinchy Spider"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-connectwise",
+    "cap-revil"
+  ],
+  "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) is a financially motivated threat group active since at least 2018 that operates the [REvil](https://attack.mitre.org/software/S0496) Ransomware-as-a Service (RaaS). [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) provides backend inf",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0115"
+  ]
+}

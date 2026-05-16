@@ -1,0 +1,18 @@
+{
+  "id": "cap-sharpstats",
+  "name": "SHARPSTATS",
+  "type": "implant",
+  "description": "[SHARPSTATS](https://attack.mitre.org/software/S0450) is a .NET backdoor used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least 2019.(Citation: TrendMicro POWERSTATS V3 June 2019)",
+  "mitreAttackIds": [
+    "T1016",
+    "T1059.001",
+    "T1105",
+    "T1027.010",
+    "T1082",
+    "T1124",
+    "T1033"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

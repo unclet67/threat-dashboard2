@@ -1,0 +1,15 @@
+{
+  "id": "cap-htran",
+  "name": "HTRAN",
+  "type": "tool",
+  "description": "[HTRAN](https://attack.mitre.org/software/S0040) is a tool that proxies connections through intermediate hops and aids users in disguising their true geographical location. It can be used by adversaries to hide their location when interacting with the victim networks. (Citation: Operation Quantum En",
+  "mitreAttackIds": [
+    "T1090",
+    "T1014",
+    "T1055"
+  ],
+  "actorIds": [
+    "gallium",
+    "apt12"
+  ]
+}

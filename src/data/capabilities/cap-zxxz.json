@@ -1,0 +1,25 @@
+{
+  "id": "cap-zxxz",
+  "name": "ZxxZ",
+  "type": "implant",
+  "description": "[ZxxZ](https://attack.mitre.org/software/S1013) is a trojan written in Visual C++ that has been used by [BITTER](https://attack.mitre.org/groups/G1002) since at least August 2021, including against Bangladeshi government personnel.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
+  "mitreAttackIds": [
+    "T1106",
+    "T1105",
+    "T1057",
+    "T1082",
+    "T1518.001",
+    "T1036.004",
+    "T1012",
+    "T1027.013",
+    "T1053.005",
+    "T1204.002",
+    "T1566.001",
+    "T1033",
+    "T1005",
+    "T1140"
+  ],
+  "actorIds": [
+    "bitter"
+  ]
+}

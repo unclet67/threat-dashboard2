@@ -1,0 +1,19 @@
+{
+  "id": "cap-versamem",
+  "name": "VersaMem",
+  "type": "implant",
+  "description": "[VersaMem](https://attack.mitre.org/software/S1154) is a web shell designed for deployment to Versa Director servers following exploitation. Discovered in August 2024, [VersaMem](https://attack.mitre.org/software/S1154) was used during [Versa Director Zero Day Exploitation](https://attack.mitre.org/",
+  "mitreAttackIds": [
+    "T1056.004",
+    "T1203",
+    "T1027.013",
+    "T1070.004",
+    "T1059",
+    "T1074.001",
+    "T1040",
+    "T1129"
+  ],
+  "actorIds": [
+    "volt-typhoon"
+  ]
+}

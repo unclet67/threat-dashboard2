@@ -1,0 +1,20 @@
+{
+  "id": "cap-quietsieve",
+  "name": "QuietSieve",
+  "type": "implant",
+  "description": "[QuietSieve](https://attack.mitre.org/software/S0686) is an information stealer that has been used by [Gamaredon Group](https://attack.mitre.org/groups/G0047) since at least 2021.(Citation: Microsoft Actinium February 2022)",
+  "mitreAttackIds": [
+    "T1564.003",
+    "T1071.001",
+    "T1105",
+    "T1016.001",
+    "T1083",
+    "T1120",
+    "T1005",
+    "T1135",
+    "T1113"
+  ],
+  "actorIds": [
+    "gamaredon-group"
+  ]
+}

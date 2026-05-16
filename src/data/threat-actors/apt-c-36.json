@@ -1,0 +1,31 @@
+{
+  "id": "apt-c-36",
+  "name": "APT-C-36",
+  "aliases": [
+    "APT-C-36",
+    "Blind Eagle",
+    "TAG-144",
+    "AguilaCiega",
+    "APT-Q-98"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-njrat",
+    "cap-imminent-monitor",
+    "cap-dcrat",
+    "cap-purecrypter",
+    "cap-caminho",
+    "cap-remcos",
+    "cap-asyncrat",
+    "cap-quasarrat",
+    "cap-heartcrypt"
+  ],
+  "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) is a suspected South American threat group that has engaged in espionage and financially motivated operations since at least 2018. [APT-C-36](https://attack.mitre.org/groups/G0099) has targeted government institutions and entities in the financial, e",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0099"
+  ]
+}

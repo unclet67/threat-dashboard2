@@ -1,0 +1,25 @@
+{
+  "id": "blacktech",
+  "name": "BlackTech",
+  "aliases": [
+    "BlackTech",
+    "Palmerworm"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-plead",
+    "cap-kivars",
+    "cap-psexec",
+    "cap-tscookie",
+    "cap-flagpro",
+    "cap-waterbear"
+  ],
+  "description": "[BlackTech](https://attack.mitre.org/groups/G0098) is a suspected Chinese cyber espionage group that has primarily targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and the US since at least 2013. [BlackTech](https://attack.mitre.org/groups/G0098) has used a combination",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0098"
+  ]
+}

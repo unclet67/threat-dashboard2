@@ -1,0 +1,38 @@
+{
+  "id": "apt32",
+  "name": "APT32",
+  "aliases": [
+    "APT32",
+    "SeaLotus",
+    "OceanLotus",
+    "APT-C-00",
+    "Canvas Cyclone",
+    "BISMUTH"
+  ],
+  "countryId": "vietnam",
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-mimikatz",
+    "cap-ipconfig",
+    "cap-kerrdown",
+    "cap-cobalt-strike",
+    "cap-soundbite",
+    "cap-osx-oceanlotus-d",
+    "cap-komprogo",
+    "cap-netsh",
+    "cap-rotajakiro",
+    "cap-phoreal",
+    "cap-arp",
+    "cap-windshield",
+    "cap-denis",
+    "cap-net",
+    "cap-goopy"
+  ],
+  "description": "[APT32](https://attack.mitre.org/groups/G0050) is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries li",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0050"
+  ]
+}

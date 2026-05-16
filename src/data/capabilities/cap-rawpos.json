@@ -1,0 +1,16 @@
+{
+  "id": "cap-rawpos",
+  "name": "RawPOS",
+  "type": "implant",
+  "description": "[RawPOS](https://attack.mitre.org/software/S0169) is a point-of-sale (POS) malware family that searches for cardholder data on victims. It has been in use since at least 2008. (Citation: Kroll RawPOS Jan 2017) (Citation: TrendMicro RawPOS April 2015) (Citation: Visa RawPOS March 2015) FireEye divide",
+  "mitreAttackIds": [
+    "T1036.004",
+    "T1560.003",
+    "T1005",
+    "T1074.001",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "fin5"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "apt16",
+  "name": "APT16",
+  "aliases": [
+    "APT16"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-elmer"
+  ],
+  "description": "[APT16](https://attack.mitre.org/groups/G0023) is a China-based threat group that has launched spearphishing campaigns targeting Japanese and Taiwanese organizations. (Citation: FireEye EPS Awakens Part 2)",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0023"
+  ]
+}

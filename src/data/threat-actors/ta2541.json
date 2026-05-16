@@ -1,0 +1,27 @@
+{
+  "id": "ta2541",
+  "name": "TA2541",
+  "aliases": [
+    "TA2541"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-snip3",
+    "cap-revenge-rat",
+    "cap-jrat",
+    "cap-warzonerat",
+    "cap-imminent-monitor",
+    "cap-asyncrat",
+    "cap-netwire",
+    "cap-agent-tesla",
+    "cap-njrat"
+  ],
+  "description": "[TA2541](https://attack.mitre.org/groups/G1018) is a cybercriminal group that has been targeting the aviation, aerospace, transportation, manufacturing, and defense industries since at least 2017. [TA2541](https://attack.mitre.org/groups/G1018) campaigns are typically high volume and involve the use",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1018"
+  ]
+}

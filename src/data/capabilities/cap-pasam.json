@@ -1,0 +1,19 @@
+{
+  "id": "cap-pasam",
+  "name": "Pasam",
+  "type": "implant",
+  "description": "[Pasam](https://attack.mitre.org/software/S0208) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Pasam May 2012)",
+  "mitreAttackIds": [
+    "T1057",
+    "T1680",
+    "T1105",
+    "T1083",
+    "T1547.008",
+    "T1082",
+    "T1070.004",
+    "T1005"
+  ],
+  "actorIds": [
+    "elderwood"
+  ]
+}

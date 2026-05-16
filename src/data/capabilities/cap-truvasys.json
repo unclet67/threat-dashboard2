@@ -1,0 +1,13 @@
+{
+  "id": "cap-truvasys",
+  "name": "Truvasys",
+  "type": "implant",
+  "description": "[Truvasys](https://attack.mitre.org/software/S0178) is first-stage malware that has been used by [PROMETHIUM](https://attack.mitre.org/groups/G0056). It is a collection of modules written in the Delphi programming language. (Citation: Microsoft Win Defender Truvasys Sep 2017) (Citation: Microsoft NE",
+  "mitreAttackIds": [
+    "T1547.001",
+    "T1036.004"
+  ],
+  "actorIds": [
+    "promethium"
+  ]
+}

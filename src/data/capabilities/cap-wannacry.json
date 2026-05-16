@@ -1,0 +1,27 @@
+{
+  "id": "cap-wannacry",
+  "name": "WannaCry",
+  "type": "implant",
+  "description": "[WannaCry](https://attack.mitre.org/software/S0366) is ransomware that was first seen in a global attack during May 2017, which affected more than 150 countries. It contains worm-like features to spread itself across a computer network using the SMBv1 exploit EternalBlue.(Citation: LogRhythm WannaCr",
+  "mitreAttackIds": [
+    "T1210",
+    "T1489",
+    "T1083",
+    "T1120",
+    "T1486",
+    "T1047",
+    "T1563.002",
+    "T1490",
+    "T1018",
+    "T1564.001",
+    "T1016",
+    "T1222.001",
+    "T1090.003",
+    "T1573.002",
+    "T1543.003",
+    "T1570"
+  ],
+  "actorIds": [
+    "lazarus-group"
+  ]
+}

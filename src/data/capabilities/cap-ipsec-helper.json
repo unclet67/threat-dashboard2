@@ -1,0 +1,26 @@
+{
+  "id": "cap-ipsec-helper",
+  "name": "IPsec Helper",
+  "type": "implant",
+  "description": "[IPsec Helper](https://attack.mitre.org/software/S1132) is a post-exploitation remote access tool linked to [Agrius](https://attack.mitre.org/groups/G1030) operations. This malware shares significant programming and functional overlaps with [Apostle](https://attack.mitre.org/software/S1133) ransomwa",
+  "mitreAttackIds": [
+    "T1070",
+    "T1570",
+    "T1057",
+    "T1070.009",
+    "T1112",
+    "T1027.013",
+    "T1059.001",
+    "T1059.005",
+    "T1005",
+    "T1059.003",
+    "T1497.003",
+    "T1071.001",
+    "T1041",
+    "T1569.002",
+    "T1070.004"
+  ],
+  "actorIds": [
+    "agrius"
+  ]
+}

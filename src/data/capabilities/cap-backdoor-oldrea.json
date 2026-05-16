@@ -1,0 +1,27 @@
+{
+  "id": "cap-backdoor-oldrea",
+  "name": "Backdoor.Oldrea",
+  "type": "implant",
+  "description": "[Backdoor.Oldrea](https://attack.mitre.org/software/S0093) is a modular backdoor that used by [Dragonfly](https://attack.mitre.org/groups/G0035) against energy companies since at least 2013. [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) was distributed via supply chain compromise, and i",
+  "mitreAttackIds": [
+    "T1547.001",
+    "T1046",
+    "T1070.004",
+    "T1016",
+    "T1218.011",
+    "T1055",
+    "T1132.001",
+    "T1105",
+    "T1087.003",
+    "T1560",
+    "T1555.003",
+    "T1057",
+    "T1083",
+    "T1033",
+    "T1018",
+    "T1082"
+  ],
+  "actorIds": [
+    "dragonfly"
+  ]
+}

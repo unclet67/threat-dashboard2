@@ -1,0 +1,26 @@
+{
+  "id": "cap-bad-rabbit",
+  "name": "Bad Rabbit",
+  "type": "implant",
+  "description": "[Bad Rabbit](https://attack.mitre.org/software/S0606) is a self-propagating ransomware that affected the Ukrainian transportation sector in 2017. [Bad Rabbit](https://attack.mitre.org/software/S0606) has also targeted organizations and consumers in Russia. (Citation: Secure List Bad Rabbit)(Citation",
+  "mitreAttackIds": [
+    "T1486",
+    "T1110.003",
+    "T1495",
+    "T1569.002",
+    "T1053.005",
+    "T1036.005",
+    "T1189",
+    "T1003.001",
+    "T1548.002",
+    "T1057",
+    "T1135",
+    "T1210",
+    "T1218.011",
+    "T1204.002",
+    "T1106"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

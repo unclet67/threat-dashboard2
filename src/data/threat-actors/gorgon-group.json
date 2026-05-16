@@ -1,0 +1,22 @@
+{
+  "id": "gorgon-group",
+  "name": "Gorgon Group",
+  "aliases": [
+    "Gorgon Group"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-nanocore",
+    "cap-quasarrat",
+    "cap-remcos",
+    "cap-njrat"
+  ],
+  "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the Unit",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G0078"
+  ]
+}

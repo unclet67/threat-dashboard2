@@ -1,0 +1,23 @@
+{
+  "id": "curium",
+  "name": "CURIUM",
+  "aliases": [
+    "CURIUM",
+    "Crimson Sandstorm",
+    "TA456",
+    "Tortoise Shell",
+    "Yellow Liderc"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-imaploader"
+  ],
+  "description": "[CURIUM](https://attack.mitre.org/groups/G1012) is an Iranian threat group, first reported in September 2019 and active since at least July 2018, targeting IT service providers in the Middle East.(Citation: Symantec Tortoiseshell 2019) [CURIUM](https://attack.mitre.org/groups/G1012) has since invest",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1012"
+  ]
+}

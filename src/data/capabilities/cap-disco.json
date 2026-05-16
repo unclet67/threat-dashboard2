@@ -1,0 +1,16 @@
+{
+  "id": "cap-disco",
+  "name": "Disco",
+  "type": "implant",
+  "description": "[Disco](https://attack.mitre.org/software/S1088) is a custom implant that has been used by [MoustachedBouncer](https://attack.mitre.org/groups/G1019) since at least 2020 including in campaigns using targeted malicious content injection for initial access and command and control.(Citation: Moustached",
+  "mitreAttackIds": [
+    "T1105",
+    "T1659",
+    "T1053.005",
+    "T1204.002",
+    "T1071.002"
+  ],
+  "actorIds": [
+    "moustachedbouncer"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cap-cosmicduke",
+  "name": "CosmicDuke",
+  "type": "implant",
+  "description": "[CosmicDuke](https://attack.mitre.org/software/S0050) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2010 to 2015. (Citation: F-Secure The Dukes)",
+  "mitreAttackIds": [
+    "T1543.003",
+    "T1003.004",
+    "T1048.003",
+    "T1039",
+    "T1555",
+    "T1083",
+    "T1555.003",
+    "T1068",
+    "T1115",
+    "T1056.001",
+    "T1113",
+    "T1071.001",
+    "T1114.001",
+    "T1003.002",
+    "T1020",
+    "T1005",
+    "T1053.005",
+    "T1573.001",
+    "T1025"
+  ],
+  "actorIds": [
+    "apt29"
+  ]
+}

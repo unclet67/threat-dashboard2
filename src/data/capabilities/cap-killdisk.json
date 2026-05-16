@@ -1,0 +1,27 @@
+{
+  "id": "cap-killdisk",
+  "name": "KillDisk",
+  "type": "implant",
+  "description": "[KillDisk](https://attack.mitre.org/software/S0607) is a disk-wiping tool designed to overwrite files with random data to render the OS unbootable. It was first observed as a component of [BlackEnergy](https://attack.mitre.org/software/S0089) malware during cyber attacks against Ukraine in 2015. [Ki",
+  "mitreAttackIds": [
+    "T1083",
+    "T1106",
+    "T1680",
+    "T1129",
+    "T1057",
+    "T1685.005",
+    "T1027",
+    "T1489",
+    "T1529",
+    "T1561.002",
+    "T1486",
+    "T1070.004",
+    "T1036.004",
+    "T1134",
+    "T1485"
+  ],
+  "actorIds": [
+    "sandworm-team",
+    "apt38"
+  ]
+}

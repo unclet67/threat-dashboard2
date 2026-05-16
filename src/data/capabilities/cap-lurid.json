@@ -1,0 +1,13 @@
+{
+  "id": "cap-lurid",
+  "name": "Lurid",
+  "type": "implant",
+  "description": "[Lurid](https://attack.mitre.org/software/S0010) is a malware family that has been used by several groups, including [PittyTiger](https://attack.mitre.org/groups/G0011), in targeted attacks as far back as 2006. (Citation: Villeneuve 2014) (Citation: Villeneuve 2011)",
+  "mitreAttackIds": [
+    "T1573.001",
+    "T1560"
+  ],
+  "actorIds": [
+    "pittytiger"
+  ]
+}

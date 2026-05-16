@@ -1,0 +1,15 @@
+{
+  "id": "cap-acidrain",
+  "name": "AcidRain",
+  "type": "implant",
+  "description": "[AcidRain](https://attack.mitre.org/software/S1125) is an ELF binary targeting modems and routers using MIPS architecture.(Citation: AcidRain JAGS 2022) [AcidRain](https://attack.mitre.org/software/S1125) is associated with the ViaSat KA-SAT communication outage that took place during the initial ph",
+  "mitreAttackIds": [
+    "T1529",
+    "T1485",
+    "T1561.001",
+    "T1083"
+  ],
+  "actorIds": [
+    "sandworm-team"
+  ]
+}

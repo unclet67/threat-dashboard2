@@ -1,0 +1,31 @@
+{
+  "id": "cap-wastedlocker",
+  "name": "WastedLocker",
+  "type": "implant",
+  "description": "[WastedLocker](https://attack.mitre.org/software/S0612) is a ransomware family attributed to [Indrik Spider](https://attack.mitre.org/groups/G0119) that has been used since at least May 2020. [WastedLocker](https://attack.mitre.org/software/S0612) has been used against a broad variety of sectors, in",
+  "mitreAttackIds": [
+    "T1543.003",
+    "T1564.001",
+    "T1490",
+    "T1112",
+    "T1497.001",
+    "T1486",
+    "T1059.003",
+    "T1548.002",
+    "T1012",
+    "T1027.016",
+    "T1120",
+    "T1106",
+    "T1574.001",
+    "T1083",
+    "T1564.004",
+    "T1135",
+    "T1140",
+    "T1569.002",
+    "T1027.013",
+    "T1222.001"
+  ],
+  "actorIds": [
+    "indrik-spider"
+  ]
+}

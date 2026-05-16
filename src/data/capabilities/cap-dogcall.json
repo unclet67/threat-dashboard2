@@ -1,0 +1,17 @@
+{
+  "id": "cap-dogcall",
+  "name": "DOGCALL",
+  "type": "implant",
+  "description": "[DOGCALL](https://attack.mitre.org/software/S0213) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067) that has been used to target South Korean government and military organizations in 2017. It is typically dropped using a Hangul Word Processor (HWP) exploit. (Citation: FireEye APT",
+  "mitreAttackIds": [
+    "T1056.001",
+    "T1113",
+    "T1105",
+    "T1027.013",
+    "T1102.002",
+    "T1123"
+  ],
+  "actorIds": [
+    "apt37"
+  ]
+}

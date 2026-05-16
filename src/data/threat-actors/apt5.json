@@ -1,0 +1,36 @@
+{
+  "id": "apt5",
+  "name": "APT5",
+  "aliases": [
+    "APT5",
+    "Mulberry Typhoon",
+    "MANGANESE",
+    "BRONZE FLEETWOOD",
+    "Keyhole Panda",
+    "UNC2630"
+  ],
+  "countryId": null,
+  "orgId": null,
+  "opTypes": [],
+  "operationIds": [],
+  "capabilityIds": [
+    "cap-tasklist",
+    "cap-poisonivy",
+    "cap-rapidpulse",
+    "cap-pcshare",
+    "cap-mimikatz",
+    "cap-slowpulse",
+    "cap-slightpulse",
+    "cap-skeleton-key",
+    "cap-net",
+    "cap-pacemaker",
+    "cap-gh0st-rat",
+    "cap-pulsecheck",
+    "cap-netstat"
+  ],
+  "description": "[APT5](https://attack.mitre.org/groups/G1023) is a China-based espionage actor that has been active since at least 2007 primarily targeting the telecommunications, aerospace, and defense industries throughout the U.S., Europe, and Asia. [APT5](https://attack.mitre.org/groups/G1023) has displayed adv",
+  "confidence": "medium",
+  "sources": [
+    "https://attack.mitre.org/groups/G1023"
+  ]
+}

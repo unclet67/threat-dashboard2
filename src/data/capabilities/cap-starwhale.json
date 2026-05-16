@@ -1,0 +1,25 @@
+{
+  "id": "cap-starwhale",
+  "name": "STARWHALE",
+  "type": "implant",
+  "description": "[STARWHALE](https://attack.mitre.org/software/S1037) is Windows Script File (WSF) backdoor that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069), possibly since at least November 2021; there is also a [STARWHALE](https://attack.mitre.org/software/S1037) variant written in Golang ",
+  "mitreAttackIds": [
+    "T1082",
+    "T1543.003",
+    "T1041",
+    "T1547.001",
+    "T1071.001",
+    "T1033",
+    "T1204.002",
+    "T1059.005",
+    "T1016",
+    "T1027.013",
+    "T1059.003",
+    "T1132.001",
+    "T1005",
+    "T1074.001"
+  ],
+  "actorIds": [
+    "muddywater"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cap-vbshower",
+  "name": "VBShower",
+  "type": "implant",
+  "description": "[VBShower](https://attack.mitre.org/software/S0442) is a backdoor that has been used by [Inception](https://attack.mitre.org/groups/G0100) since at least 2019. [VBShower](https://attack.mitre.org/software/S0442) has been used as a downloader for second stage payloads, including [PowerShower](https:/",
+  "mitreAttackIds": [
+    "T1059.005",
+    "T1070.004",
+    "T1547.001",
+    "T1071.001",
+    "T1105"
+  ],
+  "actorIds": [
+    "inception"
+  ]
+}

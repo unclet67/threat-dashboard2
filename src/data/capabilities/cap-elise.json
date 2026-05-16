@@ -1,0 +1,30 @@
+{
+  "id": "cap-elise",
+  "name": "Elise",
+  "type": "implant",
+  "description": "[Elise](https://attack.mitre.org/software/S0081) is a custom backdoor Trojan that appears to be used exclusively by [Lotus Blossom](https://attack.mitre.org/groups/G0030). It is part of a larger group of tools referred to as LStudio, ST Group, and APT0LSTU.(Citation: Lotus Blossom Jun 2015)(Citation",
+  "mitreAttackIds": [
+    "T1036.005",
+    "T1105",
+    "T1082",
+    "T1573.001",
+    "T1007",
+    "T1543.003",
+    "T1016",
+    "T1218.011",
+    "T1057",
+    "T1027.013",
+    "T1070.006",
+    "T1083",
+    "T1074.001",
+    "T1070.004",
+    "T1071.001",
+    "T1132.001",
+    "T1087.001",
+    "T1547.001",
+    "T1055.001"
+  ],
+  "actorIds": [
+    "lotus-blossom"
+  ]
+}

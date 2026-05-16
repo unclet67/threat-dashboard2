@@ -1,0 +1,19 @@
+{
+  "id": "cap-splatdropper",
+  "name": "SplatDropper",
+  "type": "implant",
+  "description": "[SplatDropper](https://attack.mitre.org/software/S1232) is a loader that utilizes native windows API to deliver its payload to the victim environment.  [SplatDropper](https://attack.mitre.org/software/S1232) has been delivered through RAR archives and used legitimate executable for DLL side-loading.",
+  "mitreAttackIds": [
+    "T1106",
+    "T1574.001",
+    "T1027.007",
+    "T1027.013",
+    "T1553.002",
+    "T1140",
+    "T1070.009",
+    "T1543.003"
+  ],
+  "actorIds": [
+    "mustang-panda"
+  ]
+}

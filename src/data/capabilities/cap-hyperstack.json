@@ -1,0 +1,17 @@
+{
+  "id": "cap-hyperstack",
+  "name": "HyperStack",
+  "type": "implant",
+  "description": "[HyperStack](https://attack.mitre.org/software/S0537) is a RPC-based backdoor used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2018. [HyperStack](https://attack.mitre.org/software/S0537) has similarities to other backdoors used by [Turla](https://attack.mitre.org/groups/G0010) i",
+  "mitreAttackIds": [
+    "T1078.001",
+    "T1106",
+    "T1559",
+    "T1112",
+    "T1573.001",
+    "T1087.001"
+  ],
+  "actorIds": [
+    "turla"
+  ]
+}
