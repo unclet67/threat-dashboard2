@@ -20,7 +20,9 @@ jobs:
           node-version: '20'
 
       - name: Run sync script
-        run: node scripts/sync-mitre.js | tee /tmp/sync-output.txt
+        run: |
+          set -o pipefail
+          node scripts/sync-mitre.js | tee /tmp/sync-output.txt
 
       - name: Read sync output
         id: sync_out
