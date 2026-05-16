@@ -73,6 +73,7 @@ export function mapSoftware(mitreSoftware, softwareToTechniques, groupsUsing) {
 export function mergeActor(existing, incoming) {
   return {
     ...incoming,
+    id: existing.id,
     orgId: existing.orgId ?? incoming.orgId,
     opTypes: existing.opTypes?.length ? existing.opTypes : incoming.opTypes,
     operationIds: existing.operationIds ?? incoming.operationIds,

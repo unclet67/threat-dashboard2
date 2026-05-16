@@ -244,6 +244,11 @@ describe('mergeActor', () => {
     expect(merged.sources).toContain('https://attack.mitre.org/groups/G0007/')
   })
 
+  it('preserves existing id even when incoming has a different slug', () => {
+    const merged = mergeActor(existing, { ...incoming, id: 'apt28-different-slug' })
+    expect(merged.id).toBe('apt28')
+  })
+
   it('preserves orgId from existing', () => {
     const merged = mergeActor(existing, incoming)
     expect(merged.orgId).toBe('gru')
