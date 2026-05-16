@@ -41,3 +41,31 @@ export function extractRelationships(objects) {
 
   return { groupToSoftware, softwareToTechniques }
 }
+
+export function mapGroup(mitreGroup, countryMap, capabilityIds) {
+  const ref = mitreGroup.external_references?.find(r => r.source_name === 'mitre-attack')
+  return {
+    id: slugify(mitreGroup.name),
+    name: mitreGroup.name,
+    aliases: mitreGroup.aliases || [],
+    countryId: ref ? (countryMap[ref.external_id] ?? null) : null,
+    orgId: null,
+    opTypes: [],
+    operationIds: [],
+    capabilityIds,
+    description: (mitreGroup.description || '').slice(0, 300),
+    confidence: 'medium',
+    sources: ref?.url ? [ref.url] : [],
+  }
+}
+
+export function mapSoftware(mitreSoftware, softwareToTechniques, groupsUsing) {
+  return {
+    id: 'cap-' + slugify(mitreSoftware.name),
+    name: mitreSoftware.name,
+    type: mitreSoftware.type === 'malware' ? 'implant' : 'tool',
+    description: (mitreSoftware.description || '').slice(0, 300),
+    mitreAttackIds: [...new Set(softwareToTechniques[mitreSoftware.id] || [])],
+    actorIds: [...new Set(groupsUsing.map(g => slugify(g.name)))],
+  }
+}

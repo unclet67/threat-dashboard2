@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, it, expect } from 'vitest'
-import { slugify, extractRelationships } from './sync-mitre.js'
+import { slugify, extractRelationships, mapGroup, mapSoftware } from './sync-mitre.js'
 
 describe('slugify', () => {
   it('lowercases and replaces non-alphanumeric with hyphens', () => {
@@ -77,5 +77,113 @@ describe('extractRelationships', () => {
     const { groupToSoftware, softwareToTechniques } = extractRelationships([])
     expect(groupToSoftware).toEqual({})
     expect(softwareToTechniques).toEqual({})
+  })
+})
+
+describe('mapGroup', () => {
+  const countryMap = { 'G0007': 'russia' }
+  const group = {
+    id: 'intrusion-set--abc',
+    type: 'intrusion-set',
+    name: 'APT28',
+    aliases: ['Fancy Bear', 'STRONTIUM'],
+    description: 'GRU-linked actor.',
+    external_references: [
+      {
+        source_name: 'mitre-attack',
+        external_id: 'G0007',
+        url: 'https://attack.mitre.org/groups/G0007/',
+      },
+    ],
+  }
+
+  it('slugifies name to id', () => {
+    const actor = mapGroup(group, countryMap, [])
+    expect(actor.id).toBe('apt28')
+  })
+
+  it('maps name, aliases, and sources', () => {
+    const actor = mapGroup(group, countryMap, [])
+    expect(actor.name).toBe('APT28')
+    expect(actor.aliases).toEqual(['Fancy Bear', 'STRONTIUM'])
+    expect(actor.sources).toEqual(['https://attack.mitre.org/groups/G0007/'])
+  })
+
+  it('resolves countryId from map using external_id', () => {
+    const actor = mapGroup(group, countryMap, [])
+    expect(actor.countryId).toBe('russia')
+  })
+
+  it('sets countryId to null when group not in map', () => {
+    const actor = mapGroup({ ...group, external_references: [] }, countryMap, [])
+    expect(actor.countryId).toBeNull()
+  })
+
+  it('passes through provided capabilityIds', () => {
+    const actor = mapGroup(group, countryMap, ['cap-xagent', 'cap-sofacy'])
+    expect(actor.capabilityIds).toEqual(['cap-xagent', 'cap-sofacy'])
+  })
+
+  it('truncates description to 300 chars', () => {
+    const actor = mapGroup({ ...group, description: 'x'.repeat(400) }, countryMap, [])
+    expect(actor.description.length).toBe(300)
+  })
+
+  it('sets default scaffold fields', () => {
+    const actor = mapGroup(group, countryMap, [])
+    expect(actor.orgId).toBeNull()
+    expect(actor.opTypes).toEqual([])
+    expect(actor.operationIds).toEqual([])
+    expect(actor.confidence).toBe('medium')
+  })
+})
+
+describe('mapSoftware', () => {
+  const malware = {
+    id: 'malware--xyz',
+    type: 'malware',
+    name: 'RATANKBA',
+    description: 'A remote access tool used by Lazarus.',
+  }
+  const tool = { ...malware, id: 'tool--xyz', type: 'tool', name: 'Mimikatz' }
+  const softwareToTechniques = { 'malware--xyz': ['T1055', 'T1059'] }
+  const groupsUsing = [{ name: 'Lazarus Group' }, { name: 'APT38' }]
+
+  it('prefixes id with cap- and slugifies name', () => {
+    const cap = mapSoftware(malware, softwareToTechniques, groupsUsing)
+    expect(cap.id).toBe('cap-ratankba')
+  })
+
+  it('maps malware type to implant', () => {
+    const cap = mapSoftware(malware, softwareToTechniques, groupsUsing)
+    expect(cap.type).toBe('implant')
+  })
+
+  it('maps tool type to tool', () => {
+    const cap = mapSoftware(tool, {}, groupsUsing)
+    expect(cap.type).toBe('tool')
+  })
+
+  it('populates mitreAttackIds from softwareToTechniques', () => {
+    const cap = mapSoftware(malware, softwareToTechniques, groupsUsing)
+    expect(cap.mitreAttackIds).toEqual(['T1055', 'T1059'])
+  })
+
+  it('populates actorIds from groups using the software', () => {
+    const cap = mapSoftware(malware, softwareToTechniques, groupsUsing)
+    expect(cap.actorIds).toEqual(['lazarus-group', 'apt38'])
+  })
+
+  it('deduplicates actorIds', () => {
+    const cap = mapSoftware(malware, softwareToTechniques, [
+      { name: 'Lazarus Group' },
+      { name: 'Lazarus Group' },
+    ])
+    expect(cap.actorIds).toEqual(['lazarus-group'])
+  })
+
+  it('truncates description to 300 chars', () => {
+    const cap = mapSoftware({ ...malware, description: 'x'.repeat(400) }, {}, groupsUsing)
+    expect(cap.description.length).toBe(300)
   })
 })
