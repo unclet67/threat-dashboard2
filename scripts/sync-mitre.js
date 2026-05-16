@@ -129,8 +129,13 @@ function readKb() {
         .filter(f => f.endsWith('.json'))
         .map(f => {
           const obj = JSON.parse(readFileSync(join(dir, f), 'utf8'))
+          if (!obj.id || typeof obj.id !== 'string') {
+            console.warn(`Skipping ${f}: missing or non-string id`)
+            return null
+          }
           return [obj.id, obj]
         })
+        .filter(Boolean)
     )
   }
   return {
@@ -213,6 +218,7 @@ async function main() {
 
   // --- Process software ---
   const newCapabilities = []
+  const enrichedCapabilities = []
   const capabilityWrites = {}
 
   for (const swId of relevantSoftwareIds) {
@@ -232,7 +238,10 @@ async function main() {
       const wasEnriched =
         merged.mitreAttackIds.length > (existing.mitreAttackIds?.length ?? 0) ||
         merged.actorIds.length > (existing.actorIds?.length ?? 0)
-      if (wasEnriched) capabilityWrites[existing.id] = merged
+      if (wasEnriched) {
+        enrichedCapabilities.push(existing.id)
+        capabilityWrites[existing.id] = merged
+      }
     } else {
       newCapabilities.push(incoming.id)
       capabilityWrites[incoming.id] = incoming
@@ -258,11 +267,13 @@ async function main() {
     console.log(`NEW actors       (${newActors.length}): ${newActors.join(', ')}`)
   if (enrichedActors.length)
     console.log(`ENRICHED actors  (${enrichedActors.length}): ${enrichedActors.join(', ')}`)
+  if (enrichedCapabilities.length)
+    console.log(`ENRICHED caps    (${enrichedCapabilities.length}): ${enrichedCapabilities.join(', ')}`)
   if (newCapabilities.length)
     console.log(`NEW capabilities (${newCapabilities.length}): ${newCapabilities.join(', ')}`)
   if (newCountries.length)
     console.log(`NEW countries    (${newCountries.length}): ${newCountries.join(', ')}`)
-  if (!newActors.length && !enrichedActors.length && !newCapabilities.length && !newCountries.length)
+  if (!newActors.length && !enrichedActors.length && !enrichedCapabilities.length && !newCapabilities.length && !newCountries.length)
     console.log('No changes detected.')
 
   if (dryRun) {
@@ -304,7 +315,7 @@ async function main() {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main().catch(err => {
-    console.error(err.message)
+    console.error(err?.message ?? err)
     process.exit(1)
   })
 }
