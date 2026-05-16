@@ -1,1 +1,9 @@
-{ "id": "fsb", "name": "FSB (Federal Security Service)", "countryId": "russia", "parentOrgId": null, "childOrgIds": [], "actorIds": [], "description": "Russia's domestic security and counterintelligence agency." }
+{
+  "id": "fsb",
+  "name": "FSB (Federal Security Service)",
+  "countryId": "russia",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["turla"],
+  "description": "Russia's domestic security and counterintelligence agency, also conducting offensive cyber operations through units like Center 16."
+}

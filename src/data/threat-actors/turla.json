@@ -1,0 +1,13 @@
+{
+  "id": "turla",
+  "name": "Turla",
+  "aliases": ["Venomous Bear", "WATERBUG", "Snake", "Uroburos", "FSB Center 16"],
+  "countryId": "russia",
+  "orgId": "fsb",
+  "opTypes": ["Cyber"],
+  "operationIds": [],
+  "capabilityIds": ["cap-carbon"],
+  "description": "Long-running FSB-linked espionage actor dating to at least 2004. Uses sophisticated implants routed through compromised satellite links and hijacked infrastructure. Targets governments, embassies, and defense contractors across Europe, Middle East, and Central Asia.",
+  "confidence": "high",
+  "sources": ["https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims"]
+}

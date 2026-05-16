@@ -1,0 +1,13 @@
+{
+  "id": "kimsuky",
+  "name": "Kimsuky",
+  "aliases": ["Velvet Chollima", "TA406", "Black Banshee", "Thallium"],
+  "countryId": "north-korea",
+  "orgId": "rgb",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": ["op-nk-002"],
+  "capabilityIds": [],
+  "description": "RGB-linked actor focused on intelligence collection against Korean peninsula policy, sanctions policy, and nuclear issues. Targets government officials, think tanks, academics, and media using spearphishing and credential harvesting. Conducts influence operations alongside espionage.",
+  "confidence": "high",
+  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a"]
+}

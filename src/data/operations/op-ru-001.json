@@ -1,0 +1,24 @@
+{
+  "id": "op-ru-001",
+  "name": "2016 US Election Interference / DNC Hack",
+  "adversaryId": "apt28",
+  "capabilityId": "cap-xagent",
+  "opType": "IO",
+  "killChainPhase": "Exfiltration / Effects",
+  "timeframe": "2016",
+  "confidence": "high",
+  "victim": {
+    "sector": "Government / Political",
+    "region": "United States",
+    "description": "Democratic National Committee, DCCC, and Clinton campaign chairman John Podesta"
+  },
+  "infrastructure": {
+    "description": "Spearphishing via bit.ly links, X-Agent implants on DNC servers, DCLeaks and WikiLeaks for document release",
+    "indicators": ["dcleaks.com", "apt28-spearphish-domains"]
+  },
+  "description": "GRU Unit 26165 breached DNC and DCCC networks using spearphishing, deployed X-Agent for exfiltration, then released documents via DCLeaks and WikiLeaks to influence the 2016 presidential election.",
+  "sources": [
+    "https://www.justice.gov/file/1080281/download",
+    "https://www.dni.gov/files/documents/ICA_2017_01.pdf"
+  ]
+}

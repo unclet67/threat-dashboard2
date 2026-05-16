@@ -1,0 +1,8 @@
+{
+  "id": "cap-ratankba",
+  "name": "RATANKBA",
+  "type": "rat",
+  "description": "Remote access trojan used by Lazarus Group in watering hole and spearphishing campaigns. Provides full remote control, keylogging, screen capture, and file operations. Used as initial access tool preceding BANKSHOT deployment.",
+  "mitreAttackIds": ["T1566.001", "T1204.002", "T1056.001", "T1113"],
+  "actorIds": ["lazarus"]
+}

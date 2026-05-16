@@ -1,0 +1,24 @@
+{
+  "id": "op-nk-002",
+  "name": "Kimsuky Think-Tank and Policy Targeting",
+  "adversaryId": "kimsuky",
+  "capabilityId": null,
+  "opType": "IO",
+  "killChainPhase": "Reconnaissance / Collection",
+  "timeframe": "2023-2024",
+  "confidence": "medium",
+  "victim": {
+    "sector": "Government / Think Tanks / Media",
+    "region": "South Korea / United States / Europe",
+    "description": "Korea policy experts, UN Security Council members, journalists covering North Korea, and US-ROK alliance officials"
+  },
+  "infrastructure": {
+    "description": "Fake personas on LinkedIn and Twitter; lookalike domains impersonating US think tanks; spearphishing via fake research collaboration invites",
+    "indicators": ["lookalike-think-tank-domains", "fake-academic-personas"]
+  },
+  "description": "Kimsuky conducted sustained spearphishing and social engineering against Korea policy community using elaborate fake personas posing as academics and journalists. Goal: steal policy documents, map US-ROK policy positions, and identify potential intelligence sources.",
+  "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a",
+    "https://www.state.gov/north-korea-malicious-cyber-activity/"
+  ]
+}

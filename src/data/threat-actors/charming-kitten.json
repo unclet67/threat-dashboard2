@@ -1,0 +1,13 @@
+{
+  "id": "charming-kitten",
+  "name": "Charming Kitten",
+  "aliases": ["APT35", "PHOSPHORUS", "Mint Sandstorm", "TA453", "Ajax Security Team"],
+  "countryId": "iran",
+  "orgId": "irgc",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": [],
+  "capabilityIds": [],
+  "description": "IRGC-linked actor conducting phishing, influence operations, and targeted surveillance against journalists, academics, human rights activists, and dissidents globally. Known for elaborate social engineering using fake personas and password-spraying against Microsoft and Google accounts.",
+  "confidence": "high",
+  "sources": ["https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lazarus",
+  "name": "Lazarus Group",
+  "aliases": ["HIDDEN COBRA", "Guardians of Peace", "ZINC", "Diamond Sleet"],
+  "countryId": "north-korea",
+  "orgId": "rgb",
+  "opTypes": ["Cyber"],
+  "operationIds": ["op-nk-001"],
+  "capabilityIds": ["cap-ratankba"],
+  "description": "RGB-linked actor conducting financially motivated cybercrime, espionage, and destructive attacks since at least 2009. Responsible for Sony Pictures hack (2014), WannaCry (2017), and billions in cryptocurrency theft. Generates hard currency for the DPRK regime.",
+  "confidence": "high",
+  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a"]
+}

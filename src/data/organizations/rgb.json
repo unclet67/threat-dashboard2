@@ -1,1 +1,9 @@
-{ "id": "rgb", "name": "RGB (Reconnaissance General Bureau)", "countryId": "north-korea", "parentOrgId": null, "childOrgIds": [], "actorIds": [], "description": "North Korea's primary intelligence organ for external cyber and espionage operations." }
+{
+  "id": "rgb",
+  "name": "RGB (Reconnaissance General Bureau)",
+  "countryId": "north-korea",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["lazarus", "kimsuky", "apt38"],
+  "description": "North Korea's primary intelligence organ for external cyber and espionage operations. Sub-units conduct financially motivated attacks, espionage, and influence operations."
+}

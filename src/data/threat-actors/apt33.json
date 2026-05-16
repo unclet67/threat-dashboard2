@@ -1,0 +1,13 @@
+{
+  "id": "apt33",
+  "name": "APT33",
+  "aliases": ["Elfin", "Refined Kitten", "HOLMIUM", "Magnallium"],
+  "countryId": "iran",
+  "orgId": "irgc",
+  "opTypes": ["Cyber"],
+  "operationIds": ["op-ir-001"],
+  "capabilityIds": ["cap-shamoon"],
+  "description": "IRGC-linked actor targeting aviation, energy, and petrochemical sectors primarily in Saudi Arabia, South Korea, and the US since at least 2013. Known for destructive Shamoon wiper attacks and spearphishing via fake job postings.",
+  "confidence": "high",
+  "sources": ["https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html"]
+}

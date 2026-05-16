@@ -1,0 +1,13 @@
+{
+  "id": "apt29",
+  "name": "APT29",
+  "aliases": ["Cozy Bear", "NOBELIUM", "Midnight Blizzard", "The Dukes"],
+  "countryId": "russia",
+  "orgId": "svr",
+  "opTypes": ["Cyber"],
+  "operationIds": ["op-ru-003"],
+  "capabilityIds": ["cap-sunburst"],
+  "description": "SVR-linked cyber espionage actor targeting government, diplomatic, think tank, healthcare, and technology organizations. Known for operational security and long-dwell-time intrusions. Responsible for the 2020 SolarWinds supply chain compromise.",
+  "confidence": "high",
+  "sources": ["https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-008a"]
+}

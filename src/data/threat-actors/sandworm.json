@@ -1,0 +1,13 @@
+{
+  "id": "sandworm",
+  "name": "Sandworm Team",
+  "aliases": ["VOODOO BEAR", "Telebots", "GRU Unit 74455", "BlackEnergy"],
+  "countryId": "russia",
+  "orgId": "gru",
+  "opTypes": ["Cyber"],
+  "operationIds": ["op-ru-002"],
+  "capabilityIds": ["cap-industroyer"],
+  "description": "GRU Unit 74455 conducting destructive cyberattacks against critical infrastructure. Responsible for the 2015–2016 Ukraine power grid attacks, NotPetya (2017), and Olympic Destroyer (2018). Most destructive cyber actor on record.",
+  "confidence": "high",
+  "sources": ["https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and"]
+}

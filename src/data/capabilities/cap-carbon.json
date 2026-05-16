@@ -1,0 +1,8 @@
+{
+  "id": "cap-carbon",
+  "name": "Carbon Framework",
+  "type": "backdoor",
+  "description": "Sophisticated second-stage backdoor framework used by Turla. Peer-to-peer C2 over compromised routers; modular plugin architecture for tasking, exfiltration, and lateral movement.",
+  "mitreAttackIds": ["T1090", "T1071.001", "T1560.001", "T1105"],
+  "actorIds": ["turla"]
+}

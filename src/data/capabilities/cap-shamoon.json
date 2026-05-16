@@ -1,0 +1,8 @@
+{
+  "id": "cap-shamoon",
+  "name": "Shamoon/DistTrack",
+  "type": "wiper",
+  "description": "Destructive disk-wiping malware used against Gulf energy sector targets. Overwrites MBR and files, renders systems unbootable. Later variants (Shamoon 2, 3) added modular components and credential theft.",
+  "mitreAttackIds": ["T1485", "T1561.002", "T1078", "T1021.002"],
+  "actorIds": ["apt33"]
+}

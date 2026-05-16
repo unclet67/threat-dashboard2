@@ -1,0 +1,24 @@
+{
+  "id": "op-ir-002",
+  "name": "DNSpionage / OilRig Telecom Espionage",
+  "adversaryId": "apt34",
+  "capabilityId": "cap-powerstats",
+  "opType": "Cyber",
+  "killChainPhase": "Collection / Exfiltration",
+  "timeframe": "2018-2020",
+  "confidence": "high",
+  "victim": {
+    "sector": "Telecommunications / Government",
+    "region": "Middle East (Lebanon, UAE)",
+    "description": "Lebanese government and telecom providers; UAE public sector organizations targeted for credential harvesting and DNS record manipulation"
+  },
+  "infrastructure": {
+    "description": "DNS hijacking of legitimate domains; POWERSTATS C2 via DNS TXT records; malicious job posting lure documents",
+    "indicators": ["dns-hijack-infra", "powerstats-c2-dns"]
+  },
+  "description": "APT34 manipulated DNS records of Lebanese government and telecom targets to intercept credentials and email. Used POWERSTATS backdoor communicating via DNS tunneling, achieving persistent access in regional telecom and government networks.",
+  "sources": [
+    "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/",
+    "https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html"
+  ]
+}

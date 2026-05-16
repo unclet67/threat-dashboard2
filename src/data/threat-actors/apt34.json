@@ -1,0 +1,13 @@
+{
+  "id": "apt34",
+  "name": "APT34",
+  "aliases": ["OilRig", "HELIX KITTEN", "IRN2", "Crambus"],
+  "countryId": "iran",
+  "orgId": "irgc",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": ["op-ir-002"],
+  "capabilityIds": ["cap-powerstats"],
+  "description": "IRGC-linked actor conducting cyber espionage targeting financial, government, energy, chemical, and telecom sectors in the Middle East since at least 2014. Uses DNS tunneling extensively and maintains long-term persistent access in victim networks.",
+  "confidence": "high",
+  "sources": ["https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/"]
+}

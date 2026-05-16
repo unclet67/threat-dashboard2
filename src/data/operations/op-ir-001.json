@@ -1,0 +1,24 @@
+{
+  "id": "op-ir-001",
+  "name": "Shamoon Attacks on Saudi Energy Sector",
+  "adversaryId": "apt33",
+  "capabilityId": "cap-shamoon",
+  "opType": "Cyber",
+  "killChainPhase": "Effects / Destruction",
+  "timeframe": "2012-2017",
+  "confidence": "high",
+  "victim": {
+    "sector": "Energy",
+    "region": "Saudi Arabia / Gulf States",
+    "description": "Saudi Aramco (35,000 workstations destroyed in 2012), RasGas Qatar, and other Gulf energy companies in 2016-2017 wave"
+  },
+  "infrastructure": {
+    "description": "Compromised contractor credentials for initial access; internal spreader module; wiper triggered by scheduled task",
+    "indicators": ["shamoon-dropper", "disttrack-wiper"]
+  },
+  "description": "APT33 conducted destructive Shamoon wiper attacks against Gulf energy sector. The 2012 Saudi Aramco attack destroyed 35,000 workstations in hours. Later waves in 2016–2017 used updated Shamoon 2/3 variants with credential-harvesting modules.",
+  "sources": [
+    "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+    "https://unit42.paloaltonetworks.com/shamoon-3-targets-oil-gas-organization/"
+  ]
+}

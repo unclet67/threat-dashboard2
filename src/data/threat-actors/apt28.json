@@ -1,0 +1,13 @@
+{
+  "id": "apt28",
+  "name": "APT28",
+  "aliases": ["Fancy Bear", "STRONTIUM", "Sofacy", "Sednit", "GRU Unit 26165"],
+  "countryId": "russia",
+  "orgId": "gru",
+  "opTypes": ["Cyber", "IO"],
+  "operationIds": ["op-ru-001"],
+  "capabilityIds": ["cap-xagent"],
+  "description": "GRU-linked actor conducting cyber espionage and influence operations since at least 2007. Targets government, military, defense, and political organizations worldwide. Known for 2016 US election interference and DNC hack.",
+  "confidence": "high",
+  "sources": ["https://www.justice.gov/opa/pr/grand-jury-indicts-twelve-russian-intelligence-officers-hacking-offenses-related-2016-election"]
+}

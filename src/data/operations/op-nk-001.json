@@ -1,0 +1,24 @@
+{
+  "id": "op-nk-001",
+  "name": "WannaCry Global Ransomware Campaign",
+  "adversaryId": "lazarus",
+  "capabilityId": "cap-ratankba",
+  "opType": "Cyber",
+  "killChainPhase": "Effects / Extortion",
+  "timeframe": "2017",
+  "confidence": "high",
+  "victim": {
+    "sector": "Healthcare / Government / Commercial",
+    "region": "Global",
+    "description": "200,000+ victims in 150 countries; NHS UK hospitals most impacted; FedEx, Telefónica, Deutsche Bahn, and others"
+  },
+  "infrastructure": {
+    "description": "EternalBlue SMB exploit for propagation; DOUBLEPULSAR backdoor; hardcoded kill-switch domain (sinkholed by researcher)",
+    "indicators": ["eternalblue-smb-445", "wannacry-killswitch-domain"]
+  },
+  "description": "Lazarus Group deployed WannaCry worm-ransomware using stolen NSA EternalBlue exploit. Spread autonomously across unpatched Windows systems. Caused $4–8B in damages globally; UK NHS cancelled ~19,000 appointments.",
+  "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-108a",
+    "https://www.justice.gov/opa/pr/north-korean-regime-backed-programmer-charged-conspiracy-conduct-multiple-cyber-attacks-and"
+  ]
+}

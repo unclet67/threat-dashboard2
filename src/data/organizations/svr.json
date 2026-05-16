@@ -1,1 +1,9 @@
-{ "id": "svr", "name": "SVR (Foreign Intelligence)", "countryId": "russia", "parentOrgId": null, "childOrgIds": [], "actorIds": [], "description": "Russian foreign intelligence service, successor to KGB First Chief Directorate." }
+{
+  "id": "svr",
+  "name": "SVR (Foreign Intelligence)",
+  "countryId": "russia",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["apt29"],
+  "description": "Russian foreign intelligence service, successor to KGB First Chief Directorate. Conducts long-dwell espionage against government and technology targets."
+}

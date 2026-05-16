@@ -1,0 +1,24 @@
+{
+  "id": "op-ru-003",
+  "name": "SolarWinds Orion Supply Chain Compromise",
+  "adversaryId": "apt29",
+  "capabilityId": "cap-sunburst",
+  "opType": "Cyber",
+  "killChainPhase": "Initial Access / Collection",
+  "timeframe": "2019-2020",
+  "confidence": "high",
+  "victim": {
+    "sector": "Government / Technology",
+    "region": "United States / Global",
+    "description": "~18,000 organizations including US Treasury, DHS, State Department, FireEye, and Microsoft via trojanized SolarWinds Orion updates"
+  },
+  "infrastructure": {
+    "description": "Trojanized SolarWinds Orion DLL (SUNBURST); avsvmcloud.com C2 via DNS; TEARDROP and RAINDROP second-stage payloads",
+    "indicators": ["avsvmcloud.com", "sunburst-dll-hash"]
+  },
+  "description": "APT29 inserted SUNBURST backdoor into SolarWinds Orion software build pipeline, achieving access to ~18,000 customer networks. Selectively activated implants against high-value targets for espionage over ~9 months before discovery.",
+  "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-008a",
+    "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html"
+  ]
+}

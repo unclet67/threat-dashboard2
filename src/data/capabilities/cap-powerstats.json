@@ -1,0 +1,8 @@
+{
+  "id": "cap-powerstats",
+  "name": "POWERSTATS/POWRUNER",
+  "type": "backdoor",
+  "description": "PowerShell-based backdoor used by APT34. Communicates over DNS tunneling for C2. Supports credential harvesting, lateral movement, and persistent access through scheduled tasks.",
+  "mitreAttackIds": ["T1059.001", "T1071.004", "T1053.005", "T1003"],
+  "actorIds": ["apt34"]
+}

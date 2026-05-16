@@ -1,1 +1,9 @@
-{ "id": "irgc", "name": "IRGC (Islamic Revolutionary Guard Corps)", "countryId": "iran", "parentOrgId": null, "childOrgIds": [], "actorIds": [], "description": "Iranian military organization conducting cyber and information operations." }
+{
+  "id": "irgc",
+  "name": "IRGC (Islamic Revolutionary Guard Corps)",
+  "countryId": "iran",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["apt33", "apt34", "charming-kitten"],
+  "description": "Iranian military organization conducting cyber espionage, destructive attacks, and influence operations through affiliated contractors."
+}

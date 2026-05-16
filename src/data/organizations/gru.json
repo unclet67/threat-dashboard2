@@ -1,1 +1,9 @@
-{ "id": "gru", "name": "GRU (Military Intelligence)", "countryId": "russia", "parentOrgId": null, "childOrgIds": [], "actorIds": [], "description": "Russian military foreign intelligence service." }
+{
+  "id": "gru",
+  "name": "GRU (Military Intelligence)",
+  "countryId": "russia",
+  "parentOrgId": null,
+  "childOrgIds": [],
+  "actorIds": ["apt28", "sandworm"],
+  "description": "Russian military foreign intelligence service responsible for the most destructive cyberattacks on record."
+}

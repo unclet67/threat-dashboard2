@@ -1,0 +1,24 @@
+{
+  "id": "op-ru-002",
+  "name": "NotPetya Global Destructive Attack",
+  "adversaryId": "sandworm",
+  "capabilityId": "cap-industroyer",
+  "opType": "Cyber",
+  "killChainPhase": "Effects / Destruction",
+  "timeframe": "2017",
+  "confidence": "high",
+  "victim": {
+    "sector": "Critical Infrastructure / Commercial",
+    "region": "Global (Ukraine primary)",
+    "description": "Ukrainian government, banks, energy companies; global spillover to Maersk, FedEx, Merck, and others causing ~$10B in damages"
+  },
+  "infrastructure": {
+    "description": "Trojanized M.E.Doc tax software update used as initial vector in Ukraine; EternalBlue/Mimikatz for lateral movement",
+    "indicators": ["medoc-update-server", "eternalblue-smb"]
+  },
+  "description": "Sandworm deployed NotPetya via compromised Ukrainian accounting software M.E.Doc. Used EternalBlue and credential harvesting for rapid lateral movement. Wiper disguised as ransomware caused $10B+ in global damages.",
+  "sources": [
+    "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and",
+    "https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/"
+  ]
+}
