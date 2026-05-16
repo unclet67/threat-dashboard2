@@ -292,23 +292,32 @@ async function main() {
   for (const [id, data] of Object.entries(capabilityWrites)) write('capabilities', id, data)
   for (const [id, data] of Object.entries(countryWrites)) write('countries', id, data)
 
-  // Update meta.json
-  const today = new Date().toISOString().slice(0, 10)
-  const newAdditions = [
-    ...newActors.map(id => ({ type: 'actor', id, name: actorWrites[id].name, addedAt: today })),
-    ...newCapabilities.map(id => ({
-      type: 'capability',
-      id,
-      name: capabilityWrites[id].name,
-      addedAt: today,
-    })),
-  ]
-  const updatedMeta = {
-    ...kb.meta,
-    lastSynced: new Date().toISOString(),
-    recentAdditions: [...newAdditions, ...(kb.meta.recentAdditions || [])],
+  // Update meta.json only when something changed
+  const hasChanges =
+    newActors.length > 0 ||
+    enrichedActors.length > 0 ||
+    newCapabilities.length > 0 ||
+    enrichedCapabilities.length > 0 ||
+    newCountries.length > 0
+
+  if (hasChanges) {
+    const today = new Date().toISOString().slice(0, 10)
+    const newAdditions = [
+      ...newActors.map(id => ({ type: 'actor', id, name: actorWrites[id].name, addedAt: today })),
+      ...newCapabilities.map(id => ({
+        type: 'capability',
+        id,
+        name: capabilityWrites[id].name,
+        addedAt: today,
+      })),
+    ]
+    const updatedMeta = {
+      ...kb.meta,
+      lastSynced: new Date().toISOString(),
+      recentAdditions: [...newAdditions, ...(kb.meta.recentAdditions || [])],
+    }
+    writeFileSync(join(DATA, 'meta.json'), JSON.stringify(updatedMeta, null, 2) + '\n')
   }
-  writeFileSync(join(DATA, 'meta.json'), JSON.stringify(updatedMeta, null, 2) + '\n')
 
   console.log('\nSync complete.')
 }
