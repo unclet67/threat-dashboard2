@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "sync": "node scripts/sync-mitre.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.96.0",
